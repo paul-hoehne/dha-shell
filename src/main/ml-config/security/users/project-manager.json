@@ -1,0 +1,6 @@
+{
+  "user-name": "dha-project-manager",
+  "description": "User to create resources",
+  "password": "password",
+  "role": ["dha-project-manager-role"]
+}

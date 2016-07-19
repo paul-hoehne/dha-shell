@@ -1,0 +1,5 @@
+{
+  "role-name": "dha-project-manager-role",
+  "description": "Sample manager role for managing REST APIs",
+  "role": ["manage-admin", "rest-admin"]
+}

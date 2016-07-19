@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<med:patient xmlns:med="http://marklogic.com/dha/example">
+    <med:id>1234</med:id>
+    <med:first-name>Joe</med:first-name>
+    <med:last-name>Patient</med:last-name>
+    <!--
+        XML dates are in ISO format
+    -->
+    <med:dob>1995-01-01</med:dob>
+    <med:height units="cm">175</med:height>
+    <med:weight units="kg">87.5</med:weight>
+</med:patient>

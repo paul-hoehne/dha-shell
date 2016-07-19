@@ -1,0 +1,68 @@
+//group 'com.marklogic'
+//version '1.0-SNAPSHOT'
+
+plugins {
+    id "com.marklogic.ml-gradle" version "2.2.0"
+}
+
+repositories {
+    jcenter()
+
+    // Needed for mlcp dependencies
+    maven { url "https://developer.marklogic.com/maven2/" }
+
+    // Needed for hadoop dependencies for mlcp
+    maven { url "http://repository.cloudera.com/artifactory/cloudera-repos/" }
+}
+
+configurations {
+    mlcp
+}
+
+
+apply plugin: "java"
+apply plugin: "eclipse"
+
+//
+// These are some tasks to load the example data
+//
+dependencies {
+    mlcp "com.marklogic:mlcp:8.0-5"
+
+    /**
+     * If you need to import delimited text, be sure to include this dependency as well.
+     */
+    mlcp "org.apache.commons:commons-csv:1.2"
+
+    /**
+     * mlcp uses Log4j for logging, and if Log4j can't find a configuration file, it will complain and you'll
+     * get none of mlcp's usually-useful logging. It is recommended then that your Gradle configuration for
+     * mlcp include a directory or some other resource that provides a log4j.properties file.
+     */
+    mlcp files("lib")
+}
+
+/**
+ * Example of using MlcpTask to import data with mlcp.
+ */
+task importPatients(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/examples"
+    input_file_pattern = "patient\\d+\\.xml"
+    output_collections = "patients"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_replace = ".*data/examples,'/patients'"
+}
+
+task importVisits(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/examples"
+    input_file_pattern = "visit\\d+\\.xml"
+    output_collections = "visits"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_replace = ".*data/examples,'/visits'"
+}

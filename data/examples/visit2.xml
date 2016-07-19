@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<med:visit xmlns:med="http://marklogic.com/dha/example">
+    <med:patient-id>2345</med:patient-id>
+    <!--
+        Timestamps need to be in ISO format
+    -->
+    <med:visit-timestamp>2016-03-04T14:00:00</med:visit-timestamp>
+    <!--
+        Durations are in ISO format
+    -->
+    <med:visit-duration>P1H</med:visit-duration>
+
+    <diag xmlns:diag="http://marklogic.com/dha/fake-icd">
+        <diag:code>98456</diag:code>
+        <diag:discription>Common nihilism</diag:discription>
+    </diag>
+
+</med:visit>
