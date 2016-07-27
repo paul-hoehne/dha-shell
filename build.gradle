@@ -45,17 +45,6 @@ dependencies {
 /**
  * Example of using MlcpTask to import data with mlcp.
  */
-task importPatients(type: com.marklogic.gradle.task.MlcpTask) {
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    database = mlAppConfig.contentDatabaseName
-    input_file_path = "data/examples"
-    input_file_pattern = "patient\\d+\\.xml"
-    output_collections = "patients"
-    output_permissions = "rest-reader,read,rest-writer,update"
-    output_uri_replace = ".*data/examples,'/patients'"
-}
-
 task importVisits(type: com.marklogic.gradle.task.MlcpTask) {
     classpath = configurations.mlcp
     command = "IMPORT"
@@ -66,3 +55,17 @@ task importVisits(type: com.marklogic.gradle.task.MlcpTask) {
     output_permissions = "rest-reader,read,rest-writer,update"
     output_uri_replace = ".*data/examples,'/visits'"
 }
+
+task importPatientsDoc(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data"
+    input_file_type = "delimited_text"
+    input_file_pattern = ".*\\.csv"
+    output_collections = "patients"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_replace = ".*\\/data,'/patients'"
+}
+
+
