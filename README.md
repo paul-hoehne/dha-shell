@@ -7,10 +7,31 @@ for gradle is also available on line.
 
 ## Prerequisites
 
-The only pre-requisite is that you have the JDK installed on your 
-desktop.  The gradlew.bat script will take care of downloading a
-version of groovy and gradle to use for deploying the application.
-It does not use an installer.  It just downloads jars for your use.
+The prequisites are that you have the JDK installed on your 
+desktop and Gradle.  Downloand and install the JDK (not JRE) from 
+[Oracle](http://www.oracle.com).  Gradle can be obtained from
+[Gradle.org](https://gradle.org/gradle-download/).  Select the 
+"Complete distribution" option.
+
+Run the JDK installer to install the Java development tools.  They 
+should automatically add the path to the Java tools into your 
+environment variables.  You should be able to open a command prompt
+on windows and type <code>java -version</code> and get the current
+version of the installed JDK.
+
+From the gradle download unpack the files and copy them to your 
+user directory (<code>C:\\Users\\[username]</code>) as gradle.  
+The full path should be <code>C:\\users\\[username]\\gradle</code>.
+If there is a version number in the name of the gradle folder 
+(for your own sanity) just remove it.
+
+From the Cortanasearch located in the taskbar, search for "Environment". 
+One of the options should be to edit your system environment variables.
+Select that and you are presented with a dialog box that has a button
+"Environment Variables".  Select that and on the lower section edit 
+your "path" variable.  Add <code>C:\\Users\\[username]\\gradle\\bin</code>.
+Hit "Ok" or "Apply" until you close that dialog.
+
 
 ## Step 1 - Database Settings
 
