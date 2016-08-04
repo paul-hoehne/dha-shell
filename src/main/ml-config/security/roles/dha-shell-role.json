@@ -1,4 +1,4 @@
 {
   "role-name" : "dha-shell-role",
-  "role" : [ "rest-writer" ]
+  "role" : [ "rest-writer", "rest-admin" ]
 }

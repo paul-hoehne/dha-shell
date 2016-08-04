@@ -45,27 +45,106 @@ dependencies {
 /**
  * Example of using MlcpTask to import data with mlcp.
  */
-task importVisits(type: com.marklogic.gradle.task.MlcpTask) {
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    database = mlAppConfig.contentDatabaseName
-    input_file_path = "data/examples"
-    input_file_pattern = "visit\\d+\\.xml"
-    output_collections = "visits"
-    output_permissions = "rest-reader,read,rest-writer,update"
-    output_uri_replace = ".*data/examples,'/visits'"
-}
-
 task importPatientsDoc(type: com.marklogic.gradle.task.MlcpTask) {
     classpath = configurations.mlcp
     command = "IMPORT"
     database = mlAppConfig.contentDatabaseName
     input_file_path = "data"
     input_file_type = "delimited_text"
-    input_file_pattern = ".*\\.csv"
+    input_file_pattern = "patientdocuments\\.csv"
     output_collections = "patients"
     output_permissions = "rest-reader,read,rest-writer,update"
-    output_uri_replace = ".*\\/data,'/patients'"
+    output_uri_prefix = "/patients/"
+    delimited_uri_id = "PATIENT_ID"
+    args = ["-output_uri_suffix", ".xml"]
 }
+
+task importPatientDeployment(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data"
+    input_file_type = "delimited_text"
+    input_file_pattern = "PatientDeploy\\.csv"
+    output_collections = "patients-deploy"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_prefix = "/patient-deployments/"
+    delimited_uri_id = "PATIENT_DEPLOYMENT_ID"
+    args = ["-output_uri_suffix", ".xml"]
+}
+
+task importDeployLocation(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data"
+    input_file_type = "delimited_text"
+    input_file_pattern = "DeployLoc\\.csv"
+    output_collections = "deploy-location"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_prefix = "/locations/"
+    delimited_uri_id = "ID"
+    args = ["-output_uri_suffix", ".xml"]
+}
+
+task importEncounter(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    port = 8700
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data"
+    input_file_type = "delimited_text"
+    input_file_pattern = "Encounter\\.csv"
+    output_collections = "encounter"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_prefix = "/encounter/"
+    delimited_uri_id = "ENCOUNTER_ID"
+    args = ["-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-encounter.xqy",
+        "-transform_namespace", "http://marklogic.com/dha/example/transform-encounter"]
+}
+
+task importExampleOnto(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/rdf"
+    input_file_type = "rdf"
+    input_file_pattern = "example\\.rdf"
+    output_permissions = "rest-reader,read,rest-writer,update"
+}
+
+task importQudt(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/rdf"
+    input_file_type = "rdf"
+    input_file_pattern = "qudt\\.rdf"
+    output_permissions = "rest-reader,read,rest-writer,update"
+}
+
+task importSkos(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/rdf"
+    input_file_type = "rdf"
+    input_file_pattern = "skos-owl1-dl.rdf"
+    output_permissions = "rest-reader,read,rest-writer,update"
+}
+
+task importData << {
+
+}
+
+importData.dependsOn importDeployLocation
+importData.dependsOn importPatientsDoc
+importData.dependsOn importPatientDeployment
+importData.dependsOn importEncounter
+
+importPatientDeployment.mustRunAfter importPatientsDoc
+importPatientDeployment.mustRunAfter importDeployLocation
+importEncounter.mustRunAfter importPatientsDoc
+
 
 

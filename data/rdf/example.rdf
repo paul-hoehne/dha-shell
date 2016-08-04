@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://marklogic.com/example/ontology#"
+     xml:base="http://marklogic.com/example/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://marklogic.com/example/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://marklogic.com/example/ontology#at-location -->
+
+    <owl:ObjectProperty rdf:about="http://marklogic.com/example/ontology#at-location">
+        <rdfs:domain rdf:resource="http://marklogic.com/example/ontology#encounter"/>
+        <rdfs:range rdf:resource="http://marklogic.com/example/ontology#location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#has-encounter -->
+
+    <owl:ObjectProperty rdf:about="http://marklogic.com/example/ontology#has-encounter">
+        <rdfs:domain rdf:resource="http://marklogic.com/example/ontology#patient"/>
+        <rdfs:range rdf:resource="http://marklogic.com/example/ontology#encounter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://marklogic.com/example/ontology#encounter-id -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#encounter-id">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#reference-id"/>
+        <rdfs:domain rdf:resource="http://marklogic.com/example/ontology#encounter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#first-name -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#first-name">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#name-part"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#full-name -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#full-name">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#name-part"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#last-name -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#last-name">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#name-part"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#location-id -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#location-id">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#reference-id"/>
+        <rdfs:domain rdf:resource="http://marklogic.com/example/ontology#location"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#middle-name -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#middle-name">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#name-part"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#name-part -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#name-part">
+        <rdfs:domain rdf:resource="http://marklogic.com/example/ontology#patient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#patient-id -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#patient-id">
+        <rdfs:subPropertyOf rdf:resource="http://marklogic.com/example/ontology#reference-id"/>
+        <rdfs:domain rdf:resource="http://marklogic.com/example/ontology#patient"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#reference-id -->
+
+    <owl:DatatypeProperty rdf:about="http://marklogic.com/example/ontology#reference-id">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://marklogic.com/example/ontology#arm -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#arm">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#proximities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#complaint -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#complaint"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#encounter -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#encounter"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#head -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#head">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#proximities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#injuries -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#injuries">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#complaint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#legs -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#legs">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#proximities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#location -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#location"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#occupational -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#occupational">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#injuries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#patient -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#patient"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#proximities -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#proximities">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#complaint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#trauma -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#trauma">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#injuries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#trunk -->
+
+    <owl:Class rdf:about="http://marklogic.com/example/ontology#trunk">
+        <rdfs:subClassOf rdf:resource="http://marklogic.com/example/ontology#proximities"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://marklogic.com/example/ontology#abdomen -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#abdomen">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#ankle -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#ankle">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#legs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#back -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#back">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#burn -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#burn">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trauma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#chest -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#chest">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#ear -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#ear">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#elbow -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#elbow">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#eye -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#eye">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#femur -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#femur">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#legs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#fingers -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#fingers">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#foot -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#foot">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#legs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#forearm -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#forearm">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#fracture -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#fracture">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trauma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#hand -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#hand">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#knee -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#knee">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#legs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#laceration -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#laceration">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trauma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#migrane -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#migrane"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#mild-headache -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#mild-headache"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#mouth -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#mouth">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#neck -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#neck">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#nose -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#nose">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#pelvis -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#pelvis">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#severe-headache -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#severe-headache"/>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#shoulder -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#shoulder">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#shoulders -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#shoulders">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#trunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#thibia -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#thibia">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#legs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#toes -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#toes">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#legs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#upper-arm -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#upper-arm">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://marklogic.com/example/ontology#wrist -->
+
+    <owl:NamedIndividual rdf:about="http://marklogic.com/example/ontology#wrist">
+        <rdf:type rdf:resource="http://marklogic.com/example/ontology#arm"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

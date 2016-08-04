@@ -1,10 +1,10 @@
 {
-  "name": "import-patients",
-  "description": "Add enrichment to newly ingested patients",
+  "name": "import-locations",
+  "description": "Add enrichment to newly ingested locations",
   "event": {
     "data-event": {
       "collection-scope": {
-        "uri": "patients"
+        "uri": "deploy-location"
       },
       "document-content": {
         "update-kind": "create"
@@ -12,7 +12,7 @@
       "when": "post-commit"
     }
   },
-  "module": "ext/triggers/create-patient-triples.xqy",
+  "module": "ext/triggers/create-location-triples.xqy",
   "module-db": "%%MODULES_DATABASE%%",
   "module-root": "/",
   "enabled": true,
