@@ -3,5 +3,8 @@
   "schema-database": "%%SCHEMAS_DATABASE%%",
   "triggers-database": "%%TRIGGERS_DATABASE%%",
   "collection-lexicon": true,
-  "triple-index": true
+  "triple-index": true,
+  "default-ruleset": [
+    {"location": "rdfs.rules"}
+    ]
 }

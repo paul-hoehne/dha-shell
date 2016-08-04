@@ -1,0 +1,58 @@
+<export><workspace name="DHA/VCE"><query name="Clean Data" focus="false" active="true" content-source="as:2754160263209327770:" mode="xquery">xquery version "1.0-ml";
+
+xdmp:collection-delete(("visits", "patients-deploy", "encounter", "deploy-location", "patients"));</query><query name="Anything head" focus="false" active="true" content-source="as:2754160263209327770:" mode="sparql">prefix ex: &lt;http://marklogic.com/example/ontology#&gt;
+prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema/&gt;
+
+
+select ?encounter ?injury ?prox
+where {
+  ?injury rdf:type ex:complaint.
+  ?prox rdf:type ex:head.
+  ?encounter ex:injury ?injury;
+             ex:proximity ?prox.
+
+}
+ 
+</query><query name="Lacerations" focus="false" active="true" content-source="as:2754160263209327770:" mode="sparql">prefix ex: &lt;http://marklogic.com/example/ontology#&gt;
+prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema/&gt;
+
+
+select ?encounter ?prox
+where {
+  ?encounter ex:injury ex:laceration;
+             ex:proximity ?prox.
+}
+ </query><query name="Report" focus="true" active="true" content-source="as:2754160263209327770:" mode="xquery">xquery version "1.0-ml";
+
+import module namespace sem = "http://marklogic.com/semantics" at "/MarkLogic/semantics.xqy";
+
+declare namespace med="http://marklogic.com/dha/example";
+
+let $rows := sem:sparql("prefix ex: &lt;http://marklogic.com/example/ontology#&gt;
+prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema/&gt;
+
+
+select ?encounter ?injury ?prox
+where {
+  ?injury rdf:type ex:complaint.
+  ?prox rdf:type ex:head.
+  ?encounter ex:injury ?injury;
+             ex:proximity ?prox.
+
+}")
+return
+  for $row in $rows 
+  let $doc := fn:doc(map:get($row, "encounter"))
+  return 
+    object-node {
+      "visitDate": $doc//VISIT_DATE/text(),
+      "injury": map:get($row, "injury"),
+      "where": map:get($row, "prox"),
+      "soapNotes": $doc//med:soap-text/text()
+    }
+    
+    
+    </query></workspace></export>
