@@ -128,7 +128,12 @@ the text.  In cases where you have an ICD code, you might not wan to use
 this approach, but maybe this is useful when you don't have the 
 information that would correctly classify the encounter.
 
-5. An example of a custom rest end point under 
+5. The standard REST endpoints documented in (http://docs.marklogic.com/REST/client).  
+This includes a basic REST application service so you can start working with 
+the MarkLogic rest endpoints to add, search, and 
+remove documents.
+
+6. An example of a custom rest end point under 
 <code>/src/main/ml-modules/services/notes.xqy</code>.  This service searches just
 the doctor's soap notes (*not* web service SOAP).  This includes snippeting and 
 can be accessed at: <code>http://localhost:8700/v1/resources/notes?rs:q=bleeding AND face&rs:format=json</code>
