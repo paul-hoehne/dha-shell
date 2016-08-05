@@ -29,24 +29,24 @@ declare function get($context as map:map, $params  as map:map) as document-node(
     else
       document {
         object-node {
-        "total": fn:string($search-results/@total),
-        "start": fn:string($search-results/@start),
-        "pageLength": fn:string($search-results/@page-length),
-        "results":
-        array-node {
-          for $result in $search-results//search:result
-          return
-            object-node {
-              "uri": fn:string($result/@uri),
-              "score": fn:string($result/@score),
-              "confidence": fn:string($result/@confidence),
-              "fitness": fn:string($result/@fitness),
-              "matches":
-                for $match in $result//search:match
-                return
-                  fn:replace(fn:replace(xdmp:quote($match), "search:highlight", "em"), "search:match", "div")
+          "total": fn:string($search-results/@total),
+          "start": fn:string($search-results/@start),
+          "pageLength": fn:string($search-results/@page-length),
+          "results":
+          array-node {
+            for $result in $search-results//search:result
+            return
+              object-node {
+                "uri": fn:string($result/@uri),
+                "score": fn:string($result/@score),
+                "confidence": fn:string($result/@confidence),
+                "fitness": fn:string($result/@fitness),
+                "matches":
+                  for $match in $result//search:match
+                  return
+                    fn:replace(fn:replace(xdmp:quote($match), "search:highlight", "em"), "search:match", "div")
+              }
             }
           }
-        }
       }
 };

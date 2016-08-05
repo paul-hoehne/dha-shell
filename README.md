@@ -74,9 +74,9 @@ deploy the initial application.
 
 Run the commands:
 
-<code>gradlew importPatients</code>
+<code>gradlew importExampleOnto</code>
 
-<code>gradlew importVisits</code>
+<code>gradlew importData</code>
 
 from the command line.  You can now either log into the query console, which
 is on port 8000 on the server, or you can use a REST endpoint such as:
@@ -86,6 +86,13 @@ is on port 8000 on the server, or you can use a REST endpoint such as:
 To view the document.  (Note there is an Explore button int he query console,
 which allows you to browse documents.)  When you are prompted for credentials, 
 try using the user credentials defined in src/main/ml-config/security/users.
+
+## Step 4 - Import the Workspace
+
+Log in to the query console <code>http://[server]:8000/</code> and on the right
+you'll see a dropdown called "Workspace".  Select the drop down and import Workspace
+option.  That will open a file upload box.  Navigate to the "DHA-VCE.xml" file
+and upload it.  You now have an example workspace.
 
 ## What You Have
 
@@ -97,6 +104,36 @@ change to the source code (the xquery files), you can push your changes with
 
 If you make a change in the database settings, you will need to use the 
 mlDeploy command.
+
+## Higlights
+
+1. The ontology demonstrates very basic inferencing.  If you select "Anything
+Head", you can run  query that searches for injuries on someone's head.  The
+data is only marked up with eye, ear, nose, etc., but the ontology allows the 
+query to generalize to the the concept of "head."
+
+2. Examples of triggers to perform enrichment.  The files 
+<code>/src/main/ml-modules/ext/triggers/create-xxx-triples.xqy</code> 
+are examples of taking the data an enriching it with semantic triples during
+ingest.
+
+3. An example of using a transform to enrich data.  The file 
+<code>/src/main/ml-modules/ext/triggers/transform-encounter.xml</code>
+demonstrates enriching a document using an ingest tansform called from
+the MLCP ingest.  (See the <code>importEncounter</code> in build.gradle).
+
+4. The enrichment does a poor man's entity extraction, running a series of
+reverse queries against the doctor's soap notes to extract information from
+the text.  In cases where you have an ICD code, you might not wan to use 
+this approach, but maybe this is useful when you don't have the 
+information that would correctly classify the encounter.
+
+5. An example of a custom rest end point under 
+<code>/src/main/ml-modules/services/notes.xqy</code>.  This service searches just
+the doctor's soap notes (*not* web service SOAP).  This includes snippeting and 
+can be accessed at: <code>http://localhost:8700/v1/resources/notes?rs:q=bleeding AND face&rs:format=json</code>
+You can change the query text (rs:q parameter) to include expressions.  You can
+also specify a format for xml or json.
 
 ## Cleaning Up
 
