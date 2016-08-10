@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DVEIVR/VCE_BOOKKEEPING.rdf&apos; to &apos;DVEIVR_MAPPING.rdf&apos;" description="Rename resource &apos;VCE_BOOKKEEPING.rdf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="VCE_BOOKKEEPING.rdf" name="DVEIVR_MAPPING.rdf" stamp="1375818647307" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DVEIVR/DVEIVR_MAPPING.rdf&apos; to &apos;VCE_BOOKKEEPING.rdf&apos;" description="Rename resource &apos;DVEIVR_MAPPING.rdf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DVEIVR_MAPPING.rdf" name="VCE_BOOKKEEPING.rdf" stamp="1375819017511" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DVEIVR_2_0/prov-o&apos; to &apos;prov-o.ttl&apos;" description="Rename resource &apos;prov-o&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="prov-o" name="prov-o.ttl" stamp="1388792447223" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DVEIVR/DVEIVR_CORE.ttl&apos; to &apos;DVEIVR_CORE.OWL&apos;" description="Rename resource &apos;DVEIVR_CORE.ttl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DVEIVR_CORE.ttl" name="DVEIVR_CORE.OWL" stamp="1359135664167" updateReferences="true"/>
+</session>

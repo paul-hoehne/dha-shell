@@ -78,21 +78,13 @@ Run the commands:
 
 <code>gradlew importData</code>
 
-from the command line.  You can now either log into the query console, which
-is on port 8000 on the server, or you can use a REST endpoint such as:
-
-<code>http://\[server name]:\[port]/v1/documents?uri=/visits/visit1.xml</code>
-
-To view the document.  (Note there is an Explore button int he query console,
-which allows you to browse documents.)  When you are prompted for credentials, 
-try using the user credentials defined in src/main/ml-config/security/users.
-
 ## Step 4 - Import the Workspace
 
 Log in to the query console <code>http://[server]:8000/</code> and on the right
 you'll see a dropdown called "Workspace".  Select the drop down and import Workspace
 option.  That will open a file upload box.  Navigate to the "DHA-VCE.xml" file
-and upload it.  You now have an example workspace.
+and upload it.  You now have an example workspace.  Make sure that the Content Soruce 
+dropdown on the upper right of the screen is set to dha-shell-content.
 
 ## What You Have
 
@@ -105,7 +97,7 @@ change to the source code (the xquery files), you can push your changes with
 If you make a change in the database settings, you will need to use the 
 mlDeploy command.
 
-## Higlights
+## Highlights
 
 1. The ontology demonstrates very basic inferencing.  If you select "Anything
 Head", you can run  query that searches for injuries on someone's head.  The

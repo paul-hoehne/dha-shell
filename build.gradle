@@ -48,70 +48,35 @@ dependencies {
 task importPatientsDoc(type: com.marklogic.gradle.task.MlcpTask) {
     classpath = configurations.mlcp
     command = "IMPORT"
+    port               = 8700
     database = mlAppConfig.contentDatabaseName
     input_file_path = "data"
     input_file_type = "delimited_text"
-    input_file_pattern = "patientdocuments\\.csv"
+    input_file_pattern = "patient_documents\\.csv"
     output_collections = "patients"
     output_permissions = "rest-reader,read,rest-writer,update"
     output_uri_prefix = "/patients/"
-    delimited_uri_id = "PATIENT_ID"
-    args = ["-output_uri_suffix", ".xml"]
-}
-
-task importPatientDeployment(type: com.marklogic.gradle.task.MlcpTask) {
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    database = mlAppConfig.contentDatabaseName
-    input_file_path = "data"
-    input_file_type = "delimited_text"
-    input_file_pattern = "PatientDeploy\\.csv"
-    output_collections = "patients-deploy"
-    output_permissions = "rest-reader,read,rest-writer,update"
-    output_uri_prefix = "/patient-deployments/"
-    delimited_uri_id = "PATIENT_DEPLOYMENT_ID"
-    args = ["-output_uri_suffix", ".xml"]
-}
-
-task importDeployLocation(type: com.marklogic.gradle.task.MlcpTask) {
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    database = mlAppConfig.contentDatabaseName
-    input_file_path = "data"
-    input_file_type = "delimited_text"
-    input_file_pattern = "DeployLoc\\.csv"
-    output_collections = "deploy-location"
-    output_permissions = "rest-reader,read,rest-writer,update"
-    output_uri_prefix = "/locations/"
-    delimited_uri_id = "ID"
-    args = ["-output_uri_suffix", ".xml"]
+    delimited_uri_id = "patient_id"
+    args = ["-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-patient.xqy",
+            "-transform_namespace", "http://marklogic.com/dha/example/transform-patient"]
 }
 
 task importEncounter(type: com.marklogic.gradle.task.MlcpTask) {
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    port = 8700
-    database = mlAppConfig.contentDatabaseName
-    input_file_path = "data"
-    input_file_type = "delimited_text"
-    input_file_pattern = "Encounter\\.csv"
+    classpath          = configurations.mlcp
+    command            = "IMPORT"
+    port               = 8700
+    database           = mlAppConfig.contentDatabaseName
+    input_file_path    = "data"
+    input_file_type    = "delimited_text"
+    input_file_pattern = "encounter_documents\\.csv"
     output_collections = "encounter"
     output_permissions = "rest-reader,read,rest-writer,update"
-    output_uri_prefix = "/encounter/"
-    delimited_uri_id = "ENCOUNTER_ID"
+    output_uri_prefix  = "/encounter/"
+    delimited_uri_id   = "encounter_id"
     args = ["-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-encounter.xqy",
-        "-transform_namespace", "http://marklogic.com/dha/example/transform-encounter"]
+        "-transform_namespace", "http://marklogic.com/dha/example/transform-encounter", "-delimiter", "\t"]
 }
 
-task importExampleOnto(type: com.marklogic.gradle.task.MlcpTask) {
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    database = mlAppConfig.contentDatabaseName
-    input_file_path = "data/rdf"
-    input_file_type = "rdf"
-    input_file_pattern = "example\\.rdf"
-    output_permissions = "rest-reader,read,rest-writer,update"
-}
 
 task importQudt(type: com.marklogic.gradle.task.MlcpTask) {
     classpath = configurations.mlcp
@@ -133,18 +98,61 @@ task importSkos(type: com.marklogic.gradle.task.MlcpTask) {
     output_permissions = "rest-reader,read,rest-writer,update"
 }
 
+task importDveivrCore(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/rdf/DVEIVR/DVEIVR_2_0"
+    input_file_type = "rdf"
+    input_file_pattern = "DVEIVR_CORE.rdf"
+    output_permissions = "rest-reader,read,rest-writer,update"
+}
+
+task importDveivrAnatomy(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/rdf/DVEIVR/DVEIVR_2_0"
+    input_file_type = "rdf"
+    input_file_pattern = "DVEIVR_ANATOMY.rdf"
+    output_permissions = "rest-reader,read,rest-writer,update"
+}
+
+task importTrauma(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "data/rdf/DVEIVR/DVEIVR_2_0"
+    input_file_type = "rdf"
+    input_file_pattern = "TRAUMA.rdf"
+    output_permissions = "rest-reader,read,rest-writer,update"
+}
+
 task importData << {
 
 }
 
-importData.dependsOn importDeployLocation
+task importOntology << {
+
+}
+
+importData.dependsOn importOntology
 importData.dependsOn importPatientsDoc
-importData.dependsOn importPatientDeployment
 importData.dependsOn importEncounter
 
-importPatientDeployment.mustRunAfter importPatientsDoc
-importPatientDeployment.mustRunAfter importDeployLocation
 importEncounter.mustRunAfter importPatientsDoc
+
+importOntology.dependsOn importQudt
+importOntology.dependsOn importSkos
+importOntology.dependsOn importDveivrCore
+importOntology.dependsOn importDveivrAnatomy
+importOntology.dependsOn importTrauma
+
+importDveivrCore.mustRunAfter importQudt
+importDveivrCore.mustRunAfter importSkos
+importDveivrAnatomy.mustRunAfter importDveivrCore
+importTrauma.mustRunAfter importDveivrCore
+
 
 
 

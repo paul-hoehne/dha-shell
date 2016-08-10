@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;DVEIVR/DEMOGRAPHIC.rdf&apos;" deleteContents="false" description="Delete resource &apos;DVEIVR/DEMOGRAPHIC.rdf&apos;" element1="/DVEIVR/DEMOGRAPHIC.rdf" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1361801679146"/>&#x0A;<refactoring comment="Delete resource &apos;DVEIVR/CURRENT.rdf&apos;" deleteContents="false" description="Delete resource &apos;DVEIVR/CURRENT.rdf&apos;" element1="/DVEIVR/CURRENT.rdf" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1361804739186"/>
+</session>

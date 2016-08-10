@@ -1,0 +1,3178 @@
+# baseURI: http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429
+# imports: http://model.dveivr.dha.health.mil/DVEIVR_SINK
+
+@prefix CORE: <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#> .
+@prefix DVEIVR: <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p2: <http://example.org/file2#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Anterior>
+  CORE:definition "In the front."^^xsd:string ;
+  skos:prefLabel "anterior"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Bilateral>
+  skos:prefLabel "bilateral"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction>
+  CORE:definition "Anterior and posterior, which describe structures at the front (anterior) and back (posterior) of the body. For example, the toes are anterior to the heel, and the popliteus is posterior to the patella. Superior and inferior, which describe a position above (superior) or below (inferior) another part of the body."^^xsd:string ;
+  skos:altLabel "body plane"^^xsd:string ;
+  skos:prefLabel "Direction"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#HumanBody>
+  CORE:definition "the body or corpse of a human being"^^xsd:string ;
+  skos:altLabel "body"^^xsd:string ;
+  skos:prefLabel "human body"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#HumanBodyPart>
+  CORE:definition "any physical part of the human body"^^xsd:string ;
+  skos:altLabel "body part"^^xsd:string ;
+  skos:prefLabel "human body part"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Inferior>
+  CORE:definition "describes a position below another part of the body"^^xsd:string ;
+  skos:prefLabel "Inferior"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Lateral>
+  CORE:definition "of, at, toward, or from the side or sides."^^xsd:string ;
+  skos:prefLabel "lateral"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Left>
+  skos:prefLabel "left"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Posterior>
+  CORE:definition "further back in position; of or nearer the rear or hind end, especially of the body or a part of it."^^xsd:string ;
+  skos:prefLabel "Posterior"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Right>
+  skos:prefLabel "right"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Superior>
+  CORE:definition "describes a position above another part of the body"^^xsd:string ;
+  skos:prefLabel "superior"^^xsd:string ;
+.
+CORE:Airman_A_Snuffy
+  rdf:type CORE:Person ;
+  skos:prefLabel "Airman A Snuffy"^^xsd:string ;
+.
+CORE:CurrentVisualStatus
+  CORE:definition "outcome of treatment with regards to visual acuity, (e.g 20/15 - 20/40 - unrestricted driver's permit, etc.)"^^xsd:string ;
+  skos:prefLabel "current visual status"^^xsd:string ;
+.
+CORE:ExamType
+  CORE:definition "includes the categorical descriptions of the types of exams provided to patients.  Distinct from the radio-button instances of whether or not an exam was provided (EXAM:ExamStatus)."^^xsd:string ;
+  rdfs:subClassOf owl:Thing ;
+  skos:altLabel "exam"^^xsd:string ;
+  skos:prefLabel "exam type"^^xsd:string ;
+.
+CORE:FamilyRelationshipType
+  rdfs:subClassOf owl:Thing ;
+.
+CORE:HRR-PlateValue
+  CORE:definition "Plate value for the HRR Pseudoisochromatic plates"^^xsd:string ;
+  rdfs:subClassOf owl:Thing ;
+  skos:prefLabel "HRR Plate Value"^^xsd:string ;
+.
+CORE:Instructions
+  rdfs:subClassOf prov:Plan ;
+.
+CORE:MedicalHistory
+  owl:equivalentClass [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          DVEIVR:DVEIVR_HISTORY_H
+          DVEIVR:DVEIVR_HISTORY
+        ) ;
+    ] ;
+.
+CORE:PowerOfAttorney
+  rdfs:subClassOf prov:Role ;
+.
+CORE:VisionChartType
+  CORE:definition "refers to the type of chart used to conduct an eye exam"^^xsd:string ;
+  rdfs:subClassOf owl:Thing ;
+  skos:prefLabel "vision chart type"^^xsd:string ;
+.
+CORE:VisualAcuity
+  rdfs:subClassOf owl:Thing ;
+  skos:prefLabel "visual acuity"^^xsd:string ;
+.
+CORE:dateDeceased
+  rdfs:subPropertyOf owl:DeprecatedProperty ;
+.
+<http://model.dveivr.dha.health.mil/EXAM#AutorefractionAcuity>
+  skos:prefLabel "autorefraction acuity"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/EXAM#ExamStatus>
+  owl:equivalentClass [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          DVEIVR:DVEIVR_EXAM_H
+          DVEIVR:DVEIVR_EXAM
+        ) ;
+    ] ;
+.
+<http://model.dveivr.dha.health.mil/TREATMENT#BestCorrected>
+  CORE:definition "(BCVA) The best vision you can achieve with correction (such as glasses), as measured on the standard Snellen eye chart. For example, if your uncorrected eyesight is 20/200, but you can see 20/20 with glasses, your BCVA is 20/20."^^xsd:string ;
+  skos:altLabel "BCVA"^^xsd:string ;
+  skos:prefLabel "best corrected"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/TREATMENT#CorrectedVisualAcuity>
+  CORE:definition "visual acuity while wearing vision correction (glasses, corrective lenses, contact lenses, etc.)"^^xsd:string ;
+  skos:prefLabel "corrected visual acuity"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/TREATMENT#ImplantSize>
+  rdfs:subClassOf owl:Thing ;
+.
+<http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType>
+  rdfs:subClassOf owl:Thing ;
+.
+<http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure>
+  owl:equivalentClass DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+.
+<http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429>
+  rdf:type owl:Ontology ;
+  dc:creator "D2RQ Mapping Generator" ;
+  owl:imports <http://model.dveivr.dha.health.mil/DVEIVR_SINK> ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_CREATED
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_CREATED" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_CREATEDBY
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_CREATEDBY" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_DESCRIPTION
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_DESCRIPTION" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_NAME
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_NAME" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_NUMBER_OF_DAYS
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_NUMBER_OF_DAYS" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_ROW_VERSION
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_ROW_VERSION" ;
+  rdfs:range xsd:hexBinary ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_UPDATED
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_UPDATED" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ALERT_TYPE_UPDATEDBY
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ALERT_TYPE_UPDATEDBY" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_APPLICATION_TABS_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_APPLICATION_TABS_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_GUI_CONTROLS_BASE_CONTROL_TYPE
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_GUI_CONTROLS_BASE_CONTROL_TYPE" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_GUI_CONTROLS_DATA_ELEMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_GUI_CONTROLS_DATA_ELEMENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_GUI_CONTROLS_STD_TABLE_COLUMN_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_GUI_CONTROLS_STD_TABLE_COLUMN_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_OBJECT_FIELD_UPDATES_ERROR_CODE_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_OBJECT_FIELD_UPDATES_ERROR_CODE_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_QUALITY_REVIEW_STATUS_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_QUALITY_REVIEW_STATUS_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ROLE_PARENT_ROLE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ROLE_PARENT_ROLE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_ROLE_STD_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_ROLE_STD_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_SOURCE_STD_DATA_SOURCE_OWNER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_SOURCE_STD_DATA_SOURCE_OWNER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_USER_ACTIVITY_TYPE_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP_STD_USER_ACTIVITY_TYPE_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "units used in figuring the distance the visual acuity was measured at (e.g. meters or feet)"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_DISTANCE_UNIT" ;
+  rdfs:subClassOf <http://qudt.org/schema/qudt#DerivedUnit> ;
+  skos:prefLabel "visual acuity distance unit"^^xsd:string ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_DISTANCE_UNIT_H" ;
+  rdfs:subClassOf <http://qudt.org/schema/qudt#DerivedUnit> ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_LR
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_FIELD_LOCATION_LR" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+  skos:prefLabel "visual acuity field location left right"^^xsd:string ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_LR_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_FIELD_LOCATION_LR_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_UD
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:developerNote "visual field - overhauled in 1.0.9"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_FIELD_LOCATION_UD" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+  skos:prefLabel "visual acuity field location up down"^^xsd:string ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_UD_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_FIELD_LOCATION_UD_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_PRINT_SAMPLE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "sample used for determining close range visual acuity"^^xsd:string ;
+  CORE:developerNote "(for nearsightedness)"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_PRINT_SAMPLE" ;
+  rdfs:subClassOf CORE:VisionChartType ;
+  skos:prefLabel "visual acuity print sample"^^xsd:string ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_PRINT_SAMPLE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_PRINT_SAMPLE_H" ;
+  rdfs:subClassOf CORE:VisionChartType ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE" ;
+  rdfs:subClassOf CORE:VisionChartType ;
+.
+DVEIVR:APP_STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "APP.STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE_H" ;
+  rdfs:subClassOf CORE:VisionChartType ;
+.
+DVEIVR:AddressOfCurrent
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Address of current"^^xsd:string ;
+.
+DVEIVR:AddressOfHospitalAffiliation
+  rdf:type CORE:PlaceOfResidence ;
+  skos:altLabel "AHA"^^xsd:string ;
+  skos:prefLabel "Address of hospital affiliation"^^xsd:string ;
+.
+DVEIVR:AddressOfRecord
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Address of record"^^xsd:string ;
+.
+DVEIVR:AssignedUnit
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Assigned unit"^^xsd:string ;
+.
+DVEIVR:AttachedUnit
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Attached unit"^^xsd:string ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_STD_COLOR_VISION_CCT_TEST_RESULTS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_STD_COLOR_VISION_CCT_TEST_RESULTS_ID" ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_STD_COLOR_VISION_DEFICIENCY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_STD_COLOR_VISION_DEFICIENCY_ID" ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_STD_COLOR_VISION_RESPONSE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_STD_COLOR_VISION_RESPONSE_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_STD_COLOR_VISION_TEST_RESULTS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_STD_COLOR_VISION_TEST_RESULTS_ID" ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_STD_COLOR_VISION_TEST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_STD_COLOR_VISION_TEST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_COLOR_VISION_STD_EYEWEAR_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_COLOR_VISION_STD_EYEWEAR_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_DATA_ANNOTATION_DATA_ELEMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_ANNOTATION_DATA_ELEMENT_ID" ;
+.
+DVEIVR:DVEIVR_DATA_ANNOTATION_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_ANNOTATION_PATIENT_ID" ;
+.
+DVEIVR:DVEIVR_DATA_ANNOTATION_STD_ANNOTATED_COMMENTS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_ANNOTATION_STD_ANNOTATED_COMMENTS_ID" ;
+.
+DVEIVR:DVEIVR_DATA_ANNOTATION_STD_ANNOTATED_COMMENTS_ID_ADDITIONAL
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_ANNOTATION_STD_ANNOTATED_COMMENTS_ID_ADDITIONAL" ;
+.
+DVEIVR:DVEIVR_DATA_ANNOTATION_STD_TABLE_COLUMN_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_ANNOTATION_STD_TABLE_COLUMN_ID" ;
+.
+DVEIVR:DVEIVR_DATA_SOURCE_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_SOURCE_PATIENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:DVEIVR_DATA_SOURCE_PROVIDER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_SOURCE_PROVIDER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:DVEIVR_DATA_SOURCE_STD_SOURCE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_SOURCE_STD_SOURCE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:DVEIVR_DATA_SOURCE_STD_TABLE_COLUMN_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DATA_SOURCE_STD_TABLE_COLUMN_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:DVEIVR_DEPTH_PERCEPTION_TEST_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DEPTH_PERCEPTION_TEST_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_DEPTH_PERCEPTION_TEST_STD_DEPTH_PERCEPTION_TESTED_USING_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DEPTH_PERCEPTION_TEST_STD_DEPTH_PERCEPTION_TESTED_USING_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_DEPTH_PERCEPTION_TESTED_USING ;
+.
+DVEIVR:DVEIVR_DEPTH_PERCEPTION_TEST_STD_DEPTH_PERCEPTION_TEST_RESULT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DEPTH_PERCEPTION_TEST_STD_DEPTH_PERCEPTION_TEST_RESULT_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_DEPTH_PERCEPTION_TEST_STD_DEPTH_PERCEPTION_UNIT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DEPTH_PERCEPTION_TEST_STD_DEPTH_PERCEPTION_UNIT_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE ;
+.
+DVEIVR:DVEIVR_DEPTH_PERCEPTION_TEST_STD_STEREOSCOPIC_DEPTH_PERCEPTION_TEST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_DEPTH_PERCEPTION_TEST_STD_STEREOSCOPIC_DEPTH_PERCEPTION_TEST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_AIS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_AIS_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_AMENDMENT_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_AMENDMENT_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_AMENDMENT_STD_AMENDMENT_REASON_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_AMENDMENT_STD_AMENDMENT_REASON_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.ENCOUNTER_DEMOGRAPHICS" ;
+  rdfs:subClassOf CORE:DemographicRecord ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_ASSIGNED_ABSTRACTOR_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_ASSIGNED_ABSTRACTOR_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.ENCOUNTER_DEMOGRAPHICS_H" ;
+  rdfs:subClassOf CORE:DemographicRecord ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_PATIENT_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_SOURCE_SYSTEM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_SOURCE_SYSTEM_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_LIVING_ARRANGEMENTS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_LIVING_ARRANGEMENTS_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_LIVING_ARRANGEMENTS_TYPE ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_MARITALSTATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_MARITALSTATUS_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_MILITARY_STATUS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_MILITARY_STATUS_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_SERVICEBRANCH_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_SERVICEBRANCH_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_SERVICE_STATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DEMOGRAPHICS_STD_SERVICE_STATUS_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DIAGNOSIS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DIAGNOSIS_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_DIAGNOSIS_STD_ICD9_CODE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_DIAGNOSIS_STD_ICD9_CODE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_ICD9_CODE ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_PROCEDURE_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_PROCEDURE_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_PROCEDURE_STD_CPT4_CODE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_PROCEDURE_STD_CPT4_CODE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_CPT4_CODE ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_PROVIDER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_PROVIDER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_REFERRAL_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_REFERRAL_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_RELATED_FIELD_UPDATE_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_RELATED_FIELD_UPDATE_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_SOURCE_SYSTEM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_SOURCE_SYSTEM_ID" ;
+.
+DVEIVR:DVEIVR_ENCOUNTER_STD_ENCOUNTER_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_ENCOUNTER_STD_ENCOUNTER_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_EXAM
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.EXAM" ;
+  rdfs:subClassOf CORE:ExamStatus ;
+.
+DVEIVR:DVEIVR_EXAM_DETAIL_EXAM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_EXAM_DETAIL_EXAM_ID" ;
+  rdfs:range DVEIVR:DVEIVR_EXAM ;
+.
+DVEIVR:DVEIVR_EXAM_DETAIL_STD_EXAM_DETAIL_CATEGORY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_EXAM_DETAIL_STD_EXAM_DETAIL_CATEGORY_ID" ;
+.
+DVEIVR:DVEIVR_EXAM_DETAIL_STD_EXAM_DETAIL_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_EXAM_DETAIL_STD_EXAM_DETAIL_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_EXAM_EXAM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_EXAM ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_EXAM_EXAM_ID" ;
+.
+DVEIVR:DVEIVR_EXAM_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.EXAM_H" ;
+  rdfs:subClassOf CORE:ExamStatus ;
+.
+DVEIVR:DVEIVR_EXPORT_QUEUE_STD_EXPORT_QUEUE_SUBMIT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_EXPORT_QUEUE_STD_EXPORT_QUEUE_SUBMIT_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_HISTORY
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.HISTORY" ;
+  rdfs:subClassOf CORE:Record ;
+  owl:equivalentClass CORE:MedicalHistory ;
+.
+DVEIVR:DVEIVR_HISTORY_DIAGNOSIS_DATE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain DVEIVR:DVEIVR_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_HISTORY_DIAGNOSIS_DATE" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:pastHistoryDate ;
+.
+DVEIVR:DVEIVR_HISTORY_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_HISTORY_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_HISTORY_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.HISTORY_H" ;
+  rdfs:subClassOf CORE:Record ;
+.
+DVEIVR:DVEIVR_HISTORY_STD_HISTORY_CATEGORY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_HISTORY_STD_HISTORY_CATEGORY_ID" ;
+.
+DVEIVR:DVEIVR_HISTORY_STD_HISTORY_DETAIL_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_HISTORY_STD_HISTORY_DETAIL_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_HISTORY_STD_TIME_PERIOD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_HISTORY_STD_TIME_PERIOD_ID" ;
+  rdfs:range DVEIVR:dbo_STD_TIME_PERIOD ;
+.
+DVEIVR:DVEIVR_HISTORY_STD_TIME_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_HISTORY_STD_TIME_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_TIME_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.IMPLANT_PROSTHESIS_HISTORY" ;
+  rdfs:subClassOf CORE:MedicalHistory ;
+  owl:equivalentClass <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.IMPLANT_PROSTHESIS_HISTORY_H" ;
+  rdfs:subClassOf CORE:MedicalHistory ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_PATIENT_ID" ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_NONPOROUS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_NONPOROUS_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_IMPLANT_NONPOROUS_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_POROUS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_POROUS_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_IMPLANT_POROUS_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_PROSTHESIS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_PROSTHESIS_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_IMPLANT_PROSTHESIS_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_SIZE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_SIZE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_IMPLANT_SIZE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_IMPLANT_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_OCULAR_IMPLANT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_OCULAR_IMPLANT_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_OCULAR_IMPLANT_TYPE ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_ORBIT_RECONSTRUCTION_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_ORBIT_RECONSTRUCTION_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_PROSTHESIS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_PROSTHESIS_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_TIME_PERIOD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_TIME_PERIOD_ID" ;
+  rdfs:range DVEIVR:dbo_STD_TIME_PERIOD ;
+.
+DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_TIME_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_TIME_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_TIME_TYPE ;
+.
+DVEIVR:DVEIVR_INJURY
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.INJURY" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+.
+DVEIVR:DVEIVR_INJURY_DETAIL_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_DETAIL> ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_DETAIL_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_DETAIL_INJURY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_DETAIL> ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_DETAIL_INJURY_ID" ;
+  rdfs:range DVEIVR:DVEIVR_INJURY ;
+.
+DVEIVR:DVEIVR_INJURY_DETAIL_STD_INJURY_DETAIL_CATEGORY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_DETAIL> ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_DETAIL_STD_INJURY_DETAIL_CATEGORY_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_DETAIL_STD_INJURY_DETAIL_ISSUE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_DETAIL> ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_DETAIL_STD_INJURY_DETAIL_ISSUE_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_EQUIPTMENT_STD_EQUIPTMENT_CATEGORY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_EQUIPTMENT_STD_EQUIPTMENT_CATEGORY_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_EQUIPTMENT_STD_EQUIPTMENT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_EQUIPTMENT_STD_EQUIPTMENT_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.INJURY_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+.
+DVEIVR:DVEIVR_INJURY_REFERRAL_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_REFERRAL_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_SAME_AS_INJURY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_SAME_AS_INJURY_ID" ;
+  rdfs:range DVEIVR:DVEIVR_INJURY ;
+.
+DVEIVR:DVEIVR_INJURY_STD_ELAPSED_TIME_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_STD_ELAPSED_TIME_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_STD_EYEWEAR_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_STD_EYEWEAR_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_STD_INJURY_CAUSE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_STD_INJURY_CAUSE_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_STD_INJURY_METHOD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_STD_INJURY_METHOD_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_STD_INJURY_PLACE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_STD_INJURY_PLACE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_INJURY_PLACE ;
+.
+DVEIVR:DVEIVR_INJURY_STD_INJURY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_STD_INJURY_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_INJURY_eCODES
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.INJURY_eCODES" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_INJURY_eCODES_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.INJURY_eCODES_H" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_INJURY_eCODES_INJURY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY_eCODES ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_eCODES_INJURY_ID" ;
+  rdfs:range DVEIVR:DVEIVR_INJURY ;
+.
+DVEIVR:DVEIVR_INJURY_eCODES_STD_eCODE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_INJURY_eCODES ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INJURY_eCODES_STD_eCODE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_eCODE ;
+.
+DVEIVR:DVEIVR_INPATIENT_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INPATIENT_PATIENT_ID" ;
+.
+DVEIVR:DVEIVR_INPATIENT_STD_ADMISSION_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INPATIENT_STD_ADMISSION_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_INPATIENT_STD_DISCHARGE_CONDITION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INPATIENT_STD_DISCHARGE_CONDITION_ID" ;
+.
+DVEIVR:DVEIVR_INPATIENT_STD_HOSPITAL_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INPATIENT_STD_HOSPITAL_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_INPATIENT_STD_ICD9_CODE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INPATIENT_STD_ICD9_CODE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_ICD9_CODE ;
+.
+DVEIVR:DVEIVR_INPATIENT_TRANSFERRED_FACILITY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INPATIENT_TRANSFERRED_FACILITY_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_INTRAOCULAR_PRESSURE_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INTRAOCULAR_PRESSURE_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_INTRAOCULAR_PRESSURE_STD_INTRAOCULAR_PRESSURE_METHOD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_INTRAOCULAR_PRESSURE_STD_INTRAOCULAR_PRESSURE_METHOD_ID" ;
+.
+DVEIVR:DVEIVR_LINK_INPATIENT_ENCOUNTER_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_LINK_INPATIENT_ENCOUNTER_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_LINK_INPATIENT_ENCOUNTER_INPATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_LINK_INPATIENT_ENCOUNTER_INPATIENT_ID" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.MEDICATIONS" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#Medication> ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.MEDICATIONS_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#Medication> ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_STD_MED_DOSAGE_UNIT
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_STD_MED_DOSAGE_UNIT" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_STD_MED_DURATION_UNITS
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_STD_MED_DURATION_UNITS" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_STD_MED_FREQUENCY_ADMIN
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_STD_MED_FREQUENCY_ADMIN" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_STD_MED_INSTRUCTIONS
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_STD_MED_INSTRUCTIONS" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_STD_MED_ROUTE_ADMIN
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_STD_MED_ROUTE_ADMIN" ;
+.
+DVEIVR:DVEIVR_MEDICATIONS_STD_MED_SITE_ADMIN
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:DVEIVR_MEDICATIONS ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_MEDICATIONS_STD_MED_SITE_ADMIN" ;
+  rdfs:range DVEIVR:DVEIVR_STD_MED_SITE_ADMIN ;
+  rdfs:subPropertyOf <http://model.dveivr.dha.health.mil/TREATMENT#siteOfAdministration> ;
+.
+DVEIVR:DVEIVR_OUTCOME_OUTCOME_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_OUTCOME_OUTCOME_ID" ;
+.
+DVEIVR:DVEIVR_OUTCOME_PROSTHETIC_OUTCOME_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_OUTCOME_PROSTHETIC_OUTCOME_ID" ;
+.
+DVEIVR:DVEIVR_OUTCOME_PROSTHETIC_STD_PROSTHETIC_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_OUTCOME_PROSTHETIC_STD_PROSTHETIC_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_OUTCOME_STD_OUTCOME_PROGNOSIS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_OUTCOME_STD_OUTCOME_PROGNOSIS_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE ;
+.
+DVEIVR:DVEIVR_OUTCOME_STD_TRAUMA_SCORE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_OUTCOME_STD_TRAUMA_SCORE_ID" ;
+.
+DVEIVR:DVEIVR_OUTCOME_STD_VISION_STATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_OUTCOME_STD_VISION_STATUS_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_VISION_STATUS ;
+.
+DVEIVR:DVEIVR_PHYSICAL_LIMITATION_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_PHYSICAL_LIMITATION_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_PHYSICAL_LIMITATION_STD_PHYSICAL_LIMITATION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_PHYSICAL_LIMITATION_STD_PHYSICAL_LIMITATION_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_PHYSICAL_LIMITATION ;
+.
+DVEIVR:DVEIVR_REFERRAL_RELATED_FIELD_UPDATE_REFERRAL_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_REFERRAL_RELATED_FIELD_UPDATE_REFERRAL_ID" ;
+.
+DVEIVR:DVEIVR_REFRACTION_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_REFRACTION_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_REFRACTION_STD_PRISM_DIRECTION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_REFRACTION_STD_PRISM_DIRECTION_ID" ;
+.
+DVEIVR:DVEIVR_REFRACTION_STD_REFRACTION_TESTED_USING_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_REFRACTION_STD_REFRACTION_TESTED_USING_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_REFRACTION_TESTED_USING_TYPE ;
+.
+DVEIVR:DVEIVR_REFRACTION_STD_REFRACTION_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_REFRACTION_STD_REFRACTION_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_REFRACTION_TYPE ;
+.
+DVEIVR:DVEIVR_STD_CPT4_CODE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_CPT4_CODE" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_STD_CPT4_CODE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_CPT4_CODE_H" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_STD_DEPTH_PERCEPTION_TESTED_USING
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_DEPTH_PERCEPTION_TESTED_USING" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_DEPTH_PERCEPTION_TESTED_USING_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_DEPTH_PERCEPTION_TESTED_USING_H" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_DEPTH_PERCEPTION_UNIT_TYPE" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_DEPTH_PERCEPTION_UNIT_TYPE_H" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_ICD9_CODE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_ICD9_CODE" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_STD_ICD9_CODE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_ICD9_CODE_H" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_NONPOROUS_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_NONPOROUS_TYPE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_NONPOROUS_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_NONPOROUS_TYPE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_POROUS_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_POROUS_TYPE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_POROUS_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_POROUS_TYPE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_PROSTHESIS_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_PROSTHESIS_TYPE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_PROSTHESIS_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_PROSTHESIS_TYPE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_SIZE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_SIZE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#ImplantSize> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_SIZE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_SIZE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#ImplantSize> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_TYPE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_IMPLANT_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_IMPLANT_TYPE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_INJURY_PLACE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "location on body"^^xsd:string ;
+  rdfs:flag "injury detail - soon to be deprecated"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_INJURY_PLACE" ;
+  rdfs:subClassOf CORE:BodyLocation ;
+  skos:prefLabel "injury place"^^xsd:string ;
+.
+DVEIVR:DVEIVR_STD_INJURY_PLACE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_INJURY_PLACE_H" ;
+  rdfs:subClassOf CORE:BodyLocation ;
+.
+DVEIVR:DVEIVR_STD_MED_SITE_ADMIN
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "refers to the site on the body where medication is administered (example: a flu vaccination site of administration is upper arm)."^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_MED_SITE_ADMIN" ;
+  rdfs:subClassOf CORE:BodyLocation ;
+  skos:prefLabel "medication site of administration"^^xsd:string ;
+.
+DVEIVR:DVEIVR_STD_MED_SITE_ADMIN_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_MED_SITE_ADMIN_H" ;
+  rdfs:subClassOf CORE:BodyLocation ;
+.
+DVEIVR:DVEIVR_STD_OCULAR_IMPLANT_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_OCULAR_IMPLANT_TYPE" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_OCULAR_IMPLANT_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_OCULAR_IMPLANT_TYPE_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+.
+DVEIVR:DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_OUTCOME_PROGNOSIS_TYPE" ;
+  rdfs:subClassOf CORE:Prognosis ;
+.
+DVEIVR:DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_OUTCOME_PROGNOSIS_TYPE_H" ;
+  rdfs:subClassOf CORE:Prognosis ;
+.
+DVEIVR:DVEIVR_STD_PHYSICAL_LIMITATION
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_PHYSICAL_LIMITATION" ;
+  rdfs:subClassOf CORE:Outcome ;
+.
+DVEIVR:DVEIVR_STD_REFRACTION_TESTED_USING_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_REFRACTION_TESTED_USING_TYPE" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_REFRACTION_TESTED_USING_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_REFRACTION_TESTED_USING_TYPE_H" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_REFRACTION_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_REFRACTION_TYPE" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_REFRACTION_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_REFRACTION_TYPE_H" ;
+  rdfs:subClassOf CORE:ExamType ;
+.
+DVEIVR:DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE" ;
+  rdfs:subClassOf CORE:MedicalFacility ;
+.
+DVEIVR:DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE_H" ;
+  rdfs:subClassOf CORE:MedicalFacility ;
+.
+DVEIVR:DVEIVR_STD_VISION_STATUS
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_VISION_STATUS" ;
+  rdfs:subClassOf CORE:CurrentVisualStatus ;
+.
+DVEIVR:DVEIVR_STD_VISION_STATUS_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_VISION_STATUS_H" ;
+  rdfs:subClassOf CORE:CurrentVisualStatus ;
+.
+DVEIVR:DVEIVR_STD_eCODE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_eCODE" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_STD_eCODE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.STD_eCODE_H" ;
+  rdfs:subClassOf CORE:Code ;
+.
+DVEIVR:DVEIVR_SYMPTOM_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_SYMPTOM_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_SYMPTOM_STD_SYMPTOM_DESCRIPTION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_SYMPTOM_STD_SYMPTOM_DESCRIPTION_ID" ;
+.
+DVEIVR:DVEIVR_SYMPTOM_STD_SYMPTOM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_SYMPTOM_STD_SYMPTOM_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_CONSULT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_CONSULT_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_FAMILY_RESOURCE_CENTER_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_FAMILY_RESOURCE_CENTER_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_OPHTHALMOLOGY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_OPHTHALMOLOGY_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_OPTOMETRY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_OPTOMETRY_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_PRIVATE_ORGANIZATION_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_PRIVATE_ORGANIZATION_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_REFERRAL_REQUEST_TIMEFRAME_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_REFERRAL_REQUEST_TIMEFRAME_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_REHABILITATION_SPECIALIST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_REHABILITATION_SPECIALIST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_SPECIALTY_REFERRAL_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_SPECIALTY_REFERRAL_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_CONSULT_STD_VETERANS_ORGANIZATION_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_CONSULT_STD_VETERANS_ORGANIZATION_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_LAB_TEST_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_LAB_TEST_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_LAB_TEST_STD_BLOOD_TEST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_LAB_TEST_STD_BLOOD_TEST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_LAB_TEST_STD_LAB_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_LAB_TEST_STD_LAB_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_LAB_TEST_STD_SPECIMEN_SOURCE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_LAB_TEST_STD_SPECIMEN_SOURCE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_LAB_TEST_STD_TISSUE_TEST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_LAB_TEST_STD_TISSUE_TEST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_LAB_TEST_STD_TISSUE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_LAB_TEST_STD_TISSUE_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_PATIENT_CARE_INSTRUCTIONS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_PATIENT_CARE_INSTRUCTIONS_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_PATIENT_CARE_INSTRUCTIONS_STD_TREATMENT_FOLLOWUP_APPOINTMENT_TIMEFRAME_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_PATIENT_CARE_INSTRUCTIONS_STD_TREATMENT_FOLLOWUP_APPOINTMENT_TIMEFRAME_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_PROCEDURE_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_PROCEDURE_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_PROCEDURE_STD_CPT4_CODE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_PROCEDURE_STD_CPT4_CODE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_CPT4_CODE ;
+.
+DVEIVR:DVEIVR_TREATMENT_PROSTHETIC_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_PROSTHETIC_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_PROSTHETIC_STD_TREATMENT_PROSTHETIC_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_PROSTHETIC_STD_TREATMENT_PROSTHETIC_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_STD_NUCLEAR_MEDICINE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_STD_NUCLEAR_MEDICINE_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_STD_TREATMENT_ELECTROPHYSIOLOGY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_STD_TREATMENT_ELECTROPHYSIOLOGY_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_STD_TREATMENT_IMAGING_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_STD_TREATMENT_IMAGING_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_STD_TREATMENT_OTHER_TEST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_STD_TREATMENT_OTHER_TEST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_STD_TREATMENT_PHOTOGRAPHY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_STD_TREATMENT_PHOTOGRAPHY_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TEST_STD_TREATMENT_TEST_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TEST_STD_TREATMENT_TEST_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TRANSFER_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TRANSFER_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_TREATMENT_TRANSFER_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TRANSFER_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE_ID" ;
+  rdfs:range DVEIVR:DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE ;
+.
+DVEIVR:DVEIVR_TREATMENT_TRANSFER_STD_TRANSFER_RECOMMENDATION_TRANSPORT_METHOD_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_TREATMENT_TRANSFER_STD_TRANSFER_RECOMMENDATION_TRANSPORT_METHOD_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_ENCOUNTER_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_DECIMAL_ADJUSTMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_DECIMAL_ADJUSTMENT_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_DECIMAL_UNIT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_DECIMAL_UNIT_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_DISTANCE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_DISTANCE_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_EXAM_METHOD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_EXAM_METHOD_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_JAEGER_ACUITY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_JAEGER_ACUITY_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_JAEGER_ADJUSTMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_JAEGER_ADJUSTMENT_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_JAEGER_UNIT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_JAEGER_UNIT_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_METRIC_ACUITY_NUMERATOR_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_METRIC_ACUITY_NUMERATOR_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_METRIC_ADJUSTMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_METRIC_ADJUSTMENT_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_METRIC_UNIT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_METRIC_UNIT_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_M_UNIT_UNIT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_M_UNIT_UNIT_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_ACUITY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_ACUITY_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_FIELD_LOCATION_LR_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_FIELD_LOCATION_LR_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_LR ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_FIELD_LOCATION_UD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_FIELD_LOCATION_UD_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_UD ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_LIGHT_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_LIGHT_TYPE_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_UNIT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_NON_NUMERIC_UNIT_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_PRINT_SAMPLE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_PRINT_SAMPLE_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_PRINT_SAMPLE ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_SCALE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_SCALE_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_SUBJECT_CHART_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_SUBJECT_CHART_TYPE_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_SUBJECT_REFRACTIVE_CORRECTION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_SUBJECT_REFRACTIVE_CORRECTION_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_US_ACUITY_DENOMINATOR
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_US_ACUITY_DENOMINATOR" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_US_ADJUSTMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_US_ADJUSTMENT_ID" ;
+.
+DVEIVR:DVEIVR_VISUAL_ACUITY_STD_US_UNITS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR_VISUAL_ACUITY_STD_US_UNITS_ID" ;
+  rdfs:range DVEIVR:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT ;
+.
+DVEIVR:Homeless
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Homeless"^^xsd:string ;
+.
+DVEIVR:Hospital
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Hospital"^^xsd:string ;
+.
+DVEIVR:LongTermCareFacility
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Long term care facility"^^xsd:string ;
+.
+DVEIVR:QR_OBJECT_FIELD_UPDATES_EDIT_BY_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_OBJECT_FIELD_UPDATES_EDIT_BY_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_OBJECT_FIELD_UPDATES_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_OBJECT_FIELD_UPDATES_ENCOUNTER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_OBJECT_FIELD_UPDATES_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_OBJECT_FIELD_UPDATES_PATIENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_OBJECT_FIELD_UPDATES_QUALITY_REVIEWER_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_OBJECT_FIELD_UPDATES_QUALITY_REVIEWER_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_OBJECT_FIELD_UPDATES_STD_GUI_CONTROLS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_OBJECT_FIELD_UPDATES_STD_GUI_CONTROLS_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_OBJECT_FIELD_UPDATES_STD_OBJECT_FIELD_UPDATES_ERROR_CODE
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_OBJECT_FIELD_UPDATES_STD_OBJECT_FIELD_UPDATES_ERROR_CODE" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_QUEUE_EDITS_BY_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_QUEUE_EDITS_BY_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_QUEUE_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_QUEUE_ENCOUNTER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_QUEUE_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_QUEUE_PATIENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_QUEUE_QUALITY_REVIEWER_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_QUEUE_QUALITY_REVIEWER_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_QUEUE_STD_QUALITY_REVIEW_STATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_QUEUE_STD_QUALITY_REVIEW_STATUS_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_TABS_REVIEWED_QUALITY_REVIEWER_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_TABS_REVIEWED_QUALITY_REVIEWER_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_TABS_REVIEWED_QUALITY_REVIEW_QUEUE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_TABS_REVIEWED_QUALITY_REVIEW_QUEUE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_TABS_REVIEWED_STD_APPLICATION_TABS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_TABS_REVIEWED_STD_APPLICATION_TABS_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_QUALITY_REVIEW_TABS_REVIEWED_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_QUALITY_REVIEW_TABS_REVIEWED_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:QR_USER_QUALITY_REVIEW_PERCENTAGE_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "QR_USER_QUALITY_REVIEW_PERCENTAGE_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:RehabilitationCenter
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Rehabilitation center"^^xsd:string ;
+.
+DVEIVR:Residence
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Residence"^^xsd:string ;
+.
+DVEIVR:Shelter
+  rdf:type CORE:PlaceOfResidence ;
+  skos:prefLabel "Shelter"^^xsd:string ;
+.
+DVEIVR:Z_DVEIVR_Property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Z DVEIVR Property"^^xsd:string ;
+  skos:prefLabel "Z DVEIVR Property"^^xsd:string ;
+.
+DVEIVR:datamap_STD_DATA_ELEMENT_OLAP_MAP_DATA_ELEMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_DATA_ELEMENT_OLAP_MAP_DATA_ELEMENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_DATA_ELEMENT_OLAP_MAP_STD_OLAP_TABLE_COLUMN_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_DATA_ELEMENT_OLAP_MAP_STD_OLAP_TABLE_COLUMN_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_DATA_ELEMENT_SOURCE_MAP_DATA_ELEMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_DATA_ELEMENT_SOURCE_MAP_DATA_ELEMENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_DATA_ELEMENT_SOURCE_MAP_STD_SOURCE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_DATA_ELEMENT_SOURCE_MAP_STD_SOURCE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_DATA_ELEMENT_STAGING_MAP_DATA_ELEMENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_DATA_ELEMENT_STAGING_MAP_DATA_ELEMENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_DATA_ELEMENT_STAGING_MAP_STD_STAGING_TABLE_COLUMN_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_DATA_ELEMENT_STAGING_MAP_STD_STAGING_TABLE_COLUMN_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_OLAP_REPORTING_OBJECT_FIELD_MAP_STD_OLAP_TABLE_COLUMN_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_OLAP_REPORTING_OBJECT_FIELD_MAP_STD_OLAP_TABLE_COLUMN_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:datamap_STD_OLAP_REPORTING_OBJECT_FIELD_MAP_STD_REPORTING_OBJECT_FIELD_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "datamap_STD_OLAP_REPORTING_OBJECT_FIELD_MAP_STD_REPORTING_OBJECT_FIELD_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_DEERS_PATIENT_RACE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_DEERS_PATIENT_RACE" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:personRace ;
+.
+DVEIVR:dbo_DEERS_PATIENT_RANK
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_DEERS_PATIENT_RANK" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf <http://model.dveivr.dha.health.mil/DEMOGRAPHICS#assignedMilitaryRank> ;
+.
+DVEIVR:dbo_DEERS_PATIENT_SERVICE_BRANCH
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_DEERS_PATIENT_SERVICE_BRANCH" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf <http://model.dveivr.dha.health.mil/DEMOGRAPHICS#assignedMilitaryServiceBranch> ;
+.
+DVEIVR:dbo_DEERS_PATIENT_SSN
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_DEERS_PATIENT_SSN" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:socialSecurityNumber ;
+.
+DVEIVR:dbo_PATIENT_ADDRESS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ADDRESS_ENCOUNTER_ID" ;
+.
+DVEIVR:dbo_PATIENT_ADDRESS_PATIENT_ADDRESS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ADDRESS_PATIENT_ADDRESS_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:patientAddress ;
+.
+DVEIVR:dbo_PATIENT_ADDRESS_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ADDRESS_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_ADDRESS_STD_ADDRESS_OF_RECORD_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ADDRESS_STD_ADDRESS_OF_RECORD_TYPE_ID" ;
+  rdfs:subPropertyOf CORE:patientAddress ;
+.
+DVEIVR:dbo_PATIENT_ADDRESS_STD_RESIDENCE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ADDRESS_STD_RESIDENCE_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_RESIDENCE_TYPE ;
+  rdfs:subPropertyOf CORE:placeOfResidence ;
+.
+DVEIVR:dbo_PATIENT_ADDRESS_TYPE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ADDRESS_TYPE" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:patientAddress ;
+.
+DVEIVR:dbo_PATIENT_AKA_H_SSN
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_AKA_H_SSN" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:socialSecurityNumber ;
+.
+DVEIVR:dbo_PATIENT_AKA_H_birth_date
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_AKA_H_birth_date" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:dateOfBirth ;
+.
+DVEIVR:dbo_PATIENT_AKA_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_AKA_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_AKA_SOURCE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_AKA_SOURCE_ID" ;
+.
+DVEIVR:dbo_PATIENT_AKA_SSN
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_AKA_SSN" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:socialSecurityNumber ;
+.
+DVEIVR:dbo_PATIENT_AKA_birth_date
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_AKA_birth_date" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:dateOfBirth ;
+.
+DVEIVR:dbo_PATIENT_ASSIGNED_ABSTRACTOR_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_ASSIGNED_ABSTRACTOR_ID" ;
+.
+DVEIVR:dbo_PATIENT_BIRTH_DATE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_BIRTH_DATE" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:dateOfBirth ;
+.
+DVEIVR:dbo_PATIENT_CLINICAL_TRIALS_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_CLINICAL_TRIALS_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_CONTACT
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "Record of the patient's contact information at the time of the encounter"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.PATIENT_CONTACT" ;
+  rdfs:subClassOf CORE:Record ;
+  owl:equivalentClass [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          CORE:PointOfContact
+          CORE:NextOfKin
+          CORE:PowerOfAttorney
+        ) ;
+    ] ;
+.
+DVEIVR:dbo_PATIENT_CONTACT_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_PATIENT_CONTACT ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_CONTACT_ENCOUNTER_ID" ;
+.
+DVEIVR:dbo_PATIENT_CONTACT_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.PATIENT_CONTACT_H" ;
+  rdfs:subClassOf CORE:Record ;
+.
+DVEIVR:dbo_PATIENT_CONTACT_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_PATIENT_CONTACT ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_CONTACT_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_CONTACT_STD_RELATIONSHIP_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_PATIENT_CONTACT ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_CONTACT_STD_RELATIONSHIP_TYPE_ID" ;
+.
+DVEIVR:dbo_PATIENT_DEATH_DATE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_DEATH_DATE" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:dateOfDeath ;
+.
+DVEIVR:dbo_PATIENT_DEPLOYMENTS_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_DEPLOYMENTS_ENCOUNTER_ID" ;
+.
+DVEIVR:dbo_PATIENT_DEPLOYMENTS_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_DEPLOYMENTS_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_DEPLOYMENTS_STD_DEPLOYMENT_LOCATION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_DEPLOYMENTS_STD_DEPLOYMENT_LOCATION_ID" ;
+  rdfs:range DVEIVR:dbo_STD_DEPLOYMENT_LOCATION ;
+.
+DVEIVR:dbo_PATIENT_EMAIL_ADDRESS
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_EMAIL_ADDRESS" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:emailAddress ;
+.
+DVEIVR:dbo_PATIENT_EMAIL_ADDRESS_VA
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_EMAIL_ADDRESS_VA" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:emailAddress ;
+.
+DVEIVR:dbo_PATIENT_H_BIRTH_DATE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_BIRTH_DATE" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:dateOfBirth ;
+.
+DVEIVR:dbo_PATIENT_H_DEATH_DATE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_DEATH_DATE" ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:dateOfDeath ;
+.
+DVEIVR:dbo_PATIENT_H_EMAIL_ADDRESS
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_EMAIL_ADDRESS" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:emailAddress ;
+.
+DVEIVR:dbo_PATIENT_H_EMAIL_ADDRESS_VA
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_EMAIL_ADDRESS_VA" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:emailAddress ;
+.
+DVEIVR:dbo_PATIENT_H_OCCUPATION
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_OCCUPATION" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:occupationAtTimeOfInjury ;
+.
+DVEIVR:dbo_PATIENT_H_RANK
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_RANK" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf <http://model.dveivr.dha.health.mil/DEMOGRAPHICS#assignedMilitaryRank> ;
+.
+DVEIVR:dbo_PATIENT_H_STD_RACE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_H_STD_RACE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:personRace ;
+.
+DVEIVR:dbo_PATIENT_OCCUPATION
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_OCCUPATION" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:occupationAtTimeOfInjury ;
+.
+DVEIVR:dbo_PATIENT_PHONE_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_PHONE_ENCOUNTER_ID" ;
+.
+DVEIVR:dbo_PATIENT_PHONE_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_PHONE_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_PHONE_PATIENT_PHONE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_PHONE_PATIENT_PHONE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:patientPhoneNumber ;
+.
+DVEIVR:dbo_PATIENT_PHONE_PHONE_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_PHONE_PHONE_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:patientPhoneNumber ;
+.
+DVEIVR:dbo_PATIENT_PHONE_STD_PHONE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_PHONE_STD_PHONE_TYPE_ID" ;
+  rdfs:subPropertyOf CORE:patientPhoneNumber ;
+.
+DVEIVR:dbo_PATIENT_PRIMARY_PHONE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_PRIMARY_PHONE" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PATIENT_RANK
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_RANK" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf <http://model.dveivr.dha.health.mil/DEMOGRAPHICS#assignedMilitaryRank> ;
+.
+DVEIVR:dbo_PATIENT_REGISTRY
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "Data element about the registries the patient is enrolled in"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.PATIENT_REGISTRY" ;
+  rdfs:subClassOf CORE:Record ;
+.
+DVEIVR:dbo_PATIENT_REGISTRY_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.PATIENT_REGISTRY_H" ;
+  rdfs:subClassOf CORE:Record ;
+.
+DVEIVR:dbo_PATIENT_REGISTRY_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_PATIENT_REGISTRY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_REGISTRY_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_REGISTRY_STD_PATIENT_REGISTRY_STATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_PATIENT_REGISTRY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_REGISTRY_STD_PATIENT_REGISTRY_STATUS_ID" ;
+.
+DVEIVR:dbo_PATIENT_REGISTRY_STD_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_PATIENT_REGISTRY ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_REGISTRY_STD_REGISTRY_ID" ;
+.
+DVEIVR:dbo_PATIENT_SOURCE_SYSTEMS_ID_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_SOURCE_SYSTEMS_ID_PATIENT_ID" ;
+.
+DVEIVR:dbo_PATIENT_SOURCE_SYSTEM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_SOURCE_SYSTEM_ID" ;
+.
+DVEIVR:dbo_PATIENT_STD_ETHNICITY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_ETHNICITY_ID" ;
+  rdfs:range DVEIVR:dbo_STD_ETHNICITY ;
+.
+DVEIVR:dbo_PATIENT_STD_GENDER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_GENDER_ID" ;
+  rdfs:range DVEIVR:dbo_STD_GENDER ;
+.
+DVEIVR:dbo_PATIENT_STD_LIVING_ARRANGEMENTS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_LIVING_ARRANGEMENTS_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_LIVING_ARRANGEMENTS_TYPE ;
+.
+DVEIVR:dbo_PATIENT_STD_MARITALSTATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_MARITALSTATUS_ID" ;
+.
+DVEIVR:dbo_PATIENT_STD_MILITARY_STATUS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_MILITARY_STATUS_TYPE_ID" ;
+.
+DVEIVR:dbo_PATIENT_STD_RACE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_RACE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_RACE ;
+.
+DVEIVR:dbo_PATIENT_STD_SERVICEBRANCH_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_SERVICEBRANCH_ID" ;
+.
+DVEIVR:dbo_PATIENT_STD_SERVICE_STATUS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PATIENT_STD_SERVICE_STATUS_ID" ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_ADDRESS_1
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_ADDRESS_1" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_ADDRESS_2
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_ADDRESS_2" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_ADDRESS_3
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_ADDRESS_3" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_H_ADDRESS_1
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_H_ADDRESS_1" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_H_ADDRESS_2
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_H_ADDRESS_2" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_H_ADDRESS_3
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_H_ADDRESS_3" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_H_PROVIDER_ADDRESS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_H_PROVIDER_ADDRESS_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:providerAddress ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_PROVIDER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_PROVIDER_ID" ;
+.
+DVEIVR:dbo_PROVIDER_ADDRESS_STD_PROVIDER_ADDRESS_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_ADDRESS_STD_PROVIDER_ADDRESS_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_PROVIDER_ADDRESS_TYPE ;
+.
+DVEIVR:dbo_PROVIDER_H_DSN_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_H_DSN_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_H_NPI_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_H_NPI_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_H_STD_PROVIDER_AFFILIATION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_H_STD_PROVIDER_AFFILIATION_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:providerAffiliation ;
+.
+DVEIVR:dbo_PROVIDER_H_UPI_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_H_UPI_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_H_VPID_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_H_VPID_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_NPI_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_NPI_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_PHONE_H_PHONE_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_PHONE_H_PHONE_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_PHONE_H_STD_PHONE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_PHONE_H_STD_PHONE_TYPE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_PHONE_PHONE_NUMBER
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_PHONE_PHONE_NUMBER" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_PHONE_PROVIDER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_PHONE_PROVIDER_ID" ;
+.
+DVEIVR:dbo_PROVIDER_PHONE_PROVIDER_PHONE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_PHONE_PROVIDER_PHONE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:phoneNumberType ;
+.
+DVEIVR:dbo_PROVIDER_PHONE_STD_PHONE_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_PHONE_STD_PHONE_TYPE_ID" ;
+.
+DVEIVR:dbo_PROVIDER_SOURCE_SYSTEM_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_SOURCE_SYSTEM_ID" ;
+.
+DVEIVR:dbo_PROVIDER_STD_PROVIDER_AFFILIATION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_STD_PROVIDER_AFFILIATION_ID" ;
+.
+DVEIVR:dbo_PROVIDER_STD_PROVIDER_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_PROVIDER_STD_PROVIDER_TYPE_ID" ;
+  rdfs:range DVEIVR:dbo_STD_PROVIDER_TYPE ;
+.
+DVEIVR:dbo_REFERRAL_INITIAL_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_REFERRAL_INITIAL_ENCOUNTER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_REFERRAL_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_REFERRAL_PATIENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_REFERRAL_STD_HOSPITAL_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_REFERRAL_STD_HOSPITAL_TYPE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_REFERRAL_STD_REFERRALSTS_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_REFERRAL_STD_REFERRALSTS_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_REFERRAL_STD_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_REFERRAL_STD_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_ROLE_PERMISSIONS_STD_APPPAGE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_ROLE_PERMISSIONS_STD_APPPAGE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_ROLE_PERMISSIONS_STD_ROLE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_ROLE_PERMISSIONS_STD_ROLE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_RULE_CRITERIA_BUSINESS_RULE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_RULE_CRITERIA_BUSINESS_RULE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_RULE_CRITERIA_CRITERIA_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_RULE_CRITERIA_CRITERIA_TYPE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_RULE_CRITERIA_VALIDATION_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_RULE_CRITERIA_VALIDATION_TYPE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_STD_DEPLOYMENT_LOCATION
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_DEPLOYMENT_LOCATION" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#LocationOfEvent> ;
+.
+DVEIVR:dbo_STD_DEPLOYMENT_LOCATION_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_DEPLOYMENT_LOCATION_H" ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#LocationOfEvent> ;
+.
+DVEIVR:dbo_STD_ETHNICITY
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_ETHNICITY" ;
+  rdfs:subClassOf CORE:EthnicGroup ;
+.
+DVEIVR:dbo_STD_ETHNICITY_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_ETHNICITY_H" ;
+  rdfs:subClassOf CORE:EthnicGroup ;
+.
+DVEIVR:dbo_STD_GENDER
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_GENDER" ;
+  rdfs:subClassOf CORE:PersonGender ;
+.
+DVEIVR:dbo_STD_GENDER_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_GENDER_H" ;
+  rdfs:subClassOf CORE:PersonGender ;
+.
+DVEIVR:dbo_STD_GENDER_TEMP
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_GENDER_TEMP" ;
+  rdfs:subClassOf CORE:PersonGender ;
+.
+DVEIVR:dbo_STD_LIVING_ARRANGEMENTS_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_LIVING_ARRANGEMENTS_TYPE" ;
+  rdfs:subClassOf CORE:LivingArrangement ;
+.
+DVEIVR:dbo_STD_LIVING_ARRANGEMENTS_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_LIVING_ARRANGEMENTS_TYPE_H" ;
+  rdfs:subClassOf CORE:LivingArrangement ;
+.
+DVEIVR:dbo_STD_PROVIDER_ADDRESS_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_PROVIDER_ADDRESS_TYPE" ;
+  rdfs:subClassOf CORE:Address ;
+.
+DVEIVR:dbo_STD_PROVIDER_ADDRESS_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_PROVIDER_ADDRESS_TYPE_H" ;
+  rdfs:subClassOf CORE:Address ;
+.
+DVEIVR:dbo_STD_PROVIDER_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "what kind of provider (technician, nurse, optometrist, etc.)"^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_PROVIDER_TYPE" ;
+  rdfs:subClassOf CORE:ProviderType ;
+  skos:prefLabel "provider type"^^xsd:string ;
+.
+DVEIVR:dbo_STD_PROVIDER_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_PROVIDER_TYPE_H" ;
+  rdfs:subClassOf CORE:ProviderType ;
+.
+DVEIVR:dbo_STD_PROVIDER_TYPE_STD_PROVIDER_GROUP_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain DVEIVR:dbo_STD_PROVIDER_TYPE ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_PROVIDER_TYPE_STD_PROVIDER_GROUP_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_STD_RACE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_RACE" ;
+  rdfs:subClassOf CORE:EthnicGroup ;
+.
+DVEIVR:dbo_STD_RACE_CODE
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain DVEIVR:dbo_STD_RACE ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RACE_CODE" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:personRace ;
+.
+DVEIVR:dbo_STD_RACE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_RACE_H" ;
+  rdfs:subClassOf CORE:EthnicGroup ;
+.
+DVEIVR:dbo_STD_RACE_H_FORMAL_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain DVEIVR:dbo_STD_RACE_H ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RACE_H_FORMAL_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:personRace ;
+.
+DVEIVR:dbo_STD_RACE_H_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain DVEIVR:dbo_STD_RACE_H ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RACE_H_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:personRace ;
+.
+DVEIVR:dbo_STD_RACE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain DVEIVR:dbo_STD_RACE ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RACE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:personRace ;
+.
+DVEIVR:dbo_STD_RELATIONSHIP_TYPE_H_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RELATIONSHIP_TYPE_H_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:assignedToRelationshipType ;
+.
+DVEIVR:dbo_STD_RELATIONSHIP_TYPE_H_NAME
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RELATIONSHIP_TYPE_H_NAME" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:assignedToRelationshipType ;
+.
+DVEIVR:dbo_STD_RELATIONSHIP_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RELATIONSHIP_TYPE_ID" ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf CORE:assignedToRelationshipType ;
+.
+DVEIVR:dbo_STD_RELATIONSHIP_TYPE_NAME
+  rdf:type rdf:Property ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_STD_RELATIONSHIP_TYPE_NAME" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf CORE:assignedToRelationshipType ;
+.
+DVEIVR:dbo_STD_RESIDENCE_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_RESIDENCE_TYPE" ;
+  rdfs:subClassOf CORE:PlaceOfResidence ;
+.
+DVEIVR:dbo_STD_RESIDENCE_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_RESIDENCE_TYPE_H" ;
+  rdfs:subClassOf CORE:PlaceOfResidence ;
+.
+DVEIVR:dbo_STD_TIME_PERIOD
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "Past History - a period of time in their life when a selected event happened."^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_TIME_PERIOD" ;
+  rdfs:subClassOf <http://qudt.org/schema/qudt#TimeUnit> ;
+  skos:prefLabel "history time period"^^xsd:string ;
+.
+DVEIVR:dbo_STD_TIME_PERIOD_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_TIME_PERIOD_H" ;
+  rdfs:subClassOf <http://qudt.org/schema/qudt#TimeUnit> ;
+.
+DVEIVR:dbo_STD_TIME_TYPE
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  CORE:definition "Related to Time Period.  History table."^^xsd:string ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_TIME_TYPE" ;
+  rdfs:subClassOf <http://qudt.org/schema/qudt#TimeUnit> ;
+  skos:prefLabel "history time type"^^xsd:string ;
+.
+DVEIVR:dbo_STD_TIME_TYPE_H
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo.STD_TIME_TYPE_H" ;
+  rdfs:subClassOf <http://qudt.org/schema/qudt#TimeUnit> ;
+.
+DVEIVR:dbo_USERS_STD_USER_DESIGNATION_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USERS_STD_USER_DESIGNATION_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USERS_STD_USER_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USERS_STD_USER_TYPE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_LOGIN_DETAIL_ACTIVITY_TYPE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_LOGIN_DETAIL_ACTIVITY_TYPE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_LOGIN_DETAIL_ENCOUNTER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_LOGIN_DETAIL_ENCOUNTER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_LOGIN_DETAIL_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_LOGIN_DETAIL_PATIENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_LOGIN_DETAIL_REFERRAL_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_LOGIN_DETAIL_REFERRAL_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_LOGIN_DETAIL_STD_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_LOGIN_DETAIL_STD_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_LOGIN_DETAIL_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_LOGIN_DETAIL_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_PATIENT_PATIENT_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_PATIENT_PATIENT_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_PATIENT_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_PATIENT_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_REGISTRIES_STD_REGISTRY_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_REGISTRIES_STD_REGISTRY_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_REGISTRIES_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_REGISTRIES_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_ROLES_STD_ROLE_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_ROLES_STD_ROLE_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:dbo_USER_ROLES_USER_ID
+  rdf:type rdf:Property ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "dbo_USER_ROLES_USER_ID" ;
+  rdfs:subPropertyOf DVEIVR:Z_DVEIVR_Property ;
+.
+DVEIVR:encounterTraumaScore
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain CORE:Encounter ;
+.
+DVEIVR:hasMedInstructions
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Medication> ;
+  skos:prefLabel "has med instructions"^^xsd:string ;
+.
+DVEIVR:includesMentalHealthHistoryDetail
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TRAUMA#MentalHealthCondition> ;
+  rdfs:subPropertyOf DVEIVR:includesPastHistoryDetail ;
+  skos:prefLabel "includes mental health history detail"^^xsd:string ;
+.
+DVEIVR:includesOcularSurgicalHistoryDetail
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TREATMENT#SurgicalProcedure> ;
+  rdfs:subPropertyOf DVEIVR:includesPastHistoryDetail ;
+  skos:prefLabel "includes ocular surgical history detail"^^xsd:string ;
+.
+DVEIVR:includesPastHistoryDetail
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain CORE:PastHistory ;
+  rdfs:range CORE:RecordDetail ;
+  skos:prefLabel "includes past history detail"^^xsd:string ;
+.
+DVEIVR:includesSubstanceAbuseCondition
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TRAUMA#SubstanceAbuseCondition> ;
+  rdfs:subPropertyOf DVEIVR:includesPastHistoryDetail ;
+  skos:prefLabel "includes substance abuse condition"^^xsd:string ;
+.
+DVEIVR:recordsDemographics
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain CORE:DemographicRecord ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS
+          DVEIVR:DVEIVR_ENCOUNTER_DEMOGRAPHICS_H
+        ) ;
+    ] ;
+.
+<http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_DETAIL>
+  rdf:type rdfs:Class ;
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  rdfs:label "DVEIVR.INJURY_DETAIL" ;
+  rdfs:subClassOf CORE:RecordDetail ;
+.
+dc:creator
+  rdf:type rdf:Property ;
+.
+rdfs:hasEquipmentType
+  rdf:type owl:ObjectProperty ;
+.
+<http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#partOfInjuryRecord>
+  rdf:type owl:TransitiveProperty ;
+  rdfs:range CORE:InjuryRecord ;
+  rdfs:subPropertyOf <http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#partOf> ;
+.
+<http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#partOfPrescription>
+  rdf:type owl:TransitiveProperty ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TREATMENT#Prescription> ;
+  rdfs:subPropertyOf <http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#partOf> ;
+  skos:prefLabel "part of prescription"^^xsd:string ;
+.

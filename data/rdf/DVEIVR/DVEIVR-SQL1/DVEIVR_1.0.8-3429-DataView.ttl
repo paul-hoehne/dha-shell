@@ -1,0 +1,1563 @@
+# baseURI: http://model.dveivr.dha.health.mil/dataview/DVEIVR_1.0.8-3429
+# imports: http://model.dveivr.dha.health.mil/DVEIVR_1.0.8-3429
+# imports: http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429
+
+@prefix CORE: <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#> .
+@prefix db: <http://model.dveivr.dha.health.mil/DVEIVR_1.0.8-3429#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix part: <http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Category:Units_of_density>
+  rdf:type skos:Concept ;
+  rdf:type _:b22836 ;
+  skos:closeMatch <http://dbpedia.org/resource/Category:Units_of_density> ;
+  skos:closeMatch <http://qudt.org/schema/qudt#MassPerVolumeUnit> ;
+  skos:exactMatch <http://dbpedia.org/resource/Category:Units_of_density> ;
+  skos:exactMatch <http://qudt.org/schema/qudt#MassPerVolumeUnit> ;
+  skos:mappingRelation <http://dbpedia.org/resource/Category:Units_of_density> ;
+  skos:mappingRelation <http://qudt.org/schema/qudt#MassPerVolumeUnit> ;
+  skos:semanticRelation <http://dbpedia.org/resource/Category:Units_of_density> ;
+  skos:semanticRelation <http://qudt.org/schema/qudt#MassPerVolumeUnit> ;
+.
+<http://dbpedia.org/resource/Category:Units_of_luminous_flux>
+  rdf:type skos:Concept ;
+  rdf:type _:b22836 ;
+  skos:closeMatch <http://dbpedia.org/resource/Category:Units_of_luminous_flux> ;
+  skos:closeMatch <http://qudt.org/schema/qudt#LuminousFluxUnit> ;
+  skos:exactMatch <http://dbpedia.org/resource/Category:Units_of_luminous_flux> ;
+  skos:exactMatch <http://qudt.org/schema/qudt#LuminousFluxUnit> ;
+  skos:mappingRelation <http://dbpedia.org/resource/Category:Units_of_luminous_flux> ;
+  skos:mappingRelation <http://qudt.org/schema/qudt#LuminousFluxUnit> ;
+  skos:semanticRelation <http://dbpedia.org/resource/Category:Units_of_luminous_flux> ;
+  skos:semanticRelation <http://qudt.org/schema/qudt#LuminousFluxUnit> ;
+.
+<http://dbpedia.org/resource/Category:Units_of_radiation_dose>
+  rdf:type skos:Concept ;
+  rdf:type _:b22836 ;
+  skos:closeMatch <http://dbpedia.org/resource/Category:Units_of_radiation_dose> ;
+  skos:closeMatch <http://qudt.org/schema/qudt#RadiologyUnit> ;
+  skos:exactMatch <http://dbpedia.org/resource/Category:Units_of_radiation_dose> ;
+  skos:exactMatch <http://qudt.org/schema/qudt#RadiologyUnit> ;
+  skos:mappingRelation <http://dbpedia.org/resource/Category:Units_of_radiation_dose> ;
+  skos:mappingRelation <http://qudt.org/schema/qudt#RadiologyUnit> ;
+  skos:semanticRelation <http://dbpedia.org/resource/Category:Units_of_radiation_dose> ;
+  skos:semanticRelation <http://qudt.org/schema/qudt#RadiologyUnit> ;
+.
+<http://dbpedia.org/resource/Category:Units_of_volume>
+  rdf:type skos:Concept ;
+  rdf:type _:b22836 ;
+  skos:closeMatch <http://dbpedia.org/resource/Category:Units_of_volume> ;
+  skos:closeMatch <http://qudt.org/schema/qudt#VolumeUnit> ;
+  skos:exactMatch <http://dbpedia.org/resource/Category:Units_of_volume> ;
+  skos:exactMatch <http://qudt.org/schema/qudt#VolumeUnit> ;
+  skos:mappingRelation <http://dbpedia.org/resource/Category:Units_of_volume> ;
+  skos:mappingRelation <http://qudt.org/schema/qudt#VolumeUnit> ;
+  skos:semanticRelation <http://dbpedia.org/resource/Category:Units_of_volume> ;
+  skos:semanticRelation <http://qudt.org/schema/qudt#VolumeUnit> ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Head>
+  rdfs:label "head"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Head_1>
+  rdfs:label "Head 1"^^xsd:string ;
+  part:hasPart <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Forehead> ;
+  part:hasPart <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Occiput> ;
+  part:hasPart <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Temple> ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#InferiorTarsus>
+  rdfs:comment "http://www.aao.org/theeyeshaveit/anatomy/sagittal-section.cfm"^^xsd:string ;
+  rdfs:label "inferior tarsus"^^xsd:string ;
+  part:partOf <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#EyeSocket_1> ;
+.
+<http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Lens>
+  rdf:type [] ;
+  rdfs:comment "http://www.aao.org/theeyeshaveit/anatomy/sagittal-section.cfm"^^xsd:string ;
+  rdfs:label "lens"^^xsd:string ;
+  part:partOf <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Eyeball_1> ;
+.
+CORE:CivilianAffiliation
+  rdfs:label "Civilian affiliation"^^xsd:string ;
+.
+CORE:Description
+  rdfs:label "Description"^^xsd:string ;
+.
+CORE:HRR-NotDone
+  rdf:type CORE:HardyRandRittlerPlates1 ;
+  rdf:type CORE:HardyRandRittlerPlates2 ;
+  rdf:type _:b5515 ;
+  rdf:type [] ;
+.
+CORE:HardyRandRittlerPlates_9
+  rdf:type _:b5515 ;
+.
+CORE:Spectacles
+  rdfs:comment "eyewear to correct vision and/or protect the eyes"^^xsd:string ;
+  rdfs:label "eyeglasses"^^xsd:string ;
+  rdfs:label "glasses"^^xsd:string ;
+  rdfs:label "spectacles"^^xsd:string ;
+.
+CORE:Uncle
+  rdfs:comment "mother's or father's brother"^^xsd:string ;
+  rdfs:label "uncle"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#PrimaryBlastTrauma>
+  rdfs:comment "2012 07 18 DVEIVR Data Dictionary - Second Submission.xls"^^xsd:string ;
+  rdfs:comment "Defense and Veterans Brain Injury Center - Online"^^xsd:string ;
+  rdfs:comment "Injury.  The result of exposure to the over pressurization wave or the complex pressure wave that is generated by the blast itself. This blast over-pressurization wave travels at a high velocity and is affected by the surrounding environment; for example, the effects of the blast wave may be increased in a closed environment such as a vehicle. Air-filled organs such as the ear, lung, and gastrointestinal tract and organs surrounded by fluid-filled cavities such as the brain and spinal cord are especially susceptible to primary blast injury"^^xsd:string ;
+  rdfs:comment "Note that injuries sustained in the first wave may not be limited to primary blast injuries as listed here."^^xsd:string ;
+  rdfs:comment """Primary injuries are caused by blast overpressure waves, or shock waves. These are especially likely when a person is close to an exploding munition, such as a land mine. The ears are most often affected by the overpressure, followed by the lungs and the hollow organs of the gastrointestinal tract. Gastrointestinal injuries may present after a delay of hours or even days. Injury from blast overpressure is a pressure and time dependent function. By increasing the pressure or its duration, the severity of injury will also increase.
+
+In general, primary blast injuries are characterized by the absence of external injuries; thus internal injuries are frequently unrecognized and their severity underestimated. According to the latest experimental results, the extent and types of primary blast-induced injuries depend not only on the peak of the overpressure, but also other parameters such as number of overpressure peaks, time-lag between overpressure peaks, characteristics of the shear fronts between overpressure peaks, frequency resonance, and electromagnetic pulse, among others. There is general agreement that spalling, implosion, inertia, and pressure differentials are the main mechanisms involved in the pathogenesis of primary blast injuries. Thus, the majority of prior research focused on the mechanisms of blast injuries within gas-containing organs/organ systems such as the lungs, while primary blast-induced traumatic brain injury has remained underestimated. Blast lung refers to severe pulmonary contusion, bleeding or swelling with damage to alveoli and blood vessels, or a combination of these. It is the most common cause of death among people who initially survive an explosion."""^^xsd:string ;
+  rdfs:label "Blast Exposure"^^xsd:string ;
+  rdfs:label "Primary Blast"^^xsd:string ;
+  rdfs:label "blast over pressure"^^xsd:string ;
+  rdfs:label "primary blast trauma"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#Retraction>
+  rdf:type _:b54470 ;
+  rdfs:comment "is a condition of involuntary eye movement, acquired in infancy or later in life, that may result in reduced or limited vision. Due to the involuntary movement of the eye, it is often called \"Dancing Eyes\"."^^xsd:string ;
+  rdfs:label "nystagmus"^^xsd:string ;
+  rdfs:label "retraction"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#WoundDehiscence>
+  rdf:type _:b54470 ;
+  rdfs:comment "Wound dehiscence is a surgical complication in which a wound ruptures along surgical suture."^^xsd:string ;
+  rdfs:label "rupture"^^xsd:string ;
+  rdfs:label "wound dehiscence"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/TREATMENT#durationUnitFor>
+  rdfs:domain <http://qudt.org/schema/qudt#PhysicalUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#ScienceAndEngineeringUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#SpaceAndTimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21447 ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b21571 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+  rdfs:domain _:b37970 ;
+  rdfs:range CORE:Duration ;
+  rdfs:range <http://qudt.org/schema/qudt#SystemOfUnits> ;
+  rdfs:range owl:Thing ;
+  rdfs:range [] ;
+  rdfs:range [] ;
+  rdfs:range [] ;
+.
+<http://model.dveivr.dha.health.mil/dataview/DVEIVR_1.0.8-3429>
+  rdf:type owl:Ontology ;
+  owl:imports <http://model.dveivr.dha.health.mil/DVEIVR_1.0.8-3429> ;
+  owl:imports <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+.
+<http://model.dveivr.dha.health.mil/mapping01#CTRFlatFile>
+  rdfs:label "CTR Flat File"^^xsd:string ;
+.
+<http://model.dveivr.dha.health.mil/mapping01#CTRTeamDefined>
+  rdfs:label "CTR Team Defined"^^xsd:string ;
+.
+schema:APP_STD_ALERT_TYPE_H_Audit_SQLUser
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_ALERT_TYPE_H_CREATEDBY
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_AMENDMENT_REASON_H_Audit_SQLUser
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_AMENDMENT_REASON_H_DESCRIPTION_TEXT
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_APPPAGE_H_Audit_Type
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_APPPAGE_SORT_ORDER
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_BUSINESS_RULE_CODE
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_BUSINESS_RULE_CRITERIA_TYPE_H_UPDATED
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_CONTROL_TYPE_UPDATED
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_DATA_SOURCE_OWNER_UPDATEDBY
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_GUI_CONTROLS_NAME
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_GUI_CONTROLS_USER_CONTROL_ID
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_PATIENT_REGISTRY_STATUS_H_DESCRIPTION_TEXT
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_QUALITY_REVIEW_STATUS_H_Audit_STD_QUALITY_REVIEW_STATUS_H_ID
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_CREATED
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_H_ID
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_QUALITY_REVIEW_TABS_REVIEWED_STATUS_H_REGISTRY_ID
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_REGISTRY_H_UPDATEDBY
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_TABLE_COLUMN_H_UPDATED
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_TABLE_COLUMN_UPDATED
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_TRAUMA_SCORE_DOD_FLAG
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b71404 ;
+.
+schema:APP_STD_TRAUMA_SCORE_ID
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b71404 ;
+.
+schema:APP_STD_USER_ACTIVITY_TYPE_CREATED
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_USER_TYPE_H_Audit_ApplicationUser
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_USER_TYPE_H_SORT_ORDER
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_ADJUSTMENT_TYPE_UPDATED
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_DISTANCE_TYPE_H_NAME
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#VisualAcuityDistance> ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT_H_INACTIVE_DATE
+  rdfs:domain <http://qudt.org/schema/qudt#DerivedUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+.
+schema:APP_STD_VISUAL_ACUITY_DISTANCE_UNIT_UPDATEDBY
+  rdfs:domain <http://qudt.org/schema/qudt#DerivedUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+.
+schema:APP_STD_VISUAL_ACUITY_EXAM_METHOD_H_CREATEDBY
+  rdfs:domain CORE:Method ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_EXAM_METHOD_H_DESCRIPTION_TEXT
+  rdfs:domain CORE:Method ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_LR_CODE
+  rdfs:domain <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+  rdfs:domain CORE:BodyLocation ;
+  rdfs:domain CORE:Place ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_LR_H_SORT_ORDER
+  rdfs:domain <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+  rdfs:domain CORE:BodyLocation ;
+  rdfs:domain CORE:Place ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_FIELD_LOCATION_UD_H_SORT_ORDER
+  rdfs:domain <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Direction> ;
+  rdfs:domain CORE:BodyLocation ;
+  rdfs:domain CORE:Place ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_JAEGER_VALUE_INACTIVE_FLAG
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#JaegerScale> ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_METRIC_NUMERATOR_INACTIVE_FLAG
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+.
+schema:APP_STD_VISUAL_ACUITY_NON_NUMERIC_TYPE_SORT_ORDER
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_PRINT_SAMPLE_CODE
+  rdfs:domain CORE:Type ;
+  rdfs:domain CORE:VisionChartType ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_PRINT_SAMPLE_INACTIVE_DATE
+  rdfs:domain CORE:Type ;
+  rdfs:domain CORE:VisionChartType ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_SCALE_NAME
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#VisualAcuityScale> ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE_DESCRIPTION_TEXT
+  rdfs:domain CORE:Type ;
+  rdfs:domain CORE:VisionChartType ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_SUBJECT_REFRACTIVE_CORRECTION_H_ID
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#CorrectedVisualAcuity> ;
+  rdfs:domain owl:Thing ;
+.
+schema:APP_STD_VISUAL_ACUITY_SUBJECT_REFRACTIVE_CORRECTION_H_UPDATEDBY
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#CorrectedVisualAcuity> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_DATA_ANNOTATION_H_RECORD_ID
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_DATA_ANNOTATION_PATIENT_ID
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+  rdfs:range CORE:Agent ;
+  rdfs:range CORE:Patient ;
+  rdfs:range CORE:Person ;
+  rdfs:range owl:Thing ;
+.
+schema:DVEIVR_DATA_SOURCE_CREATED
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_ENCOUNTER_DEMOGRAPHICS_EMAIL_ADDRESS
+  rdfs:domain CORE:DemographicRecord ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b27705 ;
+.
+schema:DVEIVR_ENCOUNTER_DEMOGRAPHICS_H_EMAIL_ADDRESS_VA
+  rdfs:domain CORE:DemographicRecord ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b27705 ;
+.
+schema:DVEIVR_ENCOUNTER_DIAGNOSIS_CREATEDBY
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Diagnosis ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_ENCOUNTER_DIAGNOSIS_STD_ICD9_CODE_ID
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Diagnosis ;
+  rdfs:domain owl:Thing ;
+  rdfs:range CORE:Code ;
+  rdfs:range CORE:Description ;
+  rdfs:range owl:Thing ;
+.
+schema:DVEIVR_ENCOUNTER_DIAGNOSIS_UPDATED
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Diagnosis ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_ENCOUNTER_H_NEUROLOGICAL_COMMENT_TEXT
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+.
+schema:DVEIVR_ENCOUNTER_PRIMARYCLINICSTOP
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+.
+schema:DVEIVR_ENCOUNTER_PROCEDURE_H_Audit_Date
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_ENCOUNTER_RELATED_FIELD_UPDATE_UPDATED
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_EXAM_DETAIL_Backup_IS_PINHOLE
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_EXAM_H_Audit_EXAM_H_ID
+  rdfs:domain CORE:ExamStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_EXAM_H_LEFT_FIXATION_LOSS_NUMBER
+  rdfs:domain CORE:ExamStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_EXAM_PATIENT_VISIT_COUNT
+  rdfs:domain CORE:ExamStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_HISTORY_H_Audit_SQLUser
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_HISTORY_H_STD_TIME_TYPE_ID
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_H_Audit_SQLUser
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_H_SOURCE_FILE
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_IMPLANT_POROUS_TYPE_ID
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+  rdfs:range CORE:Type ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+  rdfs:range owl:Thing ;
+.
+schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY_STD_ORBIT_RECONSTRUCTION_TYPE_ID
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+  rdfs:range CORE:Activity ;
+  rdfs:range CORE:MedicalHistory ;
+  rdfs:range CORE:MedicalProcedure ;
+  rdfs:range CORE:Record ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TREATMENT#OrbitReconstruction> ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:range schema:DVEIVR_HISTORY ;
+  rdfs:range schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:range owl:Thing ;
+  rdfs:range _:b83441 ;
+.
+schema:DVEIVR_INJURY_BLAST_TBI_IND
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INJURY_DETAIL_H_CREATED
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b66189 ;
+.
+schema:DVEIVR_INJURY_DETAIL_STD_INJURY_DETAIL_CATEGORY_ID
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b66189 ;
+  rdfs:range owl:Thing ;
+.
+schema:DVEIVR_INJURY_H_CREATEDBY
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INJURY_H_HEAD_TRAUMA_TBI_IND
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INJURY_H_STD_INJURY_TYPE_ID
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INJURY_H_WORK_SAFETY_PRESENT_IND
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INJURY_INJURY_CAUSE_COMMENT_TEXT
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Trauma> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INJURY_eCODES_H_UPDATED
+  rdfs:domain CORE:Code ;
+  rdfs:domain CORE:Description ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INPATIENT_DECEASED_REASON
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_INTRAOCULAR_PRESSURE_H_CREATEDBY
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_MEDICATIONS_H_CREATEDBY
+  rdfs:domain CORE:Method ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Medication> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain [] ;
+.
+schema:DVEIVR_OUTCOME_H_CREATEDBY
+  rdfs:domain <http://model.dveivr.dha.health.mil/OUTCOMES#Outcome> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_OUTCOME_PROSTHETIC_SOURCE_SYSTEM
+  rdfs:domain CORE:Equipment ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticDevice> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_OUTCOME_STD_OUTCOME_PROGNOSIS_TYPE_ID
+  rdfs:domain <http://model.dveivr.dha.health.mil/OUTCOMES#Outcome> ;
+  rdfs:domain owl:Thing ;
+  rdfs:range CORE:Activity ;
+  rdfs:range CORE:Prognosis ;
+  rdfs:range owl:Thing ;
+.
+schema:DVEIVR_PHYSICAL_LIMITATION_PHYSICAL_LIMITATION_ID
+  rdfs:domain <http://model.dveivr.dha.health.mil/OUTCOMES#PhysicalLimitationStatus> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_PHYSICAL_LIMITATION_UPDATED
+  rdfs:domain <http://model.dveivr.dha.health.mil/OUTCOMES#PhysicalLimitationStatus> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_REFRACTION_PRISM_POWER
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_STD_BLOOD_TEST_TYPE_DESCRIPTION_TEXT
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_BLOOD_TEST_TYPE_H_UPDATEDBY
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_COLOR_VISION_CCT_TEST_RESULTS_DESCRIPTION_TEXT
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#TestResult> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_COLOR_VISION_RESPONSE_TYPE_CREATEDBY
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ColorVisionTest> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_COLOR_VISION_TEST_RESULTS_H_Audit_SQLUser
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#TestResult> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_COLOR_VISION_TEST_TYPE_H_Audit_ApplicationUser
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_CONSULT_TYPE_CREATEDBY
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+  rdfs:domain _:b98888 ;
+.
+schema:DVEIVR_STD_CONSULT_TYPE_H_NAME
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+  rdfs:domain _:b98888 ;
+.
+schema:DVEIVR_STD_DEPTH_PERCEPTION_TESTED_USING_CODE
+  rdfs:domain CORE:ExamType ;
+  rdfs:domain CORE:Type ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_DEPTH_PERCEPTION_TESTED_USING_H_SORT_ORDER
+  rdfs:domain CORE:ExamType ;
+  rdfs:domain CORE:Type ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE_DOD_FLAG
+  rdfs:domain CORE:ExamType ;
+  rdfs:domain CORE:Type ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE_H_INACTIVE_DATE
+  rdfs:domain CORE:ExamType ;
+  rdfs:domain CORE:Type ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE_SORT_ORDER
+  rdfs:domain CORE:ExamType ;
+  rdfs:domain CORE:Type ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_ENCOUNTER_TYPE_H_Audit_SQLUser
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+.
+schema:DVEIVR_STD_FAMILY_RESOURCE_CENTER_TYPE_H_ID
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_FAMILY_RESOURCE_CENTER_TYPE_SORT_ORDER
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_HISTORY_DETAIL_TYPE_H_Audit_ApplicationUser
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_HISTORY_DETAIL_TYPE_H_Audit_STD_HISTORY_DETAIL_TYPE_ID
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_HISTORY_DETAIL_TYPE_INACTIVE_FLAG
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_HISTORY_DETAIL_TYPE_UPDATED
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:RecordDetail ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_ICD9_CODE_H_INACTIVE_FLAG
+  rdfs:domain CORE:Code ;
+  rdfs:domain CORE:Description ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_IMPLANT_NONPOROUS_TYPE_NAME
+  rdfs:domain CORE:Type ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_IMPLANT_PROSTHESIS_TYPE_H_Audit_Type
+  rdfs:domain CORE:Type ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_IMPLANT_TYPE_H_SORT_ORDER
+  rdfs:domain CORE:Type ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_IMPLANT_TYPE_ID
+  rdfs:domain CORE:Type ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_INJURY_DETAIL_ISSUE_DESCRIPTION_TEXT
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_INJURY_TYPE_DETAIL_FLAG
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#Injury> ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_LAB_TYPE_NAME
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_MED_DOSAGE_UNIT_H_ID
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+.
+schema:DVEIVR_STD_MED_FREQUENCY_ADMIN_H_SORT_ORDER
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_MED_FREQUENCY_ADMIN_UPDATEDBY
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_MED_RXNORM_TTY_Name
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_NUCLEAR_MEDICINE_TYPE_ID
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_OPHTHALMOLOGY_TYPE_CREATED
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+  rdfs:domain _:b98888 ;
+.
+schema:DVEIVR_STD_OPTOMETRY_TYPE_H_INACTIVE_DATE
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+  rdfs:domain _:b98888 ;
+.
+schema:DVEIVR_STD_ORBIT_RECONSTRUCTION_TYPE_CREATED
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#OrbitReconstruction> ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE_UPDATED
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Prognosis ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_PRISM_DIRECTION_H_Audit_Date
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_PRIVATE_ORGANIZATION_TYPE_H_UPDATED
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_PRIVATE_ORGANIZATION_TYPE_ID
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_PROSTHESIS_TYPE_DESCRIPTION_TEXT
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProsthesisProcedure> ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_STD_PROSTHESIS_TYPE_H_UPDATEDBY
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProsthesisProcedure> ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_STD_PROSTHESIS_TYPE_SORT_ORDER
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProsthesisProcedure> ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_STD_PROSTHESIS_TYPE_UPDATEDBY
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalHistory ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProsthesisProcedure> ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#ProstheticProcedure> ;
+  rdfs:domain schema:DVEIVR_HISTORY ;
+  rdfs:domain schema:DVEIVR_IMPLANT_PROSTHESIS_HISTORY ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b83441 ;
+.
+schema:DVEIVR_STD_REHABILITATION_SPECIALIST_TYPE_H_Audit_Type
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+  rdfs:domain _:b98888 ;
+.
+schema:DVEIVR_STD_STEREOSCOPIC_DEPTH_PERCEPTION_TEST_TYPE_UPDATEDBY
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_SYMPTOM_H_Audit_Date
+  rdfs:domain CORE:Symptom ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TISSUE_TYPE_NAME
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TRANSFER_RECOMMENDATION_TRANSPORT_METHOD_TYPE_DOD_FLAG
+  rdfs:domain CORE:Method ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TRANSFER_RECOMMENDATION_TRANSPORT_METHOD_TYPE_NAME
+  rdfs:domain CORE:Method ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TREATMENT_ELECTROPHYSIOLOGY_TYPE_DOD_FLAG
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TREATMENT_ELECTROPHYSIOLOGY_TYPE_UPDATED
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TREATMENT_IMAGING_TYPE_H_Audit_STD_TREATMENT_IMAGING_TYPE_H_ID
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_TREATMENT_TEST_TYPE_H_NAME
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Test ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_VISION_STATUS_CREATED
+  rdfs:domain CORE:CurrentVisualStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_STD_VISION_STATUS_NAME
+  rdfs:domain CORE:CurrentVisualStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_SYMPTOM_H_Audit_ApplicationUser
+  rdfs:domain CORE:Symptom ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_TREATMENT_CONSULT_STD_OPHTHALMOLOGY_TYPE_ID
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:Encounter ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:domain schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21602 ;
+  rdfs:domain _:b37908 ;
+  rdfs:domain _:b98888 ;
+  rdfs:range CORE:Activity ;
+  rdfs:range CORE:Encounter ;
+  rdfs:range <http://model.dveivr.dha.health.mil/TREATMENT#Consult> ;
+  rdfs:range schema:DVEIVR_TREATMENT_CONSULT ;
+  rdfs:range schema:DVEIVR_TREATMENT_CONSULT_H ;
+  rdfs:range owl:Thing ;
+  rdfs:range _:b21602 ;
+  rdfs:range _:b37908 ;
+  rdfs:range _:b98888 ;
+.
+schema:DVEIVR_TREATMENT_LAB_TEST_H_Audit_ApplicationUser
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_TREATMENT_LAB_TEST_H_Audit_Type
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_TREATMENT_PROCEDURE_CREATED
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_TREATMENT_PROCEDURE_H_Audit_ApplicationUser
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_TREATMENT_PROCEDURE_RIGHT_EYE
+  rdfs:domain CORE:Activity ;
+  rdfs:domain CORE:MedicalProcedure ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_TREATMENT_TEST_H_CREATED
+  rdfs:domain <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b6441 ;
+.
+schema:DVEIVR_VISUAL_ACUITY_DECIMAL_ACUITY
+  rdfs:domain CORE:Findings ;
+  rdfs:domain CORE:VisualAcuity ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_VISUAL_ACUITY_H_METRIC_ACUITY_DENOMINATOR
+  rdfs:domain CORE:Findings ;
+  rdfs:domain CORE:VisualAcuity ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_VISUAL_ACUITY_H_STD_PRINT_SAMPLE_ID
+  rdfs:domain CORE:Findings ;
+  rdfs:domain CORE:VisualAcuity ;
+  rdfs:domain owl:Thing ;
+.
+schema:DVEIVR_VISUAL_ACUITY_H_STD_US_ACUITY_DENOMINATOR
+  rdfs:domain CORE:Findings ;
+  rdfs:domain CORE:VisualAcuity ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_OBJECT_FIELD_UPDATES_H_ID
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_OBJECT_FIELD_UPDATES_H_OLD_VALUE
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_OBJECT_FIELD_UPDATES_H_STD_GUI_CONTROLS_ID
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_QUALITY_REVIEW_QUEUE_H_Audit_Date
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_QUALITY_REVIEW_TABS_REVIEWED_CREATEDBY
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_QUALITY_REVIEW_TABS_REVIEWED_H_COMMENT
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_USER_QUALITY_REVIEW_PERCENTAGE_H_Audit_SQLUser
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:QR_USER_QUALITY_REVIEW_PERCENTAGE_H_CREATED
+  rdfs:domain schema:DVEIVR_QR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:datamap_DATA_ELEMENT_MAPPING_GUI_CATEGORY
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:datamap_STD_DATA_ELEMENT_SOURCE_MAP_SOURCE_CRITERIA
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:datamap_STD_REPORTING_OBJECT_FIELD_FIELD_TYPE
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_ADMIN_PERFORMANCE_TEST_ID
+  rdfs:domain schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_DEERS_PATIENT_ADDRESS_2
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_DEERS_PATIENT_CATEGORY
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_ADDRESS_H_CREATED
+  rdfs:domain CORE:Address ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_ADDRESS_H_ENCOUNTER_MESSAGE_ID
+  rdfs:domain CORE:Address ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_AKA_H_Audit_Type
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_AKA_H_SOURCE_ID
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_AKA_H_UPDATED
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_CONTACT_ENCOUNTER_MESSAGE_ID
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b31393 ;
+.
+schema:dbo_PATIENT_DEPLOYMENTS_H_ENCOUNTER_ID
+  rdfs:domain <http://model.dveivr.dha.health.mil/DEMOGRAPHICS#Deployment> ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_H_OCCUPATION
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+  rdfs:range CORE:Description ;
+  rdfs:range CORE:Occupation ;
+  rdfs:range owl:Thing ;
+.
+schema:dbo_PATIENT_H_STD_SERVICEBRANCH_ID
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_SOURCE_SYSTEMS_ID_H_Audit_Type
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PATIENT_ZIP_PLUS_4
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Patient ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PROVIDER_ADDRESS_ADDRESS_1
+  rdfs:domain CORE:Address ;
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain CORE:Place ;
+  rdfs:domain CORE:Provider ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+  rdfs:range CORE:Address ;
+  rdfs:range CORE:Record ;
+  rdfs:range owl:Thing ;
+  rdfs:subPropertyOf CORE:placeAddress ;
+.
+schema:dbo_PROVIDER_ADDRESS_H_Audit_SQLUser
+  rdfs:domain CORE:Address ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PROVIDER_ADDRESS_UPDATEDBY
+  rdfs:domain CORE:Address ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PROVIDER_H_Audit_Type
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain CORE:Provider ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PROVIDER_H_CREATEDBY
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain CORE:Provider ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PROVIDER_H_PROVIDER_ID
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain CORE:Provider ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_PROVIDER_PHONE_CREATEDBY
+  rdfs:domain CORE:PhoneNumber ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_REFERRAL_H_ADDRESS_LINE1
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_REFERRAL_H_ORDERBY_PROVIDER_ID
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_REFERRAL_H_ZIP_PLUS_4
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_REFERRAL_STD_REFERRALSTS_ID
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+  rdfs:range schema:DVEIVR_APP_BEHAVIOR ;
+  rdfs:range schema:Z_DVEIVR ;
+  rdfs:range owl:Thing ;
+.
+schema:dbo_RULE_CRITERIA_H_BUSINESS_RULE_ID
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_COUNTRY_H_NAME
+  rdfs:domain owl:Thing ;
+  rdfs:domain <http://www.w3.org/ns/prov#Location> ;
+.
+schema:dbo_STD_COUNTY_CREATEDBY
+  rdfs:domain owl:Thing ;
+  rdfs:domain <http://www.w3.org/ns/prov#Location> ;
+.
+schema:dbo_STD_DEPLOYMENT_LOCATION_H_INACTIVE_FLAG
+  rdfs:domain CORE:Place ;
+  rdfs:domain <http://model.dveivr.dha.health.mil/TRAUMA#LocationOfEvent> ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_EXPORT_QUEUE_SUBMIT_TYPE_H_DESCRIPTION_TEXT
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_LIVING_ARRANGEMENTS_TYPE_DESCRIPTION_TEXT
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:LivingArrangement ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_MARITALSTATUS_TEMP_CREATED
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:MaritalStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain schema:dbo_STD_MARITALSTATUS ;
+  rdfs:domain schema:dbo_STD_MARITALSTATUS_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b77778 ;
+.
+schema:dbo_STD_MARITALSTATUS_TEMP_INACTIVE_FLAG
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:MaritalStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain schema:dbo_STD_MARITALSTATUS ;
+  rdfs:domain schema:dbo_STD_MARITALSTATUS_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b77778 ;
+.
+schema:dbo_STD_MARITALSTATUS_TEMP_UPDATEDBY
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:MaritalStatus ;
+  rdfs:domain CORE:Status ;
+  rdfs:domain schema:dbo_STD_MARITALSTATUS ;
+  rdfs:domain schema:dbo_STD_MARITALSTATUS_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b77778 ;
+.
+schema:dbo_STD_MILITARY_STATUS_TYPE_H_Audit_ApplicationUser
+  rdfs:domain CORE:Status ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_PHONE_TYPE_H_ID
+  rdfs:domain CORE:PhoneNumber ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_PROVIDER_ADDRESS_TYPE_H_Audit_Type
+  rdfs:domain CORE:Address ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_PROVIDER_AFFILIATION_H_Audit_Type
+  rdfs:domain CORE:Affiliation ;
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_PROVIDER_AFFILIATION_H_CREATEDBY
+  rdfs:domain CORE:Affiliation ;
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_PROVIDER_AFFILIATION_H_INACTIVE_DATE
+  rdfs:domain CORE:Affiliation ;
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_PROVIDER_GROUP_CREATEDBY
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_RACE_INACTIVE_FLAG
+  rdfs:domain CORE:Description ;
+  rdfs:domain CORE:EthnicGroup ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_RELATIONSHIP_TYPE_NAME
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:FamilyRelationshipType ;
+  rdfs:domain CORE:Person ;
+  rdfs:domain CORE:PointOfContact ;
+  rdfs:domain CORE:Record ;
+  rdfs:domain CORE:Type ;
+  rdfs:domain schema:dbo_PATIENT_CONTACT ;
+  rdfs:domain schema:dbo_STD_RELATIONSHIP_TYPE_H ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b31393 ;
+  rdfs:domain _:b69869 ;
+  rdfs:domain [] ;
+  rdfs:range CORE:FamilyRelationshipType ;
+  rdfs:range CORE:Type ;
+  rdfs:range schema:dbo_STD_RELATIONSHIP_TYPE ;
+  rdfs:range schema:dbo_STD_RELATIONSHIP_TYPE_H ;
+  rdfs:range owl:Thing ;
+  rdfs:range _:b69869 ;
+.
+schema:dbo_STD_RESIDENCE_TYPE_H_DOD_FLAG
+  rdfs:domain CORE:Place ;
+  rdfs:domain CORE:PlaceOfResidence ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_RESIDENCE_TYPE_UPDATED
+  rdfs:domain CORE:Place ;
+  rdfs:domain CORE:PlaceOfResidence ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_ROLE_H_Audit_Type
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_SERVICE_BRANCH_H_CREATEDBY
+  rdfs:domain CORE:Agent ;
+  rdfs:domain CORE:MilitaryServiceBranch ;
+  rdfs:domain CORE:Organization ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_SERVICE_STATUS_H_CODE
+  rdfs:domain CORE:Status ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_SERVICE_STATUS_H_CREATEDBY
+  rdfs:domain CORE:Status ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_STD_STATE_CREATEDBY
+  rdfs:domain owl:Thing ;
+  rdfs:domain <http://www.w3.org/ns/prov#Location> ;
+.
+schema:dbo_STD_TIME_PERIOD_H_DESCRIPTION_TEXT
+  rdfs:domain <http://qudt.org/schema/qudt#PhysicalUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#ScienceAndEngineeringUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#SpaceAndTimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#TimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21447 ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b21571 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+  rdfs:domain _:b37970 ;
+.
+schema:dbo_STD_TIME_TYPE_H_CREATEDBY
+  rdfs:domain <http://qudt.org/schema/qudt#PhysicalUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#ScienceAndEngineeringUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#SpaceAndTimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#TimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21447 ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b21571 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+  rdfs:domain _:b37970 ;
+.
+schema:dbo_STD_TIME_TYPE_NAME
+  rdfs:domain <http://qudt.org/schema/qudt#PhysicalUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#ScienceAndEngineeringUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#SpaceAndTimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#TimeUnit> ;
+  rdfs:domain <http://qudt.org/schema/qudt#Unit> ;
+  rdfs:domain owl:Thing ;
+  rdfs:domain _:b21447 ;
+  rdfs:domain _:b21478 ;
+  rdfs:domain _:b21497 ;
+  rdfs:domain _:b21509 ;
+  rdfs:domain _:b21540 ;
+  rdfs:domain _:b21571 ;
+  rdfs:domain _:b37815 ;
+  rdfs:domain _:b37846 ;
+  rdfs:domain _:b37877 ;
+  rdfs:domain _:b37939 ;
+  rdfs:domain _:b37970 ;
+.
+schema:dbo_STD_USER_DESIGNATION_NAME
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USERS_H_Audit_USERS_H_ID
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USERS_H_INACTIVE_FLAG
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USERS_H_NUMBER_OF_LOGIN_ATTEMPTS
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USERS_H_USER_ID
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USER_LOGIN_DETAIL_H_LAST_LOGIN_SUCCESS_DATE
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USER_LOGIN_DETAIL_H_USER_ID
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USER_LOGIN_DETAIL_UPDATED
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+schema:dbo_USER_REGISTRIES_CREATEDBY
+  rdfs:domain schema:DVEIVR_USER ;
+  rdfs:domain schema:Z_DVEIVR ;
+  rdfs:domain owl:Thing ;
+.
+<http://qudt.org/schema/qudt#AngleUnit>
+  rdf:type skos:Concept ;
+  rdf:type _:b22836 ;
+  skos:closeMatch <http://dbpedia.org/resource/Category:Units_of_angle> ;
+  skos:closeMatch <http://qudt.org/schema/qudt#AngleUnit> ;
+  skos:exactMatch <http://qudt.org/schema/qudt#AngleUnit> ;
+  skos:mappingRelation <http://dbpedia.org/resource/Category:Units_of_angle> ;
+  skos:mappingRelation <http://qudt.org/schema/qudt#AngleUnit> ;
+  skos:semanticRelation <http://dbpedia.org/resource/Category:Units_of_angle> ;
+  skos:semanticRelation <http://qudt.org/schema/qudt#AngleUnit> ;
+.
+<http://qudt.org/schema/qudt#LuminousIntensityUnit>
+  rdf:type skos:Concept ;
+  rdf:type _:b22836 ;
+  skos:closeMatch <http://dbpedia.org/resource/Category:Units_of_luminous_intensity> ;
+  skos:closeMatch <http://qudt.org/schema/qudt#LuminousIntensityUnit> ;
+  skos:exactMatch <http://qudt.org/schema/qudt#LuminousIntensityUnit> ;
+  skos:mappingRelation <http://dbpedia.org/resource/Category:Units_of_luminous_intensity> ;
+  skos:mappingRelation <http://qudt.org/schema/qudt#LuminousIntensityUnit> ;
+  skos:semanticRelation <http://dbpedia.org/resource/Category:Units_of_luminous_intensity> ;
+  skos:semanticRelation <http://qudt.org/schema/qudt#LuminousIntensityUnit> ;
+.
+<http://qudt.org/schema/qudt#MagnetomotiveForceUnit>
+  vaem:description """Magnetomotive force is any physical cause that produces magnetic flux. In other words, it is a field of magnetism (measured in tesla) that has area (measured in square meters), so that (Tesla)(Area)= Flux. It is analogous to electromotive force or voltage in electricity. MMF usually describes electric wire coils in a way so scientists can measure or predict the actual force a wire coil can generate. [Wikipedia]
+
+This class contains the following instance(s): \"Ampere turn\", \"Gilbert\", \"Oersted centimeter\", \"Unit pole\"."""^^xsd:string ;
+.
+skos:hasTopConcept
+  rdfs:domain owl:Thing ;
+  rdfs:range owl:Thing ;
+  rdfs:range _:b22836 ;
+  skos:note "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies."@en ;
+.
+_:b6441
+  owl:equivalentClass <http://model.dveivr.dha.health.mil/EXAM#ExamStatus> ;
+.
+_:b21447
+  <http://www.topbraid.org/c14n#true> "4"^^xsd:long ;
+.
+_:b21478
+  <http://www.topbraid.org/c14n#true> "2"^^xsd:long ;
+.
+_:b21497
+  <http://www.topbraid.org/c14n#true> "0"^^xsd:long ;
+.
+_:b21509
+  <http://www.topbraid.org/c14n#true> "8"^^xsd:long ;
+.
+_:b21540
+  <http://www.topbraid.org/c14n#true> "6"^^xsd:long ;
+.
+_:b21571
+  <http://www.topbraid.org/c14n#true> "12"^^xsd:long ;
+.
+_:b21602
+  <http://www.topbraid.org/c14n#true> "10"^^xsd:long ;
+.
+_:b37815
+  <http://www.topbraid.org/c14n#true> "3"^^xsd:long ;
+.
+_:b37846
+  <http://www.topbraid.org/c14n#true> "1"^^xsd:long ;
+.
+_:b37877
+  <http://www.topbraid.org/c14n#true> "7"^^xsd:long ;
+.
+_:b37908
+  <http://www.topbraid.org/c14n#true> "5"^^xsd:long ;
+.
+_:b37939
+  <http://www.topbraid.org/c14n#true> "11"^^xsd:long ;
+.
+_:b37970
+  <http://www.topbraid.org/c14n#true> "9"^^xsd:long ;
+.
+_:b69869
+  owl:equivalentClass CORE:FamilyRelationshipType ;
+  owl:equivalentClass schema:dbo_STD_RELATIONSHIP_TYPE ;
+  owl:equivalentClass schema:dbo_STD_RELATIONSHIP_TYPE_H ;
+.

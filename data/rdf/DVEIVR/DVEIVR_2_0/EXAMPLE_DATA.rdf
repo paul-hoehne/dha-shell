@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:TRMT="http://model.dveivr.dha.health.mil/TREATMENT#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:spin="http://spinrdf.org/spin#"
+    xmlns:EXAMPLE_DATA="http://model.dveivr.dha.health.mil/EXAMPLE_DATA#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:CORE="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:TRAUMA="http://model.dveivr.dha.health.mil/TRAUMA#"
+    xmlns:ANT="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:DVEIVR="http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429#"
+  xml:base="http://model.dveivr.dha.health.mil/EXAMPLE_DATA">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/dataview/DVEIVR_DEV"/>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Created with TopBraid Composer</owl:versionInfo>
+    <spin:imports rdf:resource="http://topbraid.org/spin/owlrl-all"/>
+  </owl:Ontology>
+  <CORE:Provider rdf:ID="Provider_4">
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >McDoctor</CORE:personLastName>
+    <CORE:producesRecord>
+      <CORE:InpatientRecord rdf:ID="InpatientRecord_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Inpatient record 1</skos:prefLabel>
+      </CORE:InpatientRecord>
+    </CORE:producesRecord>
+    <CORE:providerAffiliation>
+      <DVEIVR:dbo_STD_PROVIDER_AFFILIATION rdf:ID="dbo_STD_PROVIDER_AFFILIATION_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >dbo STD PROVIDER AFFILIATION 1</skos:prefLabel>
+      </DVEIVR:dbo_STD_PROVIDER_AFFILIATION>
+    </CORE:providerAffiliation>
+    <CORE:integrationNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1234</CORE:integrationNumber>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider 4</skos:prefLabel>
+    <CORE:hasProviderType>
+      <CORE:ProviderType rdf:ID="ProviderType_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Provider type 1</skos:prefLabel>
+      </CORE:ProviderType>
+    </CORE:hasProviderType>
+    <CORE:conductsEyeExamination>
+      <CORE:IntraocularPressureExam rdf:ID="IntraocularPressureExam_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Intraocular pressure exam 1</skos:prefLabel>
+      </CORE:IntraocularPressureExam>
+    </CORE:conductsEyeExamination>
+    <CORE:homePhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1233454456</CORE:homePhoneNumber>
+    <CORE:personMilitaryRank rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Captain</CORE:personMilitaryRank>
+    <CORE:providerInEncounter>
+      <CORE:Encounter rdf:ID="Encounter_1">
+        <CORE:hasEncounterType rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Other"/>
+        <CORE:hasDuration>
+          <CORE:Duration rdf:ID="Duration_3">
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Duration 3</skos:prefLabel>
+          </CORE:Duration>
+        </CORE:hasDuration>
+        <CORE:encounterLocation>
+          <CORE:Facility rdf:ID="Facility_2">
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Facility 2</skos:prefLabel>
+          </CORE:Facility>
+        </CORE:encounterLocation>
+        <CORE:encounterDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-05-06</CORE:encounterDate>
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Encounter 1</skos:prefLabel>
+      </CORE:Encounter>
+    </CORE:providerInEncounter>
+    <CORE:personMilitaryBranch rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#UnitedStatesNavy"/>
+    <CORE:phoneNumberType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >office</CORE:phoneNumberType>
+    <CORE:providerAddress>
+      <DVEIVR:dbo_PROVIDER_ADDRESS rdf:ID="dbo_PROVIDER_ADDRESS_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >dbo PROVIDER ADDRESS 1</skos:prefLabel>
+      </DVEIVR:dbo_PROVIDER_ADDRESS>
+    </CORE:providerAddress>
+    <CORE:encounterProviderIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1245</CORE:encounterProviderIdentifier>
+    <CORE:evaluatesOutcome>
+      <CORE:PatientInstructions rdf:ID="PatientInstructions_3">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Patient instructions 3</skos:prefLabel>
+      </CORE:PatientInstructions>
+    </CORE:evaluatesOutcome>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jane</CORE:personFirstName>
+    <CORE:providerInEncounter>
+      <CORE:Encounter rdf:ID="Encounter_2">
+        <CORE:patientInEncounter>
+          <CORE:Patient rdf:ID="Patient_1">
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Patient 1</skos:prefLabel>
+          </CORE:Patient>
+        </CORE:patientInEncounter>
+        <CORE:providerInEncounter>
+          <CORE:Provider rdf:ID="Provider_2">
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Provider 2</skos:prefLabel>
+            <CORE:conductsEyeExamination>
+              <CORE:Imaging-AncillaryTesting rdf:ID="Imaging-AncillaryTesting_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Imaging-Ancillary testing 1</skos:prefLabel>
+              </CORE:Imaging-AncillaryTesting>
+            </CORE:conductsEyeExamination>
+            <CORE:assignedToUnit>
+              <CORE:Unit rdf:ID="Unit_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Unit 1</skos:prefLabel>
+              </CORE:Unit>
+            </CORE:assignedToUnit>
+            <CORE:evaluatesOutcome>
+              <CORE:PatientInstructions rdf:ID="PatientInstructions_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Patient instructions 1</skos:prefLabel>
+              </CORE:PatientInstructions>
+            </CORE:evaluatesOutcome>
+          </CORE:Provider>
+        </CORE:providerInEncounter>
+        <CORE:patientInEncounter>
+          <CORE:Patient rdf:ID="PatientSneezy">
+            <CORE:receivesOutcome>
+              <CORE:CurrentDisabilityRating rdf:ID="CurrentDisabilityRating_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Current disability rating 1</skos:prefLabel>
+              </CORE:CurrentDisabilityRating>
+            </CORE:receivesOutcome>
+            <CORE:hasVisualAcuity rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#BestCorrected"/>
+            <CORE:patientAddress>
+              <DVEIVR:dbo_PATIENT_ADDRESS rdf:ID="dbo_PATIENT_ADDRESS_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >dbo PATIENT ADDRESS 1</skos:prefLabel>
+              </DVEIVR:dbo_PATIENT_ADDRESS>
+            </CORE:patientAddress>
+            <TRAUMA:patientReportsSymptom rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#BalanceProblems"/>
+            <CORE:hasGender>
+              <CORE:PersonGender rdf:ID="Female">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Female</skos:prefLabel>
+              </CORE:PersonGender>
+            </CORE:hasGender>
+            <CORE:powerOfAttorney>
+              <CORE:PowerOfAttorney rdf:ID="PowerOfAttorney_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Power of attorney 1</skos:prefLabel>
+              </CORE:PowerOfAttorney>
+            </CORE:powerOfAttorney>
+            <CORE:patientInEncounter>
+              <CORE:OutpatientEncounter rdf:ID="OutpatientEncounter_1">
+                <CORE:hasDuration>
+                  <CORE:Duration rdf:ID="ten_days">
+                    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >ten days</skos:prefLabel>
+                  </CORE:Duration>
+                </CORE:hasDuration>
+                <CORE:encounterLocation>
+                  <DVEIVR:DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE rdf:ID="DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE_1">
+                    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DVEIVR STD TRANSFER RECOMMENDATION FACILITY TYPE 1</skos:prefLabel>
+                  </DVEIVR:DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE>
+                </CORE:encounterLocation>
+                <CORE:encounterDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                >2015-05-05</CORE:encounterDate>
+                <CORE:activityStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2015-05-07T17:14:05.142</CORE:activityStartDate>
+                <CORE:activityEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2015-05-05T17:08:12.801</CORE:activityEndDate>
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Outpatient encounter 1</skos:prefLabel>
+                <CORE:hasEncounterType rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Appointment"/>
+              </CORE:OutpatientEncounter>
+            </CORE:patientInEncounter>
+            <CORE:patientAddress>
+              <CORE:HospitalAddress rdf:ID="HospitalAddress_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Hospital address 1</skos:prefLabel>
+              </CORE:HospitalAddress>
+            </CORE:patientAddress>
+            <CORE:cellularPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >2345678901</CORE:cellularPhoneNumber>
+            <TRAUMA:patientReportsSymptom rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#BlurredVision"/>
+            <ANT:hasVisualField>
+              <ANT:VisualField rdf:ID="VisualField_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Visual field 1</skos:prefLabel>
+              </ANT:VisualField>
+            </ANT:hasVisualField>
+            <CORE:hasCurrentVisualStatus rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#LegalBlindness"/>
+            <CORE:patientTransfer>
+              <DVEIVR:DVEIVR_TREATMENT_TRANSFER rdf:ID="DVEIVR_TREATMENT_TRANSFER_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >DVEIVR TREATMENT TRANSFER 1</skos:prefLabel>
+              </DVEIVR:DVEIVR_TREATMENT_TRANSFER>
+            </CORE:patientTransfer>
+            <CORE:issuedPPE rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EyewearSWDG"/>
+            <CORE:issuedPPE rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Eyewear_Contacts-HardLens"/>
+            <TRMT:receivesPrescription>
+              <TRMT:Prescription rdf:ID="Prescription_1">
+                <TRMT:prescribesMedication>
+                  <DVEIVR:DVEIVR_MEDICATIONS rdf:ID="DVEIVR_MEDICATIONS_1">
+                    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DVEIVR MEDICATIONS 1</skos:prefLabel>
+                  </DVEIVR:DVEIVR_MEDICATIONS>
+                </TRMT:prescribesMedication>
+                <TRMT:medicationInstructions rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >written instructions that accompany medication</TRMT:medicationInstructions>
+                <TRMT:medicationEyeLaterality rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Left"/>
+                <TRMT:frequencyOfAdministration rdf:datatype=
+                "http://www.w3.org/2001/XMLSchema#string">once in a blue moon</TRMT:frequencyOfAdministration>
+                <TRMT:PrescriptionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                >2015-04-28</TRMT:PrescriptionDate>
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Prescription 1</skos:prefLabel>
+              </TRMT:Prescription>
+            </TRMT:receivesPrescription>
+            <CORE:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+            >2000-05-07</CORE:dateOfBirth>
+            <CORE:livingArrangement>
+              <DVEIVR:dbo_STD_LIVING_ARRANGEMENTS_TYPE rdf:ID="dbo_STD_LIVING_ARRANGEMENTS_TYPE_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >dbo STD LIVING ARRANGEMENTS TYPE 1</skos:prefLabel>
+              </DVEIVR:dbo_STD_LIVING_ARRANGEMENTS_TYPE>
+            </CORE:livingArrangement>
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Patient sneezy</skos:prefLabel>
+            <CORE:hasPPECompliance rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PPENotWorn"/>
+            <TRAUMA:patientReportsSymptom rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Dazzling"/>
+            <CORE:livingArrangement rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#WithFriend"/>
+            <CORE:assignedToUnit rdf:resource="#Unit_1"/>
+            <CORE:patientMedicalHistory>
+              <CORE:CurrentHistory rdf:ID="CurrentHistory_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Current history 1</skos:prefLabel>
+              </CORE:CurrentHistory>
+            </CORE:patientMedicalHistory>
+            <CORE:patientInEncounter>
+              <DVEIVR:DVEIVR_ENCOUNTER rdf:ID="DVEIVR_ENCOUNTER_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >DVEIVR ENCOUNTER 1</skos:prefLabel>
+                <CORE:activityEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2015-04-22T15:20:15.281-11:00</CORE:activityEndDate>
+                <CORE:hasEncounterType>
+                  <CORE:EncounterType rdf:ID="EncounterType_1">
+                    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Encounter type 1</skos:prefLabel>
+                  </CORE:EncounterType>
+                </CORE:hasEncounterType>
+              </DVEIVR:DVEIVR_ENCOUNTER>
+            </CORE:patientInEncounter>
+            <TRAUMA:involvedInTraumaticEvent rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#FriendlyFire"/>
+          </CORE:Patient>
+        </CORE:patientInEncounter>
+        <CORE:encounterLocation rdf:resource="#Facility_2"/>
+        <CORE:hasDuration rdf:resource="#ten_days"/>
+        <CORE:encounterDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2015-05-06</CORE:encounterDate>
+        <CORE:hasEncounterType rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Appointment"/>
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Encounter 2</skos:prefLabel>
+      </CORE:Encounter>
+    </CORE:providerInEncounter>
+    <CORE:conductsEyeExamination>
+      <CORE:PupilExam rdf:ID="PupilExam_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Pupil exam 1</skos:prefLabel>
+      </CORE:PupilExam>
+    </CORE:conductsEyeExamination>
+    <CORE:officePhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >4565687679</CORE:officePhoneNumber>
+  </CORE:Provider>
+  <CORE:Indication rdf:ID="Indication_1">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Indication 1</skos:prefLabel>
+  </CORE:Indication>
+  <CORE:Person rdf:ID="Person_2">
+    <CORE:personMilitaryBranch rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#UnitedStatesNavy"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person 2</skos:prefLabel>
+    <CORE:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >1913-04-28T11:41:14.266</CORE:dateOfDeath>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ada</CORE:personFirstName>
+    <CORE:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1912-04-28</CORE:dateOfBirth>
+    <CORE:hasGender rdf:resource="#Female"/>
+    <CORE:maritalStatus rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Married"/>
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lovelace</CORE:personLastName>
+    <CORE:emailAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >adalovelace@mail.mail</CORE:emailAddress>
+    <CORE:personMilitaryRank rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Captain</CORE:personMilitaryRank>
+  </CORE:Person>
+  <CORE:Provider rdf:ID="ProviderExample1">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider example 1</skos:prefLabel>
+    <CORE:evaluatesOutcome>
+      <CORE:ReturnToDuty rdf:ID="ReturnToDuty_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Return to duty 1</skos:prefLabel>
+      </CORE:ReturnToDuty>
+    </CORE:evaluatesOutcome>
+  </CORE:Provider>
+  <CORE:InpatientEncounter rdf:ID="InpatientEncounter_1">
+    <CORE:activityEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2015-05-08T10:46:47.822</CORE:activityEndDate>
+    <CORE:encounterLocation>
+      <CORE:Facility rdf:ID="Facility_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Facility 1</skos:prefLabel>
+      </CORE:Facility>
+    </CORE:encounterLocation>
+    <CORE:activityStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2015-05-14T10:46:58.995</CORE:activityStartDate>
+    <CORE:inpatientTotalDays rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >3</CORE:inpatientTotalDays>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Inpatient encounter 1</skos:prefLabel>
+    <CORE:encounterDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-05-15</CORE:encounterDate>
+    <CORE:hasDuration>
+      <CORE:Duration rdf:ID="Duration_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Duration 1</skos:prefLabel>
+      </CORE:Duration>
+    </CORE:hasDuration>
+    <CORE:hasEncounterType rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Teleconsultation"/>
+  </CORE:InpatientEncounter>
+  <CORE:Person rdf:ID="Person_6">
+    <CORE:personMilitaryRank rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Captain</CORE:personMilitaryRank>
+    <CORE:personHasRole>
+      <CORE:PointOfContact rdf:ID="PointOfContact_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Point of contact 1</skos:prefLabel>
+      </CORE:PointOfContact>
+    </CORE:personHasRole>
+    <CORE:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1912-06-23</CORE:dateOfBirth>
+    <CORE:emailAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >turing@mail.mail</CORE:emailAddress>
+    <CORE:personHasRole>
+      <CORE:Patient rdf:ID="Patient_2">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Patient 2</skos:prefLabel>
+      </CORE:Patient>
+    </CORE:personHasRole>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person 6</skos:prefLabel>
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Turing</CORE:personLastName>
+    <CORE:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >1954-04-28T11:10:59.939</CORE:dateOfDeath>
+    <CORE:personMilitaryBranch rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#UnitedStatesAirForce"/>
+    <CORE:maritalStatus rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Single"/>
+    <CORE:hasGender>
+      <CORE:PersonGender rdf:ID="Male">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Male</skos:prefLabel>
+      </CORE:PersonGender>
+    </CORE:hasGender>
+    <CORE:participantInEncounter rdf:resource="#Encounter_2"/>
+    <CORE:personRace rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >caucasian</CORE:personRace>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alan</CORE:personFirstName>
+  </CORE:Person>
+  <ANT:BothEyeSetting rdf:ID="BothEyeSetting_1">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Both eye setting 1</skos:prefLabel>
+  </ANT:BothEyeSetting>
+  <CORE:Person rdf:ID="Person_1">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person 1</skos:prefLabel>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Frank</CORE:personFirstName>
+    <CORE:personMiddleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Neil</CORE:personMiddleName>
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stein</CORE:personLastName>
+    <CORE:producesRecord>
+      <CORE:PastHistory rdf:ID="PastHistory_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Past history 1</skos:prefLabel>
+      </CORE:PastHistory>
+    </CORE:producesRecord>
+    <CORE:personHasRole>
+      <CORE:Provider rdf:ID="Provider_1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Provider 1</skos:prefLabel>
+        <CORE:providerAffiliation rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#DoDAffiliation"/>
+        <CORE:evaluatesOutcome>
+          <CORE:PatientInstructions rdf:ID="PatientInstructions_2">
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Patient instructions 2</skos:prefLabel>
+          </CORE:PatientInstructions>
+        </CORE:evaluatesOutcome>
+        <CORE:evaluatesOutcome>
+          <CORE:CurrentDisabilityRating rdf:ID="CurrentDisabilityRating_2">
+            <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Current disability rating 2</skos:prefLabel>
+            <CORE:assignCurrentDisabilityRating rdf:resource="#CurrentDisabilityRating_1"/>
+            <CORE:assignPrognosis>
+              <DVEIVR:DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE rdf:ID="DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >DVEIVR STD OUTCOME PROGNOSIS TYPE 1</skos:prefLabel>
+              </DVEIVR:DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE>
+            </CORE:assignPrognosis>
+            <CORE:assignVisionQualityFormCompletion>
+              <CORE:VisionQualityFormCompletion rdf:ID="VisionQualityFormCompletion_1">
+                <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Vision quality form completion 1</skos:prefLabel>
+              </CORE:VisionQualityFormCompletion>
+            </CORE:assignVisionQualityFormCompletion>
+            <CORE:currentDisabilityRatingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+            >2015-04-29</CORE:currentDisabilityRatingDate>
+            <CORE:currentDisabilityRatingPercentage rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">20</CORE:currentDisabilityRatingPercentage>
+          </CORE:CurrentDisabilityRating>
+        </CORE:evaluatesOutcome>
+      </CORE:Provider>
+    </CORE:personHasRole>
+  </CORE:Person>
+  <CORE:InpatientEncounter rdf:ID="InpatientEncounter_2">
+    <CORE:inpatientTotalDays rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >4</CORE:inpatientTotalDays>
+    <CORE:hasEncounterType>
+      <CORE:EncounterType rdf:ID="EncounterType_2">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Encounter type 2</skos:prefLabel>
+      </CORE:EncounterType>
+    </CORE:hasEncounterType>
+    <CORE:hasDuration>
+      <CORE:Duration rdf:ID="Duration_2">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Duration 2</skos:prefLabel>
+      </CORE:Duration>
+    </CORE:hasDuration>
+    <CORE:encounterLocation rdf:resource="#Facility_2"/>
+    <CORE:encounterDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-05-12</CORE:encounterDate>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Inpatient encounter 2</skos:prefLabel>
+  </CORE:InpatientEncounter>
+  <CORE:Person rdf:ID="Person_5">
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Price</CORE:personLastName>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vincent</CORE:personFirstName>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person 5</skos:prefLabel>
+  </CORE:Person>
+  <CORE:InjuryRecord rdf:ID="InjuryRecord_1">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Injury record 1</skos:prefLabel>
+  </CORE:InjuryRecord>
+  <DVEIVR:DVEIVR_ENCOUNTER rdf:ID="DVEIVR_ENCOUNTER_2">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DVEIVR ENCOUNTER 2</skos:prefLabel>
+  </DVEIVR:DVEIVR_ENCOUNTER>
+  <CORE:Person rdf:ID="JamesTKirk">
+    <CORE:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2015-04-01</CORE:dateOfBirth>
+    <CORE:emailAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >jimkirk@email.mail</CORE:emailAddress>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >James</CORE:personFirstName>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >James TKirk</skos:prefLabel>
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kirk</CORE:personLastName>
+    <CORE:maritalStatus rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Divorced"/>
+    <CORE:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2015-04-08T15:02:30.451</CORE:dateOfDeath>
+    <CORE:assignedToUnit rdf:resource="#Unit_1"/>
+    <CORE:participantInEncounter rdf:resource="#Encounter_1"/>
+    <CORE:personMiddleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tiberius</CORE:personMiddleName>
+    <CORE:hasGender>
+      <CORE:PersonGender rdf:ID="nonbinary1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >nonbinary1</skos:prefLabel>
+      </CORE:PersonGender>
+    </CORE:hasGender>
+    <CORE:cellularPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >912 8675309</CORE:cellularPhoneNumber>
+    <CORE:personMilitaryBranch rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#UnitedStatesNavy"/>
+  </CORE:Person>
+  <CORE:Person rdf:ID="Person_4">
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Babbage</CORE:personLastName>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Charles</CORE:personFirstName>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person 4</skos:prefLabel>
+  </CORE:Person>
+  <CORE:Provider rdf:ID="Provider_3">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider 3</skos:prefLabel>
+  </CORE:Provider>
+  <TRAUMA:Symptom rdf:ID="Symptom_1">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Symptom 1</skos:prefLabel>
+  </TRAUMA:Symptom>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Airman_A_Snuffy">
+    <CORE:maritalStatus rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Widowed"/>
+    <CORE:hasGender>
+      <CORE:PersonGender rdf:ID="otherkin1">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >otherkin1</skos:prefLabel>
+      </CORE:PersonGender>
+    </CORE:hasGender>
+    <CORE:isParticipantIn rdf:resource="#Encounter_1"/>
+    <CORE:personHasRole rdf:resource="#PatientSneezy"/>
+    <CORE:participantInEncounter rdf:resource="#OutpatientEncounter_1"/>
+  </rdf:Description>
+  <CORE:Person rdf:ID="Person_3">
+    <CORE:maritalStatus rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Widowed"/>
+    <CORE:homePhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1234567890</CORE:homePhoneNumber>
+    <CORE:hasGender rdf:resource="#Female"/>
+    <CORE:personHasRole rdf:resource="#Provider_2"/>
+    <CORE:personLastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Curie</CORE:personLastName>
+    <CORE:personFirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marie</CORE:personFirstName>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person 3</skos:prefLabel>
+  </CORE:Person>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

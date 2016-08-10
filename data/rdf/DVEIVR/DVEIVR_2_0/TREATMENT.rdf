@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:mapping01="http://model.dveivr.dha.health.mil/mapping01#"
+    xmlns:TRMT="http://model.dveivr.dha.health.mil/TREATMENT#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:DM="http://model.dveivr.dha.health.mil/DVEIVR_MAPPING#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:BOOK="http://model.dveivr.dha.health.mil/VCE_BOOKKEEPING.OWL#"
+    xmlns:CORE="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://model.dveivr.dha.health.mil/TREATMENT">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Treatment includes information about treatment, treatment plan and execution, medication, CPT codes.  Treatment stands alone as a set of classes about treatments of illnesses, injuries or other conditions.  It functions differently in the context of History, which will establish that a person's medical history contains a record of treatments.  It can also be imported into visit data and exam, where information about treatments or treatment plans will be available.</rdfs:comment>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Created with TopBraid Composer</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:ID="RefractiveSurgery">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="SurgicalProcedure"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Prescription">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Instructions"/>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rx</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="MedicalProcedureDuration">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Duration"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OrbitRepairSurgery">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="RepairSurgery"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DosageUnit">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#AmountOfSubstanceUnit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OrbitReconstruction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ProstheticProcedure"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DrugAdministration">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SurgicalProcedure">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An event that is part of a surgical procedure in which a surgeon/provider is performing a kind of surgery on a patient.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ImplantProcedure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ProstheticProcedure"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DurationUnit">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SpaceAndTimeUnit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RetinalRepairSurgery">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RepairSurgery"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="prescritionDuration">
+    <rdfs:subClassOf rdf:resource="#MedicalProcedureDuration"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RepairSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ScleralBuckle-BandSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ImplantSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GlobeSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LidSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RXNorm">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Dosage">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SystemOfUnits"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ImplantSize">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Size of ocular implant in milimeters</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SystemOfUnits"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ProstheticEye">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An ocular prosthesis or artificial eye is a type of craniofacial prosthesis that replaces an absent natural eye following an enucleation, evisceration, or orbital exenteration. The prosthesis fits over an orbital implant and under the eyelids.</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ProstheticDevice"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Ocular_prosthesis</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >consulted several sources and the wikipedia entry was the most descriptive</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prosthetic eye</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ocular prosthetic</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >synthetic eye</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="ProsthesisProcedure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ProstheticProcedure"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ProstheticDevice">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1. Replacement of a missing part by an artificial substitute, such as an artificial extremity.&#xD;
+2. An artificial organ or part, including arms, hands, joints, heart valves, teeth, and others.&#xD;
+3. A device to augment performance of a natural function, such as a hearing aid.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prosthetic device</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/742272/all/prosthesis</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >artificial limb</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prosthesis</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Equipment"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ProstheticProcedure">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >an event in which a prosthetic device and it's wearer are present for creation, fitting, or testing of the device by a provider.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >determined from the ontology logic</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalProcedure"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prosthetic event</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Consult">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >When a patient is referred to a specialist for additional treatment</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Referral</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Medication">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CornealTraumaSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OcularImplantType">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Type"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CataractSurgery">
+    <rdfs:subClassOf rdf:resource="#SurgicalProcedure"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="doseUnitFor">
+    <rdfs:domain rdf:resource="#DosageUnit"/>
+    <rdfs:range rdf:resource="#Dosage"/>
+    <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt#unitFor"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dose unit for</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dose unit for</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assignedConsult">
+    <rdfs:range rdf:resource="#Consult"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="routeOfAdministration">
+    <rdfs:domain rdf:resource="#DrugAdministration"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >route of administration</skos:prefLabel>
+    <rdfs:flag rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >need to create instances of route of administration. also, "route" indicates some other kind of relationship, not just a place.  Since all the instances are places, I put it here, but it may need to be fixed.</rdfs:flag>
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#BodyLocation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="medicationEyeLaterality">
+    <rdfs:domain rdf:resource="#Prescription"/>
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Lateral"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="durationUnitFor">
+    <rdfs:range rdf:resource="#MedicalProcedureDuration"/>
+    <rdfs:domain rdf:resource="#DurationUnit"/>
+    <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt#unitFor"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >duration unit for</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >duration unit for</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasMedicalProcedureDuration">
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalProcedure"/>
+    <rdfs:range rdf:resource="#MedicalProcedureDuration"/>
+    <rdfs:subPropertyOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasDuration"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has medical procedure duration</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has medical procedure duration</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasOcularImplantType">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >connects the Prosthetic Eye class to the types of prosthetic eye it can be.</CORE:developerNote>
+    <rdfs:range rdf:resource="#OcularImplantType"/>
+    <rdfs:domain rdf:resource="#ProstheticEye"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assignsConsult">
+    <rdfs:range rdf:resource="#Consult"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Provider"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="siteOfAdministration">
+    <rdfs:domain rdf:resource="#DrugAdministration"/>
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#BodyLocation"/>
+    <rdfs:flag rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >need to fill in instances for site of administration</rdfs:flag>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasDrugAdministration">
+    <rdfs:range rdf:resource="#DrugAdministration"/>
+    <rdfs:domain rdf:resource="#Medication"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has drug administration</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has drug administration</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasImplantSize">
+    <rdfs:range rdf:resource="#ImplantSize"/>
+    <rdfs:domain rdf:resource="#ProstheticDevice"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="prescribesMedication">
+    <rdfs:range rdf:resource="#Medication"/>
+    <rdfs:domain rdf:resource="#Prescription"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prescribes medication</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prescribes medication</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="encodesMedication">
+    <rdfs:range rdf:resource="#Medication"/>
+    <rdfs:domain rdf:resource="#RXNorm"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encodes Medication</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encodes Medication</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encodes"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="receivesPrescription">
+    <rdfs:range rdf:resource="#Prescription"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >receives prescription</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >receives prescription</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="frequencyOfAdministration">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >could also model as duration and dosage were modeled, if that is preferable</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >frequency of administration</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Prescription"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="RXNormConceptID">
+    <rdfs:domain rdf:resource="#Medication"/>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CUI</CORE:acronym>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RXNorm Concept ID</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="PrescriptionDate">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:domain rdf:resource="#Prescription"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="RXNormTTY">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RXNorm TTY</CORE:acronym>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Medication"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RXNorm TTY</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="RXNormAtomID">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RXNorm Atom ID</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Medication"/>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AUI</CORE:acronym>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="medicationInstructions">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the instructions are for the medication identified within the prescription.</CORE:developerNote>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Prescription"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >medication instructions</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="RXNormCodeValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <TRMT:DosageUnit rdf:ID="Tablet"/>
+  <TRMT:DurationUnit rdf:ID="MonthDuration"/>
+  <TRMT:DosageUnit rdf:ID="Grains"/>
+  <TRMT:DosageUnit rdf:ID="Drop">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >gtt(s)</CORE:acronym>
+  </TRMT:DosageUnit>
+  <TRMT:DurationUnit rdf:ID="SecondDuration">
+    <skos:altLabel>sec</skos:altLabel>
+  </TRMT:DurationUnit>
+  <TRMT:DurationUnit rdf:ID="DayDuration"/>
+  <TRMT:DurationUnit rdf:ID="HourDuration">
+    <skos:altLabel>hr</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >h</skos:altLabel>
+  </TRMT:DurationUnit>
+  <TRMT:DurationUnit rdf:ID="MinuteDuration">
+    <skos:altLabel>min</skos:altLabel>
+  </TRMT:DurationUnit>
+  <TRMT:DurationUnit rdf:ID="WeekDuration"/>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->
