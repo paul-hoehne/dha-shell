@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;DVEIVR_SQL_MAPPING&apos;" deleteContents="false" description="Delete resource &apos;DVEIVR_SQL_MAPPING&apos;" element1="/DVEIVR_SQL_MAPPING" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1415827242590"/>&#x0A;<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/DVEIVR-SQL1/DVEIVRDB2-DataView.ttl" element2="/DVEIVR-SQL1/DVEIVRDB2-Mapping.ttl" element3="/DVEIVR-SQL1/DVEIVRDB2-Schema.ttl" element4="/DVEIVR-SQL1/DVEIVRDB2.d2rq" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1415827393347"/>
-</session>

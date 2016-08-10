@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;DVEIVR_2_0/DVEIVR_Sandbox.rdf&apos;" deleteContents="false" description="Delete resource &apos;DVEIVR_2_0/DVEIVR_Sandbox.rdf&apos;" element1="/DVEIVR_2_0/DVEIVR_Sandbox.rdf" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1415135775288"/>
-</session>

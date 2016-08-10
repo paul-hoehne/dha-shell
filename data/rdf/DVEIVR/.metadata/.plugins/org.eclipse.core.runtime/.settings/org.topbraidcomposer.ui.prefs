@@ -1,6 +1,0 @@
-//D&A&T&P-http\://www.w3.org/2000/01/rdf-schema\#label\ {name}=true
-//D&A&T&P-http\://www.w3.org/2004/02/skos/core\#prefLabel\ {name}=true
-NewFileBaseURI=http\://model.dveivr.dha.health.mil/
-eclipse.preferences.version=1
-org.topbraidcomposer.ui.dialogs.restrictions.RestrictionDialog=http\://www.w3.org/2002/07/owl\#allValuesFrom
-org.topbraidcomposer.ui.dialogs.restrictions.RestrictionDialog.previouslyRestrictedProperty=http\://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl\#partOf_directly
