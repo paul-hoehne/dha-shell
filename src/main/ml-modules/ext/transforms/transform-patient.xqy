@@ -53,7 +53,9 @@ declare function t:transform($content as map:map, $context as map:map) as map:ma
                 element pat:encounters {},
                 (: This is just a copy of the original data - might be removed in the future. :)
                 element pat:original-data {
-                    $user-document/root/element()
+                    for $element in $user-document/root/element()
+                    where fn:string($element) ne "NULL" and fn:string($element) ne ""
+                    return $element
                 }
             }
         },
