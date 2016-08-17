@@ -47,7 +47,7 @@ declare function t:transform($content as map:map, $context as map:map) as map:ma
         },
         element env:triples {
             sem:triple($uri, $pred-encounter-id, xs:int($encounter-id)),
-            sem:triple($uri, $pred-rdf-type,            $encounter-type)
+            sem:triple($uri, $pred-rdf-type,     $encounter-type)
         }
     }
     let $_ := map:put($content, "value", $new-doc)
