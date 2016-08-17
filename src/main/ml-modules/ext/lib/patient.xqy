@@ -1,6 +1,13 @@
-xquery version '1.0-ml';
+xquery version "1.0-ml";
 
-module namespace t = "http://marklogic.com/dha/example/transform-patient";
+(:~
+: User: phoehne
+: Date: 8/17/16
+: Time: 7:25 PM
+: To change this template use File | Settings | File Templates.
+:)
+
+module namespace patient = "http://vision.dha.mil/lib/patient.xqy";
 
 declare namespace  pat="http://model.dveivr.dha.health.mil/DVEIVR_PATIENT";
 declare namespace meta="http://model.dveivr.dha.health.mil/DVEIVR_META";
@@ -17,10 +24,8 @@ declare variable $pred-rdf-type       := sem:iri($rdf-prefix  || "type");
 declare variable $patient-type        := sem:iri($core-prefix || "Patient");
 declare variable $pred-hasGender      := sem:iri($core-prefix || "hasGender");
 
-
-declare function t:transform($content as map:map, $context as map:map) as map:map* {
-    let $user-document := map:get($content, "value")
-    let $uri := map:get($content, "uri")
+declare function patient:transform($uri) {
+    let $user-document := fn:doc($uri)
 
     (: Extract the patient data :)
     let $patient-id := $user-document/patient/patientId/text()
@@ -28,6 +33,8 @@ declare function t:transform($content as map:map, $context as map:map) as map:ma
     let $last-name := $user-document/patient/lastName/text()
     let $middle-name := $user-document/patient/middleName/text()
     let $full-name := fn:normalize-space($first-name || " " || $middle-name || " " || $last-name)
+    let $permissions := xdmp:document-get-permissions($uri)
+    let $collections := xdmp:document-get-collections($uri)
 
     let $gender := if ($user-document/patient/gender/text() = ("m", "M", "male", "Male", "MALE"))
     then "male"
@@ -67,5 +74,7 @@ declare function t:transform($content as map:map, $context as map:map) as map:ma
         }
     }
     return
-        (map:put($content, "value", $new-doc), $content)
+        if ($user-document)
+            then xdmp:document-insert($uri, $new-doc, $permissions, $collections)
+            else xdmp:log("Uanble to find: " || $uri)
 };
