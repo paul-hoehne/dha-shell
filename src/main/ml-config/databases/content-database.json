@@ -4,6 +4,16 @@
   "triggers-database": "%%TRIGGERS_DATABASE%%",
   "collection-lexicon": true,
   "triple-index": true,
+  "range-element-index": [
+    {
+      "scalar-type": "unsignedLong",
+      "namespace-uri": "",
+      "localname": "completedDate",
+      "collation": "",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    }
+  ],
   "default-ruleset": [
     {"location": "rdfs.rules"}
     ]
