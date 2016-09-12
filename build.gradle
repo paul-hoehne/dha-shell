@@ -133,6 +133,25 @@ task importSkos(type: com.marklogic.gradle.task.MlcpTask) {
     output_permissions = "rest-reader,read,rest-writer,update"
 }
 
+task exportRawDocs(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "EXPORT"
+    database = mlAppConfig.contentDatabaseName
+    output_file_path = "examples"
+    args = ["-output_type", "archive", "-collection_filter", "patient-raw,encounter-raw"]
+}
+
+task importRawDocs(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    input_file_path = "examples"
+    args = ["-input_file_type", "archive", "-copy_collections", "true", "-output_permissions",
+        "rest-reader,read,rest-writer,update", "-output_uri_replace",
+            "patients,'patients/raw',encounters,'encounters/raw'"]
+}
+
+
 task importData << {
 
 }
