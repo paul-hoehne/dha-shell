@@ -101,11 +101,6 @@ return
                 (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
                 ("encounter", $original/encounter/patientId/text())),
         xdmp:spawn-function(function() {
-                hous:cleanup-document($trgr:uri)
-            }, <options xmlns="xdmp:eval">
-                <transaction-mode>update-auto-commit</transaction-mode>
-            </options>),
-        xdmp:spawn-function(function() {
             (xdmp:log($encounter-base),
                 xdmp:node-insert-child(fn:doc($patient-uri)//enc:encounters, $encounter-base))
             }, <options xmlns="xdmp:eval">

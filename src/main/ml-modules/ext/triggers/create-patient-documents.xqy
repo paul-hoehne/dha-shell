@@ -73,9 +73,4 @@ let $patient-document := <env:envelope>
 let $filename := "/patients/" || $original/patient/patientId/text() || ".xml"
 return
     (xdmp:document-insert($filename, $patient-document, (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
-            ("patient", $original/patient/patientId/text())),
-     xdmp:spawn-function(function() {
-        hous:cleanup-document($trgr:uri)
-     }, <options xmlns="xdmp:eval">
-         <transaction-mode>update-auto-commit</transaction-mode>
-     </options>))
+            ("patient", $original/patient/patientId/text())))
