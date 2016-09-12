@@ -1,0 +1,21 @@
+{
+  "name": "create-encounter-documents",
+  "description": "Add enrichment to newly ingested encounter documents",
+  "event": {
+    "data-event": {
+      "collection-scope": {
+        "uri": "encounter-raw"
+      },
+      "document-content": {
+        "update-kind": "create"
+      },
+      "when": "pre-commit"
+    }
+  },
+  "module": "ext/triggers/create-encounter-documents.xqy",
+  "module-db": "%%MODULES_DATABASE%%",
+  "module-root": "/",
+  "enabled": true,
+  "recursive": true,
+  "task-priority": "normal"
+}

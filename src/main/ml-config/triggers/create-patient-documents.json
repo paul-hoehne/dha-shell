@@ -1,0 +1,21 @@
+{
+  "name": "create-patient-documents",
+  "description": "Add enrichment to newly ingested patient documents",
+  "event": {
+    "data-event": {
+      "collection-scope": {
+        "uri": "patient-raw"
+      },
+      "document-content": {
+        "update-kind": "create"
+      },
+      "when": "pre-commit"
+    }
+  },
+  "module": "ext/triggers/create-patient-documents.xqy",
+  "module-db": "%%MODULES_DATABASE%%",
+  "module-root": "/",
+  "enabled": true,
+  "recursive": true,
+  "task-priority": "normal"
+}
