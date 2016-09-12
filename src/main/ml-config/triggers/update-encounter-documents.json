@@ -1,0 +1,21 @@
+{
+  "name": "update-encounter-documents",
+  "description": "Update encounter documents and patients that have already been ingested",
+  "event": {
+    "data-event": {
+      "collection-scope": {
+        "uri": "encounter-raw"
+      },
+      "document-content": {
+        "update-kind": "modify"
+      },
+      "when": "pre-commit"
+    }
+  },
+  "module": "ext/triggers/update-encounter-documents.xqy",
+  "module-db": "%%MODULES_DATABASE%%",
+  "module-root": "/",
+  "enabled": true,
+  "recursive": true,
+  "task-priority": "normal"
+}

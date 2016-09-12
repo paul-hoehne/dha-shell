@@ -19,11 +19,6 @@ declare function local:conditional-element($name as xs:string, $value) {
     else ()
 };
 
-(:
-private Date updated;
-private Date created;
-:)
-
 let $original := fn:doc($trgr:uri)
 let $uri := "/patients/" || $original/patient/patientId/text() || ".xml"
 let $patient-base := <pat:patient> {(
