@@ -1,57 +1,18 @@
 xquery version "1.0-ml";
 
 import module namespace trgr = 'http://marklogic.com/xdmp/triggers' at '/MarkLogic/triggers.xqy';
+import module namespace xlat = 'http://dveivr.dha.health.mil/ext/lib/value-translators.xqy' at "/ext/lib/value-translators.xqy";
 import module namespace decl = 'http://dveivr.dha.health.mil/ext/declarations' at '/ext/declarations.xqy';
+import module namespace hous = 'http://dveivr.dha.health.mil/ext/lib/housekeeping.xqy' at '/ext/lib/housekeeping.xqy';
 
 declare namespace env = "http://dveivr.dha.health.mil/xml/envelope";
 declare namespace pat = "http://dveivr.dha.health.mil/xml/patient";
+declare namespace enc = "http://dveivr.dha.health.mil/xml/encounter";
+
 
 declare variable $trgr:uri as xs:string external;
 
-declare function local:xlat-gender($gender-raw as xs:string) as xs:string {
-    if ($gender-raw = ("F", "Female", "f", "female"))
-    then
-        "Female"
-    else if($gender-raw = ("M", "Male", "m", "male"))
-    then
-        "Male"
-    else
-        "Unknown"
-};
 
-declare function local:xlat-service-branch($branch-raw as xs:string) as xs:string {
-    if (fn:upper-case($branch-raw) = ("USMC", "MARINE", "MARINES"))
-    then
-        "Marine Corps"
-    else if(fn:upper-case($branch-raw) = ("Army"))
-    then
-        "Army"
-    else if(fn:upper-case($branch-raw) = ("AIR FORCE", "USAF"))
-    then
-        "Air Force"
-    else if(fn:upper-case($branch-raw) = ("NAVY", "USN"))
-    then
-        "Navy"
-    else if(fn:upper-case($branch-raw) = ("COAST GUARD", "USCG"))
-    then
-        "Coast Guard"
-    else
-        "Unknwon"
-};
-
-declare function local:xlat-service-status($status as xs:string) as xs:string {
-    if (fn:upper-case($status) = ("N/A"))
-    then
-        "N/A"
-    else if(fn:upper-case($status) = ("ACTIVE"))
-    then
-        "Active"
-    else if(fn:upper-case($status) = ("INACTIVE"))
-    then
-        "Inactive"
-    else
-        "Unknown/Other"
-};
 
 declare function local:conditional-element($name as xs:string, $value) {
     if ($value and fn:not(fn:normalize-space(fn:string($value)) eq ""))
@@ -84,16 +45,16 @@ let $patient-document := <env:envelope>
         local:conditional-element("pat:lastName", $original/patient/lastName),
         local:conditional-element("pat:suffix", $original/patient/suffix),
 
-        local:conditional-element("pat:gender", local:xlat-gender($original/patient/gender/text())),
+        local:conditional-element("pat:gender", xlat:xlat-gender($original/patient/gender/text())),
         local:conditional-element("pat:ethnicity", $original/patient/ethnicity),
         local:conditional-element("pat:race", $original/patient/race),
         local:conditional-element("pat:birthDate", $original/patient/birthDate),
         local:conditional-element("pat:deathDate", $original/patient/deathDate),
 
-        local:conditional-element("pat:serviceBranch", local:xlat-service-branch($original/patient/serviceBranch/text())),
+        local:conditional-element("pat:serviceBranch", xlat:xlat-service-branch($original/patient/serviceBranch/text())),
         local:conditional-element("pat:unit", $original/patient/unit),
-        local:conditional-element("pat:serviceStatus", local:xlat-service-status($original/patient/serviceStatus)),
-        local:conditional-element("pat:militaryStatus", local:xlat-service-status($original/patient/militaryStatus)),
+        local:conditional-element("pat:serviceStatus", xlat:xlat-service-status($original/patient/serviceStatus)),
+        local:conditional-element("pat:militaryStatus", xlat:xlat-service-status($original/patient/militaryStatus)),
         local:conditional-element("pat:lastServiceSeparationDate", $original/patient/lastServiceSeparationDate),
         local:conditional-element("pat:category", $original/patient/category),
 
@@ -106,10 +67,15 @@ let $patient-document := <env:envelope>
         local:conditional-element("pat:jobDescription", $original/patient/jobDescription)
     )}
     </pat:patient>
-    <pat:encouners>
-    </pat:encouners>
+    <enc:encounters>
+    </enc:encounters>
 </env:envelope>
 let $filename := "/patients/" || $original/patient/patientId/text() || ".xml"
 return
-    xdmp:document-insert($filename, $patient-document, (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
-        "patient")
+    (xdmp:document-insert($filename, $patient-document, (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
+            ("patient", $original/patient/patientId/text())),
+     xdmp:spawn-function(function() {
+        hous:cleanup-document($trgr:uri)
+     }, <options xmlns="xdmp:eval">
+         <transaction-mode>update-auto-commit</transaction-mode>
+     </options>))
