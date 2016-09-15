@@ -1,0 +1,4 @@
+#D2RQ Properties file needed by TopBraid Composer as a placeholder for the virtual database
+#Wed Nov 12 16:09:22 EST 2014
+MappingFile=DVEIVR_1.0.8-3429-Mapping.ttl
+BaseURI=http\://model.dveivr.dha.health.mil/DVEIVR_1.0.8-3429

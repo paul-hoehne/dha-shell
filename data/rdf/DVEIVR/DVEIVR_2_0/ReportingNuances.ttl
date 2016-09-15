@@ -1,0 +1,468 @@
+# baseURI: http://model.dveivr.dha.health.mil/DVEIVR/DVEIVR_2_0/ReportingNuances
+# imports: http://model.dveivr.dha.health.mil/DVEIVR_SINK
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix CORE: <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#> .
+@prefix DNU: <http://model.dveivr.dha.health.mil/DVEIVR/DVEIVR_2_0/ReportingNuances#> .
+@prefix ReportingNuances: <http://model.dveivr.dha.health.mil/DVEIVR/DVEIVR_2_0/ReportingNuances#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://model.dveivr.dha.health.mil/DVEIVR/DVEIVR_2_0/ReportingNuances>
+  rdf:type owl:Ontology ;
+  owl:imports <http://model.dveivr.dha.health.mil/DVEIVR_SINK> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:versionInfo "Created with TopBraid Composer"^^xsd:string ;
+.
+ReportingNuances:AgeAtTimeOfInjury
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4203 ;
+  ReportingNuances:parameterName "Age at Time of Injury"^^xsd:string ;
+  CORE:definition "This report parameter allows a user to search for the age of a patient at the point when they were injured.  This is potentially problematic because data has the following issues: first, there may be incomplete data; second, information in doctors' notes is not corrected, so there may be inconsistent data; third, this is a calculation between patient's birth date and the date of injury, and if either of those data are incomplete or incorrect, the calculation will also not be correct."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ParameterGroup ;
+  skos:altLabel "age on injury date"^^xsd:string ;
+  skos:altLabel "age when injured"^^xsd:string ;
+  skos:prefLabel "age at time of injury"^^xsd:string ;
+  skos:scopeNote "This data pertains to the report formerly called structured search."^^xsd:string ;
+.
+ReportingNuances:AgeOver
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4205 ;
+  ReportingNuances:parameterName "Age Over"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:AgeAtTimeOfInjury ;
+  CORE:definition "Age Above is age greater than or equal to Age at Injury. Age at Injury is the number of years between Date of Injury (if known, otherwise date of encounter) and Date of Birth, with precision to the hour (although the final number is not rounded)."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "age above"^^xsd:string ;
+  skos:altLabel "age greater than"^^xsd:string ;
+  skos:altLabel "greater than"^^xsd:string ;
+  skos:altLabel "older than"^^xsd:string ;
+  skos:prefLabel "age over"^^xsd:string ;
+.
+ReportingNuances:AgeRange
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4204 ;
+  ReportingNuances:parameterName "Age Range"^^xsd:string ;
+  CORE:definition "age range is a parameter that allows a user to specify an upper and lower age into which a cohort of patients will fall.  All age ranges include \"equal to\" the age entered."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ParameterGroup ;
+  skos:altLabel "approximate age"^^xsd:string ;
+  skos:prefLabel "age range"^^xsd:string ;
+.
+ReportingNuances:AgeRangeFrom
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4207 ;
+  ReportingNuances:parameterName "Age Range From"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:AgeRange ;
+  CORE:definition "This is the lower limit age (greater than or equal to) in a range of ages for a selected cohort of patients selected for this report."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "age from"^^xsd:string ;
+  skos:altLabel "lower age"^^xsd:string ;
+  skos:altLabel "minimum age"^^xsd:string ;
+  skos:prefLabel "age range from"^^xsd:string ;
+.
+ReportingNuances:AgeRangeTo
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4208 ;
+  ReportingNuances:parameterName "Age Range To"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:AgeRange ;
+  CORE:definition "This is the upper limit age (less than or equal to) in a range of ages that define a cohort of patients within this report."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "maximum age"^^xsd:string ;
+  skos:altLabel "upper age "^^xsd:string ;
+  skos:prefLabel "age range to"^^xsd:string ;
+.
+ReportingNuances:AgeUnder
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4206 ;
+  ReportingNuances:parameterName "Age Under"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:AgeAtTimeOfInjury ;
+  CORE:definition "Age Below is age less than or equal to Age at Injury. Age at Injury is the number of years between Date of Injury (if known, otherwise date of encounter) and Date of Birth, with precision to the hour (although the final number is not rounded)."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "age below"^^xsd:string ;
+  skos:altLabel "less than or equal to"^^xsd:string ;
+  skos:altLabel "less than"^^xsd:string ;
+  skos:altLabel "younger than"^^xsd:string ;
+  skos:prefLabel "age under"^^xsd:string ;
+.
+ReportingNuances:Both
+  rdf:type ReportingNuances:PatientHasEncounters ;
+.
+ReportingNuances:ClinicalData
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4214 ;
+  ReportingNuances:parameterName "Clinical Data"^^xsd:string ;
+  CORE:definition "Medical Information includes data parameters for information that would be relevant in a clinical visit.  This includes diagnoses (ICD code), medical procedures (CPT code), and medications (RXNorm)."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ParameterGroup ;
+  skos:altLabel "medical information"^^xsd:string ;
+  skos:prefLabel "clinical data"^^xsd:string ;
+.
+ReportingNuances:DiagnosisCode
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4215 ;
+  ReportingNuances:parameterName "Diagnosis Code"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:DiagnosisCode ;
+  CORE:acronym "ICD"^^xsd:string ;
+  CORE:definition "This is equivalent to the ICD code."^^xsd:string ;
+  CORE:developerNote "help text: Select diagnosis (ICD) code to filter patients. Auto-suggest note: Entry must begin with an ICD code and have been documented for a patient in the registry to have the system offer sugestions. ICD code examples: 012.0, 310.8, V81.3."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "diagnoses"^^xsd:string ;
+  skos:altLabel "diagnosis"^^xsd:string ;
+  skos:prefLabel "diagnosis code"^^xsd:string ;
+.
+ReportingNuances:DoD
+  rdf:type ReportingNuances:PatientHasEncounters ;
+.
+ReportingNuances:EyeInjuryCircumstances
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4225 ;
+  ReportingNuances:parameterName "EyeInjuryCircumstances"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchText ;
+  CORE:definition "This parameter allows a user to search for eye injury circumstances within the records of patient encounters."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "aetiology"^^xsd:string ;
+  skos:altLabel "etiology"^^xsd:string ;
+  skos:prefLabel "eye injury circumstances"^^xsd:string ;
+  skos:scopeNote "this information is part of the report that was called structured search."^^xsd:string ;
+.
+ReportingNuances:EyewearWorn
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4222 ;
+  ReportingNuances:parameterName "EyewearWorn"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchText ;
+  CORE:definition "This is a binary data field, indicating whether or not the patient reported wearing eyewear.  This data field can be problematic in that the provided data is not reliable for a number of reasons: first, the patient may not be conscious at the time of the encounter, and will be unable to report whether or not they were wearing eyewear; second, the patient may report they were wearing eyewear in order to be in compliance with regulations, when they were not wearing eyewear, in order to avoid punishment."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  owl:equivalentClass CORE:PersonalProtectiveEquipment ;
+  skos:altLabel "PPE worn"^^xsd:string ;
+  skos:prefLabel "eyewear worn"^^xsd:string ;
+  skos:scopeNote "this is a DVEIVR report that was formerly the structured search report."^^xsd:string ;
+.
+ReportingNuances:HeadTrauma
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4223 ;
+  ReportingNuances:parameterName "HeadTrauma"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchText ;
+  CORE:definition "This is a yes/no parameter, in which selecting yes will allow the user to find patients in the registry who have information about head trauma in their encounter record.  This may or may not be an actual indication that head trauma was present, as the provider might not capture the information if it isn't directly relevant to the injury being treated."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "brain injury"^^xsd:string ;
+  skos:altLabel "brain trauma"^^xsd:string ;
+  skos:altLabel "cranial injury"^^xsd:string ;
+  skos:altLabel "head injury"^^xsd:string ;
+  skos:prefLabel "head trauma"^^xsd:string ;
+  skos:scopeNote "This parameter brings up information in DVEIVR that pertains to head trauma or head injury."^^xsd:string ;
+.
+ReportingNuances:InjuryDetailReport
+  rdf:type owl:Class ;
+  CORE:definition "The DVEIVR Injury Detail Report specifies information about injuries recorded in encounters."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:Report ;
+  skos:altLabel "injury report"^^xsd:string ;
+  skos:altLabel "trauma report"^^xsd:string ;
+  skos:prefLabel "injury detail report"^^xsd:string ;
+  skos:scopeNote "This is the DVEIVR structured search report on Injury or Trauma.  It is based on Encounters, and does not provide patient data."^^xsd:string ;
+.
+ReportingNuances:KeywordSearch
+  rdf:type owl:Class ;
+  ReportingNuances:parameterName "KeywordSearch"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchText ;
+  ReportingNuances:scalarParameterID 4199 ;
+  CORE:definition "Search string to full text search patient diagnosis, procedures, visit findings, and annotations. This is the field where a user can input keywords to search content using a keyword match algorithm."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "term search"^^xsd:string ;
+  skos:prefLabel "keyword search"^^xsd:string ;
+  skos:scopeNote "This applies to the DVEIVR reporting - formerly structured search report."^^xsd:string ;
+.
+ReportingNuances:MedicalConditionReport
+  rdf:type owl:Class ;
+  CORE:definition "the medical condition report provides information about medical conditions recorded as current or past history, or diagnosed during patient encounters recorded in DVEIVR."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:Report ;
+  skos:altLabel "patient history report"^^xsd:string ;
+  skos:prefLabel "medical condition report"^^xsd:string ;
+  skos:scopeNote "medical conditions report is part of a subset of reports that were formerly called structured search report"^^xsd:string ;
+.
+ReportingNuances:MedicationReport
+  rdf:type owl:Class ;
+  rdfs:subClassOf ReportingNuances:Report ;
+.
+ReportingNuances:Medications
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4217 ;
+  ReportingNuances:parameterName "Medications"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:ClinicalData ;
+  CORE:definition "This is the field where medications are listed - these will follow the RXNorm metadata."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "Rx"^^xsd:string ;
+  skos:altLabel "medication"^^xsd:string ;
+  skos:altLabel "prescription"^^xsd:string ;
+  skos:prefLabel "medications"^^xsd:string ;
+  skos:scopeNote "this is part of the report that takes the place of the structured search"^^xsd:string ;
+.
+ReportingNuances:ParameterGroup
+  rdf:type owl:Class ;
+  rdfs:subClassOf ReportingNuances:ReportParameter ;
+.
+ReportingNuances:PatientHasEncounters
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4221 ;
+  ReportingNuances:parameterName "Patient Has Encounters"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchDate ;
+  CORE:definition "This field is in place to enable users to filter encounters and patients by which agency manages the source data, including only DoD, VA, or both. While this is not a stand-alone data field, it is enabled in the system (Encounter Tab, Source System drop-down)."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ReportParameter ;
+  skos:altLabel "encounters"^^xsd:string ;
+  skos:altLabel "patient encounters"^^xsd:string ;
+  skos:prefLabel "patient has encounters"^^xsd:string ;
+.
+ReportingNuances:Procedure
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4216 ;
+  ReportingNuances:parameterName "Procedure	"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:ClinicalData ;
+  CORE:definition "This is equivalent to CPT code."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "CPT"^^xsd:string ;
+  skos:prefLabel "procedure"^^xsd:string ;
+  skos:scopeNote "this is part of a report that takes the place of structured search."^^xsd:string ;
+.
+ReportingNuances:Report
+  rdf:type owl:Class ;
+  CORE:definition "Reports provide end-users with information about key ideas within the eye care and eye trauma community."^^xsd:string ;
+  rdfs:subClassOf CORE:Record ;
+  skos:altLabel "form"^^xsd:string ;
+  skos:prefLabel "report"^^xsd:string ;
+  skos:scopeNote "this is a set of pre-built queries with variable parameters that provide information that's often requested from DVEIVR."^^xsd:string ;
+.
+ReportingNuances:ReportParameter
+  rdf:type owl:Class ;
+  rdfs:subClassOf CORE:RecordDetail ;
+.
+ReportingNuances:ScalarRecordParameter
+  rdf:type owl:Class ;
+  rdfs:subClassOf ReportingNuances:ReportParameter ;
+.
+ReportingNuances:SearchDate
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4218 ;
+  ReportingNuances:parameterName "search date"^^xsd:string ;
+  CORE:definition "This includes parameters that specify encounter date and date the patient has the encounter."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ParameterGroup ;
+  skos:altLabel "date parameters"^^xsd:string ;
+  skos:prefLabel "search date"^^xsd:string ;
+  skos:scopeNote "this is part of a report that takes the place of structured search"^^xsd:string ;
+.
+ReportingNuances:SearchText
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4198 ;
+  ReportingNuances:parameterName "SearchText"^^xsd:string ;
+  CORE:definition "This is a group of parameters that allow a user to enter text to search, and to specify the data that the text search pertains to."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ParameterGroup ;
+  skos:altLabel "search"^^xsd:string ;
+  skos:prefLabel "search text"^^xsd:string ;
+  skos:scopeNote "This is for DVEIVR reports."^^xsd:string ;
+.
+ReportingNuances:SearchVisualAcuity
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4209 ;
+  ReportingNuances:parameterName "Search Visual Acuity Group"^^xsd:string ;
+  CORE:acronym "VA"^^xsd:string ;
+  CORE:definition "This allows a user to set parameters within visual acuity metrics to specify a cohort of patients within DVEIVR."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ParameterGroup ;
+  skos:altLabel "visual acuity"^^xsd:string ;
+  skos:prefLabel "search visual acuity group"^^xsd:string ;
+.
+ReportingNuances:TBI
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4224 ;
+  ReportingNuances:parameterName "TBI"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchText ;
+  CORE:acronym "TBI"^^xsd:string ;
+  CORE:definition "This parameter allows the user to search for TBI, or traumatic brain injury information recorded in patients' encounters."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  owl:equivalentClass <http://model.dveivr.dha.health.mil/TRAUMA#TraumaticBrainInjury> ;
+  skos:altLabel "traumatic brain injury"^^xsd:string ;
+  skos:prefLabel "TBI"^^xsd:string ;
+  skos:scopeNote "This is part of the reports that used to be called structured search reports."^^xsd:string ;
+.
+ReportingNuances:Test-LabReport
+  rdf:type owl:Class ;
+  CORE:definition "The lab testing report provides information about lab tests recorded during the patient encounter"^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:Report ;
+  skos:altLabel "lab report"^^xsd:string ;
+  skos:altLabel "tests report"^^xsd:string ;
+  skos:prefLabel "test and lab report"^^xsd:string ;
+  skos:scopeNote "The lab testing report is a subset of the report formerly named structured search report"^^xsd:string ;
+.
+ReportingNuances:TreatmentReport
+  rdf:type owl:Class ;
+  CORE:definition "this report presents the information about treatment plans and treatment associated with the patient encounters recorded in DVEIVR."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:Report ;
+  skos:altLabel "history of treatment report"^^xsd:string ;
+  skos:prefLabel "treatment report"^^xsd:string ;
+  skos:scopeNote "This report covers a subset of the information that used to be available in the structured search report."^^xsd:string ;
+.
+ReportingNuances:VA
+  rdf:type ReportingNuances:PatientHasEncounters ;
+.
+ReportingNuances:VisualAcuityMeasureBetterThan
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4210 ;
+  ReportingNuances:parameterName "Visual Acuity Measure Better Than"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchVisualAcuity ;
+  CORE:definition "This parameter allows a user to search for visual acuity that is better than or equal to the acuity measurement they have entered.  Numerically this will be the larger number (e.g. 20/400)."^^xsd:string ;
+  CORE:developerNote "Help Text: Enter a number to filter patients that have any documented visual acuity measurement better than the entry. Use 20/XX scale."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "minimum visual acuity"^^xsd:string ;
+  skos:prefLabel "visual acuity measure better than"^^xsd:string ;
+.
+ReportingNuances:VisualAcuityMeasureWorseThan
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4212 ;
+  ReportingNuances:parameterName "Visual Acuity Measure Worse"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchVisualAcuity ;
+  CORE:definition "This parameter allows a user to search for visual acuity that is worse than or equal to the acuity measurement they have entered.  Numerically this will be the smaller number (e.g. 20/10)."^^xsd:string ;
+  CORE:developerNote "help text: Enter a number to filter patients that have any documented visual acuity measurement worse than the entry. Use 20/XX scale."^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ScalarRecordParameter ;
+  skos:altLabel "visual acuity maximum"^^xsd:string ;
+  skos:prefLabel "visual acuity measure worse than"^^xsd:string ;
+.
+ReportingNuances:VisualAcuityRefractiveCorrectionType
+  rdf:type owl:Class ;
+  ReportingNuances:parameterID 4211 ;
+  ReportingNuances:parameterID 4213 ;
+  ReportingNuances:parameterName "Visual Acuity Measure Better Than - Refractive Correction Type"^^xsd:string ;
+  ReportingNuances:parameterName "Visual Acuity Measure Worse Than - Refractive Correction Type"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:VisualAcuityMeasureBetterThan ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:VisualAcuityMeasureWorseThan ;
+  CORE:definition "This additional parameter allows the user to specify what type of refractive correction was used in combination with the specified visual acuity measure in either \"Visual Acuity Measure Better Than\" or \"Visual Acuity Measure Worse Than\"."^^xsd:string ;
+  CORE:developerNote "Help Text: Filters the \"visual acuity measurement better than\" search based on the measurement's refractive correction type"^^xsd:string ;
+  rdfs:subClassOf ReportingNuances:ReportParameter ;
+  skos:altLabel "visual acuity better than - refractive correction type"^^xsd:string ;
+  skos:altLabel "visual acuity worse than - refractive correction type"^^xsd:string ;
+  skos:prefLabel "visual acuity refractive correction type"^^xsd:string ;
+.
+ReportingNuances:encounterEndDate
+  rdf:type owl:DatatypeProperty ;
+  ReportingNuances:parameterID 4219 ;
+  ReportingNuances:parameterName "Encounter End Date"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchDate ;
+  CORE:definition "this is the date time on which the patient encounter ends."^^xsd:string ;
+  rdfs:domain ReportingNuances:SearchDate ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:encounterDate ;
+  skos:altLabel "end date"^^xsd:string ;
+  skos:prefLabel "encounter end date"^^xsd:string ;
+  skos:scopeNote "this is part of the report that takes the place of structured search."^^xsd:string ;
+.
+ReportingNuances:encounterStartDate
+  rdf:type owl:DatatypeProperty ;
+  ReportingNuances:parameterID 4219 ;
+  ReportingNuances:parameterName "Encounter Start Date"^^xsd:string ;
+  ReportingNuances:partOfParameterGroup ReportingNuances:SearchDate ;
+  CORE:definition "this is the property for the start date of an encounter in DVEIVR. Earliest encounter date (inclusive)."^^xsd:string ;
+  rdfs:domain ReportingNuances:SearchDate ;
+  rdfs:range xsd:dateTime ;
+  rdfs:subPropertyOf CORE:encounterDate ;
+  skos:altLabel "start date"^^xsd:string ;
+  skos:prefLabel "encounter start date"^^xsd:string ;
+  skos:scopeNote "this is a property in the report that takes the place of the structured search report"^^xsd:string ;
+.
+ReportingNuances:parameterID
+  rdf:type owl:DatatypeProperty ;
+  CORE:definition "the ID number for the parameter or variable being used in this report."^^xsd:string ;
+  rdfs:domain ReportingNuances:ReportParameter ;
+  rdfs:range xsd:integer ;
+  skos:altLabel "parameter identifier"^^xsd:string ;
+  skos:prefLabel "parameter ID"^^xsd:string ;
+  skos:scopeNote "This is an ID number for the parameters for reports in DVEIVR."^^xsd:string ;
+.
+ReportingNuances:parameterName
+  rdf:type owl:DatatypeProperty ;
+  CORE:definition "the concept name that defines the parameter or variable."^^xsd:string ;
+  rdfs:domain ReportingNuances:ReportParameter ;
+  rdfs:range xsd:string ;
+  skos:altLabel "variable name"^^xsd:string ;
+  skos:prefLabel "parameter label"^^xsd:string ;
+  skos:scopeNote "within DVEIVR reports, this gives a plain-english label that allows an end-user to know what the variable is at a conceptual level."^^xsd:string ;
+.
+ReportingNuances:partOfParameterGroup
+  rdf:type owl:ObjectProperty ;
+  CORE:definition "this property asserts that the scalar record parameter is grouped under, or part of the parameter groups."^^xsd:string ;
+  rdfs:domain ReportingNuances:ScalarRecordParameter ;
+  rdfs:range ReportingNuances:ParameterGroup ;
+  skos:altLabel "parameter group part"^^xsd:string ;
+  skos:prefLabel "part of parameter group"^^xsd:string ;
+  skos:scopeNote "this property operates within the ontology that supports DVEIVR reports"^^xsd:string ;
+.
+ReportingNuances:refractiveCorrectionType
+  rdf:type owl:ObjectProperty ;
+  CORE:definition "this property asserts that visual acuity measures for better than (high number) and worse than (low number) can have an additional parameter of Refractive Correction Type"^^xsd:string ;
+  rdfs:domain ReportingNuances:ScalarRecordParameter ;
+  rdfs:range ReportingNuances:VisualAcuityRefractiveCorrectionType ;
+  skos:altLabel "visual acuity correction"^^xsd:string ;
+  skos:prefLabel "visual acuity refractive correction type"^^xsd:string ;
+.
+ReportingNuances:scalarParameterID
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain ReportingNuances:ScalarRecordParameter ;
+  rdfs:range xsd:integer ;
+.
+ReportingNuances:typeOfEyewearWorn
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain ReportingNuances:EyewearWorn ;
+  rdfs:range CORE:Eyewear ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#AlcoholAbuse>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#SubstanceAbuseCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#AttemptedSuicide>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#MentalHealthCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#AttentionDisorder>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#MentalHealthCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#Dementia>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Disease> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#Depression>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#MentalHealthCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#Diabetes>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Disease> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#DrugAbuse>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#SubstanceAbuseCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#HIV-AIDS>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Disease> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#Lacrimal-CanalicularLaceration>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Laceration> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#OrganicBrainSyndrome>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Disease> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#PeripheralNervePalsy>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#Disease> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#PostTraumaticStressDisorder>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#MentalHealthCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#PsychiatricDisorders>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#MentalHealthCondition> ;
+.
+<http://model.dveivr.dha.health.mil/TRAUMA#TobaccoUse>
+  rdf:type owl:Class ;
+  rdfs:subClassOf <http://model.dveivr.dha.health.mil/TRAUMA#SubstanceAbuseCondition> ;
+.

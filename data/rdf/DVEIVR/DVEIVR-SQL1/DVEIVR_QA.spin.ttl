@@ -1,0 +1,1709 @@
+# baseURI: http://model.dveivr.dha.health.mil/DVEIVR_QA
+# imports: http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429
+# imports: http://spinrdf.org/spinx
+# imports: http://topbraid.org/spin/spinmapl
+
+@prefix CORE: <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#> .
+@prefix QA: <http://model.dveivr.dha.health.mil/DVEIVR_QA#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix arg: <http://spinrdf.org/arg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix smf: <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix spinx: <http://spinrdf.org/spinx#> .
+@prefix spl: <http://spinrdf.org/spl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://model.dveivr.dha.health.mil/DVEIVR_QA>
+  rdf:type owl:Ontology ;
+  owl:imports <http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429> ;
+  owl:imports <http://spinrdf.org/spinx> ;
+  owl:imports <http://topbraid.org/spin/spinmapl> ;
+  owl:versionInfo "Created with TopBraid Composer"^^xsd:string ;
+.
+QA:ClassIntegratedIntoClassHierarchy
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MinimallySufficientConceptDefinition ;
+  QA:requirementDefinition "Each class shall be integrated into the hierarchy of classes."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ClassesMissingParentClass ;
+  QA:requirementTestedByQuery QA:DirectSubclassOfOwlThing ;
+  rdfs:comment "This requirement is associated with the evaluation criterion QA:MinimallySufficientConceptDefinition. The requirement reads as follows:  \"Each class is integrated into the hierarchy of classes.\""^^xsd:string ;
+  rdfs:label "Class integrated into class hierarchy"^^xsd:string ;
+.
+QA:ClassesMissingParentClass
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesDisabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "class"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object owl:Class ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "class"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                (
+                  [
+                    sp:object [
+                        sp:varName "other"^^xsd:string ;
+                      ] ;
+                    sp:predicate rdfs:subClassOf ;
+                    sp:subject [
+                        sp:varName "class"^^xsd:string ;
+                      ] ;
+                  ]
+                )
+              ) ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns classes that do not have a parent class (i.e., a value for rdfs:subClassOf)."^^xsd:string ;
+  rdfs:label "Classes with no parent class"^^xsd:string ;
+.
+QA:ConceptHasTypeAssertion
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MinimallySufficientConceptDefinition ;
+  QA:requirementDefinition "Every concept shall have an rdf:type assertion that establishes its type as either one of the OWL/RDF classes (e.g., owl:Class, owl:ObjectProperty, or owl:DatatypeProperty) or a subject area class."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ObjectsMissingTypeAssertion ;
+  QA:requirementTestedByQuery QA:PropertiesMissingTypeAssertion ;
+  QA:requirementTestedByQuery QA:SubjectsMissingTypeAssertion ;
+  rdfs:comment "This is one of the component requirements of the quality criterion QA:MinimallySufficientConceptDefinition.  For information about the specifics of the requirement, see its QA:requirementDefinition assertion."^^xsd:string ;
+  rdfs:label "Concept has type assertion"^^xsd:string ;
+.
+QA:ConceptPairsWithIdenticalDefinitions
+  rdf:type QA:DataDiscoverableAndUnderstandableQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "concept1"^^xsd:string ;
+          ]
+          [
+            sp:varName "concept2"^^xsd:string ;
+          ]
+          [
+            sp:varName "expr"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "concept1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "concept2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type afn:localname ;
+                sp:arg1 [
+                    sp:varName "concept1"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type afn:localname ;
+                sp:arg1 [
+                    sp:varName "concept2"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:and ;
+                sp:arg1 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "concept1"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "concept2"^^xsd:string ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "expr"^^xsd:string ;
+                      ] ;
+                    sp:arg2 "" ;
+                  ] ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:or ;
+                sp:arg1 [
+                    rdf:type sp:lt ;
+                    sp:arg1 [
+                        sp:varName "name2"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "name1"^^xsd:string ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:eq ;
+                    sp:arg1 [
+                        sp:varName "name1"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "name2"^^xsd:string ;
+                      ] ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "concept1"^^xsd:string ;
+          ]
+          [
+            sp:varName "concept2"^^xsd:string ;
+          ]
+          [
+            sp:varName "expr"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "concept1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "concept2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type smf:qname ;
+                sp:arg1 [
+                    sp:varName "concept1"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type smf:qname ;
+                sp:arg1 [
+                    sp:varName "concept2"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:and ;
+                sp:arg1 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "concept1"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "concept2"^^xsd:string ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "expr"^^xsd:string ;
+                      ] ;
+                    sp:arg2 "" ;
+                  ] ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:lt ;
+                sp:arg1 [
+                    sp:varName "name1"^^xsd:string ;
+                  ] ;
+                sp:arg2 [
+                    sp:varName "name2"^^xsd:string ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns pairs of concepts within the same domain that have identical definitions.  This situation typically indicates  an error or a lack of precision in one or both of the definitions. This query returns pairs of ontology concepts, either within or across domains, that have the same English definition.  This situation often indicates inadvertent duplication or an error in one or both of the definitions."^^xsd:string ;
+  rdfs:label "Concept pairs with identical definitions"^^xsd:string ;
+.
+QA:ConceptPairsWithIdenticalLabels
+  rdf:type QA:DataDiscoverableAndUnderstandableQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "concept1"^^xsd:string ;
+          ]
+          [
+            sp:varName "concept2"^^xsd:string ;
+          ]
+          [
+            sp:varName "expr"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:label ;
+            sp:subject [
+                sp:varName "concept1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:label ;
+            sp:subject [
+                sp:varName "concept2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type afn:localname ;
+                sp:arg1 [
+                    sp:varName "concept1"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type afn:localname ;
+                sp:arg1 [
+                    sp:varName "concept2"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:and ;
+                sp:arg1 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "concept1"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "concept2"^^xsd:string ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "expr"^^xsd:string ;
+                      ] ;
+                    sp:arg2 "" ;
+                  ] ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:or ;
+                sp:arg1 [
+                    rdf:type sp:lt ;
+                    sp:arg1 [
+                        sp:varName "name2"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "name1"^^xsd:string ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:eq ;
+                    sp:arg1 [
+                        sp:varName "name1"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "name2"^^xsd:string ;
+                      ] ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "concept1"^^xsd:string ;
+          ]
+          [
+            sp:varName "concept2"^^xsd:string ;
+          ]
+          [
+            sp:varName "expr"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:label ;
+            sp:subject [
+                sp:varName "concept1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "expr"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:label ;
+            sp:subject [
+                sp:varName "concept2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type smf:qname ;
+                sp:arg1 [
+                    sp:varName "concept1"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Bind ;
+            sp:expression [
+                rdf:type smf:qname ;
+                sp:arg1 [
+                    sp:varName "concept2"^^xsd:string ;
+                  ] ;
+              ] ;
+            sp:variable [
+                sp:varName "name2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:and ;
+                sp:arg1 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "concept1"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        sp:varName "concept2"^^xsd:string ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "expr"^^xsd:string ;
+                      ] ;
+                    sp:arg2 "" ;
+                  ] ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:lt ;
+                sp:arg1 [
+                    sp:varName "name2"^^xsd:string ;
+                  ] ;
+                sp:arg2 [
+                    sp:varName "name1"^^xsd:string ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns pairs of concepts within the same domain that have the same English expression.  While this is sometimes correct (as a way of capturing different senses of the expression), it is often the result of an error in one or both of the labels. This query returns pairs of concepts, either within or across domain, that have the same English expression.  While this is sometimes correct (as a way of capturing different senses of the expression), it may also indicate inadvertent duplication or an error in one or both of the labels."^^xsd:string ;
+  rdfs:label "Concept pairs with identical labels"^^xsd:string ;
+.
+QA:ConceptsMissingDefinition
+  rdf:type QA:DataDiscoverableAndUnderstandableQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "comm"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "def"^^xsd:string ;
+                    ] ;
+                  sp:predicate <rdfs:comment> ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "val"^^xsd:string ;
+              ] ;
+            sp:predicate [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "def"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdfs:comment ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts that have no value for rdfs:comment (or any of its sub-properties)."^^xsd:string ;
+  rdfs:comment "This query returns ontology concepts whose definitional assertions use rdfs:comment, rather than CORE:definition."^^xsd:string ;
+  rdfs:label "Concepts missing definition"^^xsd:string ;
+.
+QA:ConceptsMissingLabel
+  rdf:type QA:DataDiscoverableAndUnderstandableQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "label"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:label ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "expr"^^xsd:string ;
+                    ] ;
+                  sp:predicate <skos:prefLabel> ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "val"^^xsd:string ;
+              ] ;
+            sp:predicate [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "type"^^xsd:string ;
+              ] ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "def"^^xsd:string ;
+                    ] ;
+                  sp:predicate <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+                [
+                  sp:object [
+                      sp:varName "def"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdfs:label ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts whose lexical assertions use rdfs:label. This query returns ontology concepts that have no value for rdfs:label (or any of its sub-properties)."^^xsd:string ;
+  rdfs:label "Concepts missing label"^^xsd:string ;
+.
+QA:ConceptsWithEmptyDefinition
+  rdf:type QA:DataDiscoverableAndUnderstandableQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object "" ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts whose value for rdfs:comment is an empty string."^^xsd:string ;
+  rdfs:label "Concepts whose definition is the empty string"^^xsd:string ;
+.
+QA:ConceptsWithEmptyLabel
+  rdf:type QA:DataDiscoverableAndUnderstandableQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object "" ;
+            sp:predicate rdfs:label ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts whose value for rdfs:label is an empty string."^^xsd:string ;
+  rdfs:label "Concepts whose label is the empty string"^^xsd:string ;
+.
+QA:CorrectDefinition
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MakeDataDiscoverableAndUnderstandable ;
+  QA:requirementDefinition "All concepts must have an English language definition, in the rdfs:comment field, articulating its intended meaning."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ConceptPairsWithIdenticalDefinitions ;
+  QA:requirementTestedByQuery QA:ConceptsMissingDefinition ;
+  QA:requirementTestedByQuery QA:ConceptsWithEmptyDefinition ;
+  rdfs:comment "This is one of the component requirements of the evaluation criterion QA:MakeDataDiscoverableAndUnderstandable.  For information about the specifics of the requirement, see its QA:requirementDefinition assertion."^^xsd:string ;
+  rdfs:label "Correct definition"^^xsd:string ;
+.
+QA:CorrectExpression
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MakeDataDiscoverableAndUnderstandable ;
+  QA:requirementDefinition "All concepts must be associated with at least one English language expression that has an equivalent meaning."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ConceptPairsWithIdenticalDefinitions ;
+  QA:requirementTestedByQuery QA:ConceptsMissingLabel ;
+  QA:requirementTestedByQuery QA:ConceptsWithEmptyLabel ;
+  rdfs:comment "This is one of the component requirements of the quality criterion QA:MakeDataDiscoverableAndUnderstandable.  For information about the specifics of the requirement, see its QA:requirementDefinition assertion."^^xsd:string ;
+  rdfs:label "Expression with correct meaning"^^xsd:string ;
+.
+QA:CorrectPropertyForDefinition
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MakeDataDiscoverableAndUnderstandable ;
+  QA:requirementDefinition "Definitions must use the correct ontology for definitional assertions."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ConceptsMissingDefinition ;
+  rdfs:comment "This is one of the component requirements of the quality criterion QA:MakeDataDiscoverableAndUnderstandable.  For information about the specifics of the requirement, see its QA:requirementDefinition assertion."^^xsd:string ;
+  rdfs:label "Use designated property for definitions"^^xsd:string ;
+.
+QA:CorrectPropertyForExpression
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MakeDataDiscoverableAndUnderstandable ;
+  QA:requirementDefinition "Ontologies must use the correct lexical assertions."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ConceptsMissingLabel ;
+  rdfs:comment "This is one of the component requirements of the quality criterion QA:MinimallySufficientConceptDefinition .  For information about the specifics of the requirement, see its QA:requirementDefinition assertion."^^xsd:string ;
+  rdfs:label "Use correct property for expression"^^xsd:string ;
+.
+QA:DataDiscoverableAndUnderstandableQuery
+  rdf:type rdfs:Class ;
+  rdfs:comment "This is the class of evaluation queries that test for violations of the evaluation criterion QA:MakeDataDiscoverableAndUnderstandable .  Each query is associated with one of the component requirements of this criterion."^^xsd:string ;
+  rdfs:label "data discoverable and understandable query"^^xsd:string ;
+  rdfs:subClassOf QA:QualityCriteriaQuery ;
+.
+QA:DirectSubclassOfOwlThing
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesDisabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "class"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object owl:Thing ;
+            sp:predicate rdfs:subClassOf ;
+            sp:subject [
+                sp:varName "class"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Optional ;
+            sp:elements (
+                (
+                  [
+                    sp:object [
+                        sp:varName "other"^^xsd:string ;
+                      ] ;
+                    sp:predicate rdfs:subClassOf ;
+                    sp:subject [
+                        sp:varName "class"^^xsd:string ;
+                      ] ;
+                  ]
+                )
+              ) ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:or ;
+                sp:arg1 [
+                    rdf:type sp:not ;
+                    sp:arg1 [
+                        rdf:type sp:bound ;
+                        sp:arg1 [
+                            sp:varName "other"^^xsd:string ;
+                          ] ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:eq ;
+                    sp:arg1 [
+                        sp:varName "other"^^xsd:string ;
+                      ] ;
+                    sp:arg2 owl:Thing ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns classes defined in a specified ontology that are direct sub-classes of owl:Thing.  While such links are sometimes correct, they are sometimes an indication that the class has not been property integrated into the existing class hierarchy."^^xsd:string ;
+  rdfs:label "Direct subclass of owl thing"^^xsd:string ;
+.
+QA:DoNotDuplicateExistingConcepts
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:OntologyAlignmentAndReuse ;
+  QA:requirementDefinition "New concepts should not duplicate existing concepts."^^xsd:string ;
+  QA:requirementTestedByQuery QA:ConceptPairsWithIdenticalDefinitions ;
+  QA:requirementTestedByQuery QA:ConceptPairsWithIdenticalLabels ;
+  rdfs:comment "This is one of the component requirements of the quality criterion QA:OntologyAlignmentAndReuse .  For information about the specifics of the requirement, see its QA:requirementDefinition assertion."^^xsd:string ;
+  rdfs:label "Do not duplicate existing concepts"^^xsd:string ;
+.
+QA:EvaluationCriterion
+  rdf:type owl:Class ;
+  rdfs:comment "This is the class of criteria used by the VCE PMO to evaluate ontologies. Each criterion in turn consists of one or more requirements, which is a condition that an ontology must satisfy in order to be recommended for approval by the VCE PMO."^^xsd:string ;
+  rdfs:label "Evaluation criterion"^^xsd:string ;
+  rdfs:subClassOf owl:Thing ;
+.
+QA:EvaluationCriterionRequirement
+  rdf:type owl:Class ;
+  CORE:definition "This is the class of requirements associated with instances of EVT:EvaluationCriterion.  Each instance of this class is a requirement that COI ontologies must satisfy in order to be recommended for approval by the EVT.  Note that many instances of this class are associated with one or more instances of EVT:EvaluationCriteriaQuery.  In such cases, the indicated queries are used to test for formal violations of the requirement or for indicators of such violations."^^xsd:string ;
+  rdfs:comment "This is the class of requirements associated with instances of QA:EvaluationCriterion.  Each instance of this class is a requirement that ontologies must satisfy in order to be recommended for approval by the VCE.  Note that many instances of this class are associated with one or more instances of QA:EvaluationCriteriaQuery.  In such cases, the indicated queries are used to test for formal violations of the requirement or for indicators of such violations."^^xsd:string ;
+  rdfs:label "Evaluation criterion requirement"^^xsd:string ;
+  rdfs:subClassOf QA:Requirement ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onProperty QA:infoContainedIn ;
+      owl:someValuesFrom QA:EvaluationCriterion ;
+    ] ;
+.
+QA:EvaluationQueryNamespace
+  rdf:type QA:ParameterForQuery ;
+  QA:identifierString "http://model.dveivr.dha.health.mil/DVEIVR_SINK#"^^xsd:string ;
+  rdfs:comment "This query parameter is used to specify the namespace against which some set of evaluation queries are to be run.  It is used primarily to specify the relevant namespace for the evaluation criteria queries (QA:QualityCriteriaQuery), i.e., to limit the results of those queries to concepts found in the relevant particular ontology model."^^xsd:string ;
+  rdfs:label "query namespace"^^xsd:string ;
+.
+QA:IndividualLevelAssertionsOnClasses
+  rdf:type QA:QualityCriteriaQuery ;
+  QA:queryParameter QA:InferencesDisabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subj"^^xsd:string ;
+          ]
+          [
+            sp:varName "prop"^^xsd:string ;
+          ]
+          [
+            sp:varName "obj"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "domain"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:domain ;
+            sp:subject [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "obj"^^xsd:string ;
+              ] ;
+            sp:predicate [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+            sp:subject [
+                sp:varName "subj"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object owl:Class ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "domain"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object owl:Class ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "subj"^^xsd:string ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:label "Individual level assertions on classes"^^xsd:string ;
+.
+QA:InferencesDisabled
+  rdf:type QA:ParameterForQuery ;
+  rdfs:comment "The query parameter that specifies that a query should be run with inferences disabled (i.e., should be run without caching inferred triples)."^^xsd:string ;
+  rdfs:label "do not run inferences first"^^xsd:string ;
+  rdfs:label "inferences disabled"^^xsd:string ;
+.
+QA:InferencesEnabled
+  rdf:type QA:ParameterForQuery ;
+  rdfs:comment "The query parameter that specifies that a query should be run with inferences enabled (i.e., should be run after caching inferred triples)."^^xsd:string ;
+  rdfs:label "inferences enabled"^^xsd:string ;
+  rdfs:label "run inferences first"^^xsd:string ;
+.
+QA:InversePropertiesSameArguments
+  rdf:type QA:QualityCriteriaQuery ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "prop1"^^xsd:string ;
+          ]
+          [
+            sp:varName "prop2"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "prop2"^^xsd:string ;
+              ] ;
+            sp:predicate owl:inverseOf ;
+            sp:subject [
+                sp:varName "prop1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "domain"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:domain ;
+            sp:subject [
+                sp:varName "prop1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "domain"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:domain ;
+            sp:subject [
+                sp:varName "prop2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "range"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:range ;
+            sp:subject [
+                sp:varName "prop1"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "range"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:range ;
+            sp:subject [
+                sp:varName "prop2"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:ne ;
+                sp:arg1 [
+                    sp:varName "domain"^^xsd:string ;
+                  ] ;
+                sp:arg2 [
+                    sp:varName "range"^^xsd:string ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:label "Inverse properties same arguments"^^xsd:string ;
+.
+QA:MakeDataDiscoverableAndUnderstandable
+  rdf:type QA:EvaluationCriterion ;
+  QA:infoContainedIn QA:CorrectDefinition ;
+  QA:infoContainedIn QA:CorrectExpression ;
+  QA:infoContainedIn QA:CorrectPropertyForDefinition ;
+  QA:infoContainedIn QA:CorrectPropertyForExpression ;
+  rdfs:comment "This is one of the evaluation criteria used by the VCE in evaluating ontologies."^^xsd:string ;
+  rdfs:label "Make data discoverable and understandable"^^xsd:string ;
+.
+QA:MinimallySufficientConceptDefinition
+  rdf:type QA:EvaluationCriterion ;
+  QA:infoContainedIn QA:ClassIntegratedIntoClassHierarchy ;
+  QA:infoContainedIn QA:ConceptHasTypeAssertion ;
+  QA:infoContainedIn QA:PropertyHasCorrectDomainAndRange ;
+  rdfs:comment "This is one of the evaluation criteria used by the VCE in evaluating ontologies."^^xsd:string ;
+  rdfs:label "Minimally sufficient concept definition"^^xsd:string ;
+.
+QA:MinimallySufficientDefinitionQuery
+  rdf:type rdfs:Class ;
+  rdfs:comment "This is the class of evaluation queries that test for violations of the evaluation criterion QA:MinimallySufficientConceptDefinition .  Each query is associated with one of the component requirements of this criterion."^^xsd:string ;
+  rdfs:label "Minimally sufficient definition query"^^xsd:string ;
+  rdfs:subClassOf QA:QualityCriteriaQuery ;
+.
+QA:ObjectsMissingTypeAssertion
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesDisabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "obj"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "obj"^^xsd:string ;
+              ] ;
+            sp:predicate [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+            sp:subject [
+                sp:varName "subj"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "type"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdf:type ;
+                  sp:subject [
+                      sp:varName "obj"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:not ;
+                sp:arg1 [
+                    rdf:type sp:isLiteral ;
+                    sp:arg1 [
+                        sp:varName "obj"^^xsd:string ;
+                      ] ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts that have no rdf:type assertion, and that appear in the object position of some triple."^^xsd:string ;
+  rdfs:label "Concepts missing types 3"^^xsd:string ;
+.
+QA:OntologyAlignmentAndReuse
+  rdf:type QA:EvaluationCriterion ;
+  QA:infoContainedIn QA:DoNotDuplicateExistingConcepts ;
+  rdfs:comment "This is one of the quality criteria used by the VCE in evaluating ontologies."^^xsd:string ;
+  rdfs:label "Ontology alignment and reuse of ontologies"^^xsd:string ;
+.
+QA:ParameterForQuery
+  rdf:type rdfs:Class ;
+  rdfs:comment "This is the class of parameters which help determine the behavior of evaluation queries (cf., QA:QualityCriteriaQuery).  Certain instances may be associated with individual queries via the property QA:queryParameter."^^xsd:string ;
+  rdfs:label "Parameter for query"^^xsd:string ;
+  rdfs:subClassOf rdfs:Resource ;
+.
+QA:PropertiesMissingDomain
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object rdf:Property ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "value"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdfs:domain ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object rdf:Property ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "value"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdfs:range ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:eq ;
+                sp:arg1 [
+                    sp:varName "NS"^^xsd:string ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type afn:namespace ;
+                    sp:arg1 [
+                        sp:varName "subject"^^xsd:string ;
+                      ] ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns properties that do not have a domain assertion (a value for rdfs:domain)."^^xsd:string ;
+  rdfs:label "Properties missing domain"^^xsd:string ;
+.
+QA:PropertiesMissingRange
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesEnabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "subject"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object rdf:Property ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "subject"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "value"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdfs:range ;
+                  sp:subject [
+                      sp:varName "subject"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns properties that do not have a range assertion (a value for rdfs:range)."^^xsd:string ;
+  rdfs:label "Properties missing range"^^xsd:string ;
+.
+QA:PropertiesMissingTypeAssertion
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesDisabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "prop"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "obj"^^xsd:string ;
+              ] ;
+            sp:predicate [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+            sp:subject [
+                sp:varName "subj"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "type"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdf:type ;
+                  sp:subject [
+                      sp:varName "prop"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts that have no rdf:type assertion, and that appear in the predicate position of some triple."^^xsd:string ;
+  rdfs:label "Concepts missing types 2"^^xsd:string ;
+.
+QA:PropertiesWithMultipleDomains
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "prop"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "class1"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:domain ;
+            sp:subject [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "class2"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:domain ;
+            sp:subject [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:ne ;
+                sp:arg1 [
+                    sp:varName "class1"^^xsd:string ;
+                  ] ;
+                sp:arg2 [
+                    sp:varName "class2"^^xsd:string ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns properties that have multiple rdfs:domain assertions.  Such a pair of assertions may be correct, but often indicate an error -- e.g., a property that conflates two different relations, or an erroneous attempt to represent a disjunctive (either-or) domain."^^xsd:string ;
+  rdfs:label "Properties with multiple domains"^^xsd:string ;
+.
+QA:PropertiesWithMultipleRanges
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "prop"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "class1"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:range ;
+            sp:subject [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "class2"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:range ;
+            sp:subject [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:ne ;
+                sp:arg1 [
+                    sp:varName "class1"^^xsd:string ;
+                  ] ;
+                sp:arg2 [
+                    sp:varName "class2"^^xsd:string ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns properties that have multiple rdfs:range assertions.  Such a pair of assertions may be correct, but often indicate an error -- e.g., a property that conflates two different relations, or an erroneous attempt to represent a disjunctive (either-or) range."^^xsd:string ;
+  rdfs:label "Properties with multiple ranges"^^xsd:string ;
+.
+QA:PropertyHasCorrectDomainAndRange
+  rdf:type QA:EvaluationCriterionRequirement ;
+  QA:infoContainedIn QA:MinimallySufficientConceptDefinition ;
+  QA:requirementDefinition "If a concept is a Property, then it shall have a logical domain and a range specified that properly reflect the intended application of the Property concept.  Formally, these are specified with the rdfs:domain and rdfs:range statements which connect the property to classes. Domain and range statements shall be consistent with English definition of a property. Domains and ranges shall be consistent with domains and rages entailed through the rdfs:subPropertyOf relation."^^xsd:string ;
+  QA:requirementTestedByQuery QA:PropertiesMissingDomain ;
+  QA:requirementTestedByQuery QA:PropertiesMissingRange ;
+  QA:requirementTestedByQuery QA:PropertiesWithMultipleDomains ;
+  QA:requirementTestedByQuery QA:PropertiesWithMultipleRanges ;
+  rdfs:comment "This requirement is associated with the quality criterion QA:MinimallySufficientConceptDefinition. The requirement reads as follows: \"If a concept is a Property, then it shall have a logical domain and a range specified that properly reflect the intended application of the Property concept.  Formally, these are specified with the rdfs:domain and rdfs:range statements which connect the property to classes. Domain and range statements shall be consistent with English definition of a property. Domains and ranges shall be consistent with domains and rages entailed through the rdfs:subPropertyOf relation.\""^^xsd:string ;
+  rdfs:label "Property has domain and range"^^xsd:string ;
+.
+QA:QualityCriteriaQuery
+  rdf:type rdfs:Class ;
+  rdfs:comment "This is a class of queries (understood as first-class objects).  Each query in this class is used to evaluate the correctness or completeness of some aspect of an ontology. Each query in this class checks for satisfaction of one of the VCE Quality Criteria.  These query objects are associated with query strings via the built-in SPIN property spin:query, imported from spinrdf.org/spin."^^xsd:string ;
+  rdfs:label "Quality Criteria Query"^^xsd:string ;
+  rdfs:subClassOf rdfs:Resource ;
+.
+QA:QuerySummaryQuery
+  rdf:type QA:QualityCriteriaQuery ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "query"^^xsd:string ;
+          ]
+          [
+            sp:varName "evaluation_criterion"^^xsd:string ;
+          ]
+          [
+            sp:varName "requirement_description"^^xsd:string ;
+          ]
+          [
+            sp:varName "query_behavior"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "evaluation_criterion"^^xsd:string ;
+              ] ;
+            sp:predicate QA:infoContainedIn ;
+            sp:subject [
+                sp:varName "requirement"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "query"^^xsd:string ;
+              ] ;
+            sp:predicate QA:requirementTestedByQuery ;
+            sp:subject [
+                sp:varName "requirement"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "requirement_definition"^^xsd:string ;
+              ] ;
+            sp:predicate QA:requirementDefinition ;
+            sp:subject [
+                sp:varName "requirement"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "query_behavior"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:comment ;
+            sp:subject [
+                sp:varName "query"^^xsd:string ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns a set of bindings for each instance of EVT:EvaluationCriteriaQuery.  Specifically, for each evaluation query QUERY, it returns (i) the evaluation criterion compliance with QUERY helps check , (ii) the specific requirement within it that QUERY is testing, (ii) a description of QUERY's exact behavior."^^xsd:string ;
+  rdfs:label "Query summary query"^^xsd:string ;
+.
+QA:Requirement
+  rdf:type owl:Class ;
+  rdfs:label "Requirement"^^xsd:string ;
+  rdfs:subClassOf owl:Thing ;
+.
+QA:SubjectsMissingTypeAssertion
+  rdf:type QA:MinimallySufficientDefinitionQuery ;
+  QA:queryParameter QA:InferencesDisabled ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "subj"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "obj"^^xsd:string ;
+              ] ;
+            sp:predicate [
+                sp:varName "prop"^^xsd:string ;
+              ] ;
+            sp:subject [
+                sp:varName "subj"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:NotExists ;
+            sp:elements (
+                [
+                  sp:object [
+                      sp:varName "type"^^xsd:string ;
+                    ] ;
+                  sp:predicate rdf:type ;
+                  sp:subject [
+                      sp:varName "subj"^^xsd:string ;
+                    ] ;
+                ]
+              ) ;
+          ]
+        ) ;
+    ] ;
+  rdfs:comment "This query returns ontology concepts that have no rdf:type assertion, and that appear in the subject position of some triple."^^xsd:string ;
+  rdfs:label "subjects missing types"^^xsd:string ;
+.
+QA:TopLevelClassesInDomain
+  rdf:type QA:QualityCriteriaQuery ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:distinct "true"^^xsd:boolean ;
+      sp:resultVariables (
+          [
+            sp:varName "top"^^xsd:string ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "NS"^^xsd:string ;
+              ] ;
+            sp:predicate QA:identifierString ;
+            sp:subject QA:EvaluationQueryNamespace ;
+          ]
+          [
+            sp:object [
+                sp:varName "top"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:subClassOf ;
+            sp:subject [
+                sp:varName "child"^^xsd:string ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "common"^^xsd:string ;
+              ] ;
+            sp:predicate rdfs:subClassOf ;
+            sp:subject [
+                sp:varName "top"^^xsd:string ;
+              ] ;
+          ]
+          [
+            rdf:type sp:Filter ;
+            sp:expression [
+                rdf:type sp:and ;
+                sp:arg1 [
+                    rdf:type sp:and ;
+                    sp:arg1 [
+                        rdf:type sp:eq ;
+                        sp:arg1 [
+                            sp:varName "NS"^^xsd:string ;
+                          ] ;
+                        sp:arg2 [
+                            rdf:type afn:namespace ;
+                            sp:arg1 [
+                                sp:varName "child"^^xsd:string ;
+                              ] ;
+                          ] ;
+                      ] ;
+                    sp:arg2 [
+                        rdf:type sp:eq ;
+                        sp:arg1 [
+                            sp:varName "NS"^^xsd:string ;
+                          ] ;
+                        sp:arg2 [
+                            rdf:type afn:namespace ;
+                            sp:arg1 [
+                                sp:varName "top"^^xsd:string ;
+                              ] ;
+                          ] ;
+                      ] ;
+                  ] ;
+                sp:arg2 [
+                    rdf:type sp:ne ;
+                    sp:arg1 [
+                        sp:varName "NS"^^xsd:string ;
+                      ] ;
+                    sp:arg2 [
+                        rdf:type afn:namespace ;
+                        sp:arg1 [
+                            sp:varName "common"^^xsd:string ;
+                          ] ;
+                      ] ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  rdfs:label "Top level classes in domain"^^xsd:string ;
+.
+QA:identifierString
+  rdf:type owl:AnnotationProperty ;
+  rdfs:domain rdfs:Resource ;
+  rdfs:label "identifier string"^^xsd:string ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf rdfs:label ;
+.
+QA:infoContainedIn
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain owl:Thing ;
+  rdfs:label "info contained in"^^xsd:string ;
+  rdfs:range owl:Thing ;
+.
+QA:queryParameter
+  rdf:type owl:ObjectProperty ;
+  CORE:definition "This property links an evaluation query to a parameter setting."^^xsd:string ;
+  rdfs:domain QA:QualityCriteriaQuery ;
+  rdfs:label "parameter for query"^^xsd:string ;
+  rdfs:range QA:ParameterForQuery ;
+.
+QA:requirementDefinition
+  rdf:type owl:AnnotationProperty ;
+  rdfs:label "requirement definition"^^xsd:string ;
+  rdfs:subPropertyOf rdfs:comment ;
+.
+QA:requirementTestedByQuery
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain QA:EvaluationCriterionRequirement ;
+  rdfs:label "requirement tested by query"^^xsd:string ;
+  rdfs:range QA:QualityCriteriaQuery ;
+.

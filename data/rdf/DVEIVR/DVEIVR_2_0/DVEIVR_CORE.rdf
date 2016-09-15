@@ -1,0 +1,2838 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:mapping01="http://model.dveivr.dha.health.mil/mapping01#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:DUL="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:part="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:DM="http://model.dveivr.dha.health.mil/DVEIVR_MAPPING#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:CORE="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:core="http://model.dveivr.dha.health.mil/DVEIVR_core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl"/>
+    <owl:imports rdf:resource="http://qudt.org/schema/qudt"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >summary of the ontology goes here.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Vision Center of Excellence DVEIVR Core Ontology</rdfs:label>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Occupation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Description"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Service Occupation</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >job</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Military occupation that a service member is assigned at any one time</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >occupation</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="GeographicalPlace">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Earth-located area set aside for a particular purpose; "who owns this place?"; "the president was concerned about the property across from the White House"</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Place"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >online dictionary</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >geographical place</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Deployment">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deployment</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This may be more appropriately assigned to a unit</CORE:developerNote>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Activity"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deployment</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="PotentialAcuityMeterVisualAcuity">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ExamType"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >potential acuity meter visual acuity</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="HRR-PlateValue">
+    <rdfs:subClassOf rdf:resource="http://www.linkedmodel.org/schema/dtype#ValueReference"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MedicalProcedure">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A medical procedure is a course of action intended to achieve a result in the care of persons with health problems. A medical procedure with the intention of determining, measuring or diagnosing a patient condition or parameter is also called a medical test. Other common kinds of procedures are therapeutic (i.e., with the intention or treating, curing or restoring function or structure), including the large group of surgical procedures. Rehabilitation procedures are included in this group.</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In terms of ontology development, the medical procedure is the situation that is a setting for medical events (or a sequence), medical conditions, patients and providers with location and temporal factors.</CORE:developerNote>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Medical_procedure</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >medical procedure</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Activity"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="US-Scale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="VisualAcuityScale"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="InpatientRecord">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Record"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Status">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the position of affairs at a particular time, especially in political or commercial contexts.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >status</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="AffiliationAddress">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address of the location of the agency where a provider has his or her affiliation</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="PostalAddress"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >affiliation address</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="RefractionAxis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Refraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CorrectedVisualAcuity">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >visual acuity while wearing vision correction (glasses, corrective lenses, contact lenses, etc.)</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >corrected visual acuity</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="VisualAcuity"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="VisionQualityFormCompletion">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VQF</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="#Status"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vision quality form completion</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="EncounterType">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter type</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Type"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Encounter Type</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the type of patient encounter being described.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ColorVisionTest">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >color vision test</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExamType"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PlaceOfResidence">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Although the domicile and residence of a person are usually in the same place, and the two terms are frequently used as if they have the same meaning, they are not synonymous. A person can have two places of residence, such as one in the city and one in the country, but only one domicile. Residence means living in a particular locality, but domicile means living in that locality with the intent to make it a fixed and permanent home. Residence merely requires bodily presence as an inhabitant in a given place, whereas domicile requires bodily presence in that place and also an intention to make it one's permanent home.&#xD;
+&#xD;
+This distinction is relevant for members of the military, who may move frequently during the course of a typical career; college students, whose state of domicile may affect whether they are eligible for scholarships and grants from a state university; and retired individuals, whose domicile will determine where they pay taxes. Domicile determines where a person votes and where a person's driver's license is issued.</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Place"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >place of residence</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >residence</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.thefreedictionary.com/residence</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >domicile</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="MaritalStatus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Description"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Marital_status</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marital Status</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marital status</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A person's marital status indicates whether the person is married.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Helmet">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Helmet</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Helmet</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A helmet is a form of protective gear worn on the head to protect it from injuries.</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="PersonalProtectiveEquipment"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PatientInstructions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Outcome"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Patient instructions</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Person">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person role</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Agent"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="ProviderType">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a collection of the types of specialties a provider can have</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Type</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Type"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Provider">
+    <rdfs:subClassOf rdf:resource="#Person"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >person who provides care to a patient during an encounter.</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter provider</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter provider</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="RecordDetail">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Description"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#PostalAddress">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Postal System address  - includes street address, city, state, zip code.  APO and FPO behave differently, and more specific types of address will have additional descriptive properties.</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Postal address</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Address"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Organization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Agent"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Organization</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="CurrentResidence">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address of the location where a person is currently living.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Current residence</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#PlaceOfResidence"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MetricScale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#VisualAcuityScale"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EyeExamination">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eye exam</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eye examination</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Examination"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An eye examination is a series of tests that measure a person's ocular health and visual status, to detect abnormalities in the components of the visual system, and to determine how well the person can see.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="UncorrectedVisualAcuity">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UCVA</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >uncorrected visual acuity</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >visual acuity while not wearing corrective lenses</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#VisualAcuity"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PseudoisochromaticPlates">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pseudoisochromatic plates</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#ColorVisionTest"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PPECompliance">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PPE compliance</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SME and ontology-derived definition</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#Status"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Concept designed to classify the question of if a patient was wearing their issued PPE during a hazardous or traumatic event, or if they remember wearing it, or if the field medical personnel can determine that on behalf of a patient who cannot provide that information.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Patient">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a patient is a person who receives care during an encounter.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Person"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >no data element - central concept.</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >patient</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="EyewearLens">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Equipment"/>
+    </rdfs:subClassOf>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyewear lens</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lens</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Eyeglasses and contact lenses are devices that correct refractive errors in vision. Eyeglass lenses are mounted in frames worn on the face, sitting mostly on the ears and nose, so that the lenses are positioned in front of the eyes. Contact lenses appear to be worn in direct contact with the cornea, but they actually float on a layer of tears that separates them from the cornea.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="MedicalHistory">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The medical history or (medical) case history (also called anamnesis, especially historically) (abbr. Hx) of a patient is information gained by a physician by asking specific questions, either of the patient or of other people who know the person and can give suitable information (in this case, it is sometimes called heteroanamnesis), with the aim of obtaining information useful in formulating a diagnosis and providing medical care to the patient. The medically relevant complaints reported by the patient or others familiar with the patient are referred to as symptoms, in contrast with clinical signs, which are ascertained by direct examination on the part of medical personnel. Most health encounters will result in some form of history being taken. Medical histories vary in their depth and focus. For example, an ambulance paramedic would typically limit his history to important details, such as name, history of presenting complaint, allergies, etc. In contrast, a psychiatric history is frequently lengthy and in depth, as many details about the patient's life are relevant to formulating a management plan for a psychiatric illness.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Medical_history</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Record"/>
+    </rdfs:subClassOf>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hx</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >medical history</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#Agent">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Is a person or agency or organization.  Often has a role or participates in an activity or event.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Agent</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="VisualAcuityDistance">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SystemOfUnits"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >visual acuity distance</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="NextOfKin">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Next of kin</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CorrectiveLens">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="CorrectiveDevice"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Other_Condition">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >other condition</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="PersonalProtectiveEquipmentCondition"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indicator that personal protective equipment (PPE) has a status other than struck - penetrated, or struck - intact.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >other</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="M-UnitScale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#VisualAcuityScale"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Indication">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indication</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a symptom or particular circumstance that indicates the advisability or necessity of a specific medical treatment or procedure</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#Type">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This will likely need to be revisited as the DVEIVR structure changes.</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This class includes all type fields in DVEIVR.  Type fields act as tables for instances</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Type</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Facility">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Place"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >facility</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An installation, contrivance, or other things which facilitates something; a place for doing something: A commercial or institutional building, such as a hotel, resort, school, office complex, sports arena, or convention center.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Facility</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:about="#PersonalProtectiveEquipmentCondition">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ontology-derived definition</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PPE condition</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Status or condition of the personal protective equipment. Can include other states of condition, but interest will be focused on whether, when struck, the equipment remained intact or was penetrated.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Status"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Activity">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An activity is something that occurs in a span of time, may occur within an encounter, may have inputs and outputs, and has participants.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Activity</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="IntraocularPressureExam">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intraocular pressure exam</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IOP exam</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tonometry</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intraocular pressure exam</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tonometry is a test to measure the pressure inside your eyes.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#EyeExamination"/>
+  </owl:Class>
+  <owl:Class rdf:ID="InternationalClassificationOfDiseases">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The International Classification of Diseases (ICD) is the classification used to code and classify mortality data from death certificates.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ICD 9</CORE:acronym>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Code"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >International Classification of Diseases</skos:prefLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ICD 10</CORE:acronym>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the concept for ICD and the code are separate, in order to answer the question of "what does a code encode?"</CORE:developerNote>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ICD</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.cdc.gov/nchs/icd.htm</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:about="#Record">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RefractionSphere">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Refraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PersonGender">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Description"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gender</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gender</rdfs:label>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The state of being male or female (typically used with reference to social and cultural differences rather than biological ones).</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ReturnToDuty">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >return to duty</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indicates whether a person is able to return to duty or not</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Outcome"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Spectacles">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyewear to correct vision and/or protect the eyes</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >glasses</skos:altLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Eyewear"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spectacles</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyeglasses</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="BrightnessAcuityTesting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExamType"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >brightness acuity testing</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="ColorVision">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#VisualAcuity"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a recognition of color as the result of changes in the pigments of the cones in the retina that react to varying intensities of red, green, and blue light. The exact mechanisms of color vision are not completely understood, but some experts believe they depend on three specialized types of cones, each type responding to red, green, or blue light. Some retinal cones respond to the entire visual spectrum.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >color vision</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="HospitalAddress">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address of the hospital</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#PostalAddress"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hospital address</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="JaegerScale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#VisualAcuityScale"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EyeShield">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyeshield</skos:altLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Eyewear"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >shield</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The shield part of a mask or helmet that protects a person'seyes.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="DiagnosticProcedure">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >diagnostic procedure</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#MedicalProcedure"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A diagnostic procedure is an examination to identify an individual's specific areas of weakness and strength in order determine a condition, disease or illness.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#Examination">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Examination</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Examination</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#MedicalProcedure"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An investigation or inspection for the purpose of diagnosis.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >exam</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="DemographicRecord">
+    <rdfs:subClassOf rdf:resource="#Record"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AutorefractionAcuity">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >autorefraction acuity</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExamType"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ImagingMethod">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >imaging method</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExamType"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="AdmissionType">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >category for types of admissions.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >admission type</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Type"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Outcome">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >definition based on information in the model already</CORE:developerNote>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Data fields relating to the outcome of treatment for a patient</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >outcome</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#VisualAcuity">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/745988/all/acuity</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A measure of the resolving power of the eye. It is usually determined by one's ability to read letters of various sizes at a standard distance from the test chart. The result is expressed as a comparison: 20/20 is normal vision, meaning the subject has the ability to see from a distance of 20 ft (6.1 m) what a person with normal vision should see at that distance. Visual acuity of 20/40 means that a person sees at 20 ft (6.1 m) what a person with normal vision sees from a distance of 40 ft (12.2 m).</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VA</CORE:acronym>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Findings"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Farnsworth-D-15">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExamType"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Farnsworth D-15</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="TreatmentProcedure">
+    <rdfs:subClassOf rdf:resource="#MedicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HardyRandRittlerPlates1">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="HardyRandRittlerPlates"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <CORE:HRR-PlateValue rdf:ID="HRR-Yes"/>
+          <CORE:HRR-PlateValue rdf:ID="HRR-No"/>
+          <CORE:HRR-PlateValue rdf:ID="HRR-NotDone"/>
+        </owl:oneOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="PastHistory">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >(PMH) (including major illnesses, any previous surgery/operations (sometimes distinguished as "Past Surgical History" or PSH), any current ongoing illness, e.g. diabetes).</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PMH</CORE:acronym>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >past medical history</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Past History</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#MedicalHistory"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VisionChart">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExamType"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PermanentResidence">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >residence or home where a person maintains a permanent address or living arrangement.  Relevant for members of the military, whose permanent address may be different from a current address if they are TDY or on deployment.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >permanent residence</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >domicile</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="#PlaceOfResidence"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MedicalIndication">
+    <rdfs:subClassOf rdf:resource="#Indication"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Medical indication</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="EthnicGroup">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ethnicity or ethnic group is a socially defined category based on common culture or nationality.[1][2] Ethnicity can, but does not have to, include common ancestry, appearance, cuisine, dressing style, heritage, history, language or dialect, religion, symbols, traditions, or other cultural factor. Ethnic identity is constantly reinforced through common characteristics which set the group apart from other groups.</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >assuming this will be a finite list of instances of ethnicity allowed by the system</CORE:developerNote>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Ethnicity</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Description"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ethnicity</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ethnic group</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ethnicity</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Address">
+    <rdfs:subClassOf rdf:resource="#Record"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An address is a collection of information, presented in a mostly fixed format, used for describing the location of a building, apartment, or other structure or a plot of land, generally using political boundaries and street names as references, along with other identifiers such as house or apartment numbers. Some addresses also contain special codes to aid routing of mail and packages, such as a ZIP code or post code.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#Eyewear">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#PersonalProtectiveEquipment"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1. A transparent refractive device worn to correct refraction errors in the patient's eyes.&#xD;
+2. A device worn to protect eyes from glare or particles in the air.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/758419/0/glasses?q=spectacles</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyewear</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#Place">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a particular position or point in space.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Place</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="MedicalFacility">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a facility where medical events and procedures take place.  A medical facility is, in general, any location at which medicine is practiced regularly. Medical facilities range from small clinics and doctor's offices to urgent care centers and large hospitals with elaborate emergency rooms and trauma centers.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Medical_facility</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#Facility"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >medical facility</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="LivingArrangement">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Living arrangement refers to the domestic situation of a person, i.e. alone, with family, with a friend, homeless, or other.</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Living Arrangement</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Description"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from database</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >living arrangement</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#CorrectiveDevice">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Equipment"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PrescriptionDetail">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Description"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ClinicalTrial">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WHO: a clinical trial is any research study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >clinical trial</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#MedicalProcedure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HRR-DemonstrationPlates">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <CORE:HRR-PlateValue rdf:ID="HRR-Hysteria"/>
+          <CORE:HRR-PlateValue rdf:ID="HRR-Malingering"/>
+          <CORE:HRR-PlateValue rdf:ID="HRR-NotRecorded"/>
+        </owl:oneOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HardyRandRittlerPlates"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ExamType">
+    <rdfs:subClassOf rdf:resource="#Type"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >exam type</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >exam</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >includes the categorical descriptions of the types of exams provided to patients.  Distinct from the radio-button instances of whether or not an exam was provided (EXAM:ExamStatus).</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#Equipment">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the necessary items for a particular purpose.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Equipment</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Equipment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RefractionCylinder">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Refraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="HardyRandRittlerPlates2">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HardyRandRittlerPlates"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <CORE:HRR-PlateValue rdf:ID="HRR-I"/>
+          <CORE:HRR-PlateValue rdf:ID="HRR-II"/>
+          <CORE:HRR-PlateValue rdf:ID="HRR-III"/>
+          <CORE:HRR-PlateValue rdf:about="#HRR-NotDone"/>
+        </owl:oneOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="TestResult">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >test result</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >result of tests performed during eye exams.</CORE:definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Findings"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PhysicalLimitationStatus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >physical limitations</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Status"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In outcomes, defines whether or not a person has physical limitations; yes/no radio button.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="CurrentHistory">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >current medical history</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Current History</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#MedicalHistory"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CurrentDisabilityRating">
+    <rdfs:subClassOf rdf:resource="#Outcome"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VA rates disability from 0% to 100% in 10% increments (e.g. 10%, 20%, 30% etc.).  This field indicates the patient's most current rating.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >current disability rating</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#Description">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Description</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PowerOfAttorney">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Power_of_attorney</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#Person"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Power of Attorney</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A power of attorney (POA) or letter of attorney is a written authorization to represent or act on another's behalf in private affairs, business, or some other legal matter. The person authorizing the other to act is the principal, grantor, or donor (of the power). The one authorized to act is the agent or attorney or, in some common law jurisdictions, the attorney-in-fact.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >power of attorney</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="PointOfContact">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a person or a department serving as the coordinator or focal point of information concerning an activity or program. A POC is used in many cases where information is time-sensitive and accuracy is important.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Point_of_contact</CORE:definitionSource>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >POC</CORE:acronym>
+    <rdfs:subClassOf rdf:resource="#Person"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >point of contact</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Discharge">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Discharge from the hospital is the point at which the patient leaves the hospital and either returns home or is transferred to another facility such as one for rehabilitation or to a nursing home.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Read more: http://www.surgeryencyclopedia.com/Ce-Fi/Discharge-from-the-Hospital.html#ixzz2Ll72tv4P</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Activity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ContactLens">
+    <rdfs:subClassOf rdf:resource="#CorrectiveLens"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A thin plastic or glass lens that is fitted over the cornea of the eye to correct various vision defects.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Eyewear"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >contact lenses</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >contacts</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="PlaceOfWork">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The place of work is the location in which a currently employed person performs his or her job, and where a usually employed person performs the primary job used to determine his/her other economic characteristics such as occupation, industry, and status in employment.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >place of work</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Place"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Findings">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Findings</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="PupilExam">
+    <rdfs:subClassOf rdf:resource="#EyeExamination"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An examination of pupilary function includes inspecting the pupils for equal size (1 mm or less of difference may be normal), regular shape, reactivity to light, and direct and consensual accommodation.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pupil exam</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="AddressDetail">
+    <rdfs:subClassOf rdf:resource="#Description"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FleetPostOfficeAddress">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >APO stands for "Army Post Office," and is associated with Army or Air Force installations. FPO stands for "Fleet Post Office," and is associated with Navy installations and ships. The only way to send an item to an APO or FPO address is to use the United States Postal Service</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FPO</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >defense.gov kb</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fleet post office</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TheaterAddress"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Test">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a kind of medical procedure performed to detect, diagnose, or monitor diseases, disease processes, susceptibility, and determine a course of treatment</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Test</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Test</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Activity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VisualAcuityDetail">
+    <rdfs:subClassOf rdf:resource="#Description"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Duration">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a measured length of time.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SystemOfUnits"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Duration</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Duration</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#PersonalProtectiveEquipment">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >(DOD) The equipment provided to shield or isolate a person from the chemical, physical, and thermal hazards that can be encountered at a hazardous materials incident. Personal protective equipment includes both personal protective clothing and respiratory protection. Also called PPE. See also individual protective equipment.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PPE</CORE:acronym>
+    <rdfs:subClassOf rdf:resource="#Equipment"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Source: JP 3-11; http://www.dtic.mil/doctrine/dod_dictionary/data/p/20088.html</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >personal protective equipment</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Current History - Injury Detail Type (Personal Protective Equipment)</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Imaging-AncillaryTesting">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ancillary testing</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Imaging</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#EyeExamination"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CurrentVisualStatus">
+    <rdfs:subClassOf rdf:resource="#Status"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >person's current status regarding visual acuity</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >current visual status</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Method">
+    <rdfs:subClassOf rdf:resource="#Description"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >method</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a particular form of procedure for accomplishing or approaching something, especially a systematic or established one.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="VisionChartType">
+    <rdfs:subClassOf rdf:resource="#Type"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EyewearFrame">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyeglass frame</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The part of the eyeglasses or spectacles that fits the face and holds the lens(es).</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Equipment"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >frame</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyewear frame</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spectacles frame</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >frames</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="InpatientEncounter">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An inpatient encounter is where a patient receives inpatient care.  Inpatient care refers to medical treatment that is provided in a hospital or other facility, and requires at least one overnight stay.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composite of data and internet information</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Encounter"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inpatient encounter</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Hospital">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >an institution providing medical and surgical treatment and nursing care for sick or injured people.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hospital</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hospital</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Diagnosis">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The act or process of identifying or determining the nature and cause of a disease or injury through evaluation of patient history, examination, and review of laboratory data.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >diagnosis</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Activity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BodyLocation">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a particular place or space on the human body</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body location</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Place"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Unit">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stub for military unit - connecting a servicemember to a unit and activities performed by units</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unit</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="PhoneNumber">
+    <rdfs:subClassOf rdf:resource="#Record"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Refraction">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SystemOfUnits"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the act or process of refracting; specifically, the determination of the refractive errors of the eye and their correction with lenses.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >refraction</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="FamilyRelationshipType">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >type of relationship (i.e. sister, brother, parent, spouse) that is designated as the point of contact for the patient.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >relationship type</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Type"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Point of Contact Type</rdfs:comment>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="ConfrontationVisualFields">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >confrontation visual fields</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#ExamType"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Encounter">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >meeting between a patient and a health care provider</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Activity"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="providerInEncounter"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="patientInEncounter"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ExamStatus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Exam Status</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fields describing whether or not an exam was completed; yes/no radio button.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Status"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DepthPerception">
+    <rdfs:subClassOf rdf:resource="#VisualAcuity"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >depth perception</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Non-NumericScale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#VisualAcuityScale"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EyewearCondition">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyewear condition</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ontology-derived definition</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#PersonalProtectiveEquipmentCondition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Status or condition of the personal protective equipment (eyewear). Can include other states of condition, but interest will be focused on whether, when struck, the equipment remained intact or was penetrated.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#TheaterAddress">
+    <rdfs:subClassOf rdf:resource="#Address"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Army or fleet address</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Admission">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >admission</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >free online dictionary</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a patient accepted for inpatient service in a hospital.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Activity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CurrentProceduralTerminology">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The Current Procedural Terminology (CPT) code set is a medical code set maintained by the American Medical Association through the CPT Editorial Panel.[1] The CPT code set (copyright protected by the AMA) describes medical, surgical, and diagnostic services and is designed to communicate uniform information about medical services and procedures among physicians, coders, patients, accreditation organizations, and payers for administrative, financial, and analytical purposes.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CPT code</CORE:acronym>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CPT codes encode conditions, modeled in a lower-level ontology file.</CORE:developerNote>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Code"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Current_Procedural_Terminology</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >current procedural terminology </skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="POBox">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >S: (n) Post-Office box, PO Box, POB, call box, letter box (a numbered compartment in a post office where mail is put to be called for)</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PO Box</skos:prefLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >POB</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >word net</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#PostalAddress"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >post office box</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Transfer">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >transfer</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >may need to specify that this is a patient transfer</CORE:developerNote>
+    <rdfs:subClassOf rdf:resource="#Activity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IOP-ExamMethod">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IOP Exam Method</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#ExamType"/>
+  </owl:Class>
+  <owl:Class rdf:about="#HardyRandRittlerPlates">
+    <rdfs:subClassOf rdf:resource="#PseudoisochromaticPlates"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Vergence">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vergence</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a disjunctive reciprocal rotation of both eyes so that the axes of fixation are not parallel; the kind of vergence is indicated by a prefix, e.g., convergence, divergence.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#ExamType"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Code">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a system of words, letters, figures, or other symbols substituted for other words, letters, etc., especially for the purposes of secrecy or efficiency within computing or other data systems.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >code</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Description"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BaseAddress">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#PostalAddress"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >base address</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address for a military base</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Base Address Type</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#VisualAcuityScale">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#SystemOfUnits"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >visual acuity scale</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="MilitaryServiceBranch">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Military service branch</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Military service branch</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Military branch (also service branch or armed service) is according to common standard the subdivision of the national armed forces of a sovereign nation or state. In classical NATO terminology, the three basic military branches are the Army, Air Force, and Navy.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="OutpatientEncounter">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An encounter where the patient receives outpatient care.  Outpatient care describes medical care or treatment that does not require an overnight stay in a hospital or medical facility.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Encounter"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composite from data and internet</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >outpatient encounter</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Prognosis">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A forecast of the likely course of a disease or ailment.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >prognosis</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#Outcome"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="encounterLocation">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that asserts that an encounter occurs at a facility.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter location</skos:prefLabel>
+    <rdfs:range rdf:resource="#Facility"/>
+    <rdfs:domain rdf:resource="#Encounter"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasVisualAcuityScale">
+    <rdfs:domain rdf:resource="#VisualAcuity"/>
+    <rdfs:range rdf:resource="#VisualAcuityScale"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="livingArrangement">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property connects a patient with their living arrangement</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >need to determine if a domain of DUL:Person is appropriate or not</CORE:developerNote>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#LivingArrangement"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has living arrangement</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasProviderType">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider type</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >type of provider</CORE:definition>
+    <rdfs:range rdf:resource="#ProviderType"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Type</rdfs:comment>
+    <rdfs:domain rdf:resource="#Provider"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="concludesInpatientEncounter">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >this property asserts that a discharge occurs at the end of an inpatient encounter.</CORE:definition>
+    <rdfs:range rdf:resource="#InpatientEncounter"/>
+    <rdfs:domain rdf:resource="#Discharge"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasRecordDetail">
+    <rdfs:domain rdf:resource="#Record"/>
+    <rdfs:range rdf:resource="#RecordDetail"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasVisualAcuity">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has visual acuity</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has visual acuity</rdfs:label>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#VisualAcuity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#patientInEncounter">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >patient in</skos:prefLabel>
+    <rdfs:range rdf:resource="#Patient"/>
+    <rdfs:domain rdf:resource="#Encounter"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is patient in</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a property that asserts that a person with the role of patient is a participant in an encounter.</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="providerAddress">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider address</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider address</skos:prefLabel>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:ID="placeAddress"/>
+    </rdfs:subPropertyOf>
+    <rdfs:domain rdf:resource="#Provider"/>
+    <rdfs:range rdf:resource="#Address"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="receivesOutcome">
+    <rdfs:range rdf:resource="#Outcome"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >receives outcome</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >receives outcome</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="recordsInformationAbout">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#Record"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >records information about</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="placeOfResidence">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >asserts that a person has a place of residence. </CORE:definition>
+    <rdfs:range rdf:resource="#PlaceOfResidence"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >place of residence</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >need to add temporal component of "duration"</CORE:developerNote>
+    <rdfs:domain rdf:resource="#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="measuresVisualAcuity">
+    <rdfs:domain rdf:resource="#EyeExamination"/>
+    <rdfs:range rdf:resource="#VisualAcuity"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >measures visual acuity</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >measures visual acuity</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasExamStatus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has exam status</skos:prefLabel>
+    <rdfs:range rdf:resource="#ExamStatus"/>
+    <rdfs:domain rdf:resource="#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="personMilitaryBranch">
+    <rdfs:range rdf:resource="#MilitaryServiceBranch"/>
+    <rdfs:domain rdf:resource="#Person"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >person military branch</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assignedToRelationshipType">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >relationship that connects the concept of "point of contact" to the relationship types (i.e. mother, father, sister, uncle, cousin, friend, spouse, etc.).</CORE:definition>
+    <rdfs:domain rdf:resource="#PointOfContact"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >point of contact type</skos:prefLabel>
+    <rdfs:range rdf:resource="#FamilyRelationshipType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="specifiesExamMethod">
+    <rdfs:domain rdf:resource="#EyeExamination"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >specifies exam method</rdfs:label>
+    <rdfs:range rdf:resource="#ExamType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="conductsEyeExamination">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >conducts eye examination</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >conducts eye examination</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Provider"/>
+    <rdfs:range rdf:resource="#EyeExamination"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="powerOfAttorney">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states a patient establishes a legal power of attorney</CORE:definition>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#PowerOfAttorney"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="personLocation">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deprecated property</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that establishes a connection between a person and the place where they are geolocated, either physically or politically or legally</CORE:definition>
+    <rdfs:range rdf:resource="#GeographicalPlace"/>
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:subPropertyOf rdf:resource="#personLocation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasAdmissionType">
+    <rdfs:domain rdf:resource="#Admission"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states an admission task has types of admissions</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has admission type</skos:prefLabel>
+    <rdfs:range rdf:resource="#AdmissionType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="occupationAtTimeOfInjury">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#Occupation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasEthnicity">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <rdfs:domain rdf:resource="#Person"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states a person can have an ethnicity or ethnic group</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has ethnicity</skos:prefLabel>
+    <rdfs:range rdf:resource="#EthnicGroup"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ethnicity</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="includesDiagnosticProcedure">
+    <rdfs:domain rdf:resource="#Examination"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >includes diagnostic procedure</rdfs:label>
+    <rdfs:range rdf:resource="#DiagnosticProcedure"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasVisionChartType">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vision chart type</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vision chart type</skos:prefLabel>
+    <rdfs:domain rdf:resource="#VisionChart"/>
+    <rdfs:range rdf:resource="#VisionChartType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="equipmentCondition">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ontology-derived definition</CORE:definitionSource>
+    <rdfs:range rdf:resource="#PersonalProtectiveEquipmentCondition"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >equipment condition</skos:prefLabel>
+    <rdfs:domain rdf:resource="#PersonalProtectiveEquipment"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a relationship that asserts that some PPE has been assigned the status of a condition.</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="observes"/>
+  <owl:ObjectProperty rdf:ID="deploymentLocation">
+    <rdfs:range rdf:resource="#Place"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deployment location</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deployment location</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Deployment"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="indicates">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#Indication"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indicates</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="satisfiesNextOfKin">
+    <rdfs:domain rdf:resource="#FamilyRelationshipType"/>
+    <rdfs:range rdf:resource="#NextOfKin"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >satisfies next of kin</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="maritalStatus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has marital status</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a property that connects a person to their marital status</CORE:definition>
+    <rdfs:range rdf:resource="#MaritalStatus"/>
+    <rdfs:domain rdf:resource="#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="patientTransfer">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#Transfer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="evaluatesOutcome">
+    <rdfs:domain rdf:resource="#Provider"/>
+    <rdfs:range rdf:resource="#Outcome"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >evaluates outcome</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >evaluates outcome</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasDuration">
+    <rdfs:range rdf:resource="#Duration"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has duration</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has duration</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Activity"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasWorkplaceAddress">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has workplace address</skos:prefLabel>
+    <rdfs:domain rdf:resource="#PlaceOfWork"/>
+    <rdfs:range rdf:resource="#PostalAddress"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasVQFFormCompletionStatus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has VQF Form completion status</skos:prefLabel>
+    <rdfs:range rdf:resource="#VisionQualityFormCompletion"/>
+    <rdfs:domain rdf:resource="#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasGender">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is gender different from sex?</CORE:developerNote>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sex</skos:altLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >patient gender</rdfs:label>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >gender</skos:prefLabel>
+    <rdfs:range rdf:resource="#PersonGender"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sexual identity: male, female, neuter, transgender. </CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >patient gender</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gender</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="providerAffiliation">
+    <rdfs:domain rdf:resource="#Provider"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >free online dictionary</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider affiliation</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Medical practice A professional relationship, including an employment relationship, a position as an independent contractor or granting of privileges by a health care facility or HMO.</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasCurrentVisualStatus">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#CurrentVisualStatus"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="patientAddress">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >patient address</skos:prefLabel>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#placeAddress"/>
+    </rdfs:subPropertyOf>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="#Address"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="precedesInpatientEncounter">
+    <rdfs:domain rdf:resource="#Admission"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <rdfs:range rdf:resource="#InpatientEncounter"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that connects admission to an inpatient encounter</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#placeAddress">
+    <rdfs:domain rdf:resource="#Place"/>
+    <rdfs:range rdf:resource="#Address"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assignedToUnit">
+    <rdfs:range rdf:resource="#Unit"/>
+    <rdfs:domain rdf:resource="#Person"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >assigned to unit</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="encodes">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#Code"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="assignVisionQualityFormCompletion">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >assign vision quality form completion</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Outcome"/>
+    <rdfs:range rdf:resource="#VisionQualityFormCompletion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >assign vision quality form completion</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasPPECompliance">
+    <rdfs:range rdf:resource="#PPECompliance"/>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states that a patient was, was not, or doesn't remember if he/she was wearing PPE as issued.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PPE compliance</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ontology-derived definition.</CORE:definitionSource>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasEncounterType">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that connects the concept of an encounter with the possible kinds of encounters it can be.</CORE:definition>
+    <rdfs:domain rdf:resource="#Encounter"/>
+    <rdfs:range rdf:resource="#EncounterType"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="admissionFacility">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Admission Facility</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >facility into which the individual patient is admitted</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <rdfs:range rdf:resource="#Facility"/>
+    <rdfs:domain rdf:resource="#Admission"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >admission facility</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasPlateValue">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has plate value</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has plate value</rdfs:label>
+    <rdfs:domain rdf:resource="#HardyRandRittlerPlates"/>
+    <rdfs:range rdf:resource="#HRR-PlateValue"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasResidentialAddress">
+    <rdfs:range rdf:resource="#PostalAddress"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has residential address</skos:prefLabel>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#CurrentResidence"/>
+          <owl:Class rdf:about="#PermanentResidence"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="issuedPPE">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states that a person in the role of patient was issued some PPE</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a relationship that states that a patient was issued PPE</CORE:definition>
+    <rdfs:range rdf:resource="#PersonalProtectiveEquipment"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >issued PPE</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ontology-derived definition</CORE:definitionSource>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="producesRecord">
+    <rdfs:range rdf:resource="#Record"/>
+    <rdfs:domain rdf:resource="#Agent"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >produces record</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="transferredFacility">
+    <rdfs:range rdf:resource="#Facility"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Transferred Facility</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >transferred facility</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Transfer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#providerInEncounter">
+    <rdfs:range rdf:resource="#Provider"/>
+    <rdfs:domain rdf:resource="#Encounter"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider in encounter</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="dischargeTo">
+    <rdfs:domain rdf:resource="#Discharge"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge location</skos:prefLabel>
+    <rdfs:range rdf:resource="#Place"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge to</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge is associated to patient, and the location is associated to the discharge. Better definition would clarify if this is correct or not.</CORE:developerNote>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Discharge To</rdfs:comment>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="patientMedicalHistory">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states that a person in the role of patient has a medical history.</CORE:developerNote>
+    <rdfs:range rdf:resource="#MedicalHistory"/>
+    <rdfs:domain rdf:resource="#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="intraocularPressureMethod">
+    <rdfs:domain rdf:resource="#IntraocularPressureExam"/>
+    <rdfs:range rdf:resource="#IOP-ExamMethod"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:ID="hasAddressDetail">
+    <rdfs:domain rdf:resource="#Address"/>
+    <rdfs:range rdf:resource="#AddressDetail"/>
+  </rdf:Property>
+  <owl:DatatypeProperty rdf:ID="addressState">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >US State associated with a person's address.</CORE:definition>
+    <rdfs:domain rdf:resource="#PostalAddress"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address state</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="flakVestSize">
+    <rdfs:domain>
+      <CORE:PersonalProtectiveEquipment rdf:ID="FlakVest">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >flak vest</skos:prefLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >flak jacket</skos:altLabel>
+        <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >A flak jacket or flak vest is a form of body armor designed to provide protection from case fragments ("frag") from high explosive weaponry, such as anti-aircraft artillery ("flak"), grenades, some round shot used in shotguns and land mines and other lower-velocity projectiles. It is not designed to protect against bullets fired from small-arms such as rifles or handguns. However, certain flak jackets are able to sustain certain gunshots, dependent on the armor, the gun, and the distance that the bullet has travelled.</CORE:definition>
+        <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://en.wikipedia.org/wiki/Flak_vest</CORE:definitionSource>
+      </CORE:PersonalProtectiveEquipment>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >flak vest sizes are listed as S/M/XSM</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IBA</CORE:acronym>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >flak vest size</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >derived from example data</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="currentDisabilityRatingDate">
+    <rdfs:domain rdf:resource="#CurrentDisabilityRating"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >current disability rating date</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="amplitudeOfAccommodation">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Vergence"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="personMilitaryRank">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rank</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >military rank</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Person"/>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rank</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Military ranks are a system of hierarchical relationships in armed forces,[1] police,[2] intelligence agencies or other institutions organized along military lines.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Military_rank</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeDeceasedReason">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Discharge Deceased Reason</rdfs:comment>
+    <rdfs:domain rdf:resource="#Discharge"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has discharge deceased reason</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="nearPointConvergence">
+    <rdfs:domain rdf:resource="#Vergence"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="personLastName">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >family name</skos:altLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Point of Contact Last Name</rdfs:comment>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >surname</skos:altLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.thefreedictionary.com/surname</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A name shared in common to identify the members of a family, as distinguished from each member's given name. Also called family name, last name.</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Last Name</rdfs:comment>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Last Name</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >last name</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="personMiddleName">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MI</CORE:acronym>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >middle initial</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >middle name</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >provider middle name</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A name that occurs between a person's first name and surname.</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Middle Name</rdfs:comment>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.thefreedictionary.com/middle+name</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >point of contact middle name</rdfs:comment>
+    <rdfs:domain rdf:resource="#Person"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="returnToDutyDate">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >return to duty date</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:domain rdf:resource="#ReturnToDuty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="prognosisOcularTraumaScore">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ocular trauma score</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Prognosis"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="returnToDutyIndicator">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indicator of person's return to duty</CORE:definition>
+    <rdfs:domain rdf:resource="#ReturnToDuty"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >return to duty indicator</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="intraOcularPressure">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#IntraocularPressureExam"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="phoneNumberType">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >word net</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >phone</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Phone</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property connecting class of phone number to class of phone number types including DSN, UPI, NPI</CORE:definition>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the number is used in calling a particular telephone</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Phone Type</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >telephone number</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >phone type</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Agent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >phone number</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="VAPhoneNumber">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="#phoneNumberType"/>
+    <rdfs:domain rdf:resource="#Agent"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="afferentPupillaryDefect">
+    <rdfs:domain rdf:resource="#PupilExam"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dateOfBirth">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Date on which a person was born, according to a birth certificate or other legal record.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date of birth</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Date Of Birth</rdfs:comment>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Commonly understood.</CORE:definitionSource>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >this might replace CORE:hasDateOfBirth</CORE:developerNote>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="patientCategory">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >patient category</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="activityEndDate">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="#Activity"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >activity end date</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dischargeDateTime">
+    <rdfs:domain rdf:resource="#Discharge"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >how is this different from "Date of Discharge"?</CORE:developerNote>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Date of Discharge</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge date time</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Discharge Date/Time</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that indicates the date time that a patient was discharged.</CORE:definition>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="outcomeQualityOfLifeVQFScore">
+    <rdfs:domain rdf:resource="#VisionQualityFormCompletion"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >quality of life VQF Score</skos:prefLabel>
+    <rdfs:flag rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OLTP Field appears to have a misspelling</rdfs:flag>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VQF score</CORE:acronym>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >this is a shallow representation and may need more input and depth, depending on additional development and requirements.</CORE:developerNote>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encounterProviderIdentifier">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter provider ID</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Encounter Provider</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >identifier for the provider associated with a particular encounter</CORE:definition>
+    <rdfs:domain rdf:resource="#Provider"/>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:ID="personIdentifier"/>
+    </rdfs:subPropertyOf>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="socialSecurityNumber">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Social_Security_number</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In the United States, a Social Security number (SSN) is a nine-digit number issued to U.S. citizens, permanent residents, and temporary (working) residents under section 205(c)(2) of the Social Security Act, codified as 42 U.S.C. § 405(c)(2). The number is issued to an individual by the Social Security Administration, an independent agency of the United States government. Its primary purpose is to track individuals for Social Security purposes</CORE:definition>
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SSN - NO SSN IS STORED</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SSN</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Social Security Number is part of the information model, even if the data is not contained in any systems within the organization.</CORE:developerNote>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="#personIdentifier"/>
+    </rdfs:subPropertyOf>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="admissionDate">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date the patient was admitted to the facility</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >admission date</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Date Of Admission</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="#Admission"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date of admission</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="homePhoneNumber">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >home phone number</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Phone Number</rdfs:comment>
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:subPropertyOf rdf:resource="#phoneNumberType"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >phone number affiliated with a person's home or residence</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="admissionRecordNumber">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Admission Record Number</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Admission"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >admission record number</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="officePhoneNumber">
+    <rdfs:domain rdf:resource="#Agent"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Phone Number</rdfs:comment>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >work phone</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >phone number affiliated with person's workplace or office.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >office phone number</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="#phoneNumberType"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="pastHistoryDate">
+    <rdfs:domain rdf:resource="#PastHistory"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date associated with a person's past history record.  Note, not the date of a particular condition's diagnosis or onset period.</CORE:definition>
+    <rdfs:flag rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >will need to make sure this doesn't confuse with data for the dates associated with specific conditions or traumatic incidents.</rdfs:flag>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >past history date</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Past History Date</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="cellularPhoneNumber">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >number associated with person's cellular/wireless telephone number</CORE:definition>
+    <rdfs:subPropertyOf rdf:resource="#phoneNumberType"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cellular phone number</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Agent"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Phone Number</rdfs:comment>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Phone</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="personRace">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >race</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Race is a classification system used to categorize humans into large and distinct populations or groups by anatomical, cultural, ethnic, genetic, geographical, historical, linguistic, religious, or social affiliation.</CORE:definition>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Race</rdfs:comment>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Race_%28human_classification%29</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >should this include a finite list of races? In which case the type of property should be adjusted</CORE:developerNote>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dateOfDeath">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deceased</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deceased</rdfs:comment>
+    <rdfs:domain rdf:resource="#Patient"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >death date</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date upon which a person dies.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date of death</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="facilityTypeID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Facility"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >facility type</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >verify domain and range assertions</CORE:developerNote>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="inpatientTotalDays">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Total Days [Hospital]</rdfs:comment>
+    <rdfs:domain rdf:resource="#InpatientEncounter"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >total days</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >total number of days spent as inpatient.</CORE:definition>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="outcomeVQF">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VQF</CORE:acronym>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vision quality form</skos:prefLabel>
+    <rdfs:domain rdf:resource="#VisionQualityFormCompletion"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vision quality form: a set of questionnaires that help determine a veteran's quality of life.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SME input</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="addressZIPCode">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/ZIP_code</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ZIP codes are a system of postal codes used by the United States Postal Service (USPS) since 1963. The term ZIP, an acronym for Zone Improvement Plan,[1] is properly written in capital letters and was chosen to suggest that the mail travels more efficiently, and therefore more quickly, when senders use the code in the postal address. The basic format consists of five decimal numerical digits. An extended ZIP+4 code, introduced in the 1980s, includes the five digits of the ZIP code, a hyphen, and four more digits that determine a more specific location within a given ZIP code. The term ZIP code was originally registered as a servicemark (a type of trademark) by the U.S. Postal Service, but its registration has since expired.</CORE:definition>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ZIP Code</skos:prefLabel>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:ID="codeValue"/>
+    </rdfs:subPropertyOf>
+    <rdfs:domain rdf:resource="#PostalAddress"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="personNameSuffix">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >online free dictionary</CORE:definitionSource>
+    <rdfs:domain rdf:resource="#Person"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A name suffix, in the Western English-language naming tradition, follows a person’s full name and provides additional information about the person.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >name suffix</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="ElectronicDataInterchangePersonNumber">
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="#personIdentifier"/>
+    </rdfs:subPropertyOf>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EDIPN</CORE:acronym>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EDIPN</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Electronic Data Interchange Person Number - Primary (internal) identification - A mutually agreed-upon internal identifier&#xD;
+[Patient Identifier (Patient ID) {Electronic Data Interchange Person Number - EDIPN}, DEERS Identifier (DEERS ID)] shared between the repository and external interfacing systems</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.humana-military.com/southmanuals/systems/asof/c3s1_3.pdf</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Electronic Data Interchange Person Number</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Is there a difference between EDIPI and EDIPN?</CORE:developerNote>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EDIPI</skos:altLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dischargeReason">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A statement of why the patient was discharged.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >discharge reason</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Discharge"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Discharge Reason</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >reason for discharge</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="pupilSizeMeasuredInMM">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This replicates the database field, but better ontological modeling would attach pupil size to the pupil in anatomy.</CORE:developerNote>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#PupilExam"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="personFirstName">
+    <rdfs:domain rdf:resource="#Person"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >google dictionary</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >First Name</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >first name</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >given name</skos:altLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider First Name</rdfs:comment>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Point of Contact First Name</rdfs:comment>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A personal name given to someone at birth or baptism and used before a family name.</CORE:definition>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="durationOfResidence">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#PlaceOfResidence"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="faxNumber">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >number affiliated with a fax (facsimile) machine</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <rdfs:subPropertyOf rdf:resource="#phoneNumberType"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fax number</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Agent"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provider Phone Number</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#personIdentifier">
+    <rdfs:domain rdf:resource="#Person"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >super-property for multiple types of personal identifiers, including SSN, EDIPN and others as necessary.</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >identifiers for persons.  most likely unique identifiers, but may be system identifiers that only uniquely identify a person for that specific system.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ID</CORE:acronym>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >identifier</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="emailAddress">
+    <DM:mappingNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >There are multiple types of email address covered by this concept.  As we plug in the data, this may need to be broken out in a different way.</DM:mappingNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >email address </skos:prefLabel>
+    <rdfs:domain rdf:resource="#Agent"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >word net</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >S: (n) electronic mail, e-mail, email ((computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in) "you cannot send packages by electronic mail"</CORE:definition>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#codeValue">
+    <rdfs:domain rdf:resource="#Code"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="alterationsInPupilShape">
+    <rdfs:domain rdf:resource="#PupilExam"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="refractionParameterDataValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Refraction"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeStatus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has discharge status</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Discharge"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Discharged Status</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="pupilReactive">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#PupilExam"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="integrationNumber">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Integration Number</skos:prefLabel>
+    <rdfs:domain rdf:resource="#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="#personIdentifier"/>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ICN</CORE:acronym>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Integration Number (ICN)</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="prognosisGlasgowTraumaScore">
+    <rdfs:domain rdf:resource="#Prognosis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Glasgow trauma score</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="currentDisabilityRatingPercentage">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="#CurrentDisabilityRating"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="addressStreet">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address street</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the street affiliated with a person's address (to include house number, such as: 123, Shady Lane).</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+    <rdfs:domain rdf:resource="#PostalAddress"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="addressCity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >city associated with agent's address</CORE:definition>
+    <rdfs:domain rdf:resource="#PostalAddress"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >address city</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encounterDate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter date</rdfs:comment>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >encounter date</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >date on which an encounter occurred.</CORE:definition>
+    <rdfs:domain rdf:resource="#Encounter"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inferred from data</CORE:definitionSource>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="activityStartDate">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >event start date</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="#Activity"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >activity start date</skos:prefLabel>
+  </owl:DatatypeProperty>
+  <CORE:PPECompliance rdf:ID="PPEUnknown"/>
+  <CORE:ImagingMethod rdf:ID="FundusPhotography"/>
+  <rdf:Description rdf:ID="Micrograms">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mcg</CORE:acronym>
+  </rdf:Description>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-Other"/>
+  <CORE:PersonalProtectiveEquipment rdf:ID="Deltoid-AxillaProtector">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >term-derived definition</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body armor designed to protect the deltoid or axilla</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deltoid-axilla protector</skos:prefLabel>
+  </CORE:PersonalProtectiveEquipment>
+  <CORE:PPECompliance rdf:ID="PPENotWorn"/>
+  <CORE:CorrectedVisualAcuity rdf:ID="BestCorrected"/>
+  <CORE:ImagingMethod rdf:ID="CornealTopography"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </owl:AnnotationProperty>
+  <CORE:MilitaryServiceBranch rdf:ID="UnitedStatesMarineCorps">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Marine Corps</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >USMC</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Marine Corps service branch of the US Military</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marine Corps</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Marines</skos:altLabel>
+  </CORE:MilitaryServiceBranch>
+  <CORE:LivingArrangement rdf:ID="Alone">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >alone</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >living arrangement in which a person lives by themselves</CORE:definition>
+  </CORE:LivingArrangement>
+  <CORE:Spectacles rdf:ID="Eyewear_StreetSpectacles"/>
+  <CORE:CorrectedVisualAcuity rdf:ID="Pinhole"/>
+  <CORE:LivingArrangement rdf:ID="WithFriend">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >living arrangement in which a person lives with a friend or friends</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >friend</skos:prefLabel>
+  </CORE:LivingArrangement>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-Palpation"/>
+  <CORE:VisionChartType rdf:ID="TumblingEChart"/>
+  <CORE:ImagingMethod rdf:ID="OpticalQualityAnalysisSystem">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OQAS</CORE:acronym>
+  </CORE:ImagingMethod>
+  <CORE:ImagingMethod rdf:ID="Ultrasound-B-Scan"/>
+  <CORE:Eyewear rdf:ID="Eyewear_ESS-Land"/>
+  <CORE:ImagingMethod rdf:ID="Ultrasound-A-Scan"/>
+  <CORE:CurrentVisualStatus rdf:ID="LegalBlindness">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Legal blindness</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >20/100 or less</skos:altLabel>
+  </CORE:CurrentVisualStatus>
+  <DUL:UnitOfMeasure rdf:ID="Tablespoon">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tbs</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <rdf:Description rdf:ID="Milligram">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mg</CORE:acronym>
+  </rdf:Description>
+  <CORE:ConfrontationVisualFields rdf:ID="ConfrontationVisualFields_Hemianopia"/>
+  <CORE:FamilyRelationshipType rdf:ID="Aunt">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >aunt</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mother's or father's sister</CORE:definition>
+    <rdfs:label>aunt</rdfs:label>
+    <rdfs:comment>mother or father's sister</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:PseudoisochromaticPlates rdf:ID="IshiharaColorPlates">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ishihara color plates</skos:prefLabel>
+  </CORE:PseudoisochromaticPlates>
+  <rdf:Description rdf:ID="MilligramsPerKilogram">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mg/kg</CORE:acronym>
+  </rdf:Description>
+  <DUL:UnitOfMeasure rdf:ID="MicrogramsPerMilliliter">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mcg/mL</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <CORE:FamilyRelationshipType rdf:ID="Mother">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >female parent</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mother</skos:prefLabel>
+    <rdfs:label>mother</rdfs:label>
+    <rdfs:comment>female parent</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:ImagingMethod rdf:ID="Gonioscopy"/>
+  <CORE:FamilyRelationshipType rdf:ID="Sister">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >female sibling</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sister</skos:prefLabel>
+    <rdfs:label>sister</rdfs:label>
+    <rdfs:comment>sibling, female</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:CurrentVisualStatus rdf:ID="ModerateVisualImpairment">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Moderate visual impairment</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >20/80 - 20/100</skos:altLabel>
+  </CORE:CurrentVisualStatus>
+  <CORE:Helmet rdf:ID="ModularIntegratedCommunicationsHelmet">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The Modular Integrated Communications Helmet (MICH), is a combat helmet, one of many used by the U.S. military. The MICH helmet is the primary combat helmet for use by soldiers of the United States Army. It was developed by the United States Army Soldier Systems Center to be the next generation of protective combat helmets for use by the U.S. Army.[1] The Advanced Combat Helmet was derived from the MICH.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/MICH_TC-2000_Combat_Helmet</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >modular integrated communications helmet</skos:prefLabel>
+  </CORE:Helmet>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_19"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#flag">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This property allows me to flag a concept that needs to be revisited, or is questionable.</CORE:developerNote>
+    <rdfs:subPropertyOf>
+      <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </rdfs:subPropertyOf>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="developerNote">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <CORE:VisionChartType rdf:ID="HOTV-Chart"/>
+  <CORE:HardyRandRittlerPlates1 rdf:ID="HardyRandRittlerPlates_1"/>
+  <CORE:ImagingMethod rdf:ID="FlouresceinAngiography"/>
+  <CORE:FamilyRelationshipType rdf:ID="OtherRelation">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >family relationship not already listed</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >other relation</skos:prefLabel>
+    <rdfs:label>other relation</rdfs:label>
+  </CORE:FamilyRelationshipType>
+  <DUL:UnitOfMeasure rdf:ID="MilligramsPerMilliliter">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mg/mL</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <CORE:HardyRandRittlerPlates1 rdf:ID="HardyRandRittlerPlates_2"/>
+  <CORE:FamilyRelationshipType rdf:ID="Spouse">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >person to whom individual is married</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >spouse</skos:prefLabel>
+    <rdfs:label>spouse</rdfs:label>
+    <rdfs:comment>person to which individual is married</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:PersonalProtectiveEquipment rdf:ID="GroinProtector">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >piece of protective equipment that covers the groin.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >groin protector</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ballistic groin protector</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composite from internet</CORE:definitionSource>
+  </CORE:PersonalProtectiveEquipment>
+  <CORE:HardyRandRittlerPlates1 rdf:ID="HardyRandRittlerPlates_3"/>
+  <owl:AnnotationProperty rdf:ID="acronym">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </owl:AnnotationProperty>
+  <CORE:CurrentVisualStatus rdf:ID="RestrictedDriversPermit">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Restricted drivers permit</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mild/moderate visual impairment</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >20/50 - 20/70</skos:altLabel>
+  </CORE:CurrentVisualStatus>
+  <CORE:ImagingMethod rdf:ID="SlitLampExam"/>
+  <CORE:EncounterType rdf:ID="Teleconsultation"/>
+  <CORE:CorrectedVisualAcuity rdf:ID="Habitual-Wearing"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that asserts that an encounter occurs at a facility.</CORE:definition>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </owl:AnnotationProperty>
+  <CORE:HRR-PlateValue rdf:ID="HRR-Other"/>
+  <CORE:Eyewear rdf:ID="Eyewear_BLPS"/>
+  <CORE:VisionChartType rdf:ID="FeinbloomChart"/>
+  <CORE:Spectacles rdf:ID="Eyewear_SportsSpectacles"/>
+  <CORE:ImagingMethod rdf:ID="AnteriorSegmentPhotography"/>
+  <CORE:ImagingMethod rdf:ID="OpticalCoherenceTomography">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OCT</CORE:acronym>
+  </CORE:ImagingMethod>
+  <CORE:Helmet rdf:ID="AviationHelmet">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >aviation helmet</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >helmet worn while flying aircraft</CORE:definition>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Helmet - AVN</rdfs:comment>
+  </CORE:Helmet>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/TRAUMA#occursAtBodyLocation">
+    <rdfs:range rdf:resource="#BodyLocation"/>
+  </rdf:Description>
+  <CORE:PersonalProtectiveEquipment rdf:ID="LegProtector">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >term-derived definition</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >leg protector</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body armor designed to protect the leg</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Leg EXT</CORE:developerNote>
+  </CORE:PersonalProtectiveEquipment>
+  <rdf:Description rdf:ID="Teaspoon">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tsp</CORE:acronym>
+  </rdf:Description>
+  <rdf:Description rdf:ID="MilliliterPerKilogram">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mL/kg</CORE:acronym>
+  </rdf:Description>
+  <CORE:MilitaryServiceBranch rdf:ID="UnitedStatesArmy">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Army</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >US Army</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Army service branch of the US Military</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Army</skos:altLabel>
+  </CORE:MilitaryServiceBranch>
+  <CORE:ImagingMethod rdf:ID="Orbscan"/>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-NonContact"/>
+  <DUL:UnitOfMeasure rdf:ID="Centimeter">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cm</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <DUL:UnitOfMeasure rdf:ID="Inch">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >in</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_12"/>
+  <CORE:EncounterType rdf:ID="Appointment"/>
+  <CORE:PersonalProtectiveEquipmentCondition rdf:ID="Struck_Intact">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >struck intact</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indicator that the personal protective equipment (PPE) has been struck, but is intact.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >intact</skos:altLabel>
+  </CORE:PersonalProtectiveEquipmentCondition>
+  <CORE:ImagingMethod rdf:ID="HeidelbergRetinalTomography">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HRT</CORE:acronym>
+  </CORE:ImagingMethod>
+  <CORE:FamilyRelationshipType rdf:ID="Uncle">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mother's or father's brother</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >uncle</skos:prefLabel>
+    <rdfs:label>uncle</rdfs:label>
+    <rdfs:comment>mother or father's brother</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:ImagingMethod rdf:ID="ContrastSensitivityTesting"/>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_11"/>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-Applanation"/>
+  <CORE:ImagingMethod rdf:ID="Keratometry"/>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_9"/>
+  <CORE:MaritalStatus rdf:ID="Married">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >married</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marital status in which a person is married to another</CORE:definition>
+  </CORE:MaritalStatus>
+  <CORE:VisionChartType rdf:ID="Bailey-LovieChart">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LogMAR charts are used to measure an individual's visual acuity (VA). The name LogMAR is derived from the Logarithm of the Minimum Angle of Resolution. In contrast to other visual acuity charts, such as the Snellen chart, the sizes of the letters progress systematically in geometric progression. The chart was designed by Ian Bailey and Jan Lovie in 1980 at the National Vision Research Institute of Australia.[2][3] They described their motivation for designing the LogMAR chart: "We have designed a series of near vision charts in which the typeface, size progression, size range, number of words per row and spacings were chosen in an endeavour to achieve a standardization of the test task.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LogMAR</CORE:acronym>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bailey lovie chart</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >logarithm of the minimum angle of resolution</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/LogMAR_chart</CORE:definitionSource>
+  </CORE:VisionChartType>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_14"/>
+  <rdf:Description rdf:ID="Milliequivalents">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mEq</CORE:acronym>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In practice, the amount of a substance in equivalents often has a very small magnitude, so it is frequently described in terms of milliequivalents (mEq or meq), the prefix milli denoting that the measure is divided by 1000.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Equivalent_%28chemistry%29</CORE:definitionSource>
+  </rdf:Description>
+  <CORE:PersonalProtectiveEquipment rdf:ID="ProtectiveMask">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >protective mask</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.dtic.mil/doctrine/new_pubs/jp1_02.pdf</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >protective mask — A protective ensemble designed to protect the wearer’s face and eyes and prevent the breathing of air contaminated with chemical and/or biological agents. See also mission-oriented protective posture.&#xD;
+(JP 3-11)</CORE:definition>
+  </CORE:PersonalProtectiveEquipment>
+  <DUL:UnitOfMeasure rdf:ID="MicrogramsPerKilogram">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mcg/kg</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_13"/>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-UnableToTest"/>
+  <CORE:Helmet rdf:ID="CombatVehicleCrewmanHelmet">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CVC Helmet</CORE:acronym>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >definition &amp; source will likely not be persisting.</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The Combat Vehicle Crewman Helmet (CVC-H) is the primary head protection system for the mounted Soldier. The CVC-H consists of a hard ballistic helmet shell, integral communication system and inner helmet assembly. The current CVC-H Shell provides limited ballistic protection when compared against infantry based platforms such as the Advanced Combat Helmet (ACH)</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >combat vehicle crewman helmet</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >https://www.fbo.gov/?s=opportunity&amp;mode=form&amp;id=d3a235a353beab0be982ed7fdd8a4b1e&amp;tab=core&amp;_cview=1</CORE:definitionSource>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Helmet - CVC</rdfs:comment>
+  </CORE:Helmet>
+  <CORE:FamilyRelationshipType rdf:ID="Father">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >male parent</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >father</skos:prefLabel>
+    <rdfs:label>father</rdfs:label>
+    <rdfs:comment>male parent</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:Eyewear rdf:ID="Eyewear_UVEX_XC"/>
+  <rdf:Description rdf:ID="InternationalUnit">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IU</CORE:acronym>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In pharmacology, the International Unit is a unit of measurement for the amount of a substance, based on biological activity or effect. It is abbreviated as IU, as UI (Spanish unidad internacional or French unité internationale or Italian unità internazionale), or IE (German Internationale Einheit, Dutch Internationale Eenheid, Danish International Enhed, Swedish Internationell Enhet), or as NE (Hungarian Nemzetközi Egység). It is used to quantify vitamins, hormones, some medications, vaccines, blood products, and similar biologically active substances.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/International_unit</CORE:definitionSource>
+  </rdf:Description>
+  <CORE:ConfrontationVisualFields rdf:ID="ConfrontationVisualFields_Quadrantanopia"/>
+  <CORE:FamilyRelationshipType rdf:ID="Cousin">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >son or daughter of mother's or father's sibling</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cousin</skos:prefLabel>
+    <rdfs:label>cousin</rdfs:label>
+    <rdfs:comment>same-generation child of parents' siblings or cousins</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-Tonopen"/>
+  <owl:AnnotationProperty rdf:ID="definition">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >annotation that provides contextual and meaningful information for the concept (term).</CORE:definition>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <CORE:HardyRandRittlerPlates1 rdf:ID="HardyRandRittlerPlates_5"/>
+  <CORE:Spectacles rdf:ID="Eyewear_SafetySpectacles"/>
+  <CORE:EncounterType rdf:ID="InpatientAdmission"/>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_16"/>
+  <CORE:EncounterType rdf:ID="EmailConsultation"/>
+  <CORE:VisionChartType rdf:ID="LandoltCChart"/>
+  <CORE:VisionChartType rdf:ID="PelliRobsonChart"/>
+  <CORE:PersonalProtectiveEquipmentCondition rdf:ID="Struck_Penetrated">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >struck penetrated</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >penetrated</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >indicator that the personal protective equipment (PPE) is struck and penetrated</CORE:definition>
+  </CORE:PersonalProtectiveEquipmentCondition>
+  <CORE:HardyRandRittlerPlates1 rdf:ID="HardyRandRittlerPlates_4"/>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_15"/>
+  <CORE:MaritalStatus rdf:ID="Widowed">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marital status in which a person is legally married to a person who is now deceased</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >widowed</skos:prefLabel>
+  </CORE:MaritalStatus>
+  <CORE:ImagingMethod rdf:ID="ScanningLaserOphthalmoscopy">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SLO</CORE:acronym>
+  </CORE:ImagingMethod>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_7"/>
+  <CORE:VisionChartType rdf:ID="JaegerChart">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lines of type of various sizes, printed on a card held about 14 in from the eye of the patient for testing near vision. The smallest type read at the closest distance is recorded.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >jaeger chart</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/746418/all/J%C3%A4ger_Eduard</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >jaeger card</skos:altLabel>
+  </CORE:VisionChartType>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_8"/>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_18"/>
+  <CORE:PersonalProtectiveEquipment rdf:ID="BodyArmor">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wikipedia article was flagged as needing expert input - please review the definition accordingly.</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body armor</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Personal armor (also known as personal armour or body armor) is the whole of protecting clothing, designed to absorb and/or deflect slashing, bludgeoning, and penetrating attacks. They were historically used to protect soldiers, whereas today, they are also used to protect various types of police (especially riot police in particular), private citizens, private security guards or bodyguards. Two types exist: regular non-plated personal armor (used by the people mentioned above, except combat soldiers) and hard-plate reinforced personal armor, which is used by combat soldiers, police tactical units and hostage rescue teams.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Body_armor</CORE:definitionSource>
+  </CORE:PersonalProtectiveEquipment>
+  <CORE:EncounterType rdf:ID="Other"/>
+  <CORE:HardyRandRittlerPlates1 rdf:ID="HardyRandRittlerPlates_6"/>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_17"/>
+  <CORE:VisionChartType rdf:ID="TellerChart"/>
+  <CORE:Spectacles rdf:ID="Eyewear_Specs-SG1"/>
+  <CORE:PersonalProtectiveEquipment rdf:ID="NeckProtector">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >collar</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body armor designed to protect the neck</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >term-derived definition</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >neck protector</skos:prefLabel>
+  </CORE:PersonalProtectiveEquipment>
+  <CORE:ConfrontationVisualFields rdf:ID="ConfrontationVisualFields_Full"/>
+  <CORE:PPECompliance rdf:ID="PPEWorn"/>
+  <CORE:MilitaryServiceBranch rdf:ID="UnitedStatesAirForce">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Air Force</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >air force</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Air Force service branch of the US Military</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >USAF</skos:altLabel>
+  </CORE:MilitaryServiceBranch>
+  <CORE:LivingArrangement rdf:ID="Family">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >family</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >living arrangement in which a person lives with family members</CORE:definition>
+  </CORE:LivingArrangement>
+  <CORE:ColorVisionTest rdf:ID="RedTop">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >red top</skos:prefLabel>
+  </CORE:ColorVisionTest>
+  <CORE:CurrentVisualStatus rdf:ID="UnrestrictedDriversPermit">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unrestricted drivers permit</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >20/15 - 20/40</skos:altLabel>
+  </CORE:CurrentVisualStatus>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_20"/>
+  <CORE:ImagingMethod rdf:ID="OtherImagingMethod"/>
+  <CORE:LivingArrangement rdf:ID="Homeless">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >homeless</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >living arrangement in which a person has no fixed address.  Typically refers to someone living on the streets.</CORE:definition>
+  </CORE:LivingArrangement>
+  <CORE:Helmet rdf:ID="AdvancedCombatHelmet">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Advanced_Combat_Helmet</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The Advanced Combat Helmet (ACH) is the United States Army's current combat helmet. It was developed by the United States Army Soldier Systems Center to be the next generation of protective combat helmets for use by the U.S. Army.[1] The ACH is derived from the Modular Integrated Communications Helmet.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >advanced combat helmet</skos:prefLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ACH</CORE:acronym>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Helmet -ACH</rdfs:comment>
+  </CORE:Helmet>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/TRAUMA#informsVisitData">
+    <rdfs:domain rdf:resource="#Imaging-AncillaryTesting"/>
+  </rdf:Description>
+  <CORE:ConfrontationVisualFields rdf:ID="ConfrontationVisualFields_NotTested"/>
+  <CORE:MaritalStatus rdf:ID="Divorced">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marital status in which a person was married but is no longer</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Divorced</skos:prefLabel>
+  </CORE:MaritalStatus>
+  <DUL:UnitOfMeasure rdf:ID="Milliliter">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mL</CORE:acronym>
+  </DUL:UnitOfMeasure>
+  <CORE:MilitaryServiceBranch rdf:ID="UnitedStatesNavy">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >USN</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Navy service branch of the US Military</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >navy</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Navy</skos:prefLabel>
+  </CORE:MilitaryServiceBranch>
+  <CORE:VisionChartType rdf:ID="AllenChart">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >allen card</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >allen test</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Visual acuity test employing pictures to assess the vision of young children and the mentally challenged.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >allen chart</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Quick Reference Diction of Eyecare Terminology, Fifth Edition. Ed. Janice K. Ledford, Joseph Hoffman</CORE:definitionSource>
+  </CORE:VisionChartType>
+  <CORE:Spectacles rdf:ID="EyewearSWDG"/>
+  <CORE:VisionChartType rdf:ID="SnellenChart"/>
+  <CORE:FamilyRelationshipType rdf:ID="Brother">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >brother</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >male sibling</CORE:definition>
+    <rdfs:label>brother</rdfs:label>
+    <rdfs:comment>sibling, male</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <CORE:PersonalProtectiveEquipment rdf:ID="CombatEyeProtection">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >from (http://www.ehow.com/list_6615728_list-approved-protective-eyewear.html) :In general, the Army splits its protective eyewear into two categories, spectacles and goggles. Spectacles are for low-level protection; they are designed to stop a 5.8-grain fragment moving at 640 feet per second. Goggles provide more extreme protection; they stop fragments up to 17-grains moving at about 550 feet per second, providing roughly twice the protection as spectacles. The army approves the use of several types of eyewear in both these categories.&#xD;
+</CORE:developerNote>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CEP</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.crdamc.amedd.army.mil/crc/goggles.aspx</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Combat Eye Protection (CEP) is a must for deploying Soldiers. The Army's Rapid Fielding Initiative (RFI) provides Soldiers with state–of–the–art individual weapons, clothing, and equipment to include protective eyewear or combat eye protection.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyewear</skos:prefLabel>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Eyewear</rdfs:comment>
+  </CORE:PersonalProtectiveEquipment>
+  <CORE:PersonalProtectiveEquipmentCondition rdf:ID="FrameBroken"/>
+  <CORE:MilitaryServiceBranch rdf:ID="UnitedStatesCoastGuard">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >USCG</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Coast Guard</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >United States Coast Guard service branch of the US Military</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coast Guard</skos:altLabel>
+  </CORE:MilitaryServiceBranch>
+  <CORE:MaritalStatus rdf:ID="Single">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >marital status in which a person is unmarried, but not widowed or divorced</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >single</skos:prefLabel>
+  </CORE:MaritalStatus>
+  <CORE:IOP-ExamMethod rdf:ID="IOP-Pneutonometry"/>
+  <CORE:ImagingMethod rdf:ID="VisualField"/>
+  <owl:DeprecatedProperty rdf:ID="activitySituation">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >activity situation</skos:prefLabel>
+  </owl:DeprecatedProperty>
+  <CORE:ContactLens rdf:ID="Eyewear_Contacts-HardLens">
+    <rdfs:domain rdf:resource="#Eyewear"/>
+  </CORE:ContactLens>
+  <CORE:HardyRandRittlerPlates2 rdf:ID="HardyRandRittlerPlates_10"/>
+  <owl:AnnotationProperty rdf:ID="DVEIVRTab">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/TRAUMA#Imaging-AncillaryTestDate">
+    <rdfs:domain rdf:resource="#Imaging-AncillaryTesting"/>
+  </rdf:Description>
+  <CORE:FamilyRelationshipType rdf:ID="Daughter">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >female child</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >daughter</skos:prefLabel>
+    <rdfs:label>daughter</rdfs:label>
+    <rdfs:comment>female child</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+  <owl:AnnotationProperty rdf:ID="definitionSource">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </owl:AnnotationProperty>
+  <CORE:VisionChartType rdf:ID="ETDRS-Chart">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ETDRS</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.visioncareresearch.com/resources/glossary.asp</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Early Treatment Diabetic Retinopathy Study (ETDRS) Chart:  A test chart employing the logMAR method of visual acuity (VA) measurement, consisting of five letters per line all of equal spacing.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Early Treatment Diabetic Retinopathy Study</skos:prefLabel>
+  </CORE:VisionChartType>
+  <CORE:FamilyRelationshipType rdf:ID="Son">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >male child</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >son</skos:prefLabel>
+    <rdfs:label>son</rdfs:label>
+    <rdfs:comment>male child</rdfs:comment>
+  </CORE:FamilyRelationshipType>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

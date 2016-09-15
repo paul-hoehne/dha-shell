@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:DVEIVR_DEV="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:DVEIVR_SINK="http://model.dveivr.dha.health.mil/DVEIVR_SINK#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:CORE="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://model.dveivr.dha.health.mil/DVEIVR_SINK">
+  <owl:Ontology rdf:about="">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This contains all relevant files as imports.  It also includes annotations of DVEIVR data elements.</CORE:definition>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV"/>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY"/>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA"/>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Created with TopBraid Composer</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:ID="DVEIVR_Tab">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="containedInDVEIVRTab">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="#DVEIVR_Tab"/>
+  </owl:ObjectProperty>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_ADJUSTMENT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_NUCLEAR_MEDICINE_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_HISTORY_DETAIL_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_ADMISSION_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Admission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_DISCHARGE_CONDITION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_MARITALSTATUS_TEMP">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_CPT4_CODE_TEMP">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_LINK_INPATIENT_ENCOUNTER">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#InpatientEncounter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_OUTCOME">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_INJURY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Trauma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_IMPLANT_PROSTHESIS_HISTORY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalHistory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_EXAM_DETAIL">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_DEPTH_PERCEPTION_TESTED_USING">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_DURATION_UNITS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_INJURY_DETAIL_ISSUE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_PROVIDER_GROUP">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_TRANSFER">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Transfer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_COLOR_VISION_TEST_RESULTS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TestResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_REFERRAL">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Transfer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_GENDER_TEMP">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonGender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_REFRACTION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MaritalStatus">
+    <owl:equivalentClass>
+      <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_MARITALSTATUS">
+        <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Status"/>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_ENCOUNTER_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_RXNORM_TTY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#RXNorm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_eCODES">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_DISTANCE_UNIT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_OPTOMETRY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_Demographics"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_PRISM_DIRECTION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_USER_SERVICE_BRANCH">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MilitaryServiceBranch"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_Treatment"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PROVIDER_PHONE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PhoneNumber"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TREATMENT_PHOTOGRAPHY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_Encounter"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_BLOOD_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_MEDICATIONS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Medication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_TEST">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TreatmentProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_PROSTHESIS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#ProsthesisProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_CONSULT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_PRIVATE_ORGANIZATION_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_SUBJECT_CHART_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_EQUIPTMENT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TREATMENT_ELECTROPHYSIOLOGY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TreatmentProcedure"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_VisitData"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_AIS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_VISUAL_FIELD_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_REFERRAL_RELATED_FIELD_UPDATE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_PRINT_SAMPLE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_REFRACTION_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_IMPLANT_POROUS_MOTILITY_PEG_TYPE">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType">
+        <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Type"/>
+      </rdf:Description>
+    </rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TREATMENT_IMAGING_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_OUTCOME_PROSTHETIC">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT_DEPLOYMENTS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_OPTOMETRY_VISION_THERAPY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_FAMILY_RESOURCE_CENTER_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TRANSFER_RECOMMENDATION_FACILITY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_VETERANS_ORGANIZATION_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_DEPTH_PERCEPTION_TEST">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_SERVICE_BRANCH_TEMP">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MilitaryServiceBranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TISSUE_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_SPECIMEN_SOURCE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TREATMENT_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_SYMPTOM_DESCRIPTION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_COLOR_VISION_CCT_TEST_RESULTS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TestResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_ETHNICITY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EthnicGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT_CLINICAL_TRIALS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ClinicalTrial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_SYMPTOM">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_EYEWEAR_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Eyewear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY_DETAIL">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_PROVIDER_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Provider"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_NON_NUMERIC_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_COLOR_VISION_DEFICIENCY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Findings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_COUNTRY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#AddressDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_VISUAL_FIELD_TEST_TYPE_RESULT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TestResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_DEPLOYMENT_LOCATION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_EQUIPTMENT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_INJURY_PLACE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#BodyLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INTRAOCULAR_PRESSURE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Findings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_METRIC_NUMERATOR">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_GENDER">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonGender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_COUNTY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#AddressDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_AMENDMENT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_STEREOSCOPIC_DEPTH_PERCEPTION_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TREATMENT_PROSTHETIC_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#ProsthesisProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_RELATED_FIELD_UPDATE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_PROCEDURE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INPATIENT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_IMPLANT_SIZE">
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/TREATMENT#ImplantSize">
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >implant size</skos:prefLabel>
+      </rdf:Description>
+    </rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_RELATIONSHIP_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#FamilyRelationshipType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_DEMOGRAPHICS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_DISTANCE_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_VISUAL_FIELD_TEST">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_HISTORY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT_CONTACT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Record"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_LAB_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_PHONE_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PhoneNumber"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_ADDRESS_OF_RECORD_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_EXAM">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_OCULAR_IMPLANT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#ProstheticEye"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_COLOR_VISION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_RESIDENCE_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PlaceOfResidence"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_CurrentHistory"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_DIAGNOSIS">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lookup definition</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ICD9/10 Diagnosis</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Diagnosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_INJURY_CAUSE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Etiology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_PHYSICAL_LIMITATION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_SPECIALTY_REFERRAL_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_EXAM_METHOD">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Method"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_JAEGER_VALUE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_FIELD_LOCATION_LR">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_PHYSICAL_LIMITATION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PhysicalLimitationStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_LAB_TEST">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TreatmentProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_REFRACTION_TESTED_USING_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_REHABILITATION_SPECIALIST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_eCODE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_DEPTH_PERCEPTION_TEST_RESULT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_IMPLANT_POROUS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TREATMENT_OTHER_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_IMPLANT_PROSTHESIS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#ProstheticDevice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER_OTHER_DIAGNOSIS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Diagnosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_VISION_STATUS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_PROCEDURE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TreatmentProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT_PHONE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PhoneNumber"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_PastHistory"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PROVIDER">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Provider"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_ORBIT_RECONSTRUCTION_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#OrbitReconstruction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_SERVICE_BRANCH">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MilitaryServiceBranch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_INTRAOCULAR_PRESSURE_METHOD">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#IOP-ExamMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_CPT4_CODE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_ExamFindings"/>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_EyeInjuryEvent"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_VISUAL_ACUITY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_IMPLANT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#ProstheticDevice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_CONSULT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_ICD9_CODE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_IMPLANT_NONPOROUS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#OcularImplantType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_INJURY_METHOD">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Etiology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_INJURY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Trauma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_INSTRUCTIONS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_SITE_ADMIN">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_SCALE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_DEPTH_PERCEPTION_UNIT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_LIGHT_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PROVIDER_ADDRESS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_SUBJECT_REFRACTIVE_CORRECTION">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#partOfPrescription">
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_OUTCOME_PROGNOSIS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Prognosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TISSUE_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_LIVING_ARRANGEMENTS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#LivingArrangement"/>
+  </rdf:Description>
+  <DVEIVR_SINK:DVEIVR_Tab rdf:ID="DVEIVR_Outcomes"/>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_SERVICE_STATUS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_SYMPTOM">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TRAUMA#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_ROUTE_ADMIN">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_OPHTHALMOLOGY_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#Consult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_TRANSFER_RECOMMENDATION_TRANSPORT_METHOD_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Method"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_EXAM_DETAIL_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_US_DENOMINATOR">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_COLOR_VISION_RESPONSE_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Examination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_ENCOUNTER">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_EQUIPTMENT_CATEGORY">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT_ADDRESS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_PROSTHETIC">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TreatmentProcedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_VISUAL_ACUITY_FIELD_LOCATION_UD">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+    <owl:equivalentClass rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_RACE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EthnicGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_MILITARY_STATUS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_PATIENT_AKA">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_PROVIDER_ADDRESS_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_HOSPITAL_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Hospital"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_PROSTHETIC_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/TREATMENT#ProstheticDevice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_COLOR_VISION_TEST_TYPE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Test"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_FREQUENCY_ADMIN">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_MED_DOSAGE_UNIT">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PrescriptionDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_STD_COLOR_VISION_EYEWEAR">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#dbo_STD_STATE">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#AddressDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_1.0.8-3429#encounterTraumaScore">
+    <rdfs:range>
+      <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#APP_STD_TRAUMA_SCORE">
+        <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Status"/>
+      </rdf:Description>
+    </rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/schema/DVEIVR_DEV#DVEIVR_TREATMENT_PATIENT_CARE_INSTRUCTIONS">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TreatmentProcedure"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

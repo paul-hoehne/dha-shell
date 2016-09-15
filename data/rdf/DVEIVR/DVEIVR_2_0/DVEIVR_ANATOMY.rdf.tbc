@@ -1,0 +1,211 @@
+# baseURI: null
+
+@prefix composite: <http://www.topbraid.org/2007/05/composite.owl#> .
+@prefix forms: <http://www.topbraid.org/2007/01/forms.owl#> .
+@prefix inference: <http://www.topbraid.org/2007/06/inference.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix visual: <http://topbraid.org/visual#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Eye> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "131"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "852"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#EyePart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "167"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "724"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#EyeSocket> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "192"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "1364"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#EyeSocketPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "228"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "1236"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Eyeball> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "164"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "1620"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#EyeballPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "200"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "1492"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Face> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "140"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "42"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#FacePart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "176"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "170"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Head> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "148"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "1108"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#HeadPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "184"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "980"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#HumanBody> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "213"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "468"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#HumanBodyPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "249"^^xsd:int ;
+      visual:x "824"^^xsd:int ;
+      visual:y "596"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#LowerBodyPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "236"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "596"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#UpperBodyPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "237"^^xsd:int ;
+      visual:x "452"^^xsd:int ;
+      visual:y "340"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasEyePart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "199"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "788"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasEyeSocketPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "260"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "1300"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasEyeballPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "232"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "1556"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasFacePart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "208"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "106"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasHeadPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "216"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "1044"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasHumanBodyPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "254"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasLowerBodyPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "268"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "532"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#hasUpperBodyPart> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "269"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "404"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#HumanBodyPart> ;
+  rdfs:label "ANT:HumanBodyPart Graph" ;
+].
+[
+  rdf:type inference:Configuration ;
+  composite:child [
+      rdf:type <http://spinrdf.org/spin#TopSPIN> ;
+      composite:index "0"^^xsd:int ;
+    ] ;
+  composite:child [
+      rdf:type <http://spinrdf.org/spin#TopSPIN> ;
+      composite:index "3"^^xsd:int ;
+    ] ;
+  composite:child [
+      rdf:type inference:JenaEngine ;
+      composite:index "2"^^xsd:int ;
+    ] ;
+  composite:child [
+      rdf:type inference:RuleEngine ;
+      composite:index "1"^^xsd:int ;
+    ] ;
+].

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY" uri="DVEIVR_ANATOMY.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL" uri="DVEIVR_CORE.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://model.dveivr.dha.health.mil/DVEIVR_SINK" uri="DVEIVR_SINK2.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://model.dveivr.dha.health.mil/EXAMPLE_DATA" uri="EXAMPLE_DATA.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://model.dveivr.dha.health.mil/TRAUMA" uri="TRAUMA.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://model.dveivr.dha.health.mil/TREATMENT" uri="TREATMENT.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1469820848866" name="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl" uri="part.rdf"/>
+    </group>
+</catalog>

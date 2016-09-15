@@ -1,0 +1,1824 @@
+# baseURI: null
+
+@prefix composite: <http://www.topbraid.org/2007/05/composite.owl#> .
+@prefix forms: <http://www.topbraid.org/2007/01/forms.owl#> .
+@prefix inference: <http://www.topbraid.org/2007/06/inference.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix visual: <http://topbraid.org/visual#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Activity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "178"^^xsd:int ;
+      visual:x "1825"^^xsd:int ;
+      visual:y "170"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Admission> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "206"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "810"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#BodyLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "235"^^xsd:int ;
+      visual:x "997"^^xsd:int ;
+      visual:y "1258"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Deployment> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "223"^^xsd:int ;
+      visual:x "1472"^^xsd:int ;
+      visual:y "170"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "204"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "938"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Facility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "172"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "682"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#GeographicalPlace> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "1322"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "1194"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Place> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "159"^^xsd:int ;
+      visual:x "1472"^^xsd:int ;
+      visual:y "682"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PlaceOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "1066"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PlaceOfWork> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "230"^^xsd:int ;
+      visual:x "944"^^xsd:int ;
+      visual:y "480"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PostalAddress> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "239"^^xsd:int ;
+      visual:x "925"^^xsd:int ;
+      visual:y "399"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Transfer> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "183"^^xsd:int ;
+      visual:x "417"^^xsd:int ;
+      visual:y "578"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#admissionFacility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "265"^^xsd:int ;
+      visual:x "402"^^xsd:int ;
+      visual:y "818"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#deploymentLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "299"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "170"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#durationOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "304"^^xsd:int ;
+      visual:x "402"^^xsd:int ;
+      visual:y "1074"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encounterLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "283"^^xsd:int ;
+      visual:x "402"^^xsd:int ;
+      visual:y "946"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#facilityTypeID> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "234"^^xsd:int ;
+      visual:x "402"^^xsd:int ;
+      visual:y "690"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasWorkplaceAddress> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "313"^^xsd:int ;
+      visual:x "347"^^xsd:int ;
+      visual:y "485"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "252"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "1322"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#placeOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "402"^^xsd:int ;
+      visual:y "1202"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#transferredFacility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "273"^^xsd:int ;
+      visual:x "924"^^xsd:int ;
+      visual:y "589"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/TRAUMA#occursAtBodyLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "705"^^xsd:int ;
+      visual:x "17"^^xsd:int ;
+      visual:y "1259"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts owl:Thing ;
+      visual:height "32"^^xsd:int ;
+      visual:width "142"^^xsd:int ;
+      visual:x "1825"^^xsd:int ;
+      visual:y "682"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Deployment> ;
+  rdfs:label "CORE:Deployment Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Activity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "178"^^xsd:int ;
+      visual:x "2037"^^xsd:int ;
+      visual:y "540"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Admission> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "206"^^xsd:int ;
+      visual:x "172"^^xsd:int ;
+      visual:y "330"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Discharge> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "202"^^xsd:int ;
+      visual:x "169"^^xsd:int ;
+      visual:y "490"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "204"^^xsd:int ;
+      visual:x "1652"^^xsd:int ;
+      visual:y "668"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EncounterType> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "247"^^xsd:int ;
+      visual:x "1652"^^xsd:int ;
+      visual:y "284"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Facility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "172"^^xsd:int ;
+      visual:x "841"^^xsd:int ;
+      visual:y "906"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#InpatientEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "287"^^xsd:int ;
+      visual:x "1191"^^xsd:int ;
+      visual:y "412"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#OutpatientEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "304"^^xsd:int ;
+      visual:x "1202"^^xsd:int ;
+      visual:y "548"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "828"^^xsd:int ;
+      visual:y "789"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Provider> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "186"^^xsd:int ;
+      visual:x "1652"^^xsd:int ;
+      visual:y "156"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#concludesInpatientEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "380"^^xsd:int ;
+      visual:x "624"^^xsd:int ;
+      visual:y "497"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encounterDate> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "248"^^xsd:int ;
+      visual:x "1191"^^xsd:int ;
+      visual:y "668"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encounterLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "283"^^xsd:int ;
+      visual:x "1190"^^xsd:int ;
+      visual:y "909"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasEncounterType> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "279"^^xsd:int ;
+      visual:x "1191"^^xsd:int ;
+      visual:y "284"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#inpatientTotalDays> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "628"^^xsd:int ;
+      visual:y "412"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientInEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "287"^^xsd:int ;
+      visual:x "1190"^^xsd:int ;
+      visual:y "781"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#precedesInpatientEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "370"^^xsd:int ;
+      visual:x "625"^^xsd:int ;
+      visual:y "328"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#providerInEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "298"^^xsd:int ;
+      visual:x "1191"^^xsd:int ;
+      visual:y "156"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter> ;
+  rdfs:label "CORE:Encounter Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Activity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "178"^^xsd:int ;
+      visual:x "659"^^xsd:int ;
+      visual:y "1108"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Duration> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "191"^^xsd:int ;
+      visual:x "1603"^^xsd:int ;
+      visual:y "1046"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#JaegerScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "218"^^xsd:int ;
+      visual:x "1072"^^xsd:int ;
+      visual:y "770"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#M-UnitScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "223"^^xsd:int ;
+      visual:x "1077"^^xsd:int ;
+      visual:y "581"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MetricScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "217"^^xsd:int ;
+      visual:x "1077"^^xsd:int ;
+      visual:y "709"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Non-NumericScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "285"^^xsd:int ;
+      visual:x "1072"^^xsd:int ;
+      visual:y "514"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Refraction> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "204"^^xsd:int ;
+      visual:x "1603"^^xsd:int ;
+      visual:y "252"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RefractionAxis> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "242"^^xsd:int ;
+      visual:x "1031"^^xsd:int ;
+      visual:y "150"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RefractionCylinder> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "279"^^xsd:int ;
+      visual:x "1031"^^xsd:int ;
+      visual:y "-106"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RefractionSphere> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "268"^^xsd:int ;
+      visual:x "1031"^^xsd:int ;
+      visual:y "22"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#US-Scale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "191"^^xsd:int ;
+      visual:x "1072"^^xsd:int ;
+      visual:y "642"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "223"^^xsd:int ;
+      visual:x "614"^^xsd:int ;
+      visual:y "1053"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityDistance> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "303"^^xsd:int ;
+      visual:x "1614"^^xsd:int ;
+      visual:y "112"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "271"^^xsd:int ;
+      visual:x "1603"^^xsd:int ;
+      visual:y "662"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasDuration> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "223"^^xsd:int ;
+      visual:x "1036"^^xsd:int ;
+      visual:y "1105"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasVisualAcuityScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "303"^^xsd:int ;
+      visual:x "1031"^^xsd:int ;
+      visual:y "1046"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#refractionParameterDataValue> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "387"^^xsd:int ;
+      visual:x "1031"^^xsd:int ;
+      visual:y "278"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://qudt.org/schema/qudt#SystemOfUnits> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "236"^^xsd:int ;
+      visual:x "2063"^^xsd:int ;
+      visual:y "520"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Duration> ;
+  rdfs:label "CORE:Duration Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Address> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "184"^^xsd:int ;
+      visual:x "2198"^^xsd:int ;
+      visual:y "2284"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Affiliation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "200"^^xsd:int ;
+      visual:x "3480"^^xsd:int ;
+      visual:y "1930"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Agent> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "166"^^xsd:int ;
+      visual:x "2398"^^xsd:int ;
+      visual:y "1222"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CurrentVisualStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "290"^^xsd:int ;
+      visual:x "312"^^xsd:int ;
+      visual:y "2644"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ElectronicDataInterchangePersonNumber> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "493"^^xsd:int ;
+      visual:x "2878"^^xsd:int ;
+      visual:y "1782"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "204"^^xsd:int ;
+      visual:x "2198"^^xsd:int ;
+      visual:y "2352"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EthnicGroup> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "224"^^xsd:int ;
+      visual:x "1372"^^xsd:int ;
+      visual:y "1272"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ExamStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "216"^^xsd:int ;
+      visual:x "326"^^xsd:int ;
+      visual:y "2004"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EyeExamination> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "256"^^xsd:int ;
+      visual:x "3484"^^xsd:int ;
+      visual:y "2042"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#FamilyRelationshipType> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "324"^^xsd:int ;
+      visual:x "846"^^xsd:int ;
+      visual:y "1578"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#GeographicalPlace> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "1370"^^xsd:int ;
+      visual:y "1334"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#LivingArrangement> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "286"^^xsd:int ;
+      visual:x "330"^^xsd:int ;
+      visual:y "2266"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MaritalStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "231"^^xsd:int ;
+      visual:x "326"^^xsd:int ;
+      visual:y "2326"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalHistory> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "248"^^xsd:int ;
+      visual:x "310"^^xsd:int ;
+      visual:y "2578"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MilitaryServiceBranch> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "308"^^xsd:int ;
+      visual:x "1372"^^xsd:int ;
+      visual:y "1400"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#NextOfKin> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "206"^^xsd:int ;
+      visual:x "1916"^^xsd:int ;
+      visual:y "1576"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "196"^^xsd:int ;
+      visual:x "2190"^^xsd:int ;
+      visual:y "2220"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PPECompliance> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "254"^^xsd:int ;
+      visual:x "312"^^xsd:int ;
+      visual:y "2516"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "1512"^^xsd:int ;
+      visual:y "1988"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Person> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "172"^^xsd:int ;
+      visual:x "2424"^^xsd:int ;
+      visual:y "1528"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonGender> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "239"^^xsd:int ;
+      visual:x "310"^^xsd:int ;
+      visual:y "2706"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonalProtectiveEquipment> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "380"^^xsd:int ;
+      visual:x "312"^^xsd:int ;
+      visual:y "2388"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PlaceOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "330"^^xsd:int ;
+      visual:y "2456"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PointOfContact> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "252"^^xsd:int ;
+      visual:x "1870"^^xsd:int ;
+      visual:y "1514"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PowerOfAttorney> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "269"^^xsd:int ;
+      visual:x "1856"^^xsd:int ;
+      visual:y "1642"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Provider> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "186"^^xsd:int ;
+      visual:x "2706"^^xsd:int ;
+      visual:y "2040"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ProviderType> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "229"^^xsd:int ;
+      visual:x "3484"^^xsd:int ;
+      visual:y "1988"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Transfer> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "183"^^xsd:int ;
+      visual:x "326"^^xsd:int ;
+      visual:y "2070"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Unit> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "148"^^xsd:int ;
+      visual:x "1376"^^xsd:int ;
+      visual:y "1212"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisionQualityFormCompletion> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "386"^^xsd:int ;
+      visual:x "326"^^xsd:int ;
+      visual:y "2198"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "223"^^xsd:int ;
+      visual:x "330"^^xsd:int ;
+      visual:y "2138"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#assignedToRelationshipType> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "368"^^xsd:int ;
+      visual:x "1305"^^xsd:int ;
+      visual:y "1502"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#assignedToUnit> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "250"^^xsd:int ;
+      visual:x "1820"^^xsd:int ;
+      visual:y "1208"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#conductsEyeExamination> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "340"^^xsd:int ;
+      visual:x "3023"^^xsd:int ;
+      visual:y "2048"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#dateOfBirth> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "217"^^xsd:int ;
+      visual:x "843"^^xsd:int ;
+      visual:y "1706"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#dateOfDeath> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "230"^^xsd:int ;
+      visual:x "841"^^xsd:int ;
+      visual:y "1772"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encounterProviderIdentifier> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "363"^^xsd:int ;
+      visual:x "3021"^^xsd:int ;
+      visual:y "2158"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#evaluatesOutcome> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "283"^^xsd:int ;
+      visual:x "2559"^^xsd:int ;
+      visual:y "2222"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasCurrentVisualStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "322"^^xsd:int ;
+      visual:x "835"^^xsd:int ;
+      visual:y "2644"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasExamStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "248"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2004"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasGender> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "209"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2706"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasPPECompliance> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "286"^^xsd:int ;
+      visual:x "835"^^xsd:int ;
+      visual:y "2516"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasProviderType> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "261"^^xsd:int ;
+      visual:x "3031"^^xsd:int ;
+      visual:y "1986"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasVQFFormCompletionStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "391"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2198"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasVisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "255"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2136"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#homePhoneNumber> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "298"^^xsd:int ;
+      visual:x "2878"^^xsd:int ;
+      visual:y "1526"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#integrationNumber> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "287"^^xsd:int ;
+      visual:x "2882"^^xsd:int ;
+      visual:y "1716"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#issuedPPE> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "203"^^xsd:int ;
+      visual:x "835"^^xsd:int ;
+      visual:y "2388"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#livingArrangement> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2264"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#maritalStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "230"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2326"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientAddress> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "249"^^xsd:int ;
+      visual:x "1765"^^xsd:int ;
+      visual:y "2284"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientCategory> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "258"^^xsd:int ;
+      visual:x "843"^^xsd:int ;
+      visual:y "1834"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientInEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "287"^^xsd:int ;
+      visual:x "1759"^^xsd:int ;
+      visual:y "2350"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientMedicalHistory> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "313"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2578"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientTransfer> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "248"^^xsd:int ;
+      visual:x "833"^^xsd:int ;
+      visual:y "2070"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personFirstName> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "267"^^xsd:int ;
+      visual:x "2882"^^xsd:int ;
+      visual:y "1460"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personIdentifier> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "256"^^xsd:int ;
+      visual:x "2882"^^xsd:int ;
+      visual:y "1588"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personLastName> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "266"^^xsd:int ;
+      visual:x "2880"^^xsd:int ;
+      visual:y "1210"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "252"^^xsd:int ;
+      visual:x "1818"^^xsd:int ;
+      visual:y "1334"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personMiddleName> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "293"^^xsd:int ;
+      visual:x "2880"^^xsd:int ;
+      visual:y "1338"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personMilitaryBranch> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "306"^^xsd:int ;
+      visual:x "1820"^^xsd:int ;
+      visual:y "1398"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personMilitaryRank> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "288"^^xsd:int ;
+      visual:x "2882"^^xsd:int ;
+      visual:y "1272"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personNameSuffix> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "2878"^^xsd:int ;
+      visual:y "1654"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personRace> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "218"^^xsd:int ;
+      visual:x "841"^^xsd:int ;
+      visual:y "1900"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#placeOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "835"^^xsd:int ;
+      visual:y "2454"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#powerOfAttorney> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "270"^^xsd:int ;
+      visual:x "1303"^^xsd:int ;
+      visual:y "1640"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#providerAddress> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "260"^^xsd:int ;
+      visual:x "2581"^^xsd:int ;
+      visual:y "2282"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#providerAffiliation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "276"^^xsd:int ;
+      visual:x "3029"^^xsd:int ;
+      visual:y "1926"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#providerInEncounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "298"^^xsd:int ;
+      visual:x "2551"^^xsd:int ;
+      visual:y "2350"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#receivesOutcome> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "270"^^xsd:int ;
+      visual:x "1765"^^xsd:int ;
+      visual:y "2220"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#satisfiesNextOfKin> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "279"^^xsd:int ;
+      visual:x "1303"^^xsd:int ;
+      visual:y "1578"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#socialSecurityNumber> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "311"^^xsd:int ;
+      visual:x "2878"^^xsd:int ;
+      visual:y "1398"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasEthnicity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "208"^^xsd:int ;
+      visual:x "1820"^^xsd:int ;
+      visual:y "1270"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Person> ;
+  rdfs:label "CORE:Person Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Admission> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "206"^^xsd:int ;
+      visual:x "181"^^xsd:int ;
+      visual:y "957"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#BodyLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "235"^^xsd:int ;
+      visual:x "599"^^xsd:int ;
+      visual:y "1056"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CurrentResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "272"^^xsd:int ;
+      visual:x "561"^^xsd:int ;
+      visual:y "521"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Encounter> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "204"^^xsd:int ;
+      visual:x "177"^^xsd:int ;
+      visual:y "892"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Facility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "172"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "810"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#GeographicalPlace> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "948"^^xsd:int ;
+      visual:y "1191"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MedicalFacility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "245"^^xsd:int ;
+      visual:x "560"^^xsd:int ;
+      visual:y "657"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "228"^^xsd:int ;
+      visual:y "361"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PermanentResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "303"^^xsd:int ;
+      visual:x "560"^^xsd:int ;
+      visual:y "570"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Person> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "172"^^xsd:int ;
+      visual:x "188"^^xsd:int ;
+      visual:y "1190"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Place> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "159"^^xsd:int ;
+      visual:x "1448"^^xsd:int ;
+      visual:y "810"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PlaceOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "1017"^^xsd:int ;
+      visual:y "426"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PlaceOfWork> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "230"^^xsd:int ;
+      visual:x "1019"^^xsd:int ;
+      visual:y "299"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PostalAddress> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "239"^^xsd:int ;
+      visual:x "163"^^xsd:int ;
+      visual:y "292"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Transfer> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "183"^^xsd:int ;
+      visual:x "181"^^xsd:int ;
+      visual:y "829"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#admissionFacility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "265"^^xsd:int ;
+      visual:x "543"^^xsd:int ;
+      visual:y "959"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#durationOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "304"^^xsd:int ;
+      visual:x "556"^^xsd:int ;
+      visual:y "463"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encounterLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "283"^^xsd:int ;
+      visual:x "539"^^xsd:int ;
+      visual:y "894"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#facilityTypeID> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "234"^^xsd:int ;
+      visual:x "558"^^xsd:int ;
+      visual:y "719"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasWorkplaceAddress> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "313"^^xsd:int ;
+      visual:x "560"^^xsd:int ;
+      visual:y "292"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#personLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "252"^^xsd:int ;
+      visual:x "541"^^xsd:int ;
+      visual:y "1190"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#placeOfResidence> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "558"^^xsd:int ;
+      visual:y "357"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#transferredFacility> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "273"^^xsd:int ;
+      visual:x "543"^^xsd:int ;
+      visual:y "831"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/TRAUMA#occursAtBodyLocation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "705"^^xsd:int ;
+      visual:x "70"^^xsd:int ;
+      visual:y "1124"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Place> ;
+  rdfs:label "CORE:Place Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Code> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "158"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "298"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CurrentProceduralTerminology> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "391"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "298"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "215"^^xsd:int ;
+      visual:x "1117"^^xsd:int ;
+      visual:y "810"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EthnicGroup> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "224"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "1194"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#InternationalClassificationOfDiseases> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "452"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "426"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#LivingArrangement> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "286"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "426"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#MaritalStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "231"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "938"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Occupation> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "217"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "1066"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "554"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonGender> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "239"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "682"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#RecordDetail> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "228"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "810"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#codeValue> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "205"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "170"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#encodes> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "187"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "42"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasGender> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "209"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "682"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasRecordDetail> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "260"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "810"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#livingArrangement> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "281"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "554"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#maritalStatus> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "230"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "938"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#occupationAtTimeOfInjury> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "354"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "1066"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts owl:Thing ;
+      visual:height "32"^^xsd:int ;
+      visual:width "142"^^xsd:int ;
+      visual:x "680"^^xsd:int ;
+      visual:y "42"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description> ;
+  rdfs:label "CORE:Description Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ColorVision> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "215"^^xsd:int ;
+      visual:x "24"^^xsd:int ;
+      visual:y "472"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CorrectedVisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "313"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "611"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EyeExamination> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "256"^^xsd:int ;
+      visual:x "64"^^xsd:int ;
+      visual:y "888"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Findings> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "187"^^xsd:int ;
+      visual:x "942"^^xsd:int ;
+      visual:y "347"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "153"^^xsd:int ;
+      visual:y "819"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#TestResult> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "202"^^xsd:int ;
+      visual:x "943"^^xsd:int ;
+      visual:y "498"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#UncorrectedVisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "336"^^xsd:int ;
+      visual:x "21"^^xsd:int ;
+      visual:y "539"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "223"^^xsd:int ;
+      visual:x "525"^^xsd:int ;
+      visual:y "475"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisualAcuityScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "271"^^xsd:int ;
+      visual:x "49"^^xsd:int ;
+      visual:y "746"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasVisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "255"^^xsd:int ;
+      visual:x "413"^^xsd:int ;
+      visual:y "818"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasVisualAcuityScale> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "303"^^xsd:int ;
+      visual:x "417"^^xsd:int ;
+      visual:y "745"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#measuresVisualAcuity> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "311"^^xsd:int ;
+      visual:x "413"^^xsd:int ;
+      visual:y "889"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts owl:Thing ;
+      visual:height "32"^^xsd:int ;
+      visual:width "142"^^xsd:int ;
+      visual:x "1248"^^xsd:int ;
+      visual:y "347"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Findings> ;
+  rdfs:label "CORE:Findings Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ContactLens> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "224"^^xsd:int ;
+      visual:x "410"^^xsd:int ;
+      visual:y "429"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CorrectiveDevice> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "265"^^xsd:int ;
+      visual:x "1270"^^xsd:int ;
+      visual:y "430"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CorrectiveLens> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "245"^^xsd:int ;
+      visual:x "814"^^xsd:int ;
+      visual:y "430"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Equipment> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "210"^^xsd:int ;
+      visual:x "1952"^^xsd:int ;
+      visual:y "492"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EyeShield> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "198"^^xsd:int ;
+      visual:x "436"^^xsd:int ;
+      visual:y "478"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Eyewear> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "186"^^xsd:int ;
+      visual:x "814"^^xsd:int ;
+      visual:y "492"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EyewearFrame> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "243"^^xsd:int ;
+      visual:x "1270"^^xsd:int ;
+      visual:y "364"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#EyewearLens> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "228"^^xsd:int ;
+      visual:x "1268"^^xsd:int ;
+      visual:y "299"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Helmet> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "177"^^xsd:int ;
+      visual:x "827"^^xsd:int ;
+      visual:y "561"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "456"^^xsd:int ;
+      visual:y "680"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonalProtectiveEquipment> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "380"^^xsd:int ;
+      visual:x "1270"^^xsd:int ;
+      visual:y "492"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PersonalProtectiveEquipmentCondition> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "470"^^xsd:int ;
+      visual:x "167"^^xsd:int ;
+      visual:y "618"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Spectacles> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "207"^^xsd:int ;
+      visual:x "428"^^xsd:int ;
+      visual:y "535"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#equipmentCondition> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "300"^^xsd:int ;
+      visual:x "814"^^xsd:int ;
+      visual:y "620"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#issuedPPE> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "203"^^xsd:int ;
+      visual:x "813"^^xsd:int ;
+      visual:y "681"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Equipment> ;
+  rdfs:label "CORE:Equipment Graph" ;
+].
+[
+  rdf:type visual:Graph ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#CurrentDisabilityRating> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "323"^^xsd:int ;
+      visual:x "641"^^xsd:int ;
+      visual:y "660"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "196"^^xsd:int ;
+      visual:x "1289"^^xsd:int ;
+      visual:y "660"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "174"^^xsd:int ;
+      visual:x "23"^^xsd:int ;
+      visual:y "276"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#PatientInstructions> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "282"^^xsd:int ;
+      visual:x "637"^^xsd:int ;
+      visual:y "464"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Prognosis> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "200"^^xsd:int ;
+      visual:x "643"^^xsd:int ;
+      visual:y "596"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Provider> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "186"^^xsd:int ;
+      visual:x "23"^^xsd:int ;
+      visual:y "336"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#ReturnToDuty> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "236"^^xsd:int ;
+      visual:x "640"^^xsd:int ;
+      visual:y "722"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#VisionQualityFormCompletion> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "386"^^xsd:int ;
+      visual:x "22"^^xsd:int ;
+      visual:y "399"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#assignVisionQualityFormCompletion> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "444"^^xsd:int ;
+      visual:x "641"^^xsd:int ;
+      visual:y "404"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#currentDisabilityRatingDate> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "364"^^xsd:int ;
+      visual:x "15"^^xsd:int ;
+      visual:y "666"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#currentDisabilityRatingPercentage> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "423"^^xsd:int ;
+      visual:x "14"^^xsd:int ;
+      visual:y "722"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#evaluatesOutcome> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "283"^^xsd:int ;
+      visual:x "641"^^xsd:int ;
+      visual:y "337"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#prognosisGlasgowTraumaScore> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "397"^^xsd:int ;
+      visual:x "15"^^xsd:int ;
+      visual:y "538"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#prognosisOcularTraumaScore> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "380"^^xsd:int ;
+      visual:x "16"^^xsd:int ;
+      visual:y "598"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#receivesOutcome> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "270"^^xsd:int ;
+      visual:x "639"^^xsd:int ;
+      visual:y "279"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#returnToDutyDate> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "275"^^xsd:int ;
+      visual:x "17"^^xsd:int ;
+      visual:y "857"^^xsd:int ;
+    ] ;
+  visual:child [
+      rdf:type visual:Box ;
+      visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#returnToDutyIndicator> ;
+      visual:height "32"^^xsd:int ;
+      visual:width "313"^^xsd:int ;
+      visual:x "14"^^xsd:int ;
+      visual:y "793"^^xsd:int ;
+    ] ;
+  visual:depicts <http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Outcome> ;
+  rdfs:label "CORE:Outcome Graph" ;
+].

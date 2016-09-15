@@ -1,0 +1,1690 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:mapping01="http://model.dveivr.dha.health.mil/mapping01#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:DM="http://model.dveivr.dha.health.mil/DVEIVR_MAPPING#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:CORE="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#"
+    xmlns:TRAUMA="http://model.dveivr.dha.health.mil/TRAUMA#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://model.dveivr.dha.health.mil/TRAUMA">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Created with TopBraid Composer</owl:versionInfo>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL"/>
+    <owl:imports rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="HypertrophicScar">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="MedicalCondition"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a protruding scar resembling a fibroma or collagen nevus.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hypertrophic scar</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="PhysicalMechanism">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="MechanismOfInjury"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OtherDeploymentLocation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="LocationOfEvent"/>
+    </rdfs:subClassOf>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >deployment location</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >other deployment location</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a deployment location which is not one of the available options, or is not specified.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ChemicalBurn">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >chemical burn</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Burn"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/768300/all/burn?q=chemical%20burn#7</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tissue destruction caused by corrosive or irritating chemicals such as strong acids or bases, phenols, pesticides, disinfectants, fertilizers, or chemical warfare agents.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Ectropion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="OcularCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ectropion</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A rolling outward of the margin of a body part, especially an eyelid.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Diabetes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Disease"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A general term for diseases marked by excessive urination and elevated blood sugar, esp. diabetes mellitus (DM).</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >diabetes</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/744389/all/diabetes?q=diabetes</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >diabetes mellitus</skos:altLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DM</CORE:acronym>
+  </owl:Class>
+  <owl:Class rdf:ID="BlastTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blast injury</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blast trauma</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/758258/16/injury</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Trauma"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An injury due to an explosion. The injury results from internal organ damage caused by a pressure wave in the atmosphere extending outward from the explosion. It can also produce secondary shrapnel injuries and burns.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#MechanismOfInjury">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mechanism</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mechanism of injury</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://medical-dictionary.thefreedictionary.com/mechanism+of+injury</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the circumstance in which an injury occurs, for example, sudden deceleration, wounding by a projectile, or crushing by a heavy object.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Etiology">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >etiology</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description"/>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cause</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n. 1 Pathology. A.  the study of the causes of diseases.  B. the cause or origin of a disease.  2.  the study of causation. 3.  the study of causation. </CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dictionary.com Unabridged Based on the Random House Dictionary, © Random House, Inc. 2013.</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="PunctureTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >puncture wound</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >puncture trauma</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="PenetratingTrauma"/>
+    </rdfs:subClassOf>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >not in the original data set, but seems to be a related term.</CORE:developerNote>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/729139/all/perforating_wound#13</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A wound made by a sharp-pointed instrument such as a dagger, ice pick, or needle. A puncture wound usually is collapsed, which provides ideal conditions for infection. The placement of a drain, antitetanus therapy or prophylaxis, and gas gangrene prophylaxis may be required. This will depend on the nature of the instrument that caused the injury.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="SubstanceAbuseCondition">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >substance abuse</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Condition"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/746705/all/abuse?q=substance%20abuse#13</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A maladaptive pattern of behavior marked by the use of chemically active agents, e.g., prescription or illicit drugs, alcohol, and tobacco. Substance abuse is pervasive and causes half of all annual deaths in the U.S. About 33% of Americans smoke cigarettes, 6% use illicit drugs regularly, and about 14% are alcoholics. The consequences of substance abuse include heart disease, cancer, stroke, chronic obstructive lung disease, cirrhosis, trauma, and familial, social, legal, and economic difficulties.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Necrosis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >necrosis</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"death, the stage of dying, the act of killing") is a form of cell injury that results in the premature death of cells in living tissue.[1] Necrosis is caused by factors external to the cell or tissue, such as infection, toxins, or trauma that result in the unregulated digestion of cell components.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Symptom">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any change in the body or its functions as perceived by the patient. A symptom represents the subjective experience of disease. Symptoms are described by patients in their complaint or history of the present illness. By contrast, signs are the objective findings observed by health care providers during the examination of patients.&#xD;
+Aspects of general symptom analysis include the following: onset: date, manner (gradual or sudden), and precipitating factors; characteristics: character, location, radiation, severity, timing, aggravating or relieving factors, and associated symptoms; course since onset: incidence, progress, and effects of therapy.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/729697/all/symptom?q=symptom</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="Entropion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OcularCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >entropion</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The turning inward or turning toward, usually a condition in which the eyelid turns inward toward the eye.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Depression">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="MentalHealthCondition"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/744397/all/depression?q=depression</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >depression</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >4. Any of several mood disorders marked by loss of interest or pleasure in living. Disorders linked to depression include dysthymia, major depressive disorder, schizoaffective disorders, bipolar disorders, seasonal affective disorders, postpartum depressive disorders, and mood disorders caused by substance abuse or other medical conditions. Medical and psychiatric conditions that can trigger or exacerbate depression include anxiety disorders, autoimmune diseases, chronic pain, eating disorders, endocrine disorders, heart attack, infectious diseases, neurologic disorders (stroke), sleep disorders, substance abuse, and drugs (e.g., some beta blockers, calcium channel blockers, steroids, hormones, chemotherapeutic agents, appetite suppressants, and sedatives). The U.S. Preventive Services Task Force recommends screening for depression in primary care settings. Formal screening tools may be used (e.g., the Beck Depression Inventory, Hamilton Rating Scale for Depression, and Geriatric Depression Scale).</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="HazardousObject">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hazard</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >constructed by Meika Ungricht for the purpose of ontology modeling</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#MechanismOfInjury"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This corresponds with the inflammation odp component: Trauma Agent (trauma causer)</CORE:developerNote>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hazardous object</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Independently of the objects themselves (household appliances, furniture, explosive devices etc.) is the object's role as a hazard, or object that causes injury to a person.  Since the objects themselves can perform other functions, it is important to create a separate concept for how they relate to an event (injury) and the agent that receives injury (victim/patient).  That separate function is a role the object plays, in other words, it becomes the hazard in the event of an injury to a person.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Grenade">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >grenade</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ExplosiveDevice"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Grenade</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A grenade is any explosive device designed to be thrown by hand. Grenade launchers are firearms designed to fire explosive projectile grenades.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="PostTraumaticStressDisorder">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MentalHealthCondition"/>
+    </rdfs:subClassOf>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PTSD</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/746787/0/post_traumatic_stress_disorder</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ABBR: PTSD Intense psychological distress, marked by horrifying memories, recurring fears, and feelings of helplessness that develop after a psychologically traumatic event, such as combat, rape, criminal assault, life-threatening accident, or natural disaster. The symptoms of PTSD include flashback; avoidance of stimuli associated with the trauma; disturbances of memory; psychological or social withdrawal, increased aggressiveness; irritability, insomnia, startle responses, and vigilance. The symptoms may last for years after the event but can often be managed with supportive psychotherapy or medications such as antidepressants.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >post-traumatic stress disorder</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="QuaternaryBlastTrauma">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >quaternary blast</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Note that injuries sustained in the fourth wave may not be limited to quaternary blast injuries as listed here.</CORE:developerNote>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Blast_injury</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#BlastTrauma"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >clinical consequences of contaminants</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >quaternary blast trauma</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Quaternary injuries, or other miscellaneous named injuries, are all other injuries not included in the first three classes. These include flash burns, crush injuries and respiratory injuries.&#xD;
+&#xD;
+Traumatic amputations quickly result in death, and are thus rare in survivors, and are often accompanied by significant other injuries. The rate of eye injury may depend on the type of blast. Psychiatric injury, some of which may be caused by neurological damage incurred during the blast, is the most common quaternary injury, and post-traumatic stress disorder may affect people who are otherwise completely uninjured</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="TertiaryBlastTrauma">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tertiary blast</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tertiary blast trauma</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Blast_injury</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#BlastTrauma"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blunt</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >displacement</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Note that injuries sustained in the third wave may not be limited to tertiary blast injuries as listed here.</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Displacement of air by the explosion creates a blast wind that can throw victims against solid objects. Injuries resulting from this type of traumatic impact are referred to as tertiary blast injuries. Tertiary injuries may present as some combination of blunt and penetrating trauma, including bone fractures and coup contre-coup injuries.&#xD;
+&#xD;
+Young children, because they weigh less than adults, are at particular risk of tertiary injury.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#LocationOfEvent">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Place"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The type of facility or venue or operational base where the traumatic even occurs; does not refer to a specific location (i.e. one with an address) but rather to the general type of location that characterizes a specific place.  For example: "the event occurred at a recreational facility."</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#Condition">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any injury, disease, or physical state.</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Had previously been a subclass of DUL:Situation.</CORE:developerNote>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >extrapolated from: http://www.tabers.com/tabersonline/view/Tabers-Dictionary/743731/all/pre_existing_condition</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >condition</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >From Taber's Online: pre-existing condition: Any injury, disease, or physical condition occurring prior to an arbitrary date; usually used in reference to the date of issuance of a health insurance policy. In some cases, a pre-existing condition results in an exclusion from coverage for costs resulting from the injury, disease, or condition.</CORE:developerNote>
+  </owl:Class>
+  <owl:Class rdf:ID="RetainedForeignBody">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The term "retained foreign body" appears to have a more general meaning, and may require disambiguation in future development.</CORE:developerNote>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dictionary of Eye Terminology, 5th ed. B. Cassin; M Rubin Page 227</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >retained foreign body</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Injury.  Foreign body remaining in the eye after a penetrating injury.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="WoundDehiscence">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Wound dehiscence is a surgical complication in which a wound ruptures along surgical suture.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rupture</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >wound dehiscence</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="AngleRecession">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Glaucoma"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Angle recession is a common manifestation of blunt ocular trauma and involves rupture of the ciliary body face, resulting in a tear between the longitudinal and circular fibers of the ciliary muscle. Angle recession is reported to occur in 20 to 94 percent of eyes after blunt trauma and is often masked initially due to the presence of concomitant hyphema, which results from shearing of the anterior ciliary arteries. Approximately 5 to 20 percent of eyes with angle recession develop angle-recession glaucoma.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.aao.org/publications/eyenet/201010/pearls.cfm</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >angle recession</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Dementia">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Disease"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dementia</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/750101/all/dementia?q=Dementia</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A progressive, irreversible decline in mental function, marked by memory impairment and, often, deficits in reasoning, judgment, abstract thought, registration, comprehension, learning, task execution, and use of language. The cognitive impairments diminish a person's social, occupational, and intellectual abilities. In the U.S., 4.5 million people are afflicted by dementia. The prevalence is esp. high in the very elderly: about 20% to 40% of those over 85 are demented. Dementia is somewhat more common in women than in men. It must be distinguished by careful clinical examination from delirium, psychosis, depression, and the effects of medications.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ConditionOnset">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >n/a</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >life period in which a particular condition occurred (infancy, todlerhood, childhood, adolescence, early adulthood, middle adulthood, late adulthood).</CORE:definition>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >condition onset</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#Disease">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >disease</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a disorder of structure or function in a human, animal, or plant, especially one that produces specific signs or symptoms or that affects a specific location and is not simply a direct result of physical injury.</CORE:definition>
+    <rdfs:subClassOf rdf:resource="#Condition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PeripheralNervePalsy">
+    <rdfs:subClassOf rdf:resource="#Disease"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"Peripheral Neuropathy Fact Sheet: National Institute of Neurological Disorders and Stroke (NINDS)". http://www.ninds.nih.gov/disorders/peripheralneuropathy/detail_peripheralneuropathy.htm. Retrieved 2008-11-30.</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peripheral nerve palsy</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >peripheral neuropathy</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pathologic condition.  Damage to nerves of the peripheral nervous system, which may be caused either by diseases of or trauma to the nerve or the side-effects of systemic illness. Generally there are four cardinal patterns of peripheral neuropathy, and they are: polyneuropathy, mononeuropathy, mononeuritis multiplex and autonomic neuropathy. Associated with varying combinations of weakness, autonomic changes, and sensory changes.  Classified according to the number of nerves affected or the type of nerve cell affected (motor, sensory, autonomic), or the process affecting the nerves (e.g. inflammation in neuritis).</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="SuturesExposed">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sutures exposed</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >suture: a stitch or row of stitches holding together the edges of a wound or surgical incision.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ForeignBody">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OcularCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >foreign body</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >any object or substance found in an organ or tissue in which it does not belong under normal circumstances, such as a bolus of food in the trachea or a particle of dust in the eye.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >foreign object</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Avulsion">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >evulsion</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >avulsion</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/734631/0/avulsion?q=tissue%20avulsion</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#PhysicalMechanism"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A tearing away forcibly of a part or structure. If surgical repair is necessary, a sterile dressing may be applied while surgery is awaited. Avulsed fingers, toes, limbs or other separated tissue should be recovered if possible.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#MentalHealthCondition">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mental illness</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="#Condition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a condition or illness of the mind.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mental health condition</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#Glaucoma">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OcularCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >glaucoma</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Glaucoma is a group of eye diseases characterized by damage to the optic nerve usually due to excessively high intraocular pressure (IOP).This increased pressure within the eye, if untreated can lead to optic nerve damage resulting in progressive, permanent vision loss, starting with unnoticeable blind spots at the edges of the field of vision, progressing to tunnel vision, and then to blindness.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="AttentionDisorder">
+    <rdfs:subClassOf rdf:resource="#MentalHealthCondition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ABBR: ADHD A persistent pattern of inattention, hyperactivity and impulsivity, or both, occurring more frequently and severely than is typical in those at a comparable level of development. ADHD is the most commonly reported neurobehavioral disorder of childhood. The illness may begin in early childhood but may not be diagnosed until after the symptoms have been present for many years. The prevalence is estimated to be 3% to 5% in children; 4% in adults.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ADD</CORE:acronym>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ADHD</CORE:acronym>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >attention disorder</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/766831/0/attention_deficit_hyperactivity_disorder?q=attention%20disorder</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="Lacrimal-CanalicularLaceration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Laceration"/>
+    </rdfs:subClassOf>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lacrimal canicular laceration</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a laceration occuring on the lacrimal canal</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lacrimal-canicular laceration</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="OIF">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OND</CORE:acronym>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Operation New Dawn</skos:altLabel>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Afghanistan and Iraq (OEF &amp; OIF) Afghanistan: Operation Enduring Freedom (OEF) / Iraq: Operation Iraqi Freedom (OIF) Following the September 11, 2001, terrorist attacks on the World Trade Center and the Pentagon, the United States responded by deploying military personnel in Southwest Asia.</skos:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OEF</CORE:acronym>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Operation Enduring Freedom</skos:altLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OIF</CORE:acronym>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Operation Iraqi Freedom</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#LocationOfEvent"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PrimaryBlastTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Blast Exposure</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >primary blast trauma</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Note that injuries sustained in the first wave may not be limited to primary blast injuries as listed here.</CORE:developerNote>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >2012 07 18 DVEIVR Data Dictionary - Second Submission.xls</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#BlastTrauma"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Defense and Veterans Brain Injury Center - Online</CORE:definition>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Primary injuries are caused by blast overpressure waves, or shock waves. These are especially likely when a person is close to an exploding munition, such as a land mine. The ears are most often affected by the overpressure, followed by the lungs and the hollow organs of the gastrointestinal tract. Gastrointestinal injuries may present after a delay of hours or even days. Injury from blast overpressure is a pressure and time dependent function. By increasing the pressure or its duration, the severity of injury will also increase.&#xD;
+&#xD;
+In general, primary blast injuries are characterized by the absence of external injuries; thus internal injuries are frequently unrecognized and their severity underestimated. According to the latest experimental results, the extent and types of primary blast-induced injuries depend not only on the peak of the overpressure, but also other parameters such as number of overpressure peaks, time-lag between overpressure peaks, characteristics of the shear fronts between overpressure peaks, frequency resonance, and electromagnetic pulse, among others. There is general agreement that spalling, implosion, inertia, and pressure differentials are the main mechanisms involved in the pathogenesis of primary blast injuries. Thus, the majority of prior research focused on the mechanisms of blast injuries within gas-containing organs/organ systems such as the lungs, while primary blast-induced traumatic brain injury has remained underestimated. Blast lung refers to severe pulmonary contusion, bleeding or swelling with damage to alveoli and blood vessels, or a combination of these. It is the most common cause of death among people who initially survive an explosion.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blast over pressure</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Injury.  The result of exposure to the over pressurization wave or the complex pressure wave that is generated by the blast itself. This blast over-pressurization wave travels at a high velocity and is affected by the surrounding environment; for example, the effects of the blast wave may be increased in a closed environment such as a vehicle. Air-filled organs such as the ear, lung, and gastrointestinal tract and organs surrounded by fluid-filled cavities such as the brain and spinal cord are especially susceptible to primary blast injury</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Primary Blast</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="SecondaryBlastTrauma">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >secondary blast</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fragments</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Blast_injury</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >secondary blast trauma</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#BlastTrauma"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Note that injuries sustained in the second wave may not be limited to secondary blast injuries as listed here.</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Secondary injuries are caused by fragmentation and other objects propelled by the explosion. These injuries may affect any part of the body and sometimes result in penetrating trauma with visible bleeding. At times the propelled object may become embedded in the body, obstructing the loss of blood to the outside. However, there may be extensive blood loss within the body cavities. Fragmentation wounds may be lethal and therefore many anti-personnel bombs are designed to generate fragments.&#xD;
+&#xD;
+Most casualties are caused by secondary injuries. Some explosives, such as nail bombs, are deliberately designed to increase the likelihood of secondary injuries. In other instances, the target provides the raw material for the objects thrown into people, e.g., shattered glass from a blasted-out window or the glass facade of a building.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="PerforatingTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perforating wound</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perforating trauma</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#PenetratingTrauma"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/729139/all/perforating_wound#13</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any wound that has breached the body wall or internal organs. The perforation may be partial or complete.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="BurnTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >burn</skos:altLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trauma"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >burn trauma</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/768300/all/burn?q=burn</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >burn injury</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tissue injury resulting from excessive exposure to thermal, chemical, electrical, or radioactive agents. The effects may be local, resulting in cell injury or death, or both local and systemic, involving primary shock (which occurs immediately after the injury and is rarely fatal) or secondary shock (which develops insidiously following severe burns and is often fatal). In the U.S. about 1.25 million people receive medical care for burns annually. More than 50,000 of these burn victims are hospitalized as a result of severe burn injury.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="OrganicBrainSyndrome">
+    <rdfs:subClassOf rdf:resource="#Disease"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >organic brain syndrome</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/741154/0/organic_brain_syndrome?q=organic%20brain%20syndrom</CORE:definitionSource>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OBS</CORE:acronym>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ABBR: OBS Any of a large group of acute and chronic mental disorders associated with brain damage or impaired cerebral function.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="ImprovisedExplosiveDevice">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >improvised explosive device</skos:prefLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IED</CORE:acronym>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Improvised_explosive_device</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ExplosiveDevice"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An improvised explosive device (IED), also known as a roadside bomb, is a homemade bomb constructed and deployed in ways other than in conventional military action. It may be constructed of conventional military explosives, such as an artillery round, attached to a detonating mechanism.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Ulcer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ulcer</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An ulcer is a discontinuity or break in a bodily membrane that impedes the organ of which that membrane is a part from continuing its normal functions.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Lagophthalmos">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OcularCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >lagophthalmos</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inability to close the eyelid completely</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Allergies">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/769444/all/allergy?q=allergies</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An immune response to a foreign antigen that results in inflammation and organ dysfunction. Allergies range from annoying to life-threatening. They include systemic anaphylaxis, urticaria, eczematous dermatitis, hay fever, and rhinitis. They affect about 20% of Americans and can be triggered by inhalation (pollen, dust mites), direct contact (poison ivy), ingestion (drugs, foods), or injection (stinging insects, drugs). Allergic responses may be initiated and sustained by occupational exposure to allergens, and by foods, animals, fungal spores, metals, and rubber products. The most severe cases are often associated with Hymenoptera stings, penicillin products, radiological contrast media, and latex.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >allergies</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="VisitData">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Record"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HIV-AIDS">
+    <rdfs:subClassOf rdf:resource="#Disease"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/729700/all/AIDS</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An advanced stage of infection with the human immunodeficiency virus (HIV). AIDS was unrecognized before 1981, but it is now one of the most common causes of death worldwide. Most people with AIDS are between 15 and 44 years old, poor, and heterosexual. Most have limited access to good care and live in resource-poor nations in Africa and Asia. Worldwide about 2.6 million new HIV infections occur each year. More than 33 million people live with HIV infection. Annual mortality is about 5.5 percent, and about 1.8 million people die of HIV/AIDS annually. In the U.S. more than a million people with HIV/AIDS have been identified; about 500,000 HIV-infected Americans are alive today. The primary risk groups for current HIV/AIDS are people who have unprotected sexual intercourse, injection drug users, men who have sex with men, women and men with multiple sexual partners, and children of infected mothers. </CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HIV/AIDS</CORE:acronym>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >human immunodeficiency virus</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >autoimmune deficincy syndrome</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Abscess">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >abscess</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ulcer</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a swollen area within body tissue, containing an accumulation of pus.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#PenetratingTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >penetrating wound</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/729139/all/perforating_wound#13</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trauma"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >penetrating trauma</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A wound in which the skin is broken and the agent causing the wound enters subcutaneous tissue or a deeply lying structure or cavity.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Contusion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >contusion</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An injury in which the skin is not broken, often characterized by ruptured blood vessels and discolorations; a bruise.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bruise</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#ExplosiveDevice">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >explosive device</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Explosive_device</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#HazardousObject"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An explosive device is device that relies on the exothermic reaction of an explosive material to provide an extremely sudden and violent release of energy. Explosive devices have applications as demolition devices and as weapons in the military.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Retraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is a condition of involuntary eye movement, acquired in infancy or later in life, that may result in reduced or limited vision. Due to the involuntary movement of the eye, it is often called "Dancing Eyes".</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >retraction</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nystagmus</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="CornealTrauma">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OcularCondition"/>
+    </rdfs:subClassOf>
+    <rdfs:flag rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >There's a section for Trauma, and this may need to be moved there.  It's under condition now because that is where it is in the data.</rdfs:flag>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Past History (Corneal Trauma)</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="InhalationTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inhalation injury</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inhalation trauma</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/758258/16/injury</CORE:definitionSource>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trauma"/>
+    </rdfs:subClassOf>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Injury to the oropharynx, nasopharynx, trachea, bronchi, or lungs from exposure to smoke or heated gas. This injury is a potentially life-threatening complication of exposure to smoke and fire and is often present in those who have suffered facial burns; firefighters are esp. at risk. Early complications of inhalation injury include bronchospasm, airway edema, airway obstruction, and respiratory failure. Late complications include hospital-acquired pneumonias and other respiratory illnesses. Patients suspected of inhalation injury should be promptly and repeatedly assessed to make certain they have an open airway. Emergent tracheal intubation is used to prevent respiratory failure.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Sign">
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sign</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/760311/all/sign?q=sign</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any objective evidence or manifestation of an illness or disordered function of the body. Signs are apparent to observers, whereas symptoms may be obvious only to the patient.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Cellulitis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Ptosis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >eyelid ptosis</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a drooping of the upper or lower eyelid</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ptosis</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ptosis is defined as drooping of a body part in general, and can apply to parts other than eyelids.</CORE:developerNote>
+  </owl:Class>
+  <owl:Class rdf:about="#Trauma">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Trauma</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/756539/all/trauma?q=Trauma</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1. A physical injury or wound caused by external force or violence. It may be self-inflicted. In the U.S., trauma is the principal cause of death between the ages of 1 and 44. In addition to each death from trauma, there are at least two cases of permanent disability caused by trauma. The principal types of trauma include motor vehicle collisions, military service, falls, burns, gunshot wounds, and drowning. Most deaths occur in the first several hours after the event.&#xD;
+2. An emotional or psychological shock that may produce disordered feelings or behavior.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Pregnant">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pregnant</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Having conceived; with child.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/742366/0/pregnant?q=pregnant</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="Cicatrix">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scar</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the scar of a healed wound.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >cicatrix</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="HearingLoss">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hearing loss</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hearing loss is any degree of impairment of the ability to apprehend sound.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="DrugAbuse">
+    <rdfs:subClassOf rdf:resource="#SubstanceAbuseCondition"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >drug abuse</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The use or overuse, usually by self-administration, of any drug in a manner that deviates from the prescribed pattern.&#xD;
+Health care workers, many of whom have easy access to narcotics, are at high risk of abusing analgesics. Increased awareness of this problem has led hospitals to establish special programs for identifying these individuals, esp. physicians, nurses, and pharmacists, in order to provide support and education in an attempt to control the problem and prevent loss of license.&#xD;
+&#xD;
+In the U.S., the abuse or misuse of prescription drugs has been identified by the Centers for Disease Control and Prevention (CDC) as a growing problem. In 2007, for example, the CDC reported that more than 27,500 Americans died of drug overdose, an increase of more than 100% in the preceding ten years. More than five times as many people died from misuse of prescribed opioids as from heroin.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >substance abuse</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/746705/all/abuse</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="CrushTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >crush injury</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >crush trauma</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/758258/all/injury?q=crush#10</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#Trauma"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Trauma to body tissues resulting from an applied force that compresses or squeezes tissues, causing damage such as compartment syndrome, dislocation, fracture, laceration, or nerve damage. If there is no bleeding, cold should be applied; if the wound is bleeding, application of the dressing should be followed by cold packs until the patient can be given definitive surgical treatment. If the bone is fractured, a splint should be applied.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="TobaccoUse">
+    <rdfs:subClassOf rdf:resource="#SubstanceAbuseCondition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tobacco use may be defined as any habitual use of the tobacco plant leaf and its products. The predominant use of tobacco is by smoke inhalation of cigarettes, pipes, and cigars. Smokeless tobacco refers to a variety of tobacco products that are either sniffed, sucked, or chewed.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tobacco use</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.ncbi.nlm.nih.gov/books/NBK362/</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="Self-inflicted">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-inflicted</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-inflicted</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="EyeInjuryCircumstance"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="RadiationBurn">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >radiation burn</skos:prefLabel>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Burn"/>
+    </rdfs:subClassOf>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/768300/all/burn?q=Burn#14</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A burn resulting from overexposure to radiant energy as from x-rays, radium or other radioactive elements, sunlight, or nuclear blast.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Caliber">
+    <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt#Unit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AttemptedSuicide">
+    <rdfs:subClassOf rdf:resource="#MentalHealthCondition"/>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >suicide</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Attempted suicide</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >suicidal</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >refers to suicide attempts or gestures and self-harm where there is no result in death. It is a non-fatal act in which a person deliberately causes injury to him or herself or ingests any prescribed or generally recognised therapeutic dose in excess.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >parasuicide</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:about="#OcularCondition">
+    <rdfs:subClassOf rdf:resource="#Condition"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >assessed from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ocular condition</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >General category for conditions or disorders of the eye.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Contamination">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#MedicalCondition"/>
+    </rdfs:subClassOf>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >contamination</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a condition of being soiled, stained, touched, or otherwise exposed to harmful agents, making an object potentially unsafe for use as intended or without barrier techniques. An example is entry of infectious or toxic materials into a previously clean or sterile environment.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#Burn">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >burn</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="#PhysicalMechanism"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/768300/all/burn?q=burn</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >same definition as for "burn trauma"</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tissue injury resulting from excessive exposure to thermal, chemical, electrical, or radioactive agents. The effects may be local, resulting in cell injury or death, or both local and systemic, involving primary shock (which occurs immediately after the injury and is rarely fatal) or secondary shock (which develops insidiously following severe burns and is often fatal). In the U.S. about 1.25 million people receive medical care for burns annually. More than 50,000 of these burn victims are hospitalized as a result of severe burn injury.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#MedicalCondition">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >medical condition</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This includes any non-ocular, non-psychological medical condtions.  This includes conditions such as diabetes, which may have ocular implications, or cicatrix, which may present in other areas but relevant records would indicate cicatrix in or near the eye.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >condition</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="#Condition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Inhalation">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inspiration</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inhalation</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/747291/0/inhalation?q=inhalation</CORE:definitionSource>
+    <rdfs:subClassOf rdf:resource="#PhysicalMechanism"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The act of drawing breath, vapor, or gas into the lungs; inspiration.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="TraumaticEvent">
+    <rdfs:subClassOf rdf:resource="#MechanismOfInjury"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >traumatic event</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.umm.edu/ency/article/001924.htm</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A traumatic event is an experience that causes physical, emotional, psychological distress, or harm. It is an event that is perceived and experienced as a threat to one's safety or to the stability of one's world.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="AlcoholAbuse">
+    <rdfs:subClassOf rdf:resource="#SubstanceAbuseCondition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alcohol abuse, as described in the DSM-IV, is a psychiatric diagnosis describing the recurring use of alcoholic beverages despite its negative consequences. Alcohol abuse is sometimes referred to by the less specific term alcoholism. However, many definitions of alcoholism exist, and only some are compatible with alcohol abuse. There are two types of alcoholics: those who have anti social and pleasure-seeking tendencies, and those who are anxiety-ridden- people who are able to go without drinking for long periods of time but are unable to control themselves once they start. Binge drinking is another form of alcohol abuse. Frequent binge drinking or getting severely drunk more than twice is classed as alcohol misuse. According to research done through international surveys, the heaviest drinkers happen to be the United Kingdom's adolescent generation. When differentiating between alcohol abuse and alcoholism, one should remember that alcohol abuse is when the abuser has faced critical consequences for their actions, recently. Where an alcoholic has experienced a sense of withdrawal in the same time period.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Alcohol_abuse</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >alcohol abuse</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="HomeBase">
+    <rdfs:subClassOf rdf:resource="#LocationOfEvent"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >home base</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a place from which operations or activities are carried out; headquarters.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#EyeInjuryCircumstance">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Eye injury circumstance</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Description"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TraumaticBrainInjury">
+    <rdfs:subClassOf rdf:resource="#MentalHealthCondition"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >traumatic brain injury</skos:prefLabel>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TBI</CORE:acronym>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"Pathologic condition.  Traumatic brain injury (TBI) is a nondegenerative, noncongenital insult to the brain from an external mechanical force, possibly leading to permanent or temporary impairment of cognitive, physical, and psychosocial functions, with an associated diminished or altered state of consciousness.  Intracranial injury, occurs when an external force traumatically injures the brain. TBI can be classified based on severity, mechanism (closed or penetrating head injury), or other features (e.g., occurring in a specific location or over a widespread area). Head injury usually refers to TBI, but is a broader category because it can involve damage to structures other than the brain, such as the scalp and skull.  TBI is a major cause of death and disability worldwide, especially in children and young adults. Causes include falls, vehicle accidents, and violence.  Brain trauma can be caused by a direct impact or by acceleration alone. In addition to the damage caused at the moment of injury, brain trauma causes secondary injury, a variety of events that take place in the minutes and days following the injury. These processes, which include alterations in cerebral blood flow and the pressure within the skull, contribute substantially to the damage from the initial injury.  TBI can cause a host of physical, cognitive, social, emotional, and behavioral effects, and outcome can range from complete recovery to permanent disability or death.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Detection of blast-related traumatic brain injury in U.S. military personnel. N Engl J Med. Jun 2 2011;364(22):2091-100, Mac Donald CL, Johnson AM, Cooper D, Nelson EC, Werner NJ, Shimony JS, et al.  [Medline].</CORE:definitionSource>
+  </owl:Class>
+  <owl:Class rdf:ID="SkinGraft">
+    <rdfs:subClassOf rdf:resource="#MedicalCondition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Skin grafting is a type of graft surgery involving the transplantation of skin. The transplanted tissue is called a skin graft.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin graft</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >skin grafting</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="BluntTrauma">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >nonpenetrating wound</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blunt trauma</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/756539/5/trauma</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >scroll down the tabers.com page to find blunt trauma.</CORE:developerNote>
+    <rdfs:subClassOf rdf:resource="#Trauma"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A wound in which the surface of the skin remains intact, caused by impact or collision with a blunt object, e.g., an automobile fender.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:ID="Suppuration">
+    <rdfs:subClassOf rdf:resource="#MedicalCondition"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the formation of, conversion into, or process of discharging pus</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >suppuration</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >pus</skos:altLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="Infection">
+    <rdfs:subClassOf rdf:resource="#MedicalCondition"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infection</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infectious disease</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An invasion and multiplication of microorganisms in body tissues, especially that causing local cellular injury due to competitive metabolism, toxins, intracellular replication, or antigen-antibody response.</CORE:definition>
+  </owl:Class>
+  <owl:Class rdf:about="#Laceration">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Also called a tear. Separation of skin or other tissue by a tremendous force, producing irregular edges.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >tear</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="#MedicalCondition"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >laceration</skos:prefLabel>
+  </owl:Class>
+  <owl:Class rdf:ID="PsychiatricDisorders">
+    <rdfs:subClassOf rdf:resource="#MentalHealthCondition"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >psychiatric disorder</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1. A mental disorder or psychiatric disorder is a psychological pattern or anomaly, potentially reflected in behavior, that is generally associated with distress or disability, and which is not considered part of normal development in a person's culture. (Wikipedia) 2. An imprecise term for any clinically significant behavioral or psychological syndrome. (Taber's)</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/745568/0/mental_disorder?q=mental%20disorder &#xD;
+http://en.wikipedia.org/wiki/Mental_disorder</CORE:definitionSource>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="indicatesCondition">
+    <rdfs:range rdf:resource="#Condition"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <rdfs:subPropertyOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#indicates"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="patientReportsSymptom">
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <rdfs:subPropertyOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#observes"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="conditionAsSign">
+    <rdfs:range rdf:resource="#Condition"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >condition as sign</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasMechanismOfInjury">
+    <rdfs:domain rdf:resource="#Trauma"/>
+    <rdfs:range rdf:resource="#MechanismOfInjury"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that states that an injury has a mechanism of injury.  In other words, in assessing an injury, the mechanism by which the injury was sustained.</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="settingForEtiology">
+    <rdfs:range rdf:resource="#Etiology"/>
+    <rdfs:domain rdf:resource="#EyeInjuryCircumstance"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >setting for etiology</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >setting for etiology</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isAboutEyeSetting">
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#EyeSetting"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is about eye setting</skos:prefLabel>
+    <rdfs:domain rdf:resource="#VisitData"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasAssociatedCondition">
+    <rdfs:range>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#HearingLoss"/>
+        </owl:oneOf>
+      </owl:Class>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="#VisitData"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasInjuryCircumstance">
+    <rdfs:domain rdf:resource="#Trauma"/>
+    <rdfs:range rdf:resource="#EyeInjuryCircumstance"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has injury circumstance</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has injury circumstance</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="conditionAsSymptom">
+    <rdfs:range rdf:resource="#Condition"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >condition as symptom</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasCaliber">
+    <rdfs:range rdf:resource="#Caliber"/>
+    <rdfs:domain>
+      <TRAUMA:TraumaticEvent rdf:ID="GunShot">
+        <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://en.wikipedia.org/wiki/Ballistic_trauma</CORE:definitionSource>
+        <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >The term ballistic trauma or gunshot wound (GSW) refers to a form of physical trauma sustained from the discharge of arms or munitions.[1] The most common forms of ballistic trauma stem from firearms used in armed conflicts, civilian sporting and recreational pursuits, and criminal activity.[2] Ballistic trauma is sometimes fatal for the recipient, or causes long term negative consequences.</CORE:definition>
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >gun shot</skos:prefLabel>
+      </TRAUMA:TraumaticEvent>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasTraumaticEventLocation">
+    <rdfs:range rdf:resource="#LocationOfEvent"/>
+    <rdfs:domain rdf:resource="#TraumaticEvent"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="involvedInTraumaticEvent">
+    <rdfs:range>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#EyeInjuryCircumstance"/>
+          <owl:Class rdf:about="#TraumaticEvent"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >involved in traumatic event</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >involved in traumatic event</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="indicatesTrauma">
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <rdfs:range rdf:resource="#Trauma"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasConditionOnset">
+    <rdfs:range rdf:resource="#ConditionOnset"/>
+    <rdfs:domain rdf:resource="#Condition"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="precedesBlastTrauma">
+    <rdfs:domain>
+      <TRAUMA:PhysicalMechanism rdf:ID="PressureWave">
+        <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/765567/all/blast__2_</CORE:definitionSource>
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >pressure wave</skos:prefLabel>
+        <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >A sudden, violent movement of air such as accompanies the explosion of a shell or bomb; or a violent sound, as the blast of a horn. It often causes damage to blast-sensitive organs such as the tympanic membrane, lung, or colon. It may also forcibly move people and objects, resulting in unpredictable injuries to unprotected body parts.</CORE:definition>
+        <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >spoke with Felix Barker - preferred term is pressure wave.</CORE:developerNote>
+      </TRAUMA:PhysicalMechanism>
+    </rdfs:domain>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:ID="precedesTrauma"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="#BlastTrauma"/>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >not entirely sure that this would always be the case.  It may be that a blast precedes other kinds of trauma as well, such as if a piece of schrapnel causes penetrating trauma, or a nuclear blast causes radiation burns.</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that indicates that a blast event precedes blast trauma.</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="occursAtBodyLocation">
+    <rdfs:domain rdf:resource="#Trauma"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="involvesHazardousObject">
+    <rdfs:domain rdf:resource="#Etiology"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >involves hazardous object</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >involves hazardous object</rdfs:label>
+    <rdfs:range rdf:resource="#HazardousObject"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="visitDataValue">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >this corresponds to a drop-down menu</CORE:developerNote>
+    <rdfs:domain rdf:resource="#VisitData"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#Contusion"/>
+          <owl:Class rdf:about="#WoundDehiscence"/>
+          <owl:Class rdf:about="#Contamination"/>
+          <owl:Class rdf:about="#Cicatrix"/>
+          <owl:Class rdf:about="#ForeignBody"/>
+          <owl:Class rdf:about="#Ectropion"/>
+          <owl:Class rdf:about="#Entropion"/>
+          <owl:Class rdf:about="#Cellulitis"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/MEDICAL_CONDITION#Burn"/>
+          <owl:Class rdf:about="#Abscess"/>
+          <owl:Class rdf:about="#SkinGraft"/>
+          <owl:Class rdf:about="#Retraction"/>
+          <owl:Class rdf:about="#Ptosis"/>
+          <owl:Class rdf:about="#Ulcer"/>
+          <owl:Class rdf:about="#SuturesExposed"/>
+          <owl:Class rdf:about="#Suppuration"/>
+          <owl:Class rdf:about="#Necrosis"/>
+          <owl:Class rdf:about="#Infection"/>
+          <owl:Class rdf:about="#HypertrophicScar"/>
+          <owl:Class rdf:about="#Lagophthalmos"/>
+          <owl:Class rdf:about="#Lacrimal-CanalicularLaceration"/>
+          <owl:Class rdf:about="#Avulsion"/>
+          <owl:Class rdf:about="#Laceration"/>
+        </owl:oneOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="involvesTraumaticEvent">
+    <rdfs:domain rdf:resource="#Etiology"/>
+    <rdfs:range rdf:resource="#TraumaticEvent"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >involves traumatic event</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >involves traumatic event</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="effectsEar">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >effects ear</rdfs:label>
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Ear"/>
+    <rdfs:subPropertyOf rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Effects"/>
+    <rdfs:domain rdf:resource="#HearingLoss"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="etiologyOfInjury">
+    <rdfs:range rdf:resource="#Etiology"/>
+    <rdfs:domain rdf:resource="#Trauma"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#precedesTrauma">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >precedes trauma</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Information about the traumatic event may not be present because though it provides context, it isn't relevant in the immediate situation of addressing a traumatic injury.</CORE:developerNote>
+    <rdfs:range rdf:resource="#Trauma"/>
+    <rdfs:domain rdf:resource="#TraumaticEvent"/>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >property that indicates that a traumatic event, such as an explosion or fall or gun incident precedes the occurence of trauma in an individual.</CORE:definition>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="informsVisitData">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >informs visit data</rdfs:label>
+    <rdfs:range rdf:resource="#VisitData"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >informs visit data</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="visitDataCategory">
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >still need to add the following to the range assertion: orbit repair, motility, corneal sensation. Also, check to make sure that VitreousCavity is the same as Vitreous.</CORE:developerNote>
+    <rdfs:domain rdf:resource="#VisitData"/>
+    <rdfs:range>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Orbit"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#OpticDisc"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Socket"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#VitreousBody"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Retina"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Sclera"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Eyelid"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Conjunctiva"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Cornea"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#AnteriorChamber"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Brow"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Iris"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Lens"/>
+          <rdf:Description rdf:about="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#Globe"/>
+        </owl:oneOf>
+      </owl:Class>
+    </rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="presentsSign">
+    <rdfs:range rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Indication"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#Patient"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >presents sign</skos:prefLabel>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="airbagInjury">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >airbag</skos:prefLabel>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Airbag</CORE:definitionSource>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The US Army has incorporated airbags in its UH-60A/L Black Hawk and OH-58D Kiowa Warrior helicopter fleets. The Cockpit Air Bag System (CABS) consists of forward and lateral airbags, and an inflatable tubular structure (on the OH-58D only) with an Electronic Crash Sensor Unit (ECSU). The CABS system was developed by the US Army Aviation Applied Technology Directorate, Fort Eustis, Va through a contract with Simula Safety Systems (now BAE Systems).</CORE:developerNote>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An airbag is a vehicle safety device. It is an occupant restraint system consisting of a flexible fabric envelope or cushion designed to inflate rapidly during an automobile collision. Its purpose is to cushion occupants during a crash and provide protection to their bodies when they strike interior objects such as the steering wheel or a window.</CORE:definition>
+    <rdfs:domain>
+      <TRAUMA:TraumaticEvent rdf:ID="MotorVehicleAccident">
+        <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://en.wikipedia.org/wiki/Automobile_accident</CORE:definitionSource>
+        <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >A traffic collision, also known as a traffic accident, motor vehicle collision, motor vehicle accident, car accident, automobile accident, road traffic collision, wreck (USA), car crash, or car smash (Australian) occurs when a vehicle collides with another vehicle, pedestrian, animal, road debris, or other stationary obstruction, such as a tree or utility pole. Traffic collisions may result in injury, death, vehicle damage, and property damage.</CORE:definition>
+        <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >motor vehicle accident</skos:prefLabel>
+      </TRAUMA:TraumaticEvent>
+    </rdfs:domain>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Under some rare conditions, airbags can injure and in some very rare instances kill vehicle occupants. To provide crash protection for occupants not wearing seat belts, U.S. airbag designs trigger much more forcefully than airbags designed to the international ECE standards used in most other countries. Recent airbag controllers can recognize if a belt is used, and alter the airbag cushion deployment parameters accordingly.</CORE:definition>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Imaging-AncillaryTestDate">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="VisualFieldFixationLosses">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#VisualField"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="VisualFieldMeanDeviation">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#VisualField"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConditionStartDate">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subPropertyOf rdf:resource="http://informatics.mayo.edu/CNTRO#start"/>
+    <rdfs:domain rdf:resource="#Condition"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="VisualFieldPatternStandardDeviation">
+    <rdfs:domain rdf:resource="http://model.dveivr.dha.health.mil/DVEIVR_ANATOMY#VisualField"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <TRAUMA:PhysicalMechanism rdf:ID="Crush">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >smash</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >google dictionary</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >squeeze</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Press or squeeze (someone or something) with force or violence, typically causing serious damage or injury.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >crush</skos:prefLabel>
+  </TRAUMA:PhysicalMechanism>
+  <CORE:Indication rdf:ID="DifficultyWithProsthesis"/>
+  <CORE:Indication rdf:ID="DoubleVision">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >diplopia</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >perception of two images where there is only a single object (colloquially known as double vision); see also polyopia; compare triplopia; binocular diplopia: double vision resulting from the lack of fusion of the images from each eye; crossed diplopia: double vision in which the image from one eyeis seen on the opposite side of the image from the fellow eye; horizontal diplopia: doubled images are side-by-side; monocular diplopia: double image seen with only one eye rather than both, resulting from some abnormality of the ocular media of a neurological problem in the processing of the image from the retina; vertical diplopia: double vision in which the two imagesare one above the other.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:EyeInjuryCircumstance rdf:ID="Occupational"/>
+  <CORE:Indication rdf:ID="CoveringOneEye"/>
+  <TRAUMA:ConditionOnset rdf:ID="ConditionOnset_MiddleAdulthood">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >over the hill</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >from data</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >age period from 40 - 65 years old</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >middle adulthood</skos:prefLabel>
+  </TRAUMA:ConditionOnset>
+  <TRAUMA:ImprovisedExplosiveDevice rdf:ID="VehicleBorneIED">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >vehicle borne IED</skos:prefLabel>
+  </TRAUMA:ImprovisedExplosiveDevice>
+  <CORE:Indication rdf:ID="FaceTurn">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Head Turn: Abnormal head position where the subject turns the head to the right or left to compensate for strabismus, nystagmus, or refractive error; compare head tilt; see also ocular torticollis.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:ExplosiveDevice rdf:ID="Mortar">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mortar</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A mortar is an indirect fire weapon that fires explosive projectiles known as (mortar) bombs at low velocities, short ranges, and high-arcing ballistic trajectories. It is typically muzzle-loading and has a barrel length less than 15 times its caliber.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Mortar_%28weapon%29</CORE:definitionSource>
+  </TRAUMA:ExplosiveDevice>
+  <TRAUMA:Caliber rdf:ID="Bullet-SmallCaliber">
+    <skos:prefLabel>small caliber</skos:prefLabel>
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/Caliber</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Small caliber - 6 mm or smaller</CORE:definition>
+  </TRAUMA:Caliber>
+  <TRAUMA:Avulsion rdf:ID="TissueAvulsion">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Avulsion_injury</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In medicine, an avulsion is an injury in which a body structure is forcibly detached from its normal point of insertion by either trauma or surgery (from the Latin avellere, meaning "to tear off"). The term most commonly refers to a surface trauma where all layers of the skin have been torn away, exposing the underlying structures (i.e.—subcutaneous tissue, muscle, tendons, or bone). This is similar to an abrasion but more severe, as body parts such as an eyelid or an ear can be partially or fully detached from the body.</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >no definition exists for "tissue avulsion" but several types of tissue are discussed in this article.</CORE:developerNote>
+  </TRAUMA:Avulsion>
+  <CORE:Indication rdf:ID="WateryEyes">
+    <skos:prefLabel>watery eyes</skos:prefLabel>
+  </CORE:Indication>
+  <CORE:Indication rdf:ID="Photosensitivity">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Symptom.  Abnormal sensitivity to with possible discomfort from exposure to light.  Generally associated with excessive tearing (epiphora).  May be due to inflammation of the iris (iritis) or corneal problems (keratitis or corneal abrasion).</CORE:definition>
+    <skos:prefLabel>photosensitivity</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >photophobia</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dictionary of Eye Terminology, 5th ed. B. Cassin; M Rubin Page 207</CORE:definitionSource>
+  </CORE:Indication>
+  <TRAUMA:HazardousObject rdf:ID="Knife">
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/Knife</CORE:definitionSource>
+    <skos:prefLabel>knife</skos:prefLabel>
+    <CORE:definition>A knife (plural knives) is a cutting tool with an exposed cutting edge or blade, hand-held or otherwise, with or without a handle</CORE:definition>
+    <skos:altLabel>blade</skos:altLabel>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:ConditionOnset rdf:ID="ConditionOnset_Adolescence">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >adolescence</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >taken from data</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >age period from 13 - 19 years old</CORE:definition>
+  </TRAUMA:ConditionOnset>
+  <TRAUMA:HazardousObject rdf:ID="Appliance">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >appliance</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A device designed to perform a specific task, typically a domestic one. Appliances, including home appliances such as refrigerators, laundry machines, air conditioning units, as well as industrial equivalents can cause injuries to the head and eyes when fallen upon, or if the appliance moves or falls.  For example, a refrigerator door left open can cause injury when a person stands up suddenly.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >assembled from SME inputs</CORE:definitionSource>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:Burn rdf:ID="ThermalBurn">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/768300/all/burn?q=Burn#16</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A burn resulting from contact with fire, hot objects, or fluids.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >thermal burn</skos:prefLabel>
+  </TRAUMA:Burn>
+  <TRAUMA:ExplosiveDevice rdf:ID="Fireworks">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Fireworks</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fireworks are a class of explosive pyrotechnic devices used for aesthetic and culture, and religious purposes. The most common use of a firework is as part of a fireworks display. Improper use of fireworks may be unsafe, both to the person operating them (risks of burns and wounds) and to bystanders; in addition, they may start fires after landing on flammable material. For this reason, the use of fireworks is generally legally restricted. Display fireworks are restricted by law for use by professionals; consumer items, available to the public, are smaller versions containing limited amounts of explosive material to reduce potential danger. Fireworks are generally classified as to where they perform, either as a ground or aerial firework. In the latter case they may provide their own propulsion (skyrocket) or be shot into the air by a mortar (aerial shell). </CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fireworks</skos:prefLabel>
+  </TRAUMA:ExplosiveDevice>
+  <TRAUMA:ConditionOnset rdf:ID="ConditionOnset_EarlyAdulthood">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >from data</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >age period from 20 - 39 years old</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >early adulthood</skos:prefLabel>
+  </TRAUMA:ConditionOnset>
+  <TRAUMA:Inhalation rdf:ID="OtherInhalation">
+    <CORE:definition>inhalation of agents other than chemical or smoke.</CORE:definition>
+    <rdfs:label>other inhalation</rdfs:label>
+  </TRAUMA:Inhalation>
+  <CORE:Indication rdf:ID="Dizziness"/>
+  <TRAUMA:ChemicalBurn rdf:ID="HouseholdChemicalBurn">
+    <CORE:definition>burn resulting from contact with chemicals found in a household environment.</CORE:definition>
+    <rdfs:label>household chemical burn</rdfs:label>
+  </TRAUMA:ChemicalBurn>
+  <TRAUMA:Inhalation rdf:ID="SmokeInhalation">
+    <CORE:definition>inhalation of smoke.</CORE:definition>
+    <rdfs:label>smoke inhalation</rdfs:label>
+  </TRAUMA:Inhalation>
+  <CORE:Indication rdf:ID="BumpingIntoThings">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >bumping into objects or walls when moving</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:PhysicalMechanism rdf:ID="Force">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/737154/all/force?q=physical%20force</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >force</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A push or pull exerted on an object, changing its speed or direction. The metric unit for force is the newton, which equals 0.225 lb of force.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >physical force</skos:altLabel>
+  </TRAUMA:PhysicalMechanism>
+  <CORE:Indication rdf:ID="Dazzling">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dictionary of Eye Terminology, 5th ed. B. Cassin; M Rubin Page 41</CORE:definitionSource>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >flashing lights</skos:altLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Symptom.  Describes "flashing lights" that are sometimes seen just prior to the onset of a migraine headache; also may be termed as an aura; a sensation that precedes the onset of certain disorders; such as ocular migraine or seizure.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:ConditionOnset rdf:ID="ConditionOnset_LateAdulthood">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >late adulthood</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >age period from 66 years old and older</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >from data</CORE:definitionSource>
+  </TRAUMA:ConditionOnset>
+  <TRAUMA:Caliber rdf:ID="Bullet-Other">
+    <skos:prefLabel>other bullet</skos:prefLabel>
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/Caliber</CORE:definitionSource>
+    <CORE:definition>gun shot that is other than a BB, large or small caliber.</CORE:definition>
+  </TRAUMA:Caliber>
+  <TRAUMA:ExplosiveDevice rdf:ID="Rocket">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rocket</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a. A rocket engine.&#xD;
+b. A vehicle or device propelled by one or more rocket engines, especially such a vehicle designed to travel through space.&#xD;
+2. A projectile weapon carrying a warhead that is powered and propelled by rockets.&#xD;
+3. A projectile firework having a cylindrical shape and a fuse that is lit from the rear.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.thefreedictionary.com/Rocket+weapon</CORE:definitionSource>
+  </TRAUMA:ExplosiveDevice>
+  <CORE:Indication rdf:ID="Floaters">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dark specks or strands in the field of view caused by cells or other nontransparent material in the vitreous.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:Avulsion rdf:ID="EyeAvulsion">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Extension of Tabor's definition of Avulsion (see entry for Avulsion) to be more specific to the eye.</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A tearing away forcibly of a part or structure. If surgical repair is necessary, a sterile dressing may be applied while surgery is awaited. Avulsed fingers, toes, limbs or other separated tissue should be recovered if possible.  In the case of ocular or eye avulsion, the part or structure that is forcibly removed is the eye.</CORE:definition>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >couldn't find a specific definition for "eye avulsion" or "ocular avulsion" so extended the standard definition of generic avulsion to include the eye.</CORE:developerNote>
+  </TRAUMA:Avulsion>
+  <TRAUMA:HazardousObject rdf:ID="BluntObject">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >online sources</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An object that doesn't have sharp or pointed edges; an object that causes blunt trauma.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blunt object</skos:prefLabel>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:RadiationBurn rdf:ID="LaserRadiationBurn">
+    <skos:prefLabel>laser radiation burn</skos:prefLabel>
+    <CORE:definition>Laser radiation predominantly causes injury via thermal effects. Even moderately powered lasers can cause injury to the eye. High power lasers can also burn the skin. Some lasers are so powerful that even the diffuse reflection from a surface can be hazardous to the eye.</CORE:definition>
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/Laser_safety</CORE:definitionSource>
+  </TRAUMA:RadiationBurn>
+  <TRAUMA:HazardousObject rdf:ID="SharpObject">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sharp object</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >an object that has an edge or point that can cause lacerations, penetrating or perforating injuries. For example, a knife or piece of broken glass.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composed from SME inputs</CORE:definitionSource>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:RadiationBurn rdf:ID="IonizingRadiationBurn">
+    <skos:prefLabel>ionizing radiation burn</skos:prefLabel>
+    <CORE:definition>Damage to cells and intracellular molecules by x-rays, gamma rays, radionuclides, or other sources of radioactive energy. In sufficient doses, radioactive energy can damage the cytoplasm and the genetic material of the cell, leading to organ dysfunction (esp. in rapidly dividing tissues such as the skin and the lining of the gastrointestinal tract), mutations, inhibition of cell division, cell death, or carcinogenesis. When the developing fetus is exposed to radiation in the womb, developmental malformations may result.</CORE:definition>
+    <CORE:definitionSource>http://www.tabers.com/tabersonline/view/Tabers-Dictionary/758258/all/injury?q=ionizing#18</CORE:definitionSource>
+  </TRAUMA:RadiationBurn>
+  <TRAUMA:HazardousObject rdf:ID="Furniture">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composite of web definition of furniture and how it causes injury (assembled from SME input).</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Large movable equipment, such as tables and chairs, used to make a house, office, or other space suitable for living or working. Furniture, including home furnishings and office furniture, can cause head or eye injury when fallen upon or if the furniture (or components such as doors) are in the person's path of movement.  Also, if the furniture falls on a person, it can cause injury.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >furniture</skos:prefLabel>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:Inhalation rdf:ID="ChemicalInhalation">
+    <CORE:definition>inhalation of chemical agents.</CORE:definition>
+    <rdfs:label>chemical inhalation</rdfs:label>
+  </TRAUMA:Inhalation>
+  <CORE:Indication rdf:ID="BlurredVision">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >blurred vision</skos:prefLabel>
+    <CORE:developerNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >far or near</CORE:developerNote>
+  </CORE:Indication>
+  <TRAUMA:Caliber rdf:ID="Bullet-LargeCaliber">
+    <skos:prefLabel>large caliber</skos:prefLabel>
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/Caliber</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Large caliber - 7mm or greater</CORE:definition>
+  </TRAUMA:Caliber>
+  <CORE:Indication rdf:ID="DryEye">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dry eye syndrome: Common condition in which a defect in the composition or production of the tears or incomplete closure of the eyelids results in corneal dryness, discomfort, and possible risk to the cornea; see also keratoconjunctivitis sicca.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:ChemicalBurn rdf:ID="OtherChemicalBurn">
+    <CORE:definition>burn resulting from contact with chemicals in a setting other than household or industrial.</CORE:definition>
+    <rdfs:label>other chemical burn</rdfs:label>
+  </TRAUMA:ChemicalBurn>
+  <TRAUMA:ExplosiveDevice rdf:ID="AerialBomb">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >aerial bomb</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A bomb designed to be dropped from an aircraft, carrying either a high explosive or another agent, and normally detonated on contact or by a timing device.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://encyclopedia2.thefreedictionary.com/aerial+bomb</CORE:definitionSource>
+  </TRAUMA:ExplosiveDevice>
+  <TRAUMA:HazardousObject rdf:ID="BodyPartWeapon">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >finger</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finger, Fist or other Body Part</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >body part</skos:altLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composed from SME inputs</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >As a blunt object, the human finger can cause injury to the eye.</CORE:definition>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fist</skos:altLabel>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:TraumaticEvent rdf:ID="Explosion">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Explosion</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An explosion is a rapid increase in volume and release of energy in an extreme manner, usually with the generation of high temperatures and the release of gases. Supersonic explosions created by high explosives are known as detonations and travel via supersonic shock waves. Subsonic explosions are created by low explosives through a slower burning process known as deflagration.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >explosion</skos:prefLabel>
+  </TRAUMA:TraumaticEvent>
+  <CORE:Indication rdf:ID="BalanceProblems">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >balance problems</skos:prefLabel>
+  </CORE:Indication>
+  <CORE:Indication rdf:ID="DecreasedVision"/>
+  <CORE:Indication rdf:ID="LosingVision"/>
+  <TRAUMA:ImprovisedExplosiveDevice rdf:ID="IED-NotSpecified">
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IED-NFS</CORE:acronym>
+  </TRAUMA:ImprovisedExplosiveDevice>
+  <CORE:Indication rdf:ID="Halo">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Distortion in an optical system that causes a bright "cloud" or ring to be seen around point sources of light such as the sun or car headlights; see also glare, starburst.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:EyeInjuryCircumstance rdf:ID="Altercation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Altercation</rdfs:label>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Assault</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Assault/Altercation</skos:prefLabel>
+  </TRAUMA:EyeInjuryCircumstance>
+  <CORE:Indication rdf:ID="HeadTilt">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Abnormal posture in which the head is tilted toward one shoulder or another, or chin up or chin down to compensate for strabismus, nystagmus, or refractive error; compare head turn, see also ocular torticollis.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:TraumaticEvent rdf:ID="Fall">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >fall</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1. To drop accidentally to the floor, ground, or lower level, e.g., into a chair.&#xD;
+2. Any unexplained event that results in the patient's inadvertently coming to rest on the floor, ground, or lower level, e.g., into a chair. In older adults, falls are a leading cause of nonfatal injuries, and injuries sustained during falls are a leading cause of death. Lacerations, head injuries, and fractures of the arm, wrist, hip, ribs, and spine are caused by falls. Falls also may have long-term psychological sequelae, e.g., loss of independence, social isolation, anxiety, and depression. </CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tabers.com/tabersonline/view/Tabers-Dictionary/729344/all/fall</CORE:definitionSource>
+  </TRAUMA:TraumaticEvent>
+  <CORE:Indication rdf:ID="OcularPain"/>
+  <TRAUMA:HazardousObject rdf:ID="ProjectileObject">
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >missile</skos:altLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >projectile</skos:altLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >projectile object</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A projectile is any object projected into space (empty or not) by the exertion of a force. Although any object in motion through space (for example a thrown baseball) may be referred to as a projectile, the term more commonly refers to a ranged weapon.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Projectile</CORE:definitionSource>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:ExplosiveDevice rdf:ID="ArtilleryShell">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >artillery shell</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a shell fired by artillery; shell - ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.thefreedictionary.com/Artillery+Shell</CORE:definitionSource>
+  </TRAUMA:ExplosiveDevice>
+  <TRAUMA:EyeInjuryCircumstance rdf:ID="Battle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Battle</rdfs:label>
+  </TRAUMA:EyeInjuryCircumstance>
+  <CORE:Indication rdf:ID="PeriocularPain">
+    <skos:prefLabel>periocular pain</skos:prefLabel>
+    <CORE:definition>Pain that occurs around the eye.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:ExplosiveDevice rdf:ID="LandMine">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Land_mine</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >mine</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A land mine is an explosive device, concealed under or on the ground and designed to destroy or disable enemy targets as they pass over or near the device. Such devices are typically detonated automatically by way of pressure from the target stepping or driving on it, though other detonation mechanisms may be possible.[1] The device may cause damage either by a direct blast or by fragments that are thrown by the blast.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >landmine</skos:prefLabel>
+  </TRAUMA:ExplosiveDevice>
+  <CORE:Indication rdf:ID="Itching">
+    <CORE:definition>Pruritus; irritation of the skin, causing desire to rub or scratch the part.</CORE:definition>
+  </CORE:Indication>
+  <CORE:Indication rdf:ID="Brow-Headache"/>
+  <TRAUMA:Caliber rdf:ID="BB">
+    <skos:prefLabel>BB</skos:prefLabel>
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/BB_gun</CORE:definitionSource>
+    <CORE:definition>BB guns are a type of air gun designed to shoot projectiles named BBs after the birdshot pellet of approximately the same size. These projectiles are usually spherical but can also be pointed/or triangular; those are usually used for bird hunting. Modern day BB guns usually have a barrel, with a bore and caliber of 0.177 inches (4.5 mm). BB shot for modern BB guns are usually steel, plated either with zinc or copper to resist corrosion, and measure 0.171 to 0.173 inches (4.34 mm to 4.39 mm) in diameter. Some manufacturers also still make lead balls of slightly larger diameter and which are generally intended for use in rifled BB gun barrels, as were formerly used in BB guns.</CORE:definition>
+  </TRAUMA:Caliber>
+  <TRAUMA:TraumaticEvent rdf:ID="PaintBall">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >paintball</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paintball is a sport in which players compete, in teams or individually, to eliminate opponents by tagging them with capsules containing water soluble dye and gelatin shell outside (referred to as paintballs) propelled from a device called a paintball marker (commonly referred to as a paintball gun). Paintballs are composed of a non-toxic, biodegradable, water soluble polymer.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Paintball</CORE:definitionSource>
+  </TRAUMA:TraumaticEvent>
+  <CORE:Indication rdf:ID="PastHistoryOfVisionProblems"/>
+  <TRAUMA:Grenade rdf:ID="RocketPropelledGrenade">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Rocket-propelled_grenade</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rocket propelled grenade</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An RPG (often referred to as a rocket-propelled grenade launcher) is a shoulder-fired, anti-tank weapon system that fires rockets equipped with an explosive warhead.</CORE:definition>
+    <CORE:acronym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RPG</CORE:acronym>
+  </TRAUMA:Grenade>
+  <TRAUMA:Self-inflicted rdf:ID="Self-inflictedAccidental">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-inflicted accidental</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-inflicted accidental</rdfs:label>
+  </TRAUMA:Self-inflicted>
+  <TRAUMA:RadiationBurn rdf:ID="MicrowaveRadiationBurn">
+    <skos:prefLabel>microwave radiation burn</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Microwave burns are burn injuries caused by thermal effects of microwave radiation absorbed in a living organism. In comparison with radiation burns caused by ionizing radiation, where the dominant mechanism of tissue damage is internal cell damage caused by free radicals, the primary damage mechanism of microwave radiation is thermal, by dielectric heating.</CORE:definition>
+    <CORE:definitionSource>http://en.wikipedia.org/wiki/Microwave_burn</CORE:definitionSource>
+  </TRAUMA:RadiationBurn>
+  <TRAUMA:RadiationBurn rdf:ID="OtherRadiationBurn">
+    <CORE:definitionSource>n/a</CORE:definitionSource>
+    <CORE:definition>radiation burn not caused by microwave, laser or ionic radiation.</CORE:definition>
+    <skos:prefLabel>other radiation burn</skos:prefLabel>
+  </TRAUMA:RadiationBurn>
+  <TRAUMA:ConditionOnset rdf:ID="ConditionOnset_InfancyAndToddlerhood">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >todlerhood</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infancy</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >age period from 0 - 2 years old</CORE:definition>
+  </TRAUMA:ConditionOnset>
+  <TRAUMA:ChemicalBurn rdf:ID="IndustrialChemicalBurn">
+    <CORE:definition>burn resulting from contact with chemicals in an industrial setting.</CORE:definition>
+    <rdfs:label>industrial chemical burn</rdfs:label>
+  </TRAUMA:ChemicalBurn>
+  <TRAUMA:HazardousObject rdf:ID="SportEquipment">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >sport equipment</skos:prefLabel>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composed from SME inputs</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sports equipment is equipment needed to participate in a particular sport.  As a blunt object, sport equipment can injure the head or eyes of a person if an edge or surface of the equipment comes into contact with the head or face.  Examples include dropping free weights onto face or head, coming into contact with a person's protective gear, or coming into contact with a bat, stick, or other device used in the playing of a sport.</CORE:definition>
+  </TRAUMA:HazardousObject>
+  <TRAUMA:Self-inflicted rdf:ID="Self-inflictedIntentional">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-inflicted intentional</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-inflicted intentional</rdfs:label>
+  </TRAUMA:Self-inflicted>
+  <TRAUMA:EyeInjuryCircumstance rdf:ID="FriendlyFire">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Friendly fire</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Friendly fire</rdfs:label>
+  </TRAUMA:EyeInjuryCircumstance>
+  <CORE:Indication rdf:ID="Glare">
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Distortion in an optical system whereby light from point sources (eg, the sun or automobile headlights) is dispersed across the field of view; glare has been cited as a particular problem for cataract patients; see also glare test, halo, starburst.</CORE:definition>
+  </CORE:Indication>
+  <TRAUMA:EyeInjuryCircumstance rdf:ID="Recreation">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Recreation including Sports</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sports</skos:altLabel>
+  </TRAUMA:EyeInjuryCircumstance>
+  <TRAUMA:HazardousObject rdf:ID="PenetratingObject">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >composed from SME inputs</CORE:definitionSource>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >any object that penetrates another is a penetrating object.  In the case of objects that cause injury, any object associated with a penetrating injury is considered a penetrating object.</CORE:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >penetrating object</skos:prefLabel>
+  </TRAUMA:HazardousObject>
+  <CORE:Indication rdf:ID="DecreasedNightVision"/>
+  <CORE:Indication rdf:ID="PastHistoryOfReadingProblems"/>
+  <CORE:Indication rdf:ID="ReadingDifficulty">
+    <skos:prefLabel>reading difficulty</skos:prefLabel>
+  </CORE:Indication>
+  <TRAUMA:ConditionOnset rdf:ID="ConditionOnset_Childhood">
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >from data</CORE:definitionSource>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >childhood</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >age period from 2 - 12 years old</CORE:definition>
+  </TRAUMA:ConditionOnset>
+  <CORE:Indication rdf:ID="ClosingOneEye"/>
+  <TRAUMA:ImprovisedExplosiveDevice rdf:ID="PersonBorneIED"/>
+  <TRAUMA:Grenade rdf:ID="HandGrenade">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hand grenade</skos:prefLabel>
+    <CORE:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A hand grenade is any small bomb that can be thrown by hand. A variety of types of hand grenades exist, with explosive grenades designed to detonate after impact or after a set amount of time the most commonly used in modern warfare.</CORE:definition>
+    <CORE:definitionSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://en.wikipedia.org/wiki/Hand_grenade</CORE:definitionSource>
+  </TRAUMA:Grenade>
+  <TRAUMA:EyeInjuryCircumstance rdf:ID="Training">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Training</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >School</skos:altLabel>
+  </TRAUMA:EyeInjuryCircumstance>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->
