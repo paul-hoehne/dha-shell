@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://dveivr.dha.health.mil/transformations/2016/8/definitions#"
+         xml:base="http://www.semanticweb.org/phoehne/ontologies/2016/8/definitions"
+         xmlns:def="http://dveivr.dha.health.mil/transformations/2016/8/definitions#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientsDataSet">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#DataSet"/>
+        <collectionUri>patient</collectionUri>
+    </owl:NamedIndividual>
+    <!--
+
+    Map the patient's gender.  If the gender is "M" or "Male" then that maps to "Male."  If it's "F" or "Female",
+    then that maps to female.  Otherwise it's unknown for now.
+
+    -->
+    <owl:NamedIndividual
+        rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientGenderTransformation">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <predicate>http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#hasGender</predicate>
+        <xpath>//env:original/patient/gender/text()</xpath>
+        <caseIndependent>true</caseIndependent>
+        <associatedDataset rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientsDataSet"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#MapMaleGender"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#MapFemaleGender"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#MapUnknownGender"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual
+        rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#MapMaleGender">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <inputValue>M</inputValue>
+        <inputValue>Male</inputValue>
+        <outputValue>Male</outputValue>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#MapFemaleGender">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <inputValue>F</inputValue>
+        <inputValue>Female</inputValue>
+        <outputValue>Female</outputValue>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#MapUnknownGender">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <unmappedValue>Unknown</unmappedValue>
+    </owl:NamedIndividual>
+
+    <!-- End Patient gender -->
+
+    <!-- Add a generic patient class -->
+
+    <owl:NamedIndividual
+        rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#AddPatientClassFunction">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <predicate>http://www.w3.org/2000/01/rdf-schema#type</predicate>
+        <xpath>/.</xpath>
+        <associatedDataset rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientsDataSet"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#AddPatientClassFunctionValues"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#AddPatientClassFunctionValues">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping"/>
+        <transformModuleFunction>return-default-class</transformModuleFunction>
+        <transformModuleNamespace>http://dveivr.dha.health.mil/ext/tripling/transformation-functions.xqy</transformModuleNamespace>
+        <transformModuleUri>/ext/tripling/transformation-functions.xqy</transformModuleUri>
+        <parameters rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#AddPatientClassParams"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#AddPatientClassParams">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Parameter"/>
+        <parameterName>class</parameterName>
+        <parameterValue>http://model.dveivr.dha.health.mil/DVEIVR_MAPPING#Patient</parameterValue>
+    </owl:NamedIndividual>
+
+
+    <!--
+    Pass through the enrollment date.
+    -->
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#EnrollmentDateTransform">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <predicate>http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#enrollmentDate</predicate>
+        <xpath>//env:original/patient/enrollmentDate/text()</xpath>
+        <associatedDataset rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientsDataSet"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#DatePassthrough"/>
+    </owl:NamedIndividual>
+    <!-- End enrollment date -->
+
+    <!--
+    Pass through the patient id.
+    -->
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientIdTransform">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <predicate>http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#patientId</predicate>
+        <xpath>//env:original/patient/patientId/text()</xpath>
+        <associatedDataset rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientsDataSet"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#IntegerPassthrough"/>
+    </owl:NamedIndividual>
+    <!-- End patient id. -->
+
+    <!--
+    Pass through the birthdate
+    -->
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientBirthdateTransform">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <predicate>http://model.dveivr.dha.health.mil/DVEIVR_CORE.OWL#dateOfBirth</predicate>
+        <xpath>//env:original/patient/birthDate/text()</xpath>
+        <associatedDataset rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#PatientsDataSet"/>
+        <transformations rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/instances#DatePassthrough"/>
+    </owl:NamedIndividual>
+    <!-- end birthdate -->
+
+    <!-- Generic transformation artifacts -->
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#DefaultPassthrough">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#PassthroughValueMapping"/>
+        <outputType>string</outputType>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual
+        rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#IntegerPassthrough">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#PassthroughValueMapping"/>
+        <outputType>int</outputType>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual
+            rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/instances#DatePassthrough">
+        <rdf:type rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#PassthroughValueMapping"/>
+        <outputType>dateTime</outputType>
+    </owl:NamedIndividual>
+
+</rdf:RDF>

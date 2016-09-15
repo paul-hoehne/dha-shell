@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://dveivr.dha.health.mil/transformations/2016/8/definitions#"
+     xml:base="http://www.semanticweb.org/phoehne/ontologies/2016/8/definitions"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions"/>
+
+
+
+    <!--
+   ///////////////////////////////////////////////////////////////////////////////////////
+   //
+   // Classes
+   //
+   ///////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#SourceData -->
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#DataSet">
+        <rdfs:comment>This represents an existing data source.</rdfs:comment>
+    </owl:Class>
+
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation -->
+
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation">
+        <rdfs:comment>An individual transformation.  For example, the value &quot;YES&quot; for a given transformation
+            mapps to &quot;http://some-uri.mil/my-ontology/an-attribute/some-value&quot;.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping -->
+
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping"/>
+        <rdfs:comment>This invokes a function in a module.  It refers to the URI of the module and the function name.
+            The data from the source XML document and the XML document are passed to the function and the function
+            output is used as the value.  For example, a function may translate an input value but would need to
+            examine other XML document elements to determine the correct output value.  E.g. an element called &quot;
+            last event date&quot; might require looking at the original XML to determine wha type of event is
+            referenced.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#Mapping -->
+
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Mapping">
+        <rdfs:comment>This is the root element for a data mapping, which allows the transformation from a value in
+            the XML represenation of a patient/encounter/physician, etc. to a value in a triple.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#PassthroughValueMapping -->
+
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#PassthroughValueMapping">
+        <rdfs:subClassOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Mapping"/>
+        <rdfs:comment>A passthrough mapping takes the value found in the source XML document and copies it to the
+            output triple without any transformation.  So if the element value in the source documents is &quot;foo&quot;,
+            then the value in the output predicate is &quot;foo&quot;.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping -->
+
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping">
+        <rdfs:subClassOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Mapping"/>
+        <rdfs:comment>
+            This performs a simple value mapping.  It is translating an input string to some output string.
+            For example, the XML element may contain the words &quot;yes,&quot; &quot;no,&quot; or be null.  Those would translate
+            to &quot;true&quot; or &quot;false.&quot;  Or, for exmple, having an input value as &quot;yes&quot; may translate into the
+            URI of a class.  (E.g. if the value of the &quot;service-separated&quot; element in the XML document is &quot;yes&quot;,
+            then that maps to the &quot;http://.../ServiceSeparated&quot; class.
+        </rdfs:comment>
+    </owl:Class>
+
+    <!-- http://dveivr.dha.health.mil/transformations/2016/8/definitions#DefaultValue -->
+    <owl:Class rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Parameter">
+        <rdfs:comment>
+            This provides the ability to associate default values with a transformation.  It will be used to
+            pass values to the transformer functions.
+        </rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformations -->
+
+    <owl:ObjectProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformations">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Mapping"/>
+        <rdfs:comment>This links an ingest transformation to all the data mappings.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#parameters">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Parameter"/>
+        <rdfs:comment>
+            Links a function invocation to parameter values for the transformation function.  For example, a function
+            might reformat a number, with the paramaters providing the format argument.
+        </rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#associatedDataset">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#DataSet"/>
+        <rdfs:comment>Allows the transformation to indicate what dataset is applicable.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#collectionUri -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#collectionUri">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#DataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>
+            This is the URI of the collection to which the data set definition refers.  For example, the patients
+            data set has the "patient" collection.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#lastExecuted -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#executedOn">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#DataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>
+            Indicates the last date/time when this dataset was ingested.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#predicate -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#predicate">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>
+            This is the output predicate value for the triples we&apos;re creating at the end of transformation.
+            The subject is the URI of the XML document that&apos;s being ingested and enriched.  This is the predicate
+            that connects it to a given value or URI of an entity/class within the ontology.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#xpath -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#xpath">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            This is the XPATH statement that, when executed against the input XML document, will produce a
+            raw value that must be translated.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#xpath -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#caseIndpendent">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>
+            Indicates if the transformation should be perofrmed in a case indepdent manner.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#outputType">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Mapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>When mapping simple values, this is the parent data property type for the values.</rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformationValue">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <rdfs:comment>When mapping simple values, this is the parent data property type for the values.</rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#inputValue -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#inputValue">
+        <rdfs:subPropertyOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformationValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>This is the given input value.  This is what is in the source document.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#outputValue -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#outputValue">
+        <rdfs:subPropertyOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformationValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            This is a simple output value that we would put in the output triples.  For example, when translating the
+            input value &quot;2&quot; for gender, this may translate to &quot;Female&quot;.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#subjectUri -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#subjectUri">
+        <rdfs:subPropertyOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformationValue"/>
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>
+            When transforming a simple input value this is the output URI.  For example, the translation of the
+            value &quot;yes&quot; for a given attribute might be a reference to an instance in the ontology.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#noInputValue -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#noInputValue">
+        <rdfs:subPropertyOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformationValue"/>
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>
+            When transforming a simple input value this is the output URI.  For example, the translation of the
+            value &quot;yes&quot; for a given attribute might be a reference to an instance in the ontology.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#unmappedValue -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#unmappedValue">
+        <rdfs:subPropertyOf rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformationValue"/>
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            When transforming a simple input value this is the output URI.  For example, the translation of the
+            value &quot;yes&quot; for a given attribute might be a reference to an instance in the ontology.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformDefaultValue -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformDefaultValue">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#PassthroughValueMapping"/>
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#SimpleValueMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            In the case the input value is blank, this is the default value to assign during the transformation process.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleFunction -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformModuleFunction">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            The name of the function in the transformation module.  E.g. the module might have several date utility
+            functions and this might be &quot;convertMDYtoYMD&quot;
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleNamespace -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformModuleNamespace">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>This is the namespace of the transformation module.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleUri -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#transformModuleUri">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>This is the URI of the transformation module withing MarkLogic.  E.g. &quot;/ext/transforms/date-transforms.xqy&quot;</rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleUri -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#parameterName">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Parameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            This is the parameter name.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleUri -->
+
+    <owl:DatatypeProperty rdf:about="http://dveivr.dha.health.mil/transformations/2016/8/definitions#parameterValue">
+        <rdfs:domain rdf:resource="http://dveivr.dha.health.mil/transformations/2016/8/definitions#Parameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>
+            This is the parameter value.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+</rdf:RDF>

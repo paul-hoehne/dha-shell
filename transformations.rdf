@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#"
+     xml:base="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:transformations="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformations">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping"/>
+        <rdfs:comment>This links an ingest transformation to all the data mappings.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#inputValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#inputValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformationValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This is the given input value.  This is what is in the source document.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#outputValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#outputValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformationValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This is a simple output value that we would put in the output triples.  For example, when translating the input value &quot;2&quot; for gender, this may translate to &quot;Female&quot;.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#predicate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#predicate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This is the output predicate value for the triples we&apos;re creating at the end of transformation.  The subject is the URI of the XML document that&apos;s being ingested and enriched.  This is the predicate that connects it to a given value or URI of an entity/class within the ontology.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#subjectUri -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#subjectUri">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformationValue"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>When transforming a simple input value this is the output URI.  For example, the translation of the value &quot;yes&quot; for a given attribute might be a reference to an instance in the ontology.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformDefaultValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformDefaultValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#PassthroughValueMapping"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>In the case the input value is blank, this is the default value to assign during the transformation process.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleFunction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleFunction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The name of the function in the transformation module.  E.g. the module might have several date utility functions and this might be &quot;convertMDYtoYMD&quot;</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleNamespace -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleNamespace">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>This is the namespace of the transformation module.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleUri -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformModuleUri">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#InvokeTransformMapping"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>This is the URI of the transformation module withing MarkLogic.  E.g. &quot;/ext/transforms/date-transforms.xqy&quot;</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#transformationValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping"/>
+        <rdfs:comment>When mapping simple values, this is the parent data property type for the values.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#xpath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#xpath">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This is the XPATH statement that, when executed against the input XML document, will produce a raw value that must be translated.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation">
+        <rdfs:comment>An individual transformation.  For example, the value &quot;YES&quot; for a given transformation mapps to &quot;http://some-uri.mil/my-ontology/an-attribute/some-value&quot;.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#InvokeTransformMapping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#InvokeTransformMapping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping"/>
+        <rdfs:comment>This invokes a function in a module.  It refers to the URI of the module and the function name.  The data from the source XML document and the XML document are passed to the function and the function output is used as the value.  For example, a function may translate an input value but would need to examine other XML document elements to determine the correct output value.  E.g. an element called &quot;last event date&quot; might require looking at the original XML to determine wha type of event is referenced.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping">
+        <rdfs:comment>This is the root element for a data mapping, which allows the transformation from a value in the XML represenation of a patient/encounter/physician, etc. to a value in a triple.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#PassthroughValueMapping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#PassthroughValueMapping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping"/>
+        <rdfs:comment>A passthrough mapping takes the value found in the source XML document and copies it to the output triple without any transformation.  So if the element value in the source documents is &quot;foo&quot;, then the value in the output predicate is &quot;foo&quot;.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#Mapping"/>
+        <rdfs:comment>This performs a simple value mapping.  It is translating an input string to some output string.  For example, the XML element may contain the words &quot;yes,&quot; &quot;no,&quot; or be null.  Those would translate to &quot;true&quot; or &quot;false.&quot;  Or, for exmple, having an input value as &quot;yes&quot; may translate into the URI of a class.  (E.g. if the value of the &quot;service-separated&quot; element in the XML document is &quot;yes&quot;, then that maps to the &quot;http://.../ServiceSeparated&quot; class.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-default-mapping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-default-mapping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping"/>
+        <inputValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</inputValue>
+        <subjectUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example-ontology.org/demographics#unknown</subjectUri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-female-mapping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-female-mapping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping"/>
+        <inputValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</inputValue>
+        <subjectUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example-ontology.org/demographics#female</subjectUri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-male-mapping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-male-mapping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#SimpleValueMapping"/>
+        <inputValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</inputValue>
+        <subjectUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example-ontology.org/demographics#male</subjectUri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#invoke-date-translator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#invoke-date-translator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#InvokeTransformMapping"/>
+        <transformModuleFunction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fix-database-date</transformModuleFunction>
+        <transformModuleNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://my-application.mil/transforms/functions</transformModuleNamespace>
+        <transformModuleUri rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">/ext/transforms/date-utils.xqy</transformModuleUri>
+        <rdfs:comment>This is generic function that fixes up dates, translating them from the database format to ISO format.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#translate-patient-birthdate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#translate-patient-birthdate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation"/>
+        <transformations rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#invoke-date-translator"/>
+        <predicate rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example-ontology.org/demographics#patient-dob</predicate>
+        <xpath rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">//env:original-data/BIRTH_DATE/text()</xpath>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#translate-std-gender-id -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#translate-std-gender-id">
+        <rdf:type rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#IngestTransformation"/>
+        <transformations rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-default-mapping"/>
+        <transformations rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-female-mapping"/>
+        <transformations rdf:resource="http://www.semanticweb.org/phoehne/ontologies/2016/8/transformations#gender-id-male-mapping"/>
+        <predicate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example-ontology.org/demographics#patient-gender</predicate>
+        <xpath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">//env:original-data/STD_GENDER_ID/text()</xpath>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
