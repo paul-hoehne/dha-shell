@@ -1,45 +1,133 @@
 //group 'com.marklogic'
 //version '1.0-SNAPSHOT'
 
-plugins {
-    id "com.marklogic.ml-gradle" version "2.2.0"
+buildscript {
+    if (project.hasProperty('disconnected')) {
+        dependencies {
+            classpath fileTree(dir: 'ml-gradle-dependencies', include: '*.jar')
+        }
+    } else {
+        repositories {
+            jcenter()
+        }
+        dependencies { classpath mlGradleDependency }
+    }
 }
 
-repositories {
-    jcenter()
-
-    // Needed for mlcp dependencies
-    maven { url "https://developer.marklogic.com/maven2/" }
-
-    // Needed for hadoop dependencies for mlcp
-    maven { url "http://repository.cloudera.com/artifactory/cloudera-repos/" }
-}
+apply plugin: "com.marklogic.ml-gradle"
 
 configurations {
     mlcp
+    mlDeployer
 }
 
+ext {
+    mlDeployerDir = "build/ml-deployer"
+    mlDeployerGroup = "ML Deployer"
+    mlDeployerZipFilename = "ml-deployer.zip"
+}
 
-apply plugin: "java"
-apply plugin: "eclipse"
+if (project.hasProperty("disconnected")) {
+    println("\nOFFLINE MODE")
+    dependencies {
+        mlcp fileTree(dir: 'mlcp-dependencies', include: "*.jar")
+    }
+} else {
+    repositories {
+        jcenter()
 
-//
-// These are some tasks to load the example data
-//
-dependencies {
-    mlcp "com.marklogic:mlcp:8.0-5"
+        // Needed for mlcp dependencies
+        maven { url "https://developer.marklogic.com/maven2/" }
 
-    /**
-     * If you need to import delimited text, be sure to include this dependency as well.
-     */
-    mlcp "org.apache.commons:commons-csv:1.2"
+        // Needed for hadoop dependencies for mlcp
+        maven { url "http://repository.cloudera.com/artifactory/cloudera-repos/" }
+    }
 
-    /**
-     * mlcp uses Log4j for logging, and if Log4j can't find a configuration file, it will complain and you'll
-     * get none of mlcp's usually-useful logging. It is recommended then that your Gradle configuration for
-     * mlcp include a directory or some other resource that provides a log4j.properties file.
-     */
-    mlcp files("lib")
+    configurations { mlgradle }
+
+    dependencies {
+        mlcp "com.marklogic:mlcp-Hadoop2:1.3-2"
+        mlcp "com.marklogic:marklogic-mapreduce2:2.1.5"
+
+        mlgradle mlGradleDependency
+    }
+
+    task copyGradleFiles(type: Copy, group: mlDeployerGroup) {
+        from "build.gradle", "gradle.properties"
+        into mlDeployerDir
+    }
+
+    task copyAppModules(type: Copy, group: mlDeployerGroup) {
+        from "src/main/ml-modules"
+        into mlDeployerDir + "/src/main/ml-modules"
+    }
+
+    task copyAppConfig(type: Copy, group: mlDeployerGroup) {
+        from "src/main/ml-config"
+        into mlDeployerDir + "/src/main/ml-config"
+    }
+
+    task copyMlGradleDependencies(type: Copy, group: mlDeployerGroup) {
+        from configurations.mlgradle
+        into mlDeployerDir + "/ml-gradle-dependencies"
+    }
+
+    task copyMlcpDependencies(type: Copy, group: mlDeployerGroup) {
+        from configurations.mlcp
+        into mlDeployerDir + "/mlcp-dependencies"
+    }
+
+    task copyDhaData(type: Copy, group: mlDeployerGroup) {
+        from "data"
+        into mlDeployerDir + "/data"
+    }
+
+    task copyDhaGradleBin(type: Copy, group: mlDeployerGroup) {
+        from "gradle-bin"
+        into mlDeployerDir + "/gradle-bin"
+    }
+
+    task copyDhaScripts(type: Copy, group: mlDeployerGroup) {
+        from "pathme.cmd"
+        into mlDeployerDir + "/"
+    }
+
+    task addDisconnectedToGradleProperties {
+        doLast {
+            ant.propertyfile(file: "build/ml-deployer/gradle.properties") {
+                entry(key: "disconnected", value: "true")
+            }
+        }
+    }
+
+    addDisconnectedToGradleProperties.mustRunAfter copyGradleFiles
+
+    task copyMlDeployerFiles(group: mlDeployerGroup) {
+        dependsOn = [
+                "copyGradleFiles",
+                "copyAppModules",
+                "copyAppConfig",
+                "copyMlGradleDependencies",
+                "copyMlcpDependencies",
+                "addDisconnectedToGradleProperties",
+                "copyDhaData",
+                "copyDhaGradleBin",
+                "copyDhaScripts"
+        ]
+    }
+
+    task deleteMlDeployer(type: Delete, group: mlDeployerGroup) { delete mlDeployerDir, "build/${mlDeployerZipFilename}" }
+
+    task buildMlDeployer (type: Zip, group: mlDeployerGroup) {
+        description "Create a zip of this project's Gradle dependencies and source code so that it can be deployer without Internet access"
+        dependsOn = ["deleteMlDeployer", "copyMlDeployerFiles"]
+        from mlDeployerDir
+        into 'ml-deployer'
+        destinationDir file('build')
+        archiveName mlDeployerZipFilename
+    }
+
+    copyMlDeployerFiles.mustRunAfter deleteMlDeployer
 }
 
 /**
@@ -56,8 +144,8 @@ task importPatientsDoc(type: com.marklogic.gradle.task.MlcpTask) {
     output_collections = "patients"
     output_permissions = "rest-reader,read,rest-writer,update"
     output_uri_prefix = "/patients/"
-    delimited_uri_id = "patient_id"
-    args = ["-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-patient.xqy",
+    args = ["-delimited_uri_id", "patient_id",
+            "-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-patient.xqy",
             "-transform_namespace", "http://marklogic.com/dha/example/transform-patient"]
 }
 
@@ -72,8 +160,7 @@ task importEncounter(type: com.marklogic.gradle.task.MlcpTask) {
     output_collections = "encounter"
     output_permissions = "rest-reader,read,rest-writer,update"
     output_uri_prefix  = "/encounter/"
-    delimited_uri_id   = "encounter_id"
-    args = ["-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-encounter.xqy",
+    args = ["-delimited_uri_id", "encounter_id", "-output_uri_suffix", ".xml", "-transform_module", "/ext/transforms/transform-encounter.xqy",
         "-transform_namespace", "http://marklogic.com/dha/example/transform-encounter", "-delimiter", "\t"]
 }
 
@@ -189,8 +276,6 @@ task importTransforms << {
 
 }
 
-importData.dependsOn importDeployLocation
-
 task importOntology << {
 
 }
@@ -198,11 +283,6 @@ task importOntology << {
 importData.dependsOn importOntology
 importTransforms.dependsOn importTransformBase
 importTransforms.dependsOn importPatientTransforms
-
-importPatientDeployment.mustRunAfter importPatientsDoc
-importPatientDeployment.mustRunAfter importDeployLocation
-importEncounter.mustRunAfter importPatientsDoc
-importPatientTransforms.mustRunAfter importTransformBase
 
 importOntology.dependsOn importQudt
 importOntology.dependsOn importSkos
