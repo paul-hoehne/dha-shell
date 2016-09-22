@@ -261,12 +261,10 @@ task importPatientCategories(type: com.marklogic.gradle.task.MlcpTask) {
     database = mlAppConfig.contentDatabaseName
     input_file_path = "data"
     input_file_type = "delimited_text"
-    input_file_pattern = "Copy of Patient Category.csv"
+    input_file_pattern = "PatientCategoryMapping.csv"
     output_collections = "patient-categories"
     output_permissions = "rest-reader,read,rest-writer,update"
 }
-
-
 
 task importData << {
 
