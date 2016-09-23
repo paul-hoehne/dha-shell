@@ -99,7 +99,7 @@ return
     (
         xdmp:document-insert($filename, $encounter-document,
                 (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
-                ("encounter", $original/encounter/patientId/text())),
+                ("final", "type/encounter", "encounter", $original/encounter/patientId/text())),
         xdmp:spawn-function(function() {
             (xdmp:log($encounter-base),
                 xdmp:node-insert-child(fn:doc($patient-uri)//enc:encounters, $encounter-base))

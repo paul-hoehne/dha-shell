@@ -84,6 +84,6 @@ return
     (
         xdmp:log("updating: "||$filename),
         xdmp:node-replace(fn:doc($filename)//enc:encounter, $encounter-base),
-        xdmp:node-replace(fn:doc($filename)//env:original, fn:doc($trgr:uri)),
+        xdmp:node-replace(fn:doc($filename)//env:original, fn:doc($trgr:uri)/element()),
         xdmp:node-replace($patient-data//enc:encounters/enc:encounter[enc:encounterId = $original/encounter/encounterId/text()], $encounter-base)
     )

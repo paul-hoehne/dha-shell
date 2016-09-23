@@ -228,8 +228,9 @@ task importRawDocs(type: com.marklogic.gradle.task.MlcpTask) {
     command = "IMPORT"
     database = mlAppConfig.contentDatabaseName
     input_file_path = "examples"
-    args = ["-input_file_type", "archive", "-copy_collections", "true", "-output_permissions",
-        "rest-reader,read,rest-writer,update"]
+    input_file_type = "archive"
+    args = ["-copy_collections", "true",
+            "-output_permissions", "rest-reader,read,rest-writer,update"]
 }
 
 task importTransformBase(type: com.marklogic.gradle.task.MlcpTask) {
@@ -262,8 +263,10 @@ task importPatientCategories(type: com.marklogic.gradle.task.MlcpTask) {
     input_file_path = "data"
     input_file_type = "delimited_text"
     input_file_pattern = "PatientCategoryMapping.csv"
-    output_collections = "patient-categories"
+    output_collections = "patient-categories,reference"
     output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_prefix = '/reference/patient-categories/'
+    output_uri_suffix =  '.xml'
 }
 
 task importData << {

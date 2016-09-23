@@ -19,6 +19,17 @@ declare function local:conditional-element($name as xs:string, $value) {
     else ()
 };
 
+declare function local:patient-category-text($category as xs:string) {
+    let $patient-category := cts:search(fn:collection('patient-categories'), cts:element-value-query(xs:QName("Code"), $category))[1]
+    return
+        if (fn:exists($patient-category))
+        then
+            (<pat:categoryName>{$patient-category/root/Name/text()}</pat:categoryName>,
+            <pat:categoryShortName>{$patient-category/root/Short_Descr/text()}</pat:categoryShortName>)
+        else ()
+
+};
+
 let $original := fn:doc($trgr:uri)
 let $uri := "/patients/" || $original/patient/patientId/text() || ".xml"
 let $patient-base := <pat:patient> {(
@@ -41,6 +52,7 @@ let $patient-base := <pat:patient> {(
     local:conditional-element("pat:militaryStatus", xlat:xlat-service-status($original/patient/militaryStatus)),
     local:conditional-element("pat:lastServiceSeparationDate", $original/patient/lastServiceSeparationDate),
     local:conditional-element("pat:category", $original/patient/category),
+    local:patient-category-text(fn:string($original/patient/category)),
 
     local:conditional-element("pat:oefOifInd", $original/patient/oefOifInd),
     local:conditional-element("pat:maritalStatus", $original/patient/maritalStatus),
@@ -55,7 +67,7 @@ return
     (
         xdmp:log("updating: " || $uri),
         xdmp:node-replace(fn:doc($uri)//pat:patient, $patient-base),
-        xdmp:node-replace(fn:doc($uri)//env:original, <env:original>{fn:doc($trgr:uri)}</env:original>),
+        xdmp:node-replace(fn:doc($uri)//env:original, <env:original>{fn:doc($trgr:uri)/element()}</env:original>),
         xdmp:node-replace(fn:doc($uri)//env:last-updated/text(), $original/patient/updated/text()),
         for $encounter in cts:search(fn:collection("encounter"), cts:element-value-query(xs:QName("enc:patientId"), $original/patient/patientId/text()))
         return

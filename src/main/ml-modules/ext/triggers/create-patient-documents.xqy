@@ -22,6 +22,17 @@ declare function local:conditional-element($name as xs:string, $value) {
     else ()
 };
 
+declare function local:patient-category-text($category as xs:string) {
+    let $patient-category := cts:search(fn:collection('patient-categories'), cts:element-value-query(xs:QName("Code"), $category))[1]
+    return
+        if (fn:exists($patient-category))
+        then
+            (<pat:categoryName>{$patient-category/root/Name/text()}</pat:categoryName>,
+             <pat:categoryShortName>{$patient-category/root/Short_Descr/text()}</pat:categoryShortName>)
+        else ()
+
+};
+
 (:
 private Date updated;
 private Date created;
@@ -57,6 +68,7 @@ let $patient-document := <env:envelope>
         local:conditional-element("pat:militaryStatus", xlat:xlat-service-status($original/patient/militaryStatus)),
         local:conditional-element("pat:lastServiceSeparationDate", $original/patient/lastServiceSeparationDate),
         local:conditional-element("pat:category", $original/patient/category),
+        local:patient-category-text(fn:string($original/patient/category)),
 
         local:conditional-element("pat:oefOifInd", $original/patient/oefOifInd),
         local:conditional-element("pat:maritalStatus", $original/patient/maritalStatus),
@@ -73,4 +85,4 @@ let $patient-document := <env:envelope>
 let $filename := "/patients/" || $original/patient/patientId/text() || ".xml"
 return
     (xdmp:document-insert($filename, $patient-document, (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
-            ("patient", $original/patient/patientId/text())))
+            ("final", "type/patient", "patient", $original/patient/patientId/text())))

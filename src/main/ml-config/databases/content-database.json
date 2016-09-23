@@ -12,6 +12,30 @@
       "collation": "",
       "range-value-positions": false,
       "invalid-values": "reject"
+    },
+    {
+      "scalar-type": "string",
+      "namespace-uri": "http://dveivr.dha.health.mil/xml/patient",
+      "localname": "serviceStatus",
+      "collation": "http://marklogic.com/collation/en/S1",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    },
+    {
+      "scalar-type": "string",
+      "namespace-uri": "http://dveivr.dha.health.mil/xml/patient",
+      "localname": "serviceBranch",
+      "collation": "http://marklogic.com/collation/en/S1",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    },
+    {
+      "scalar-type": "string",
+      "namespace-uri": "http://dveivr.dha.health.mil/xml/patient",
+      "localname": "categoryShortName",
+      "collation": "http://marklogic.com/collation/en/S1",
+      "range-value-positions": false,
+      "invalid-values": "reject"
     }
   ],
   "default-ruleset": [
