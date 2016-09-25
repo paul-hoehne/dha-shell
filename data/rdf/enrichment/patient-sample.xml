@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:ori="http://dveivr.dha.health.mil/xml/original" xmlns:env="http://dveivr.dha.health.mil/xml/envelope">
+    <env:metadata>
+        <env:import-date> 2016-09-23T19:14:50.326-04:00 </env:import-date>
+        <env:last-updated> 2016-01-13T00:00:00-05:00 </env:last-updated>
+        <env:created> 2013-10-11T00:00:00-04:00 </env:created>
+    </env:metadata>
+    <env:original>
+        <ori:patient>
+            <ori:birthDate> 1975-05-20T00:00:00-04:00 </ori:birthDate>
+            <ori:category> A11 </ori:category>
+            <ori:created> 2013-10-11T00:00:00-04:00 </ori:created>
+            <ori:edipn> 3 </ori:edipn>
+            <ori:enrollmentDate> 2016-01-13T00:00:00-05:00 </ori:enrollmentDate>
+            <ori:firstName> Patient </ori:firstName>
+            <ori:gender> M </ori:gender>
+            <ori:lastName> Patient Two </ori:lastName>
+            <ori:middleName> Middle1 </ori:middleName>
+            <ori:occupation> </ori:occupation>
+            <ori:patientId> 117306 </ori:patientId>
+            <ori:race> Caucasian </ori:race>
+            <ori:serviceStatus> Active </ori:serviceStatus>
+            <ori:suffix> </ori:suffix>
+            <ori:unit> 1235 XX XXX 12 XX X </ori:unit>
+            <ori:updated> 2016-01-13T00:00:00-05:00 </ori:updated>
+        </ori:patient>
+    </env:original>
+    <pat:patient xmlns:pat="http://dveivr.dha.health.mil/xml/patient">
+        <pat:patientId> 117306 </pat:patientId>
+        <pat:edipn> 3 </pat:edipn>
+        <pat:firstName> Patient </pat:firstName>
+        <pat:middleName> Middle1 </pat:middleName>
+        <pat:lastName> Patient Two </pat:lastName>
+        <pat:gender> Male </pat:gender>
+        <pat:ethnicity>Non Hispanic</pat:ethnicity>
+        <pat:race> Caucasian </pat:race>
+        <pat:birthDate> 1975-05-20T00:00:00-04:00 </pat:birthDate>
+        <pat:serviceBranch>Marine Corps</pat:serviceBranch>
+        <pat:unit> 1235 XX XXX 12 XX X </pat:unit>
+        <pat:serviceStatus> Active </pat:serviceStatus>
+        <pat:category> A11 </pat:category>
+        <pat:categoryName> USA ACTIVE DUTY OFFICER </pat:categoryName>
+        <pat:categoryShortName> USA AD (OFF) </pat:categoryShortName>
+        <pat:enrollmentDate> 2016-01-13T00:00:00-05:00 </pat:enrollmentDate>
+    </pat:patient>
+    <enc:encounters xmlns:enc="http://dveivr.dha.health.mil/xml/encounter">
+        <enc:encounter>
+            <enc:encounterId> 29777 </enc:encounterId>
+            <enc:patientId> 117306 </enc:patientId>
+            <enc:referralId> 160328 </enc:referralId>
+            <enc:providerId> 574 </enc:providerId>
+            <enc:visitDate> 2009-09-02T00:00:00-04:00 </enc:visitDate>
+            <enc:symptoms> </enc:symptoms>
+            <enc:currentlyHospitalizedIndicator> true </enc:currentlyHospitalizedIndicator>
+            <enc:procedureSummaryCommentText> Summary of procedure </enc:procedureSummaryCommentText>
+            <enc:serviceStatus> Active </enc:serviceStatus>
+        </enc:encounter>
+        <enc:encounter>
+            <enc:encounterId> 30065 </enc:encounterId>
+            <enc:patientId> 117306 </enc:patientId>
+            <enc:referralId> 160329 </enc:referralId>
+            <enc:providerId> 842 </enc:providerId>
+            <enc:visitDate> 2015-05-28T00:00:00-04:00 </enc:visitDate>
+            <enc:symptoms> </enc:symptoms>
+        </enc:encounter>
+    </enc:encounters>
+</env:envelope>
