@@ -220,7 +220,9 @@ task exportRawDocs(type: com.marklogic.gradle.task.MlcpTask) {
     command = "EXPORT"
     database = mlAppConfig.contentDatabaseName
     output_file_path = "examples"
-    args = ["-output_type", "archive", "-collection_filter", "patient-raw,encounter-raw"]
+    output_type = "archive"
+    collection_filter = "patient,encounter"
+    copy_collections = "true"
 }
 
 task importRawDocs(type: com.marklogic.gradle.task.MlcpTask) {
@@ -228,7 +230,7 @@ task importRawDocs(type: com.marklogic.gradle.task.MlcpTask) {
     command = "IMPORT"
     database = mlAppConfig.contentDatabaseName
     input_file_path = "examples"
-    input_file_type = "archive"
+    output_uri_replace = "/Users/.*/examples/,'/'"
     args = ["-copy_collections", "true",
             "-output_permissions", "rest-reader,read,rest-writer,update"]
 }
