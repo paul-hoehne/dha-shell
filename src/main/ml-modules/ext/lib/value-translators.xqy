@@ -21,19 +21,19 @@ declare function xlat:xlat-gender($gender-raw as xs:string) as xs:string {
 };
 
 declare function xlat:xlat-service-branch($branch-raw as xs:string) as xs:string {
-    if (fn:upper-case($branch-raw) = ("USMC", "MARINE", "MARINES"))
+    if (fn:upper-case(fn:normalize-space($branch-raw)) = ("USMC", "MARINE", "MARINES"))
     then
         "Marine Corps"
-    else if(fn:upper-case($branch-raw) = ("Army"))
+    else if(fn:upper-case(fn:normalize-space($branch-raw)) = ("ARMY"))
     then
         "Army"
-    else if(fn:upper-case($branch-raw) = ("AIR FORCE", "USAF"))
+    else if(fn:upper-case(fn:normalize-space($branch-raw)) = ("AIR FORCE", "USAF"))
         then
             "Air Force"
-        else if(fn:upper-case($branch-raw) = ("NAVY", "USN"))
+        else if(fn:upper-case(fn:normalize-space($branch-raw)) = ("NAVY", "USN"))
             then
                 "Navy"
-            else if(fn:upper-case($branch-raw) = ("COAST GUARD", "USCG"))
+            else if(fn:upper-case(fn:normalize-space($branch-raw)) = ("COAST GUARD", "USCG"))
                 then
                     "Coast Guard"
                 else
