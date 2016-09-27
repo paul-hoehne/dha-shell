@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 if "%1" == "" goto ERROR
 if "%2" == "" goto ERROR
 if "%3" == "" goto ERROR
