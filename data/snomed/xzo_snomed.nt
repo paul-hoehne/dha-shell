@@ -1,0 +1,1000 @@
+_:genid177603 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177603 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177603 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imaging_-_action> .
+_:genid177606 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177605 .
+_:genid177604 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177606 .
+_:genid177605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177605 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid177605 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Upper_limb_structure> .
+_:genid177606 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177602 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177604 .
+_:genid177600 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177602 .
+_:genid177601 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177597 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177598 .
+<http://www.ihtsdo.org/snomedct.owl#Imaging_of_upper_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177597 .
+<http://www.ihtsdo.org/snomedct.owl#Imaging_techniques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imaging_techniques> <http://www.w3.org/2000/01/rdf-schema#label> "Imaging techniques (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imaging_techniques> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Techniques_values> .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib> <http://www.w3.org/2000/01/rdf-schema#label> "Imatinib (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib> <http://www.w3.org/2000/01/rdf-schema#label> "Imatinib (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Protein-tyrosine_kinase_inhibitor> .
+_:genid177607 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177607 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177607 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imatinib> .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177607 .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib_mesylate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib_mesylate> <http://www.w3.org/2000/01/rdf-schema#label> "Imatinib mesylate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imatinib_mesylate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Imatinib> .
+<http://www.ihtsdo.org/snomedct.owl#Imidapril> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imidapril> <http://www.w3.org/2000/01/rdf-schema#label> "Imidapril (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imidapril> <http://www.w3.org/2000/01/rdf-schema#label> "Imidapril (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imidapril> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Angiotensin-converting_enzyme_inhibitor_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Imidapril> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Imidazole> .
+_:genid177608 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177608 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177608 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imidapril> .
+<http://www.ihtsdo.org/snomedct.owl#Imidapril> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177608 .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole> <http://www.w3.org/2000/01/rdf-schema#label> "Imidazole (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Azole> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/2000/01/rdf-schema#label> "Imidazole antifungal (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/2000/01/rdf-schema#label> "Imidazole antifungal (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Azole_antifungal> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Imidazole> .
+_:genid177609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177609 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177609 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177609 .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Imidazole antifungal adverse reaction (disorder)"@en .
+_:genid177610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Azole_antifungal_adverse_reaction> .
+_:genid177613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177612 .
+_:genid177611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177613 .
+_:genid177612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177612 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177614 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177614 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> .
+_:genid177612 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177614 .
+_:genid177613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177610 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177611 .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177610 .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Imidazole antifungal allergy (disorder)"@en .
+_:genid177615 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Azole_antifungal_allergy> .
+_:genid177618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177617 .
+_:genid177616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177618 .
+_:genid177617 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177617 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177619 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177619 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177619 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal> .
+_:genid177617 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177619 .
+_:genid177621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177620 .
+_:genid177618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177621 .
+_:genid177620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177620 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177622 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177622 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid177620 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177622 .
+_:genid177621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177615 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177616 .
+<http://www.ihtsdo.org/snomedct.owl#Imidazole_antifungal_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177615 .
+<http://www.ihtsdo.org/snomedct.owl#Imide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imide> <http://www.w3.org/2000/01/rdf-schema#label> "Imide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Organic_nitrogen_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/2000/01/rdf-schema#label> "Imiglucerase (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/2000/01/rdf-schema#label> "Imiglucerase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beta-glucocerebrosidase> .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drugs_used_in_metabolic_disorders> .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enzyme_preparation> .
+_:genid177623 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177623 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177623 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imiglucerase> .
+<http://www.ihtsdo.org/snomedct.owl#Imiglucerase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177623 .
+<http://www.ihtsdo.org/snomedct.owl#Imino_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imino_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Imino acid (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imino_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Amino_acid> .
+<http://www.ihtsdo.org/snomedct.owl#Iminostilbenes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Iminostilbenes> <http://www.w3.org/2000/01/rdf-schema#label> "Iminostilbenes (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Iminostilbenes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chemical_categorized_structurally> .
+<http://www.ihtsdo.org/snomedct.owl#Iminostilbenes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen_by_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem> <http://www.w3.org/2000/01/rdf-schema#label> "Imipenem (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem> <http://www.w3.org/2000/01/rdf-schema#label> "Imipenem (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Carbapenem> .
+_:genid177624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177624 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177624 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imipenem> .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177624 .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Imipenem measurement (procedure)"@en .
+_:genid177625 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid177628 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177627 .
+_:genid177626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177628 .
+_:genid177627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177627 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177629 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid177629 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imipenem> .
+_:genid177627 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177629 .
+_:genid177631 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177630 .
+_:genid177628 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177631 .
+_:genid177630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177630 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177632 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177632 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177632 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid177630 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177632 .
+_:genid177631 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177625 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177626 .
+<http://www.ihtsdo.org/snomedct.owl#Imipenem_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177625 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Tricyclic_antidepressant> .
+_:genid177633 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177633 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177633 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imipramine> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177633 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine adverse reaction (disorder)"@en .
+_:genid177634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177635 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Tricyclic_antidepressant_drug_adverse_reaction> .
+_:genid177637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177636 .
+_:genid177635 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177637 .
+_:genid177636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177636 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177638 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177638 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177638 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imipramine> .
+_:genid177636 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177638 .
+_:genid177637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177634 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177635 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177634 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine allergy (disorder)"@en .
+_:genid177639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Tricyclic_antidepressant_drug_allergy> .
+_:genid177642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177641 .
+_:genid177640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177642 .
+_:genid177641 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177641 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177643 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177643 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177643 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imipramine> .
+_:genid177641 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177643 .
+_:genid177645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177644 .
+_:genid177642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177645 .
+_:genid177644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177644 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177646 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177646 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177646 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid177644 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177646 .
+_:genid177645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177639 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177640 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177639 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_hydrochloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine hydrochloride (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Imipramine> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_pamoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_pamoate> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine pamoate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_pamoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Imipramine> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_poisoning_of_undetermined_intent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_poisoning_of_undetermined_intent> <http://www.w3.org/2000/01/rdf-schema#label> "Imipramine poisoning of undetermined intent (disorder)"@en .
+_:genid177647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Poisoning_by_imipramine> .
+_:genid177649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Tricyclic_antidepressant_poisoning_of_undetermined_intent> .
+_:genid177648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177649 .
+_:genid177651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177650 .
+_:genid177649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177651 .
+_:genid177650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177650 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177652 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177652 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imipramine> .
+_:genid177650 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177652 .
+_:genid177651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177647 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177648 .
+<http://www.ihtsdo.org/snomedct.owl#Imipramine_poisoning_of_undetermined_intent> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177647 .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#label> "Imiquimod (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#label> "Imiquimod (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antineoplastic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antiviral_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Heterocyclic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunomodulator> .
+_:genid177653 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177653 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid177653 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imiquimod> .
+<http://www.ihtsdo.org/snomedct.owl#Imiquimod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177653 .
+<http://www.ihtsdo.org/snomedct.owl#Immature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immature> <http://www.w3.org/2000/01/rdf-schema#label> "Immature (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_adjectival_modifier> .
+<http://www.ihtsdo.org/snomedct.owl#Immature_teratoma_of_ovary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immature_teratoma_of_ovary> <http://www.w3.org/2000/01/rdf-schema#label> "Immature teratoma of ovary (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immature_teratoma_of_ovary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_malignant_neoplasm_of_ovary> .
+_:genid177654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177654 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177655 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177656 .
+_:genid177656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177656 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid177656 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+_:genid177659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177658 .
+_:genid177657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177659 .
+_:genid177658 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177658 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177658 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ovarian_structure> .
+_:genid177659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177655 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177657 .
+_:genid177654 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177655 .
+<http://www.ihtsdo.org/snomedct.owl#Immature_teratoma_of_ovary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177654 .
+<http://www.ihtsdo.org/snomedct.owl#Immediate_family_member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immediate_family_member> <http://www.w3.org/2000/01/rdf-schema#label> "Immediate family member (person)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immediate_family_member> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Relative> .
+<http://www.ihtsdo.org/snomedct.owl#Immediately_dangerous_to_life_and_health_condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immediately_dangerous_to_life_and_health_condition> <http://www.w3.org/2000/01/rdf-schema#label> "Immediately dangerous to life and health condition (event)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immediately_dangerous_to_life_and_health_condition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Event> .
+<http://www.ihtsdo.org/snomedct.owl#Immobile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immobile> <http://www.w3.org/2000/01/rdf-schema#label> "Immobile (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immobile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> .
+<http://www.ihtsdo.org/snomedct.owl#Immobile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Impaired_mobility> .
+_:genid177660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177660 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177661 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177662 .
+_:genid177662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177662 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_interpretation> .
+_:genid177662 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Impaired> .
+_:genid177665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177664 .
+_:genid177663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177665 .
+_:genid177664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177664 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid177664 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ability_to_mobilize> .
+_:genid177665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177661 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177663 .
+_:genid177660 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177661 .
+<http://www.ihtsdo.org/snomedct.owl#Immobile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177660 .
+_:genid177666 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177666 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177667 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid177667 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ability_to_move> .
+_:genid177666 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177667 .
+<http://www.ihtsdo.org/snomedct.owl#Immobile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177666 .
+<http://www.ihtsdo.org/snomedct.owl#Immune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune> <http://www.w3.org/2000/01/rdf-schema#label> "Immune (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pathogeneses> .
+<http://www.ihtsdo.org/snomedct.owl#Immune-complex_glomerulonephritis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune-complex_glomerulonephritis> <http://www.w3.org/2000/01/rdf-schema#label> "Immune-complex glomerulonephritis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune-complex_glomerulonephritis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Glomerulonephritis> .
+_:genid177668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177668 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177671 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177670 .
+_:genid177670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177670 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid177670 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid177673 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177672 .
+_:genid177671 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177673 .
+_:genid177672 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177672 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177672 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_parenchyma_of_kidney> .
+_:genid177673 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177669 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177671 .
+_:genid177668 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177669 .
+<http://www.ihtsdo.org/snomedct.owl#Immune-complex_glomerulonephritis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177668 .
+<http://www.ihtsdo.org/snomedct.owl#Immune-mediated_conjunctivitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune-mediated_conjunctivitis> <http://www.w3.org/2000/01/rdf-schema#label> "Immune-mediated conjunctivitis (disorder)"@en .
+_:genid177674 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Allergic_disorder_by_body_site_affected> .
+_:genid177676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Conjunctivitis> .
+_:genid177675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177676 .
+_:genid177678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177677 .
+_:genid177676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177678 .
+_:genid177677 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177677 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177680 .
+_:genid177680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177680 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid177680 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid177683 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177682 .
+_:genid177681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177683 .
+_:genid177682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177682 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177682 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Conjunctival_structure> .
+_:genid177683 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177679 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177681 .
+_:genid177677 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177679 .
+_:genid177685 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177684 .
+_:genid177678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177685 .
+_:genid177684 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177684 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177686 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177686 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid177686 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> .
+_:genid177684 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177686 .
+_:genid177685 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177674 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177675 .
+<http://www.ihtsdo.org/snomedct.owl#Immune-mediated_conjunctivitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177674 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_defect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_defect> <http://www.w3.org/2000/01/rdf-schema#label> "Immune defect (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_defect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_effector_cell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_effector_cell> <http://www.w3.org/2000/01/rdf-schema#label> "Immune effector cell (cell)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_effector_cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunologic_cell> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_effector_cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Leukocyte> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_enhancement_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_enhancement_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Immune enhancement agent (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_enhancement_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Immune enhancement agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_enhancement_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunologic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_enhancement_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunotherapeutic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder> <http://www.w3.org/2000/01/rdf-schema#label> "Immune hypersensitivity disorder (disorder)"@en .
+_:genid177687 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177688 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hypersensitivity_disorder> .
+_:genid177690 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177689 .
+_:genid177688 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177690 .
+_:genid177689 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177689 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177691 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177691 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid177691 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> .
+_:genid177689 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177691 .
+_:genid177690 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177687 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177688 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177687 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder_by_mechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder_by_mechanism> <http://www.w3.org/2000/01/rdf-schema#label> "Immune hypersensitivity disorder by mechanism (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder_by_mechanism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder> .
+_:genid177692 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177692 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177693 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177693 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid177693 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> .
+_:genid177692 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177693 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_disorder_by_mechanism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177692 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Immune hypersensitivity reaction (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hypersensitivity_reaction> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_reconstitution_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_reconstitution_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Immune reconstitution finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_reconstitution_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_response,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_response,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Immune response, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_response,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunologic_function> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_status> <http://www.w3.org/2000/01/rdf-schema#label> "Immune status (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Blood,_lymphatics/immune_system_observable> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_endoscopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_endoscopy> <http://www.w3.org/2000/01/rdf-schema#label> "Immune system endoscopy (procedure)"@en .
+_:genid177694 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Endoscopy> .
+_:genid177696 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Examination_of_body_system> .
+_:genid177695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177696 .
+_:genid177697 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Immune_system_evaluation> .
+_:genid177696 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177697 .
+_:genid177699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177698 .
+_:genid177697 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177699 .
+_:genid177698 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177698 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177701 .
+_:genid177701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177701 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177701 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inspection_-_action> .
+_:genid177704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177703 .
+_:genid177702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177704 .
+_:genid177703 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177703 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid177703 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177706 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177705 .
+_:genid177704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177706 .
+_:genid177705 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177705 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Using_device> .
+_:genid177705 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Endoscope,_device> .
+_:genid177706 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177700 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177702 .
+_:genid177698 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177700 .
+_:genid177699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177694 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177695 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_endoscopy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177694 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_evaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Immune system evaluation (procedure)"@en .
+_:genid177707 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Evaluation_procedure> .
+_:genid177709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_immune_system> .
+_:genid177708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177709 .
+_:genid177711 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177710 .
+_:genid177709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177711 .
+_:genid177710 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177710 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177712 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177714 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177713 .
+_:genid177713 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177713 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177713 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Evaluation_-_action> .
+_:genid177716 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177715 .
+_:genid177714 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177716 .
+_:genid177715 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177715 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid177715 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177716 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177712 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177714 .
+_:genid177710 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177712 .
+_:genid177711 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177707 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177708 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_evaluation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177707 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Immune system finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Finding_of_blood,_lymphatics_and_immune_system> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_repair> <http://www.w3.org/2000/01/rdf-schema#label> "Immune system repair (procedure)"@en .
+_:genid177717 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177718 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Immune_system_surgical_procedure> .
+_:genid177719 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Surgical_repair_procedure_by_body_site> .
+_:genid177718 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177719 .
+_:genid177721 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177720 .
+_:genid177719 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177721 .
+_:genid177720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177720 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177722 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177724 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177723 .
+_:genid177723 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177723 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177723 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Repair_-_action> .
+_:genid177726 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177725 .
+_:genid177724 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177726 .
+_:genid177725 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177725 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid177725 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177726 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177722 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177724 .
+_:genid177720 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177722 .
+_:genid177721 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177717 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177718 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_repair> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177717 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_surgical_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_surgical_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Immune system surgical procedure (procedure)"@en .
+_:genid177727 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177728 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_immune_system> .
+_:genid177729 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Surgical_procedure> .
+_:genid177728 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177729 .
+_:genid177731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177730 .
+_:genid177729 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177731 .
+_:genid177730 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177730 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177732 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177734 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177733 .
+_:genid177733 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177733 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177733 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid177736 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177735 .
+_:genid177734 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177736 .
+_:genid177735 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177735 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid177735 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177736 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177732 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177734 .
+_:genid177730 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177732 .
+_:genid177731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177727 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177728 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_surgical_procedure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177727 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_transplantation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_transplantation> <http://www.w3.org/2000/01/rdf-schema#label> "Immune system transplantation (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_transplantation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_immune_system> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_transplantation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Transplantation> .
+_:genid177737 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177737 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177738 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177739 .
+_:genid177739 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177739 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177739 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Transplantation_-_action> .
+_:genid177742 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177741 .
+_:genid177740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177742 .
+_:genid177741 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177741 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Indirect> .
+_:genid177741 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177742 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177738 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177740 .
+_:genid177737 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177738 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_system_transplantation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177737 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_thrombocytopenia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_thrombocytopenia> <http://www.w3.org/2000/01/rdf-schema#label> "Immune thrombocytopenia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immune_thrombocytopenia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antibody-mediated_cytolysis> .
+<http://www.ihtsdo.org/snomedct.owl#Immune_thrombocytopenia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Thrombocytopenic_disorder> .
+_:genid177743 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177743 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177744 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177744 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid177744 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_hypersensitivity_reaction> .
+_:genid177743 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177744 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_thrombocytopenia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177743 .
+_:genid177745 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177745 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177746 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177746 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177746 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Platelet_count_below_reference_range> .
+_:genid177745 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177746 .
+<http://www.ihtsdo.org/snomedct.owl#Immune_thrombocytopenia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177745 .
+<http://www.ihtsdo.org/snomedct.owl#Immunization_against_bacterial_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunization_against_bacterial_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Immunization against bacterial disease (procedure)"@en .
+_:genid177747 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177748 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Administration_of_vaccine_to_produce_active_immunity> .
+_:genid177750 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177749 .
+_:genid177748 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177750 .
+_:genid177749 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177749 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177751 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177752 .
+_:genid177752 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177752 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Direct_substance> .
+_:genid177752 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bacterial_vaccine> .
+_:genid177755 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177754 .
+_:genid177753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177755 .
+_:genid177754 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177754 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177754 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Administration_-_action> .
+_:genid177755 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177751 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177753 .
+_:genid177749 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177751 .
+_:genid177750 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177747 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177748 .
+<http://www.ihtsdo.org/snomedct.owl#Immunization_against_bacterial_disease> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177747 .
+<http://www.ihtsdo.org/snomedct.owl#Immunization_contraindicated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunization_contraindicated> <http://www.w3.org/2000/01/rdf-schema#label> "Immunization contraindicated (situation)"@en .
+_:genid177756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177757 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Administration_of_drug_or_medicament_contraindicated> .
+_:genid177759 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177758 .
+_:genid177757 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177759 .
+_:genid177758 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177758 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177760 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177762 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177761 .
+_:genid177761 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177761 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_procedure> .
+_:genid177761 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Administration_of_substance_to_produce_immunity,_either_active_or_passive> .
+_:genid177764 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177763 .
+_:genid177762 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177764 .
+_:genid177763 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177763 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_context> .
+_:genid177763 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Contraindicated> .
+_:genid177766 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177765 .
+_:genid177764 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177766 .
+_:genid177765 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177765 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid177765 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Subject_of_record> .
+_:genid177768 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177767 .
+_:genid177766 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177768 .
+_:genid177767 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177767 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid177767 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid177768 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177760 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177762 .
+_:genid177758 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177760 .
+_:genid177759 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177756 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177757 .
+<http://www.ihtsdo.org/snomedct.owl#Immunization_contraindicated> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177756 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoassay for detection of antibody to infectious agent (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antibody_identification> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Serologic_test> .
+_:genid177769 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177769 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177770 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177770 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid177770 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Antibody> .
+_:genid177769 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177770 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177769 .
+_:genid177771 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177771 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177772 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177772 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid177772 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid177771 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177772 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177771 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_method> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoassay method (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoassay_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunology_laboratory_test> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoblastic_lymphoma_associated_with_AIDS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoblastic_lymphoma_associated_with_AIDS> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoblastic lymphoma associated with AIDS (disorder)"@en .
+_:genid177773 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177774 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Diffuse_non-Hodgkin's_lymphoma,_immunoblastic> .
+_:genid177775 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm_associated_with_AIDS> .
+_:genid177774 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177775 .
+_:genid177777 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177776 .
+_:genid177775 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177777 .
+_:genid177776 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177776 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177778 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177778 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid177778 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Diffuse_high_grade_B-cell_lymphoma_morphology> .
+_:genid177776 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177778 .
+_:genid177780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177779 .
+_:genid177777 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177780 .
+_:genid177779 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177779 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177781 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177781 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid177781 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Malignant_lymphoma,_large_B-cell,_diffuse,_immunoblastic> .
+_:genid177779 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177781 .
+_:genid177783 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177782 .
+_:genid177780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177783 .
+_:genid177782 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177782 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177784 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177784 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid177784 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Non-Hodgkin_lymphoma,_no_ICD-O_subtype> .
+_:genid177782 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177784 .
+_:genid177786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177785 .
+_:genid177783 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177786 .
+_:genid177785 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177785 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177787 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177787 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_with> .
+_:genid177787 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Acquired_immune_deficiency_syndrome> .
+_:genid177785 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177787 .
+_:genid177786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177773 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177774 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoblastic_lymphoma_associated_with_AIDS> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177773 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoblot_assay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoblot_assay> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoblot assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoblot_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chemical_method> .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_analyte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_analyte> <http://www.w3.org/2000/01/rdf-schema#label> "Immunochemistry analyte (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_analyte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunology_analyte> .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_assay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_assay> <http://www.w3.org/2000/01/rdf-schema#label> "Immunochemistry assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#In-vitro_immunologic_test> .
+_:genid177788 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177788 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177789 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177789 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid177789 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunologic_substance> .
+_:genid177788 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177789 .
+<http://www.ihtsdo.org/snomedct.owl#Immunochemistry_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177788 .
+<http://www.ihtsdo.org/snomedct.owl#Immunocytochemical_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunocytochemical_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Immunocytochemical procedure (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunocytochemical_procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Surgical_pathology_procedure> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency-associated_Burkitt's_lymphoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency-associated_Burkitt's_lymphoma> <http://www.w3.org/2000/01/rdf-schema#label> "Immunodeficiency-associated Burkitt's lymphoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency-associated_Burkitt's_lymphoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Burkitt_lymphoma> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_chromosomal_abnormality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_chromosomal_abnormality> <http://www.w3.org/2000/01/rdf-schema#label> "Immunodeficiency associated with chromosomal abnormality (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_chromosomal_abnormality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_immune_deficiency_disorder> .
+_:genid177790 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177790 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177791 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177791 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_with> .
+_:genid177791 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chromosomal_disorder> .
+_:genid177790 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177791 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_chromosomal_abnormality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177790 .
+_:genid177792 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177792 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177793 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177793 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177793 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177792 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177793 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_chromosomal_abnormality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177792 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_multiple_organ_system_abnormalities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_multiple_organ_system_abnormalities> <http://www.w3.org/2000/01/rdf-schema#label> "Immunodeficiency associated with multiple organ system abnormalities (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_multiple_organ_system_abnormalities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> .
+_:genid177794 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177794 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177795 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177795 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177795 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177794 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177795 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_multiple_organ_system_abnormalities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177794 .
+_:genid177796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177796 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177797 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177797 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177797 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177796 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177797 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_associated_with_multiple_organ_system_abnormalities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177796 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_disorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_disorder> <http://www.w3.org/2000/01/rdf-schema#label> "Immunodeficiency disorder (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_disorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_immune_function> .
+_:genid177798 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177798 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177799 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177799 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177799 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177798 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177799 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_disorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177798 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> <http://www.w3.org/2000/01/rdf-schema#label> "Immunodeficiency with major anomalies (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_immune_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_immune_deficiency_disorder> .
+_:genid177800 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177800 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177801 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177801 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177801 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177800 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177801 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177800 .
+_:genid177802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177802 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177803 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177803 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177803 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177802 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177803 .
+<http://www.ihtsdo.org/snomedct.owl#Immunodeficiency_with_major_anomalies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177802 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoelectrophoresis (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Electrophoresis_measurement> .
+_:genid177804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177804 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177805 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177805 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid177805 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunologic_substance> .
+_:genid177804 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177805 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177804 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoelectrophoresis NOS (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis> .
+_:genid177806 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177806 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177807 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177807 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid177807 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunologic_substance> .
+_:genid177806 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177807 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoelectrophoresis_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177806 .
+<http://www.ihtsdo.org/snomedct.owl#Immunofixation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunofixation> <http://www.w3.org/2000/01/rdf-schema#label> "Immunofixation (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunofixation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunochemistry_assay> .
+_:genid177808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177808 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177809 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid177809 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunologic_substance> .
+_:genid177808 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177809 .
+<http://www.ihtsdo.org/snomedct.owl#Immunofixation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177808 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobin G subclass deficiency (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Decreased_serum_protein_level> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Finding_by_site> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177810 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177811 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177811 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177810 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177811 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177810 .
+_:genid177812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177812 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177813 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid177813 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Biochemistry_test_interpretation> .
+_:genid177812 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177813 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177812 .
+_:genid177814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177814 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177815 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid177815 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid177814 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177815 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobin_G_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177814 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunomodulator> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Plasma_protein> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Vaccine,_immunoglobulin,_AND/OR_antiserum> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_F_ab_fragment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_F_ab_fragment> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, F(ab) fragment (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_F_ab_fragment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_fragment> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_Fc_fragment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_Fc_fragment> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, Fc fragment (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_Fc_fragment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_fragment> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_L_chain,_kappa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_L_chain,_kappa> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, L chain, kappa (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_L_chain,_kappa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_light_chain> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_L_chain,_lambda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_L_chain,_lambda> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, L chain, lambda (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_L_chain,_lambda> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_light_chain> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_constant_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_constant_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, constant region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_constant_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_hinge_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_hinge_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, hinge region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_hinge_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_hypervariable_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_hypervariable_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, hypervariable region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_hypervariable_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_joining_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_joining_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, joining region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_joining_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_light_chain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_light_chain> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, light chain (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_light_chain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_chain> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_switch_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_switch_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, switch region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_switch_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_variable_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_variable_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin, variable region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin,_variable_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_A_deficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_A_deficiency> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin A deficiency (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_A_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_subclass_deficiency> .
+_:genid177816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177816 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177817 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177817 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177816 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177817 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_A_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177816 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgA> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin IgA (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgD> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin IgD (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgE> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin IgE (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgG> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin IgG (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgM> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin IgM (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_IgM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_chain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_chain> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin chain (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_chain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_part> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deficiency> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin deficiency (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_immune_deficiency_disorder> .
+_:genid177818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177818 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177819 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177819 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177818 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177819 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177818 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deposition_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deposition_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin deposition disease (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deposition_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hematopoietic_neoplasm_of_uncertain_behavior> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deposition_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Plasma_cell_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_fragment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_fragment> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin fragment (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_fragment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_part> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin gene (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gene> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene_GM_allotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene_GM_allotype> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin gene GM allotype (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene_GM_allotype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_gene> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_heavy_chain_deficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_heavy_chain_deficiency> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin heavy chain deficiency (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_heavy_chain_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_immune_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_heavy_chain_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_immune_deficiency_disorder> .
+_:genid177820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177820 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177821 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid177821 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+_:genid177820 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177821 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_heavy_chain_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177820 .
+_:genid177822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177822 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177823 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177823 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immune_system_finding> .
+_:genid177822 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177823 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_heavy_chain_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid177822 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_idiotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_idiotype> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin idiotype (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_idiotype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antigens_by_type> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_idiotype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin isotype (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_isotype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_immunoglobulin> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_part> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin part (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_product_overdose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_product_overdose> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin product overdose (disorder)"@en .
+_:genid177824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Blood_derivative_overdose> .
+_:genid177826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vaccine,_immunoglobulins_and_antisera_overdose> .
+_:genid177825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177826 .
+_:genid177828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177827 .
+_:genid177826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177828 .
+_:genid177827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177827 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177829 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177829 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> .
+_:genid177827 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177829 .
+_:genid177828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177824 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177825 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_product_overdose> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177824 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_product_poisoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_product_poisoning> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin product poisoning (disorder)"@en .
+_:genid177830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vaccine,_immunoglobulins_and_antisera_poisoning> .
+_:genid177833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177832 .
+_:genid177831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177833 .
+_:genid177832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177832 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177834 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177834 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> .
+_:genid177832 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177834 .
+_:genid177833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177830 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177831 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_product_poisoning> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177830 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin products (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Vaccine,_immunoglobulins_and_antisera> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin products adverse reaction (disorder)"@en .
+_:genid177835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177836 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Plasma_protein_solution_adverse_reaction> .
+_:genid177837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vaccine,_immunoglobulins_and_antisera_adverse_reaction> .
+_:genid177836 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177837 .
+_:genid177839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177838 .
+_:genid177837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177839 .
+_:genid177838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177838 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177840 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177840 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> .
+_:genid177838 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177840 .
+_:genid177839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177835 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177836 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177835 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin products allergy (disorder)"@en .
+_:genid177841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid177842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Plasma_protein_solution_allergy> .
+_:genid177843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vaccine,_immunoglobulins_and_antisera_allergy> .
+_:genid177842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177843 .
+_:genid177845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177844 .
+_:genid177843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177845 .
+_:genid177844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177844 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177846 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid177846 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> .
+_:genid177844 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177846 .
+_:genid177848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177847 .
+_:genid177845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177848 .
+_:genid177847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177847 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177849 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid177849 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid177847 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid177849 .
+_:genid177848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177841 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid177842 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_products_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid177841 .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin region (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_part> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin structure (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_subclass_deficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#label> "Immunoglobulin subclass deficiency (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_subclass_deficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_deficiency> .
+_:genid177850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177850 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid177851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid177851 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .

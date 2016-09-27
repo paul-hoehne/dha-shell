@@ -1,0 +1,1000 @@
+_:genid128992 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid128994 .
+_:genid128993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid128983 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid128984 .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid128983 .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Ethanolamine allergy (disorder)"@en .
+_:genid128995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid128996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antivaricose_agent_allergy> .
+_:genid128997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sedating_antihistamine_allergy> .
+_:genid128996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128997 .
+_:genid128999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid128998 .
+_:genid128997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128999 .
+_:genid128998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid128998 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129000 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129000 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Antivaricose_agent> .
+_:genid128998 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129000 .
+_:genid129002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129001 .
+_:genid128999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129002 .
+_:genid129001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129001 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129003 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129003 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethanolamine> .
+_:genid129001 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129003 .
+_:genid129005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129004 .
+_:genid129002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129005 .
+_:genid129004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129004 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129006 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129006 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Sedating_antihistamine> .
+_:genid129004 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129006 .
+_:genid129008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129007 .
+_:genid129005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129008 .
+_:genid129007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129007 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129009 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129009 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129007 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129009 .
+_:genid129008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid128995 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid128996 .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid128995 .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethanolamine derivative antihistamine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethanolamine derivative antihistamine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antihistamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethanolamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sedating_antihistamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Ethanolamine measurement (procedure)"@en .
+_:genid129010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid129013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129012 .
+_:genid129011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129013 .
+_:genid129012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129012 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129014 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid129014 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethanolamine> .
+_:genid129012 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129014 .
+_:genid129016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129015 .
+_:genid129013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129016 .
+_:genid129015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129015 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129017 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129017 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid129015 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129017 .
+_:genid129016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129010 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129011 .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129010 .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethanolamine oleate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethanolamine oleate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethanolamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethanolamine_derivative_antihistamine> .
+_:genid129018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129018 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129018 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> .
+<http://www.ihtsdo.org/snomedct.owl#Ethanolamine_oleate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129018 .
+<http://www.ihtsdo.org/snomedct.owl#Ethaverine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethaverine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethaverine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethaverine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gastrointestinal_smooth_muscle_relaxant> .
+<http://www.ihtsdo.org/snomedct.owl#Ethaverine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genitourinary_smooth_muscle_relaxant> .
+<http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethchlorvynol (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethchlorvynol (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sedative> .
+_:genid129019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129019 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129019 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethchlorvynol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129019 .
+<http://www.ihtsdo.org/snomedct.owl#Ether> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ether> <http://www.w3.org/2000/01/rdf-schema#label> "Ether (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ether> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Ether> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> .
+<http://www.ihtsdo.org/snomedct.owl#Ether> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Organic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Ether,_anesthetic_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ether,_anesthetic_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Ether, anesthetic adverse reaction (disorder)"@en .
+_:genid129020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Inhalational_anesthetics_adverse_reaction> .
+_:genid129023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129022 .
+_:genid129021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129023 .
+_:genid129022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129022 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129024 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129024 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ether> .
+_:genid129022 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129024 .
+_:genid129023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129020 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129021 .
+<http://www.ihtsdo.org/snomedct.owl#Ether,_anesthetic_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129020 .
+<http://www.ihtsdo.org/snomedct.owl#Ether,_anesthetic_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ether,_anesthetic_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Ether, anesthetic allergy (disorder)"@en .
+_:genid129025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Inhalational_anesthetics_allergy> .
+_:genid129028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129027 .
+_:genid129026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129028 .
+_:genid129027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129027 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129029 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129029 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Diethyl_ether> .
+_:genid129027 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129029 .
+_:genid129031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129030 .
+_:genid129028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129031 .
+_:genid129030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129030 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129032 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129032 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129030 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129032 .
+_:genid129031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129025 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129026 .
+<http://www.ihtsdo.org/snomedct.owl#Ether,_anesthetic_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129025 .
+<http://www.ihtsdo.org/snomedct.owl#Ether_overdose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ether_overdose> <http://www.w3.org/2000/01/rdf-schema#label> "Ether overdose (disorder)"@en .
+_:genid129033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Inhalational_anesthetic_overdose> .
+_:genid129036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129035 .
+_:genid129034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129036 .
+_:genid129035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129035 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129037 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129037 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ether> .
+_:genid129035 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129037 .
+_:genid129036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129033 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129034 .
+<http://www.ihtsdo.org/snomedct.owl#Ether_overdose> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129033 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinamate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinamate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinamate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethinamate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sedative> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinamate_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinamate_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinamate measurement (procedure)"@en .
+_:genid129038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid129041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129040 .
+_:genid129039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129041 .
+_:genid129040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129040 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129042 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid129042 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethinamate> .
+_:genid129040 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129042 .
+_:genid129044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129043 .
+_:genid129041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129044 .
+_:genid129043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129043 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129045 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129045 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid129043 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129045 .
+_:genid129044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129038 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129039 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinamate_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129038 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinyl estradiol (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Estradiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Norsteroid> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_contraceptive_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Synthetic_steroid> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinyl estradiol + levonorgestrel (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_form_estradiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_form_levonorgestrel> .
+_:genid129046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129046 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129046 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129046 .
+_:genid129047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129047 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129047 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Levonorgestrel> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129047 .
+_:genid129048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129048 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_dose_form> .
+_:genid129048 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Oral_dosage_form> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_levonorgestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129048 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_norgestimate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_norgestimate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinyl estradiol + norgestimate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_norgestimate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_norgestimate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Norgestimate_preparation> .
+_:genid129049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129049 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129049 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_norgestimate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129049 .
+_:genid129050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129050 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129050 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Norgestimate> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_+_norgestimate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129050 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinyl estradiol preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Estradiol_preparation> .
+_:genid129051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129051 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129051 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129051 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinylestradiol_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinylestradiol_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinylestradiol adverse reaction (disorder)"@en .
+_:genid129052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Estradiol_adverse_reaction> .
+_:genid129055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129054 .
+_:genid129053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129055 .
+_:genid129054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129054 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129056 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129056 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> .
+_:genid129054 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129056 .
+_:genid129055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129052 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129053 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinylestradiol_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129052 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinylestradiol_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethinylestradiol_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Ethinylestradiol allergy (disorder)"@en .
+_:genid129057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Estradiol_allergy> .
+_:genid129060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129059 .
+_:genid129058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129060 .
+_:genid129059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129059 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129061 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129061 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethinyl_estradiol> .
+_:genid129059 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129061 .
+_:genid129063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129062 .
+_:genid129060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129063 .
+_:genid129062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129062 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129064 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129064 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129062 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129064 .
+_:genid129063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129057 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129058 .
+<http://www.ihtsdo.org/snomedct.owl#Ethinylestradiol_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129057 .
+<http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> <http://www.w3.org/2000/01/rdf-schema#label> "Ethiodized oil (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> <http://www.w3.org/2000/01/rdf-schema#label> "Ethiodized oil (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Iodinated_contrast_media> .
+<http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ionic_iodinated_contrast_media> .
+_:genid129065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129065 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129065 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> .
+<http://www.ihtsdo.org/snomedct.owl#Ethiodized_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129065 .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/2000/01/rdf-schema#label> "Ethionamide (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/2000/01/rdf-schema#label> "Ethionamide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antituberculosis_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antituberculous_drugs> .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+_:genid129066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129066 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129066 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethionamide> .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129066 .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Ethionamide measurement (procedure)"@en .
+_:genid129067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid129070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129069 .
+_:genid129068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129070 .
+_:genid129069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129069 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129071 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129071 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid129071 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethionamide> .
+_:genid129069 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129071 .
+_:genid129073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129072 .
+_:genid129070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129073 .
+_:genid129072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129072 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129074 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129074 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid129072 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129074 .
+_:genid129073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129067 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129068 .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129067 .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide_poisoning_of_undetermined_intent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide_poisoning_of_undetermined_intent> <http://www.w3.org/2000/01/rdf-schema#label> "Ethionamide poisoning of undetermined intent (disorder)"@en .
+_:genid129075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Poisoning_by_ethionamide> .
+_:genid129077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Poisoning_of_unknown_intent_by_drug> .
+_:genid129076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129077 .
+_:genid129079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129078 .
+_:genid129077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129079 .
+_:genid129078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129078 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129080 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129080 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethionamide> .
+_:genid129078 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129080 .
+_:genid129079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129075 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129076 .
+<http://www.ihtsdo.org/snomedct.owl#Ethionamide_poisoning_of_undetermined_intent> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129075 .
+<http://www.ihtsdo.org/snomedct.owl#Ethiopia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethiopia> <http://www.w3.org/2000/01/rdf-schema#label> "Ethiopia (geographic location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethiopia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#North_east_African_country> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_bone_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_bone_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Ethmoid bone structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_bone_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neurocranium_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_bone_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_pneumatic_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinus_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinus_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Ethmoid sinus structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinus_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Frontoethmoid_sinus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinusectomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinusectomy> <http://www.w3.org/2000/01/rdf-schema#label> "Ethmoid sinusectomy (procedure)"@en .
+_:genid129081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Accessory_sinus_excision> .
+_:genid129083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_frontoethmoidal_sinuses> .
+_:genid129082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129083 .
+_:genid129085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129084 .
+_:genid129083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129085 .
+_:genid129084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129084 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129087 .
+_:genid129087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129087 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129087 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Excision_-_action> .
+_:genid129090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129089 .
+_:genid129088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129090 .
+_:genid129089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129089 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid129089 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinus_structure> .
+_:genid129090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129086 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129088 .
+_:genid129084 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129086 .
+_:genid129085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129081 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129082 .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinusectomy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129081 .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinuses_X-ray> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinuses_X-ray> <http://www.w3.org/2000/01/rdf-schema#label> "Ethmoid sinuses X-ray (procedure)"@en .
+_:genid129091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Radiography_of_nasal_sinuses> .
+_:genid129094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129093 .
+_:genid129092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129094 .
+_:genid129093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129093 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129096 .
+_:genid129096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129096 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129096 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Radiographic_imaging_-_action> .
+_:genid129099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129098 .
+_:genid129097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129099 .
+_:genid129098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129098 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid129098 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinus_structure> .
+_:genid129099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129095 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129097 .
+_:genid129093 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129095 .
+_:genid129094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129091 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129092 .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinuses_X-ray> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129091 .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoidal_sinusitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoidal_sinusitis> <http://www.w3.org/2000/01/rdf-schema#label> "Ethmoidal sinusitis (disorder)"@en .
+_:genid129100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_ethmoidal_sinus> .
+_:genid129102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sinusitis> .
+_:genid129101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129102 .
+_:genid129104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129103 .
+_:genid129102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129104 .
+_:genid129103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129103 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129106 .
+_:genid129106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129106 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid129106 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid129109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129108 .
+_:genid129107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129109 .
+_:genid129108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129108 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid129108 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethmoid_sinus_structure> .
+_:genid129109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129105 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129107 .
+_:genid129103 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129105 .
+_:genid129104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129100 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129101 .
+<http://www.ihtsdo.org/snomedct.owl#Ethmoidal_sinusitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129100 .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_background> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_background> <http://www.w3.org/2000/01/rdf-schema#label> "Ethnic background (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_background> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethnic_group_finding> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/2000/01/rdf-schema#label> "Ethnic group (1991 census)(UK) (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/2000/01/rdf-schema#label> "Ethnic group (ethnic group)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/2000/01/rdf-schema#label> "Ethnic group (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Demographic_history_detail> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethnic_group> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Group> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Ethnic group finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethnic_group_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Social_context_finding> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid> <http://www.w3.org/2000/01/rdf-schema#label> "Ethoglucid (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid> <http://www.w3.org/2000/01/rdf-schema#label> "Ethoglucid (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nitrogen_mustard_derivative> .
+_:genid129110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129110 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129110 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethoglucid> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129110 .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Ethoglucid adverse reaction (disorder)"@en .
+_:genid129111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Nitrogen_mustard_derivative_adverse_reaction> .
+_:genid129114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129113 .
+_:genid129112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129114 .
+_:genid129113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129113 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129115 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129115 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethoglucid> .
+_:genid129113 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129115 .
+_:genid129114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129111 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129112 .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129111 .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Ethoglucid allergy (disorder)"@en .
+_:genid129116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Nitrogen_mustard_derivative_allergy> .
+_:genid129119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129118 .
+_:genid129117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129119 .
+_:genid129118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129118 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129120 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129120 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethoglucid> .
+_:genid129118 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129120 .
+_:genid129122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129121 .
+_:genid129119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129122 .
+_:genid129121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129121 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129123 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129123 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129121 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129123 .
+_:genid129122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129116 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129117 .
+<http://www.ihtsdo.org/snomedct.owl#Ethoglucid_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129116 .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethopropazine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antiparkinsonian_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phenothiazine_derivative_antipsychotic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine_hydrochloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#label> "Ethopropazine hydrochloride (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethopropazine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethopropazine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide> <http://www.w3.org/2000/01/rdf-schema#label> "Ethosuximide (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide> <http://www.w3.org/2000/01/rdf-schema#label> "Ethosuximide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Succinimide> .
+_:genid129124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129124 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129124 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethosuximide> .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129124 .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Ethosuximide adverse reaction (disorder)"@en .
+_:genid129125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adverse_reaction_to_succinimide> .
+_:genid129128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129127 .
+_:genid129126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129128 .
+_:genid129127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129127 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129129 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129129 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethosuximide> .
+_:genid129127 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129129 .
+_:genid129128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129125 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129126 .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129125 .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Ethosuximide allergy (disorder)"@en .
+_:genid129130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antiepileptic_allergy> .
+_:genid129133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129132 .
+_:genid129131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129133 .
+_:genid129132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129132 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129134 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129134 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethosuximide> .
+_:genid129132 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129134 .
+_:genid129136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129135 .
+_:genid129133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129136 .
+_:genid129135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129135 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129137 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129137 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129135 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129137 .
+_:genid129136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129130 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129131 .
+<http://www.ihtsdo.org/snomedct.owl#Ethosuximide_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129130 .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin> <http://www.w3.org/2000/01/rdf-schema#label> "Ethotoin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hydantoin_derivative_anticonvulsant> .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin_product> <http://www.w3.org/2000/01/rdf-schema#label> "Ethotoin product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anticonvulsant> .
+_:genid129138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129138 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129138 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethotoin> .
+<http://www.ihtsdo.org/snomedct.owl#Ethotoin_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129138 .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyquin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyquin> <http://www.w3.org/2000/01/rdf-schema#label> "Ethoxyquin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyquin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Quinoline> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyzolamide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyzolamide> <http://www.w3.org/2000/01/rdf-schema#label> "Ethoxyzolamide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyzolamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Carbonic_anhydrase_inhibitor> .
+<http://www.ihtsdo.org/snomedct.owl#Ethoxyzolamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sulfonamide_diuretic> .
+<http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethyl alcohol (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethyl alcohol (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Alcohol_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Alcohol_products> .
+_:genid129139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129139 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129139 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethyl_alcohol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129139 .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylene oxide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ether> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylene oxide measurement (procedure)"@en .
+_:genid129140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid129143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129142 .
+_:genid129141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129143 .
+_:genid129142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129142 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129144 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid129144 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide> .
+_:genid129142 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129144 .
+_:genid129146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129145 .
+_:genid129143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129146 .
+_:genid129145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129145 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129147 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129147 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid129145 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129147 .
+_:genid129146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129140 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129141 .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_oxide_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129140 .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylene thiourea (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylene thiourea (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Rubber_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Rubber_compound_product> .
+_:genid129148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129148 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129148 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylene_thiourea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129148 .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylenediamine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Diamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine_derivative_antihistamine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylenediamine derivative antihistamine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylenediamine derivative antihistamine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antihistamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenediamine_derivative_antihistamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethylenediamine> .
+<http://www.ihtsdo.org/snomedct.owl#Ethyleneimine_antineoplastic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethyleneimine_antineoplastic> <http://www.w3.org/2000/01/rdf-schema#label> "Ethyleneimine antineoplastic (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethyleneimine_antineoplastic> <http://www.w3.org/2000/01/rdf-schema#label> "Ethyleneimine antineoplastic (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethyleneimine_antineoplastic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Alkylating_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenimine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenimine> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylenimine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylenimine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#p-Nitrobiphenyl> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylestrenol (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anabolic_steroid> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylestrenol preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anabolic_steroid_preparation> .
+_:genid129149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129149 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129149 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethylestrenol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethylestrenol_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129149 .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethynodiol (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#label> "Ethynodiol (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Norsteroid> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_contraceptive_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Progestin_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Synthetic_progestogen> .
+_:genid129150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129150 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129150 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethynodiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129150 .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethynodiol diacetate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ethynodiol> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Ethynodiol diacetate adverse reaction (disorder)"@en .
+_:genid129151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Progestogen_adverse_reaction> .
+_:genid129154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129153 .
+_:genid129152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129154 .
+_:genid129153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129153 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129155 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129155 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate> .
+_:genid129153 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129155 .
+_:genid129154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129151 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129152 .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129151 .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Ethynodiol diacetate allergy (disorder)"@en .
+_:genid129156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Progestogen_allergy> .
+_:genid129159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129158 .
+_:genid129157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129159 .
+_:genid129158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129158 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129160 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129160 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate> .
+_:genid129158 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129160 .
+_:genid129162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129161 .
+_:genid129159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129162 .
+_:genid129161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129161 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129163 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129163 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129161 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129163 .
+_:genid129162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129156 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129157 .
+<http://www.ihtsdo.org/snomedct.owl#Ethynodiol_diacetate_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129156 .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine> <http://www.w3.org/2000/01/rdf-schema#label> "Etidocaine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Local_anesthetic> .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine_product> <http://www.w3.org/2000/01/rdf-schema#label> "Etidocaine product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Amide_type_local_anesthetic> .
+_:genid129164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129164 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129164 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etidocaine> .
+<http://www.ihtsdo.org/snomedct.owl#Etidocaine_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129164 .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate> <http://www.w3.org/2000/01/rdf-schema#label> "Etidronate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate> <http://www.w3.org/2000/01/rdf-schema#label> "Etidronate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Diphosphonate> .
+_:genid129165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129165 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129165 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etidronate> .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129165 .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate_disodium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate_disodium> <http://www.w3.org/2000/01/rdf-schema#label> "Etidronate disodium (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate_disodium> <http://www.w3.org/2000/01/rdf-schema#label> "Etidronate disodium (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate_disodium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Etidronate> .
+_:genid129166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129166 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129166 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etidronate_disodium> .
+<http://www.ihtsdo.org/snomedct.owl#Etidronate_disodium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129166 .
+<http://www.ihtsdo.org/snomedct.owl#Etidronic_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etidronic_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Etidronic acid (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etidronic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Etidronate> .
+<http://www.ihtsdo.org/snomedct.owl#Etilefrine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etilefrine> <http://www.w3.org/2000/01/rdf-schema#label> "Etilefrine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etilefrine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sympathomimetic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone> <http://www.w3.org/2000/01/rdf-schema#label> "Etiocholanolone (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#11-Deoxy-17-ketosteroid> .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Testosterone_and_derivatives> .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Etiocholanolone measurement (procedure)"@en .
+_:genid129167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#17-Ketosteroids_measurement> .
+_:genid129169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hormone_measurement> .
+_:genid129168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129169 .
+_:genid129171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129170 .
+_:genid129169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129171 .
+_:genid129170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129170 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129172 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid129172 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etiocholanolone> .
+_:genid129170 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129172 .
+_:genid129174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129173 .
+_:genid129171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129174 .
+_:genid129173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129173 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129175 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129175 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid129173 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129175 .
+_:genid129174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129167 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129168 .
+<http://www.ihtsdo.org/snomedct.owl#Etiocholanolone_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129167 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-steroidal_anti-inflammatory_agent> .
+_:genid129176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129176 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129176 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etodolac> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129176 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac adverse reaction (disorder)"@en .
+_:genid129177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Non-steroidal_anti-inflammatory_drug_adverse_reaction> .
+_:genid129180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129179 .
+_:genid129178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129180 .
+_:genid129179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129179 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129181 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129181 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etodolac> .
+_:genid129179 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129181 .
+_:genid129180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129177 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129178 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129177 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac allergy (disorder)"@en .
+_:genid129182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Non-steroidal_anti-inflammatory_drug_allergy> .
+_:genid129185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129184 .
+_:genid129183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129185 .
+_:genid129184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129184 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129186 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129186 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etodolac> .
+_:genid129184 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129186 .
+_:genid129188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129187 .
+_:genid129185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129188 .
+_:genid129187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129187 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129189 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129189 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129187 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129189 .
+_:genid129188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129182 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129183 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129182 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac measurement (procedure)"@en .
+_:genid129190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid129193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129192 .
+_:genid129191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129193 .
+_:genid129192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129192 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129194 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid129194 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etodolac> .
+_:genid129192 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129194 .
+_:genid129196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129195 .
+_:genid129193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129196 .
+_:genid129195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129195 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129197 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid129197 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid129195 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129197 .
+_:genid129196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129190 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129191 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129190 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac poisoning (disorder)"@en .
+_:genid129198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Non-steroidal_anti-inflammatory_poisoning> .
+_:genid129201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129200 .
+_:genid129199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129201 .
+_:genid129200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129200 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129202 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129202 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etodolac> .
+_:genid129200 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129202 .
+_:genid129201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129198 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129199 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129198 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning_of_undetermined_intent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning_of_undetermined_intent> <http://www.w3.org/2000/01/rdf-schema#label> "Etodolac poisoning of undetermined intent (disorder)"@en .
+_:genid129203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antirheumatic_poisoning_of_undetermined_intent> .
+_:genid129205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning> .
+_:genid129204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129205 .
+_:genid129207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129206 .
+_:genid129205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129207 .
+_:genid129206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129206 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129208 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129208 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etodolac> .
+_:genid129206 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129208 .
+_:genid129207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129203 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129204 .
+<http://www.ihtsdo.org/snomedct.owl#Etodolac_poisoning_of_undetermined_intent> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129203 .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/2000/01/rdf-schema#label> "Etomidate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/2000/01/rdf-schema#label> "Etomidate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anesthetic> .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> .
+_:genid129209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129209 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129209 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etomidate> .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129209 .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Etomidate adverse reaction (disorder)"@en .
+_:genid129210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Intravenous_anesthetics_adverse_reaction> .
+_:genid129213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129212 .
+_:genid129211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129213 .
+_:genid129212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129212 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129214 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129214 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etomidate> .
+_:genid129212 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129214 .
+_:genid129213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129210 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129211 .
+<http://www.ihtsdo.org/snomedct.owl#Etomidate_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129210 .
+<http://www.ihtsdo.org/snomedct.owl#Etonogestrel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etonogestrel> <http://www.w3.org/2000/01/rdf-schema#label> "Etonogestrel (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etonogestrel> <http://www.w3.org/2000/01/rdf-schema#label> "Etonogestrel (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etonogestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Progestin_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Etonogestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Synthetic_progestogen> .
+_:genid129215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129215 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129215 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etonogestrel> .
+<http://www.ihtsdo.org/snomedct.owl#Etonogestrel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129215 .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide> <http://www.w3.org/2000/01/rdf-schema#label> "Etoposide (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide> <http://www.w3.org/2000/01/rdf-schema#label> "Etoposide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mitotic_inhibitor> .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Podophyllotoxin_derivative> .
+_:genid129216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129216 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129216 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etoposide> .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129216 .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Etoposide adverse reaction (disorder)"@en .
+_:genid129217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antineoplastic_adverse_reaction> .
+_:genid129220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129219 .
+_:genid129218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129220 .
+_:genid129219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129219 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129221 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129221 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etoposide> .
+_:genid129219 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129221 .
+_:genid129220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129217 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129218 .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129217 .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Etoposide allergy (disorder)"@en .
+_:genid129222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antineoplastic_allergy> .
+_:genid129225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129224 .
+_:genid129223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129225 .
+_:genid129224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129224 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129226 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129226 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etoposide> .
+_:genid129224 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129226 .
+_:genid129228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129227 .
+_:genid129225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129228 .
+_:genid129227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129227 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129229 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129229 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129227 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129229 .
+_:genid129228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129222 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129223 .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129222 .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_phosphate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_phosphate> <http://www.w3.org/2000/01/rdf-schema#label> "Etoposide phosphate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etoposide_phosphate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Etoposide> .
+<http://www.ihtsdo.org/snomedct.owl#Etoricoxib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etoricoxib> <http://www.w3.org/2000/01/rdf-schema#label> "Etoricoxib (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etoricoxib> <http://www.w3.org/2000/01/rdf-schema#label> "Etoricoxib (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etoricoxib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cox-2_inhibitor> .
+_:genid129230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129230 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129230 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etoricoxib> .
+<http://www.ihtsdo.org/snomedct.owl#Etoricoxib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129230 .
+<http://www.ihtsdo.org/snomedct.owl#Etravirine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etravirine> <http://www.w3.org/2000/01/rdf-schema#label> "Etravirine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etravirine> <http://www.w3.org/2000/01/rdf-schema#label> "Etravirine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etravirine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pyrimidines_and_derivatives> .
+<http://www.ihtsdo.org/snomedct.owl#Etravirine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Reverse_transcriptase_inhibitor> .
+_:genid129231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129231 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129231 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etravirine> .
+<http://www.ihtsdo.org/snomedct.owl#Etravirine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129231 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate> <http://www.w3.org/2000/01/rdf-schema#label> "Etretinate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate> <http://www.w3.org/2000/01/rdf-schema#label> "Etretinate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Retinoid> .
+_:genid129232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129232 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129232 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etretinate> .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129232 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Etretinate adverse reaction (disorder)"@en .
+_:genid129233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Retinoid_adverse_reaction> .
+_:genid129236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129235 .
+_:genid129234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129236 .
+_:genid129235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129235 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129237 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129237 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etretinate> .
+_:genid129235 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129237 .
+_:genid129236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129233 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129234 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129233 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Etretinate allergy (disorder)"@en .
+_:genid129238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Retinoid_allergy> .
+_:genid129241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129240 .
+_:genid129239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129241 .
+_:genid129240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129240 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129242 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129242 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etretinate> .
+_:genid129240 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129242 .
+_:genid129244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129243 .
+_:genid129241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129244 .
+_:genid129243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129243 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129245 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid129245 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid129243 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129245 .
+_:genid129244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129238 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129239 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129238 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_overdose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_overdose> <http://www.w3.org/2000/01/rdf-schema#label> "Etretinate overdose (disorder)"@en .
+_:genid129246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Retinoid_overdose> .
+_:genid129249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid129248 .
+_:genid129247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129249 .
+_:genid129248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129248 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid129250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129250 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid129250 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Etretinate> .
+_:genid129248 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid129250 .
+_:genid129249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129246 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid129247 .
+<http://www.ihtsdo.org/snomedct.owl#Etretinate_overdose> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129246 .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_extract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_extract> <http://www.w3.org/2000/01/rdf-schema#label> "Eucalyptus extract (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_extract> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_extract> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Plant_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#label> "Eucalyptus oil (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#label> "Eucalyptus oil (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Contact_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Eucalyptus_extract> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Eucalyptus_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Volatile_oil> .
+_:genid129251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129251 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129251 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_oil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129251 .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Eucalyptus preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Eucalyptus_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Over_the_counter_healthfood/herbal_products> .
+_:genid129252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129252 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid129252 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Eucalyptus_extract> .

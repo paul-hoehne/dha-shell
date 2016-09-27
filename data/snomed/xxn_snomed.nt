@@ -1,0 +1,1000 @@
+_:genid159954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159953 .
+_:genid159952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159954 .
+_:genid159953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159953 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid159953 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Colon_structure> .
+_:genid159954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159950 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159952 .
+_:genid159948 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159950 .
+_:genid159956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159955 .
+_:genid159949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159956 .
+_:genid159955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159955 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid159957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159958 .
+_:genid159958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159958 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid159958 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Fistula> .
+_:genid159961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159960 .
+_:genid159959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159961 .
+_:genid159960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159960 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid159960 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Jejunal_structure> .
+_:genid159961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159957 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159959 .
+_:genid159955 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159957 .
+_:genid159963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159962 .
+_:genid159956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159963 .
+_:genid159962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159962 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid159964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159965 .
+_:genid159965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159965 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid159965 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Fistula> .
+_:genid159968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159967 .
+_:genid159966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159968 .
+_:genid159967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159967 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid159967 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid159968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159964 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159966 .
+_:genid159962 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159964 .
+_:genid159963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159945 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159946 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrojejunocolic_fistula> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid159945 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrojejunostomy_with_vagotomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastrojejunostomy_with_vagotomy> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrojejunostomy with vagotomy (procedure)"@en .
+_:genid159969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anastomosis_of_jejunum> .
+_:genid159971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anastomosis_of_stomach> .
+_:genid159970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159971 .
+_:genid159972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vagotomy> .
+_:genid159971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159972 .
+_:genid159974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159973 .
+_:genid159972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159974 .
+_:genid159973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159973 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid159975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159976 .
+_:genid159976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159976 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid159976 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anastomosis_-_action> .
+_:genid159979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159978 .
+_:genid159977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159979 .
+_:genid159978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159978 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid159978 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Jejunal_structure> .
+_:genid159979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159975 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159977 .
+_:genid159973 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159975 .
+_:genid159981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159980 .
+_:genid159974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159981 .
+_:genid159980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159980 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid159982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159983 .
+_:genid159983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159983 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid159983 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anastomosis_-_action> .
+_:genid159986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159985 .
+_:genid159984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159986 .
+_:genid159985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159985 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid159985 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid159986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159982 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159984 .
+_:genid159980 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159982 .
+_:genid159988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159987 .
+_:genid159981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159988 .
+_:genid159987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159987 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid159989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159990 .
+_:genid159990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159990 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid159990 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Incision_-_action> .
+_:genid159993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159992 .
+_:genid159991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159993 .
+_:genid159992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159992 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid159992 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Vagus_nerve_structure> .
+_:genid159993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159989 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159991 .
+_:genid159987 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159989 .
+_:genid159988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159969 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159970 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrojejunostomy_with_vagotomy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid159969 .
+<http://www.ihtsdo.org/snomedct.owl#Gastroptosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastroptosis> <http://www.w3.org/2000/01/rdf-schema#label> "Gastroptosis (disorder)"@en .
+_:genid159994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid159995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_stomach> .
+_:genid159996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Visceroptosis> .
+_:genid159995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159996 .
+_:genid159998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159997 .
+_:genid159996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159998 .
+_:genid159997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159997 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid159999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160000 .
+_:genid160000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160000 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160000 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Prolapse> .
+_:genid160003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160002 .
+_:genid160001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160003 .
+_:genid160002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160002 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160002 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid160003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159999 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160001 .
+_:genid159997 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid159999 .
+_:genid159998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159994 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid159995 .
+<http://www.ihtsdo.org/snomedct.owl#Gastroptosis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid159994 .
+<http://www.ihtsdo.org/snomedct.owl#Gastroschisis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastroschisis> <http://www.w3.org/2000/01/rdf-schema#label> "Gastroschisis (disorder)"@en .
+_:genid160004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Congenital_anomaly_of_abdominal_wall> .
+_:genid160006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Congenital_anomaly_of_intestinal_tract> .
+_:genid160005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160006 .
+_:genid160007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Congenital_malformation> .
+_:genid160006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160007 .
+_:genid160008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hernia_of_abdominal_wall> .
+_:genid160007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160008 .
+_:genid160009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Intestinal_hernia> .
+_:genid160008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160009 .
+_:genid160011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160010 .
+_:genid160009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160011 .
+_:genid160010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160010 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160013 .
+_:genid160013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160013 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160013 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital_failure_of_fusion> .
+_:genid160016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160015 .
+_:genid160014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160016 .
+_:genid160015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160015 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160015 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hernial_opening> .
+_:genid160018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160017 .
+_:genid160016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160018 .
+_:genid160017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160017 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160017 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abdominal_wall_structure> .
+_:genid160018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160012 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160014 .
+_:genid160010 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160012 .
+_:genid160020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160019 .
+_:genid160011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160020 .
+_:genid160019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160019 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160022 .
+_:genid160022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160022 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160022 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital_protrusion> .
+_:genid160025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160024 .
+_:genid160023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160025 .
+_:genid160024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160024 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160024 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Herniated_structure> .
+_:genid160027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160026 .
+_:genid160025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160027 .
+_:genid160026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160026 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160026 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Intestinal_structure> .
+_:genid160027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160021 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160023 .
+_:genid160019 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160021 .
+_:genid160029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160028 .
+_:genid160020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160029 .
+_:genid160028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160028 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160030 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Occurrence> .
+_:genid160030 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital> .
+_:genid160028 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160030 .
+_:genid160029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160004 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160005 .
+<http://www.ihtsdo.org/snomedct.owl#Gastroschisis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160004 .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscope,_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscope,_device> <http://www.w3.org/2000/01/rdf-schema#label> "Gastroscope, device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscope,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Digestive_endoscope> .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscope,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Rigid_endoscope> .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscopy_to_remove_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscopy_to_remove_object> <http://www.w3.org/2000/01/rdf-schema#label> "Gastroscopy to remove object (procedure)"@en .
+_:genid160031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Endoscopic_removal_of_foreign_body_from_stomach> .
+_:genid160034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160033 .
+_:genid160032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160034 .
+_:genid160033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160033 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160036 .
+_:genid160036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160036 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Direct_morphology> .
+_:genid160036 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Foreign_body> .
+_:genid160039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160038 .
+_:genid160037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160039 .
+_:genid160038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160038 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160038 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Removal_-_action> .
+_:genid160041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160040 .
+_:genid160039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160041 .
+_:genid160040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160040 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Indirect> .
+_:genid160040 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid160043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160042 .
+_:genid160041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160043 .
+_:genid160042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160042 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Using_access_device> .
+_:genid160042 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gastroscope,_device> .
+_:genid160043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160035 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160037 .
+_:genid160033 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160035 .
+_:genid160034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160031 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160032 .
+<http://www.ihtsdo.org/snomedct.owl#Gastroscopy_to_remove_object> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160031 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrostomy (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrostomy (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Abdominal_stoma> .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Operation_on_stomach> .
+_:genid160044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160044 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160046 .
+_:genid160046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160046 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160046 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid160049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160048 .
+_:genid160047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160049 .
+_:genid160048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160048 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid160048 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid160049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160045 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160047 .
+_:genid160044 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160045 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160044 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrostomy operation (procedure)"@en .
+_:genid160050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_stomach> .
+_:genid160053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160052 .
+_:genid160051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160053 .
+_:genid160052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160052 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160055 .
+_:genid160055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160055 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160055 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid160058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160057 .
+_:genid160056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160058 .
+_:genid160057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160057 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_morphology> .
+_:genid160057 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stoma_site> .
+_:genid160060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160059 .
+_:genid160058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160060 .
+_:genid160059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160059 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid160059 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid160060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160054 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160056 .
+_:genid160052 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160054 .
+_:genid160053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160050 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160051 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160050 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Gastrostomy operation NOS (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation> .
+_:genid160061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160061 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160063 .
+_:genid160063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160063 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160063 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid160066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160065 .
+_:genid160064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160066 .
+_:genid160065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160065 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_morphology> .
+_:genid160065 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stoma_site> .
+_:genid160068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160067 .
+_:genid160066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160068 .
+_:genid160067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160067 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid160067 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Stomach_structure> .
+_:genid160068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160062 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160064 .
+_:genid160061 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160062 .
+<http://www.ihtsdo.org/snomedct.owl#Gastrostomy_operation_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160061 .
+<http://www.ihtsdo.org/snomedct.owl#Gatifloxacin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gatifloxacin> <http://www.w3.org/2000/01/rdf-schema#label> "Gatifloxacin (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gatifloxacin> <http://www.w3.org/2000/01/rdf-schema#label> "Gatifloxacin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gatifloxacin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Quinolone_-class_of_antibiotic-> .
+_:genid160069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160069 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160069 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gatifloxacin> .
+<http://www.ihtsdo.org/snomedct.owl#Gatifloxacin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160069 .
+<http://www.ihtsdo.org/snomedct.owl#Gaucher_cell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gaucher_cell> <http://www.w3.org/2000/01/rdf-schema#label> "Gaucher cell (cell)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gaucher_cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Abnormal_macrophage> .
+<http://www.ihtsdo.org/snomedct.owl#Gaucher_cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Resident_tissue_macrophage> .
+<http://www.ihtsdo.org/snomedct.owl#Gauges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gauges> <http://www.w3.org/2000/01/rdf-schema#label> "Gauges (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gauges> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dimensions> .
+<http://www.ihtsdo.org/snomedct.owl#Gefitinib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gefitinib> <http://www.w3.org/2000/01/rdf-schema#label> "Gefitinib (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gefitinib> <http://www.w3.org/2000/01/rdf-schema#label> "Gefitinib (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gefitinib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Protein-tyrosine_kinase_inhibitor> .
+<http://www.ihtsdo.org/snomedct.owl#Gefitinib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Quinazoline> .
+_:genid160070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160070 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160070 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gefitinib> .
+<http://www.ihtsdo.org/snomedct.owl#Gefitinib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160070 .
+<http://www.ihtsdo.org/snomedct.owl#Gel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gel> <http://www.w3.org/2000/01/rdf-schema#label> "Gel (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Semi-solid_dose_form> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin (bovine) extract (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin (bovine) specific IgE antibody measurement (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin (bovine) specific immunoglobulin E (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Biological_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen_by_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_specific_IgE_antibody_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_specific_allergen_extract> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_specific_immunoglobulin_E> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Food_additive> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Food_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pharmaceutical_/_biologic_product> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Plasma_substitutes> .
+_:genid160071 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160071 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160071 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gelatin> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160071 .
+_:genid160072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160072 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160073 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid160073 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gelatin> .
+_:genid160072 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160073 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160072 .
+_:genid160074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160074 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160075 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_specimen> .
+_:genid160075 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Serum_specimen> .
+_:genid160074 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160075 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160074 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin adverse reaction (disorder)"@en .
+_:genid160076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adverse_reaction_to_food> .
+_:genid160078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Plasma_substitutes_adverse_reaction> .
+_:genid160077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160078 .
+_:genid160080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160079 .
+_:genid160078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160080 .
+_:genid160079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160079 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160081 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160081 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gelatin> .
+_:genid160079 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160081 .
+_:genid160080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160076 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160077 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160076 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatin allergy (disorder)"@en .
+_:genid160082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Food_allergy> .
+_:genid160084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Plasma_substitutes_allergy> .
+_:genid160083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160084 .
+_:genid160086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160085 .
+_:genid160084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160086 .
+_:genid160085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160085 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160087 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160087 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gelatin> .
+_:genid160085 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160087 .
+_:genid160089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160088 .
+_:genid160086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160089 .
+_:genid160088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160088 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160090 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid160090 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid160088 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160090 .
+_:genid160089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160082 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160083 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatin_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160082 .
+<http://www.ihtsdo.org/snomedct.owl#Gelatinase_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatinase_A> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatinase A (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatinase_A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hydrolase> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatinase_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gelatinase_B> <http://www.w3.org/2000/01/rdf-schema#label> "Gelatinase B (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelatinase_B> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hydrolase> .
+<http://www.ihtsdo.org/snomedct.owl#Gelsemium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gelsemium> <http://www.w3.org/2000/01/rdf-schema#label> "Gelsemium (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gelsemium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Family_loganiaceae_-_logania> .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine> <http://www.w3.org/2000/01/rdf-schema#label> "Gemcitabine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine> <http://www.w3.org/2000/01/rdf-schema#label> "Gemcitabine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pyrimidine_analog> .
+_:genid160091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160091 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160091 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemcitabine> .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160091 .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine_hydrochloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#label> "Gemcitabine hydrochloride (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemcitabine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gemcitabine> .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> <http://www.w3.org/2000/01/rdf-schema#label> "Gemfibrozil (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> <http://www.w3.org/2000/01/rdf-schema#label> "Gemfibrozil (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Fibrate_antihyperlipidemic> .
+_:genid160092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160092 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160092 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160092 .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Gemfibrozil adverse reaction (disorder)"@en .
+_:genid160093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Fibrate_antihyperlipidemic_adverse_reaction> .
+_:genid160096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160095 .
+_:genid160094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160096 .
+_:genid160095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160095 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160097 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160097 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> .
+_:genid160095 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160097 .
+_:genid160096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160093 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160094 .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160093 .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Gemfibrozil allergy (disorder)"@en .
+_:genid160098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Fibrate_antihyperlipidemic_allergy> .
+_:genid160101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160100 .
+_:genid160099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160101 .
+_:genid160100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160100 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160102 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160102 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> .
+_:genid160100 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160102 .
+_:genid160104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160103 .
+_:genid160101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160104 .
+_:genid160103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160103 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160105 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid160105 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid160103 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160105 .
+_:genid160104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160098 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160099 .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160098 .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Gemfibrozil measurement (procedure)"@en .
+_:genid160106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid160109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160108 .
+_:genid160107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160109 .
+_:genid160108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160108 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160110 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid160110 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemfibrozil> .
+_:genid160108 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160110 .
+_:genid160112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160111 .
+_:genid160109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160112 .
+_:genid160111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160111 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160113 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160113 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid160111 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160113 .
+_:genid160112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160106 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160107 .
+<http://www.ihtsdo.org/snomedct.owl#Gemfibrozil_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160106 .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> <http://www.w3.org/2000/01/rdf-schema#label> "Gemifloxacin (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> <http://www.w3.org/2000/01/rdf-schema#label> "Gemifloxacin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Quinolone_-class_of_antibiotic-> .
+_:genid160114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160114 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160114 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160114 .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin_mesylate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin_mesylate> <http://www.w3.org/2000/01/rdf-schema#label> "Gemifloxacin mesylate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemifloxacin_mesylate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gemifloxacin> .
+<http://www.ihtsdo.org/snomedct.owl#Gemistocyte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemistocyte> <http://www.w3.org/2000/01/rdf-schema#label> "Gemistocyte (cell)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemistocyte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Abnormal_cell> .
+<http://www.ihtsdo.org/snomedct.owl#Gemistocytic_astrocytoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemistocytic_astrocytoma> <http://www.w3.org/2000/01/rdf-schema#label> "Gemistocytic astrocytoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemistocytic_astrocytoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_glioma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#label> "Gemtuzumab ozogamicin (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#label> "Gemtuzumab ozogamicin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antineoplastic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunosuppressant> .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Monoclonal_antibody_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Monoclonal_antibody_preparation> .
+_:genid160115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160115 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid160115 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> .
+<http://www.ihtsdo.org/snomedct.owl#Gemtuzumab_ozogamicin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160115 .
+<http://www.ihtsdo.org/snomedct.owl#Gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gender> <http://www.w3.org/2000/01/rdf-schema#label> "Gender (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gender> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_clinical_state> .
+<http://www.ihtsdo.org/snomedct.owl#Gender_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gender_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Gender finding (finding)"@en .
+_:genid160116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#General_clinical_state_finding> .
+_:genid160119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160118 .
+_:genid160117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160119 .
+_:genid160118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160118 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160120 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160120 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Gender> .
+_:genid160118 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160120 .
+_:genid160119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160116 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160117 .
+<http://www.ihtsdo.org/snomedct.owl#Gender_finding> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160116 .
+<http://www.ihtsdo.org/snomedct.owl#Gene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene> <http://www.w3.org/2000/01/rdf-schema#label> "Gene (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Biological_substance> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_amplification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_amplification> <http://www.w3.org/2000/01/rdf-schema#label> "Gene amplification (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_amplification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genetic_finding> .
+_:genid160121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160121 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160122 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160122 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid160121 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160122 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_amplification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160121 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_deletion> <http://www.w3.org/2000/01/rdf-schema#label> "Gene deletion (attribute)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_deletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Inheritance> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_expression> <http://www.w3.org/2000/01/rdf-schema#label> "Gene expression (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_expression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genetic_finding> .
+_:genid160123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160123 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160124 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160124 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid160123 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160124 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_expression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160123 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Gene frequency (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_frequency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genetic_finding> .
+_:genid160125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160125 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160126 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160126 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid160125 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160126 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_frequency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160125 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_function> <http://www.w3.org/2000/01/rdf-schema#label> "Gene function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Function> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_re-arrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_re-arrangement> <http://www.w3.org/2000/01/rdf-schema#label> "Gene re-arrangement (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_re-arrangement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genetic_finding> .
+_:genid160127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160127 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160128 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160128 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid160127 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160128 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_re-arrangement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160127 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement> <http://www.w3.org/2000/01/rdf-schema#label> "Gene rearrangement (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cellular_analyte> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement_analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement_analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Gene rearrangement analysis (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement_analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Molecular_biology_method> .
+_:genid160129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160129 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid160129 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160130 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement_analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160129 .
+_:genid160131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160131 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160132 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid160132 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Substance> .
+_:genid160131 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160132 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_rearrangement_analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160131 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_therapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Gene_therapy> <http://www.w3.org/2000/01/rdf-schema#label> "Gene therapy (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Gene_therapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Medical_therapy> .
+_:genid160133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160133 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160134 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid160134 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Therapeutic_intent> .
+_:genid160133 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160134 .
+<http://www.ihtsdo.org/snomedct.owl#Gene_therapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160133 .
+<http://www.ihtsdo.org/snomedct.owl#General_ECG_appearance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_ECG_appearance> <http://www.w3.org/2000/01/rdf-schema#label> "General ECG appearance (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_ECG_appearance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Electrocardiogram_feature> .
+<http://www.ihtsdo.org/snomedct.owl#General_actinotherapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_actinotherapy> <http://www.w3.org/2000/01/rdf-schema#label> "General actinotherapy (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_actinotherapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Light_therapy> .
+_:genid160135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160135 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160137 .
+_:genid160137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160137 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160137 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Therapy_-_action> .
+_:genid160140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160139 .
+_:genid160138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160140 .
+_:genid160139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160139 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Using_energy> .
+_:genid160139 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Light,_electromagnetic_radiation> .
+_:genid160140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160136 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160138 .
+_:genid160135 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160136 .
+<http://www.ihtsdo.org/snomedct.owl#General_actinotherapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160135 .
+<http://www.ihtsdo.org/snomedct.owl#General_adjectival_modifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_adjectival_modifier> <http://www.w3.org/2000/01/rdf-schema#label> "General adjectival modifier (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_adjectival_modifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Adjectival_modifier> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthesia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthesia> <http://www.w3.org/2000/01/rdf-schema#label> "General anesthesia (procedure)"@en .
+_:genid160141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Administration_of_anesthesia> .
+_:genid160144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160143 .
+_:genid160142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160144 .
+_:genid160143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160143 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160146 .
+_:genid160146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160146 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Direct_substance> .
+_:genid160146 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#General_anesthetic> .
+_:genid160149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160148 .
+_:genid160147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160149 .
+_:genid160148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160148 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160148 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Administration_-_action> .
+_:genid160149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160145 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160147 .
+_:genid160143 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160145 .
+_:genid160144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160141 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160142 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthesia> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160141 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "General anesthetic (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "General anesthetic (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anesthetic> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "General anesthetic drug adverse reaction (disorder)"@en .
+_:genid160150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anesthetics_adverse_reaction> .
+_:genid160153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160152 .
+_:genid160151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160153 .
+_:genid160152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160152 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160154 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160154 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#General_anesthetic> .
+_:genid160152 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160154 .
+_:genid160153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160150 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160151 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160150 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "General anesthetic drug allergy (disorder)"@en .
+_:genid160155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anesthetic_allergy> .
+_:genid160158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160157 .
+_:genid160156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160158 .
+_:genid160157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160157 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160159 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160159 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#General_anesthetic> .
+_:genid160157 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160159 .
+_:genid160161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160160 .
+_:genid160158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160161 .
+_:genid160160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160160 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160162 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid160162 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid160160 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160162 .
+_:genid160161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160155 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160156 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160155 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_overdose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_overdose> <http://www.w3.org/2000/01/rdf-schema#label> "General anesthetic drug overdose (disorder)"@en .
+_:genid160163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Overdose_of_anesthetic_agent> .
+_:genid160166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160165 .
+_:genid160164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160166 .
+_:genid160165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160165 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160167 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid160167 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#General_anesthetic> .
+_:genid160165 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160167 .
+_:genid160166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160163 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160164 .
+<http://www.ihtsdo.org/snomedct.owl#General_anesthetic_drug_overdose> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160163 .
+<http://www.ihtsdo.org/snomedct.owl#General_appearance_of_limbal_conjunctiva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_appearance_of_limbal_conjunctiva> <http://www.w3.org/2000/01/rdf-schema#label> "General appearance of limbal conjunctiva (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_appearance_of_limbal_conjunctiva> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Limbal_conjunctiva_feature> .
+<http://www.ihtsdo.org/snomedct.owl#General_body_state_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_body_state_finding> <http://www.w3.org/2000/01/rdf-schema#label> "General body state finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_body_state_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> .
+<http://www.ihtsdo.org/snomedct.owl#General_category_of_person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_category_of_person> <http://www.w3.org/2000/01/rdf-schema#label> "General category of person (person)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_category_of_person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Person> .
+<http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_appearance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_appearance> <http://www.w3.org/2000/01/rdf-schema#label> "General characteristic of appearance (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_appearance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_patient> .
+<http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_patient> <http://www.w3.org/2000/01/rdf-schema#label> "General characteristic of patient (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_characteristic_of_patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_history/examination_observable> .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_stage_for_disease_AND/OR_neoplasm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_stage_for_disease_AND/OR_neoplasm> <http://www.w3.org/2000/01/rdf-schema#label> "General clinical stage for disease AND/OR neoplasm (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_stage_for_disease_AND/OR_neoplasm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Qualifier_value> .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_state> <http://www.w3.org/2000/01/rdf-schema#label> "General clinical state (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_state> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Observable_entity> .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_state_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_state_finding> <http://www.w3.org/2000/01/rdf-schema#label> "General clinical state finding (finding)"@en .
+_:genid160168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Clinical_finding> .
+_:genid160171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160170 .
+_:genid160169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160171 .
+_:genid160170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160170 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160172 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160172 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#General_clinical_state> .
+_:genid160170 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160172 .
+_:genid160171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160168 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160169 .
+<http://www.ihtsdo.org/snomedct.owl#General_clinical_state_finding> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160168 .
+<http://www.ihtsdo.org/snomedct.owl#General_dental_practice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_dental_practice> <http://www.w3.org/2000/01/rdf-schema#label> "General dental practice (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_dental_practice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_practice> .
+<http://www.ihtsdo.org/snomedct.owl#General_drug_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_drug_type> <http://www.w3.org/2000/01/rdf-schema#label> "General drug type (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_drug_type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Types_of_drugs> .
+<http://www.ihtsdo.org/snomedct.owl#General_examination_of_patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_examination_of_patient> <http://www.w3.org/2000/01/rdf-schema#label> "General examination of patient (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_examination_of_patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Physical_examination_procedure> .
+_:genid160173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160173 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160175 .
+_:genid160175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160175 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid160175 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Examination_-_action> .
+_:genid160178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160177 .
+_:genid160176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160178 .
+_:genid160177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160177 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid160177 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anatomical_structure> .
+_:genid160178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160174 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160176 .
+_:genid160173 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160174 .
+<http://www.ihtsdo.org/snomedct.owl#General_examination_of_patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160173 .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_abdomen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_abdomen> <http://www.w3.org/2000/01/rdf-schema#label> "General finding of abdomen (finding)"@en .
+_:genid160179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Finding_of_trunk_structure> .
+_:genid160182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160181 .
+_:genid160180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160182 .
+_:genid160181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160181 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160183 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160183 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abdominal_structure> .
+_:genid160181 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160183 .
+_:genid160182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160179 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160180 .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_abdomen> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160179 .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> <http://www.w3.org/2000/01/rdf-schema#label> "General finding of observation of patient (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_history_and_observation_findings> .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_soft_tissue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_soft_tissue> <http://www.w3.org/2000/01/rdf-schema#label> "General finding of soft tissue (finding)"@en .
+_:genid160184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Finding_by_site> .
+_:genid160187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160186 .
+_:genid160185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160187 .
+_:genid160186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160186 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160188 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160188 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Soft_tissues> .
+_:genid160186 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160188 .
+_:genid160187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160184 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160185 .
+<http://www.ihtsdo.org/snomedct.owl#General_finding_of_soft_tissue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid160184 .
+<http://www.ihtsdo.org/snomedct.owl#General_food_and_drink_types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_food_and_drink_types> <http://www.w3.org/2000/01/rdf-schema#label> "General food and drink types (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_food_and_drink_types> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dietary_substance> .
+<http://www.ihtsdo.org/snomedct.owl#General_grades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_grades> <http://www.w3.org/2000/01/rdf-schema#label> "General grades (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_grades> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Grades> .
+<http://www.ihtsdo.org/snomedct.owl#General_information_qualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_information_qualifier> <http://www.w3.org/2000/01/rdf-schema#label> "General information qualifier (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_information_qualifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Qualifier_value> .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "General inhalation anesthetic (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "General inhalation anesthetic (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_anesthetic> .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Medical_gas> .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Medical_gases> .
+_:genid160189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160189 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_dose_form> .
+_:genid160189 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inhalation_dosage_form> .
+<http://www.ihtsdo.org/snomedct.owl#General_inhalation_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160189 .
+<http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "General intravenous anesthetic (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "General intravenous anesthetic (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_anesthetic> .
+<http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenteral_dosage_form_product> .
+_:genid160190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160190 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_dose_form> .
+_:genid160190 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Injection> .
+<http://www.ihtsdo.org/snomedct.owl#General_intravenous_anesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160190 .
+<http://www.ihtsdo.org/snomedct.owl#General_metabolic_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_metabolic_function> <http://www.w3.org/2000/01/rdf-schema#label> "General metabolic function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_metabolic_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Function> .
+<http://www.ihtsdo.org/snomedct.owl#General_pathology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_pathology> <http://www.w3.org/2000/01/rdf-schema#label> "General pathology (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_pathology> <http://www.w3.org/2000/01/rdf-schema#label> "General pathology (specialty) (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Histopathology_finding> .
+<http://www.ihtsdo.org/snomedct.owl#General_pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pathology> .
+_:genid160191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160191 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160192 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid160192 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid160191 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160192 .
+<http://www.ihtsdo.org/snomedct.owl#General_pathology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160191 .
+<http://www.ihtsdo.org/snomedct.owl#General_physical_performance_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_physical_performance_status> <http://www.w3.org/2000/01/rdf-schema#label> "General physical performance status (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_physical_performance_status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_clinical_state> .
+<http://www.ihtsdo.org/snomedct.owl#General_physiological_development_observable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_physiological_development_observable> <http://www.w3.org/2000/01/rdf-schema#label> "General physiological development observable (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_physiological_development_observable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_history/examination_observable> .
+<http://www.ihtsdo.org/snomedct.owl#General_practice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_practice> <http://www.w3.org/2000/01/rdf-schema#label> "General practice (organisation) (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_practice> <http://www.w3.org/2000/01/rdf-schema#label> "General practice (specialty) (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_practice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_specialty> .
+<http://www.ihtsdo.org/snomedct.owl#General_practice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Healthcare_related_organization> .
+<http://www.ihtsdo.org/snomedct.owl#General_problem_AND/OR_complaint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_problem_AND/OR_complaint> <http://www.w3.org/2000/01/rdf-schema#label> "General problem AND/OR complaint (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_problem_AND/OR_complaint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> .
+<http://www.ihtsdo.org/snomedct.owl#General_psychotherapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_psychotherapy> <http://www.w3.org/2000/01/rdf-schema#label> "General psychotherapy (regime/therapy)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_psychotherapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Psychotherapy> .
+_:genid160193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160193 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160194 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid160194 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Therapeutic_intent> .
+_:genid160193 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160194 .
+<http://www.ihtsdo.org/snomedct.owl#General_psychotherapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160193 .
+<http://www.ihtsdo.org/snomedct.owl#General_purpose_physical_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_purpose_physical_activity> <http://www.w3.org/2000/01/rdf-schema#label> "General purpose physical activity (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_purpose_physical_activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Activity_of_daily_living> .
+<http://www.ihtsdo.org/snomedct.owl#General_reaction_to_light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_reaction_to_light> <http://www.w3.org/2000/01/rdf-schema#label> "General reaction to light (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_reaction_to_light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Vision_observable> .
+<http://www.ihtsdo.org/snomedct.owl#General_site_descriptor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_site_descriptor> <http://www.w3.org/2000/01/rdf-schema#label> "General site descriptor (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_site_descriptor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Relative_sites> .
+<http://www.ihtsdo.org/snomedct.owl#General_unit_of_biological_and_biochemical_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_unit_of_biological_and_biochemical_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "General unit of biological and biochemical measurement (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_unit_of_biological_and_biochemical_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Unit_of_biological_and_biochemical_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#General_well-being_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_well-being_finding> <http://www.w3.org/2000/01/rdf-schema#label> "General well-being finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_well-being_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_finding_of_observation_of_patient> .
+<http://www.ihtsdo.org/snomedct.owl#General_wellbeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#General_wellbeing> <http://www.w3.org/2000/01/rdf-schema#label> "General wellbeing (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#General_wellbeing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Characteristic_of_psychosocial_functioning> .
+<http://www.ihtsdo.org/snomedct.owl#General_wellbeing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Emotional_state_characteristics> .
+<http://www.ihtsdo.org/snomedct.owl#General_wellbeing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Health_status> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized> <http://www.w3.org/2000/01/rdf-schema#label> "Generalized (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Generalized> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Distributions> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_adjectival_modifier> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized-onset_seizures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized-onset_seizures> <http://www.w3.org/2000/01/rdf-schema#label> "Generalized-onset seizures (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Generalized-onset_seizures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Seizure_disorder> .
+_:genid160195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160195 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160196 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid160196 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Seizure> .
+_:genid160195 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160196 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized-onset_seizures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160195 .
+_:genid160197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160197 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160198 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160198 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brain_structure> .
+_:genid160197 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160198 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized-onset_seizures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160197 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_atherosclerosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_atherosclerosis> <http://www.w3.org/2000/01/rdf-schema#label> "Generalized atherosclerosis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_atherosclerosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Arteriosclerotic_vascular_disease> .
+_:genid160199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160199 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160201 .
+_:genid160201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160201 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160201 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Arteriosclerosis> .
+_:genid160204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160203 .
+_:genid160202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160204 .
+_:genid160203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160203 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160203 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Arterial_structure> .
+_:genid160204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160200 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160202 .
+_:genid160199 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160200 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_atherosclerosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160199 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_epilepsy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_epilepsy> <http://www.w3.org/2000/01/rdf-schema#label> "Generalized epilepsy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_epilepsy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Epilepsy> .
+_:genid160205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160205 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160206 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid160206 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Seizure> .
+_:genid160205 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160206 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_epilepsy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160205 .
+_:genid160207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160207 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160208 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160208 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Cerebral_structure> .
+_:genid160207 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160208 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_epilepsy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160207 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_erythroderma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_erythroderma> <http://www.w3.org/2000/01/rdf-schema#label> "Generalized erythroderma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_erythroderma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Erythroderma> .
+_:genid160209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160209 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160211 .
+_:genid160211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160211 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid160211 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid160214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160213 .
+_:genid160212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160214 .
+_:genid160213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160213 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid160213 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid160214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid160210 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160212 .
+_:genid160209 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid160210 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_erythroderma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid160209 .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_exfoliative_dermatitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_exfoliative_dermatitis> <http://www.w3.org/2000/01/rdf-schema#label> "Generalized exfoliative dermatitis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_exfoliative_dermatitis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Erythematous_condition> .
+<http://www.ihtsdo.org/snomedct.owl#Generalized_exfoliative_dermatitis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Erythroderma> .
+_:genid160215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid160215 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid160216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid160218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160217 .
+_:genid160217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .

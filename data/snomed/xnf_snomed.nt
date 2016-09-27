@@ -1,0 +1,1000 @@
+_:genid64421 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64420 .
+_:genid64419 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64421 .
+_:genid64420 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64420 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64420 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bone_structure> .
+_:genid64421 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64417 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64419 .
+_:genid64416 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64417 .
+<http://www.ihtsdo.org/snomedct.owl#Chondrodysplasia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64416 .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_chordoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_chordoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chondroid chordoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_chordoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chondroid lipoma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chondroid lipoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lipoma> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lipoma_morphology> .
+_:genid64422 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64422 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64423 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64423 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64423 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> .
+_:genid64422 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64423 .
+<http://www.ihtsdo.org/snomedct.owl#Chondroid_lipoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64422 .
+<http://www.ihtsdo.org/snomedct.owl#Chondroitin_sulfate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroitin_sulfate> <http://www.w3.org/2000/01/rdf-schema#label> "Chondroitin sulfate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondroitin_sulfate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroitin_sulfate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Glycosaminoglycanoses_marker> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroitin_sulfate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mucopolysaccharide> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma> <http://www.w3.org/2000/01/rdf-schema#label> "Chondroma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplasm,_benign> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Osseous_AND/OR_chondromatous_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma_of_bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma_of_bone> <http://www.w3.org/2000/01/rdf-schema#label> "Chondroma of bone (disorder)"@en .
+_:genid64424 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64425 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Benign_neoplasm_of_bone> .
+_:genid64427 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64426 .
+_:genid64425 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64427 .
+_:genid64426 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64426 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64428 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64430 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64429 .
+_:genid64429 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64429 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64429 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chondroma> .
+_:genid64432 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64431 .
+_:genid64430 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64432 .
+_:genid64431 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64431 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64431 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bone_structure> .
+_:genid64432 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64428 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64430 .
+_:genid64426 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64428 .
+_:genid64427 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64424 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64425 .
+<http://www.ihtsdo.org/snomedct.owl#Chondroma_of_bone> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64424 .
+<http://www.ihtsdo.org/snomedct.owl#Chondromatosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondromatosis> <http://www.w3.org/2000/01/rdf-schema#label> "Chondromatosis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondromatosis> <http://www.w3.org/2000/01/rdf-schema#label> "Chondromatosis (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondromatosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benign_neoplasm_of_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Chondromatosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Osseous_AND/OR_chondromatous_neoplasm> .
+_:genid64433 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64433 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64434 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64436 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64435 .
+_:genid64435 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64435 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64435 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm,_benign> .
+_:genid64438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64437 .
+_:genid64436 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64438 .
+_:genid64437 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64437 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64437 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bone_structure> .
+_:genid64438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64434 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64436 .
+_:genid64433 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64434 .
+<http://www.ihtsdo.org/snomedct.owl#Chondromatosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64433 .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma> <http://www.w3.org/2000/01/rdf-schema#label> "Chondromyxoid fibroma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplasm,_benign> .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Osseous_AND/OR_chondromatous_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma_of_bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma_of_bone> <http://www.w3.org/2000/01/rdf-schema#label> "Chondromyxoid fibroma of bone (disorder)"@en .
+_:genid64439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64440 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Benign_neoplasm_of_bone> .
+_:genid64442 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64441 .
+_:genid64440 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64442 .
+_:genid64441 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64441 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64443 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64445 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64444 .
+_:genid64444 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64444 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64444 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma> .
+_:genid64447 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64446 .
+_:genid64445 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64447 .
+_:genid64446 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64446 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64446 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bone_structure> .
+_:genid64447 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64443 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64445 .
+_:genid64441 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64443 .
+_:genid64442 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64439 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64440 .
+<http://www.ihtsdo.org/snomedct.owl#Chondromyxoid_fibroma_of_bone> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64439 .
+<http://www.ihtsdo.org/snomedct.owl#Chondrosarcoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chondrosarcoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chondrosarcoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chondrosarcoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Chondrosarcoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Osseous_AND/OR_chondromatous_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Chondrosarcoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sarcoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Chorditis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorditis> <http://www.w3.org/2000/01/rdf-schema#label> "Chorditis (disorder)"@en .
+_:genid64448 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64449 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_vocal_cord> .
+_:genid64450 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Laryngitis> .
+_:genid64449 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64450 .
+_:genid64452 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64451 .
+_:genid64450 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64452 .
+_:genid64451 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64451 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64453 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64455 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64454 .
+_:genid64454 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64454 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64454 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid64457 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64456 .
+_:genid64455 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64457 .
+_:genid64456 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64456 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64456 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Vocal_cord_structure> .
+_:genid64457 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64453 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64455 .
+_:genid64451 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64453 .
+_:genid64452 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64448 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64449 .
+<http://www.ihtsdo.org/snomedct.owl#Chorditis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64448 .
+<http://www.ihtsdo.org/snomedct.owl#Chordoid_glioma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chordoid_glioma> <http://www.w3.org/2000/01/rdf-schema#label> "Chordoid glioma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chordoid_glioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Glioma,_uncertain_whether_benign_or_malignant> .
+<http://www.ihtsdo.org/snomedct.owl#Chordoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chordoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chordoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chordoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioamnionitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioamnionitis> <http://www.w3.org/2000/01/rdf-schema#label> "Chorioamnionitis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chorioamnionitis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Infection_of_amniotic_cavity> .
+_:genid64458 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64458 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64459 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64459 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64459 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_amniotic_cavity> .
+_:genid64458 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64459 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioamnionitis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64458 .
+_:genid64460 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64460 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64461 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid64461 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Infectious_agent> .
+_:genid64460 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64461 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioamnionitis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64460 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioangioma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioangioma> <http://www.w3.org/2000/01/rdf-schema#label> "Chorioangioma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chorioangioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benign_neoplasm_of_blood_vessel_of_abdomen> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioangioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benign_neoplasm_of_placenta> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioangioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hemangioma_of_intra-abdominal_structure> .
+_:genid64462 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64462 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64463 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64465 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64464 .
+_:genid64464 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64464 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64464 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benign_hemangioma> .
+_:genid64467 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64466 .
+_:genid64465 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64467 .
+_:genid64466 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64466 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64466 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Placental_vessel> .
+_:genid64467 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64463 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64465 .
+_:genid64462 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64463 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioangioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64462 .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma> <http://www.w3.org/2000/01/rdf-schema#label> "Choriocarcinoma (disorder)"@en .
+_:genid64468 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64469 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Primary_malignant_neoplasm> .
+_:genid64471 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64470 .
+_:genid64469 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64471 .
+_:genid64470 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64470 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64472 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64472 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64472 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma,_no_ICD-O_subtype> .
+_:genid64470 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64472 .
+_:genid64471 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64468 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64469 .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64468 .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma,_no_ICD-O_subtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#label> "Choriocarcinoma, no ICD-O subtype (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Trophoblastic_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_combined_with_other_germ_cell_elements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_combined_with_other_germ_cell_elements> <http://www.w3.org/2000/01/rdf-schema#label> "Choriocarcinoma combined with other germ cell elements (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_combined_with_other_germ_cell_elements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_combined_with_other_germ_cell_elements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Trophoblastic_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_of_ovary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_of_ovary> <http://www.w3.org/2000/01/rdf-schema#label> "Choriocarcinoma of ovary (disorder)"@en .
+_:genid64473 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64474 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma> .
+_:genid64475 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Malignant_germ_cell_tumor_of_ovary> .
+_:genid64474 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64475 .
+_:genid64477 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64476 .
+_:genid64475 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64477 .
+_:genid64476 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64476 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64478 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64480 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64479 .
+_:genid64479 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64479 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64479 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma,_no_ICD-O_subtype> .
+_:genid64482 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64481 .
+_:genid64480 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64482 .
+_:genid64481 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64481 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64481 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ovarian_structure> .
+_:genid64482 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64478 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64480 .
+_:genid64476 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64478 .
+_:genid64484 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64483 .
+_:genid64477 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64484 .
+_:genid64483 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64483 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64485 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64487 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64486 .
+_:genid64486 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64486 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64486 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Germ_cell_neoplasm> .
+_:genid64489 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64488 .
+_:genid64487 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64489 .
+_:genid64488 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64488 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64488 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ovarian_structure> .
+_:genid64489 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64485 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64487 .
+_:genid64483 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64485 .
+_:genid64484 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64473 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64474 .
+<http://www.ihtsdo.org/snomedct.owl#Choriocarcinoma_of_ovary> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64473 .
+<http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin> <http://www.w3.org/2000/01/rdf-schema#label> "Choriogonadotropin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Choriogonadotropin measurement (procedure)"@en .
+_:genid64490 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64491 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hormone_measurement> .
+_:genid64493 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64492 .
+_:genid64491 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64493 .
+_:genid64492 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64492 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64494 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64494 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid64494 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin> .
+_:genid64492 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64494 .
+_:genid64496 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64495 .
+_:genid64493 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64496 .
+_:genid64495 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64495 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64497 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64497 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid64497 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid64495 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64497 .
+_:genid64496 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64490 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64491 .
+<http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64490 .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_cavity_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_cavity_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Chorionic cavity structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_cavity_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chorionic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_cavity_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Organ_cavity_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_gonadotropin_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_gonadotropin_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Chorionic gonadotropin preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_gonadotropin_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadotrophic_hormone> .
+_:genid64498 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64498 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid64498 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_gonadotropin_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64498 .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Chorionic structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Embryonic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Extraembryonic_membranes_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_sample> <http://www.w3.org/2000/01/rdf-schema#label> "Chorionic villi sample (specimen)"@en .
+_:genid64499 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64500 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Specimen_from_placenta> .
+_:genid64502 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64501 .
+_:genid64500 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64502 .
+_:genid64501 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64501 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64503 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64503 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid64503 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_structure> .
+_:genid64501 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64503 .
+_:genid64502 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64499 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64500 .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_sample> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64499 .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Chorionic villi structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chorionic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chorionic_villi_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Placenta_part> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_atrophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_atrophy> <http://www.w3.org/2000/01/rdf-schema#label> "Chorioretinal atrophy (disorder)"@en .
+_:genid64504 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64505 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Atrophic_retina> .
+_:genid64506 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_choroid_of_eye> .
+_:genid64505 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64506 .
+_:genid64508 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64507 .
+_:genid64506 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64508 .
+_:genid64507 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64507 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64509 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64511 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64510 .
+_:genid64510 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64510 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64510 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Atrophy> .
+_:genid64513 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64512 .
+_:genid64511 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64513 .
+_:genid64512 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64512 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64512 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64515 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64514 .
+_:genid64513 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64515 .
+_:genid64514 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64514 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64514 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Retinal_structure> .
+_:genid64515 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64509 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64511 .
+_:genid64507 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64509 .
+_:genid64508 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64504 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64505 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_atrophy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64504 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_biopsy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_biopsy> <http://www.w3.org/2000/01/rdf-schema#label> "Chorioretinal biopsy (procedure)"@en .
+_:genid64516 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64517 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operative_procedure_on_posterior_segment_of_eye> .
+_:genid64518 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Surgical_biopsy_of_eye> .
+_:genid64517 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64518 .
+_:genid64520 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64519 .
+_:genid64518 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64520 .
+_:genid64519 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64519 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64521 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64522 .
+_:genid64522 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64522 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid64522 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_biopsy_-_action> .
+_:genid64525 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64524 .
+_:genid64523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64525 .
+_:genid64524 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64524 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid64524 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> .
+_:genid64525 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64521 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64523 .
+_:genid64519 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64521 .
+_:genid64520 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64516 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64517 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_biopsy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64516 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_tumor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_tumor> <http://www.w3.org/2000/01/rdf-schema#label> "Chorioretinal tumor (disorder)"@en .
+_:genid64526 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64527 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_chorioretinal_disorder> .
+_:genid64528 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Neoplasm_of_eye_proper> .
+_:genid64527 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64528 .
+_:genid64530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64529 .
+_:genid64528 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64530 .
+_:genid64529 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64529 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64531 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64532 .
+_:genid64532 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64532 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64532 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm> .
+_:genid64535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64534 .
+_:genid64533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64535 .
+_:genid64534 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64534 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64534 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> .
+_:genid64535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64531 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64533 .
+_:genid64529 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64531 .
+_:genid64530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64526 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64527 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinal_tumor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64526 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinitis> <http://www.w3.org/2000/01/rdf-schema#label> "Chorioretinitis (disorder)"@en .
+_:genid64536 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64537 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Choroiditis> .
+_:genid64538 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Retinitis> .
+_:genid64537 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64538 .
+_:genid64540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64539 .
+_:genid64538 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64540 .
+_:genid64539 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64539 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64541 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64543 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64542 .
+_:genid64542 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64542 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64542 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid64545 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64544 .
+_:genid64543 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64545 .
+_:genid64544 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64544 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64544 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64545 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64541 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64543 .
+_:genid64539 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64541 .
+_:genid64547 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64546 .
+_:genid64540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64547 .
+_:genid64546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64546 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64548 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64550 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64549 .
+_:genid64549 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64549 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64549 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid64552 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64551 .
+_:genid64550 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64552 .
+_:genid64551 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64551 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64551 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Retinal_structure> .
+_:genid64552 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64548 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64550 .
+_:genid64546 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64548 .
+_:genid64547 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64536 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64537 .
+<http://www.ihtsdo.org/snomedct.owl#Chorioretinitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64536 .
+<http://www.ihtsdo.org/snomedct.owl#Choristoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choristoma> <http://www.w3.org/2000/01/rdf-schema#label> "Choristoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choristoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Congenital_ectopia> .
+<http://www.ihtsdo.org/snomedct.owl#Choristoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Proliferative_mass> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_disorder_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_disorder_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid disorder NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_disorder_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_chorioretinal_disorder> .
+_:genid64553 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64553 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64554 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64554 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64554 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> .
+_:genid64553 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64554 .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_disorder_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64553 .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid finding (finding)"@en .
+_:genid64555 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64556 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Retina_and_choroid_finding> .
+_:genid64558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64557 .
+_:genid64556 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64558 .
+_:genid64557 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64557 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64559 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64559 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64559 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64557 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64559 .
+_:genid64558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64555 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64556 .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_finding> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64555 .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_meningioma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_meningioma> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid meningioma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_meningioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Meningioma,_benign,_no_ICD-O_subtype> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus-derived_tumors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus-derived_tumors> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid plexus-derived tumors (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus-derived_tumors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Central_nervous_system_tumor_morphology> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_carcinoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_carcinoma> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid plexus carcinoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_carcinoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Choroid_plexus-derived_tumors> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_carcinoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_glioma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_cyst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_cyst> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid plexus cyst (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cerebral_cyst> .
+_:genid64560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64560 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64561 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64563 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64562 .
+_:genid64562 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64562 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64562 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Cyst> .
+_:genid64565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64564 .
+_:genid64563 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64565 .
+_:genid64564 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64564 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64564 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_choroid_plexus> .
+_:genid64565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64561 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64563 .
+_:genid64560 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64561 .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64560 .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_papilloma,_no_ICD-O_subtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_papilloma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#label> "Choroid plexus papilloma, no ICD-O subtype (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_papilloma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Choroid_plexus-derived_tumors> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_papilloma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Low_grade_glioma> .
+<http://www.ihtsdo.org/snomedct.owl#Choroid_plexus_papilloma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplasm,_benign> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_chorioretinal_disorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_chorioretinal_disorder> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal and/or chorioretinal disorder (disorder)"@en .
+_:genid64566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64567 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_posterior_segment_of_eye> .
+_:genid64568 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Retina_and_choroid_finding> .
+_:genid64567 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64568 .
+_:genid64570 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64569 .
+_:genid64568 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64570 .
+_:genid64569 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64569 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64571 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64571 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64571 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> .
+_:genid64569 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64571 .
+_:genid64570 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64566 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64567 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_chorioretinal_disorder> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64566 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal and/or retinal structures (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Posterior_eyeball_segment_structure> .
+_:genid64572 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64572 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid64572 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64572 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_degeneration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_degeneration> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal degeneration (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_degeneration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Degenerative_disorder_of_eye> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_degeneration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_choroid_of_eye> .
+_:genid64573 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64573 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64574 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64576 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64575 .
+_:genid64575 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64575 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64575 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Degeneration> .
+_:genid64578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64577 .
+_:genid64576 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64578 .
+_:genid64577 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64577 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64577 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64574 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64576 .
+_:genid64573 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64574 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_degeneration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64573 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_dystrophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_dystrophy> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal dystrophy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_dystrophy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_choroid_of_eye> .
+_:genid64579 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64579 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64580 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64580 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64579 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64580 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_dystrophy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64579 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_fissure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_fissure> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal fissure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_fissure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Embryonic_eye_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_hemorrhage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_hemorrhage> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal hemorrhage (disorder)"@en .
+_:genid64581 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64582 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_choroid_of_eye> .
+_:genid64583 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Intraocular_hemorrhage> .
+_:genid64582 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64583 .
+_:genid64585 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64584 .
+_:genid64583 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64585 .
+_:genid64584 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64584 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64586 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64587 .
+_:genid64587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64587 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64587 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hemorrhage> .
+_:genid64590 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64589 .
+_:genid64588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64590 .
+_:genid64589 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64589 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64589 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64590 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64586 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64588 .
+_:genid64584 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64586 .
+_:genid64585 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64581 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64582 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_hemorrhage> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64581 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_rupture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_rupture> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal rupture (disorder)"@en .
+_:genid64591 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64592 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Injury_of_choroid> .
+_:genid64593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Rupture_of_globe> .
+_:genid64592 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64593 .
+_:genid64595 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64594 .
+_:genid64593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64595 .
+_:genid64594 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64594 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64596 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64598 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64597 .
+_:genid64597 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64597 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64597 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Rupture> .
+_:genid64600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64599 .
+_:genid64598 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64600 .
+_:genid64599 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64599 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64599 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64596 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64598 .
+_:genid64594 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64596 .
+_:genid64602 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64601 .
+_:genid64595 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64602 .
+_:genid64601 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64601 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64603 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64604 .
+_:genid64604 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64604 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64604 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Traumatic_abnormality> .
+_:genid64607 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64606 .
+_:genid64605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64607 .
+_:genid64606 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64606 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64606 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64607 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64603 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64605 .
+_:genid64601 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64603 .
+_:genid64602 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64591 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64592 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_rupture> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64591 .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Choroidal structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Choroidal_and/or_retinal_structures> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Posterior_uveal_tract_structure> .
+_:genid64608 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64608 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid64608 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64608 .
+<http://www.ihtsdo.org/snomedct.owl#Choroideremia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroideremia> <http://www.w3.org/2000/01/rdf-schema#label> "Choroideremia (disorder)"@en .
+_:genid64609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hereditary_choroidal_dystrophy> .
+_:genid64612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64611 .
+_:genid64610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64612 .
+_:genid64611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64611 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64615 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64614 .
+_:genid64614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64614 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64614 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Atrophy> .
+_:genid64617 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64616 .
+_:genid64615 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64617 .
+_:genid64616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64616 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64616 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64617 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64613 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64615 .
+_:genid64611 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64613 .
+_:genid64619 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64618 .
+_:genid64612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64619 .
+_:genid64618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64618 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64621 .
+_:genid64621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64621 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64621 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Degeneration> .
+_:genid64624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64623 .
+_:genid64622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64624 .
+_:genid64623 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64623 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64623 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64620 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64622 .
+_:genid64618 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64620 .
+_:genid64619 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64609 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64610 .
+<http://www.ihtsdo.org/snomedct.owl#Choroideremia> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64609 .
+<http://www.ihtsdo.org/snomedct.owl#Choroiditis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Choroiditis> <http://www.w3.org/2000/01/rdf-schema#label> "Choroiditis (disorder)"@en .
+_:genid64625 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_choroid_of_eye> .
+_:genid64627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Posterior_uveitis> .
+_:genid64626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64627 .
+_:genid64629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64628 .
+_:genid64627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64629 .
+_:genid64628 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64628 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64632 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64631 .
+_:genid64631 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64631 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64631 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid64634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64633 .
+_:genid64632 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64634 .
+_:genid64633 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64633 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid64633 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Choroidal_structure> .
+_:genid64634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64630 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64632 .
+_:genid64628 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64630 .
+_:genid64629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64625 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64626 .
+<http://www.ihtsdo.org/snomedct.owl#Choroiditis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64625 .
+<http://www.ihtsdo.org/snomedct.owl#Chow_Chow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chow_Chow> <http://www.w3.org/2000/01/rdf-schema#label> "Chow Chow (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chow_Chow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Canis_familiaris> .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffin_cell_neoplasm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffin_cell_neoplasm> <http://www.w3.org/2000/01/rdf-schema#label> "Chromaffin cell neoplasm (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffin_cell_neoplasm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffinoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffinoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chromaffinoma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffinoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplastic_disease> .
+_:genid64635 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64635 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64636 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64636 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chromaffin_cell_neoplasm> .
+_:genid64635 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64636 .
+<http://www.ihtsdo.org/snomedct.owl#Chromaffinoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64635 .
+<http://www.ihtsdo.org/snomedct.owl#Chroman_derivative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chroman_derivative> <http://www.w3.org/2000/01/rdf-schema#label> "Chroman derivative (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chroman_derivative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzopyran> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatid> <http://www.w3.org/2000/01/rdf-schema#label> "Chromatid (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromatid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatin> <http://www.w3.org/2000/01/rdf-schema#label> "Chromatin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromatin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intracellular_substance> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatography_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatography_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Chromatography measurement (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromatography_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chemical_method> .
+<http://www.ihtsdo.org/snomedct.owl#Chromatography_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid64637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64637 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64638 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64638 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid64638 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid64637 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64638 .
+<http://www.ihtsdo.org/snomedct.owl#Chromatography_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64637 .
+_:genid64639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64639 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64640 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid64640 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Substance> .
+_:genid64639 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64640 .
+<http://www.ihtsdo.org/snomedct.owl#Chromatography_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64639 .
+<http://www.ihtsdo.org/snomedct.owl#Chromic_phosphate_P32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromic_phosphate_P32> <http://www.w3.org/2000/01/rdf-schema#label> "Chromic phosphate P^32^ (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromic_phosphate_P32> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Radioactive_isotope> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium> <http://www.w3.org/2000/01/rdf-schema#label> "Chromium (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromium_AND/OR_chromium_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Contact_metal_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Trace_element> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_AND/OR_chromium_compound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_AND/OR_chromium_compound> <http://www.w3.org/2000/01/rdf-schema#label> "Chromium AND/OR chromium compound (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_AND/OR_chromium_compound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Metal_AND/OR_metallic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_compound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_compound> <http://www.w3.org/2000/01/rdf-schema#label> "Chromium compound (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_compound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromium_AND/OR_chromium_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_trioxide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_trioxide> <http://www.w3.org/2000/01/rdf-schema#label> "Chromium trioxide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_trioxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromium_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Chromium_trioxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Tissue_fixative> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin> <http://www.w3.org/2000/01/rdf-schema#label> "Chromogranin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Glycoprotein> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_A> <http://www.w3.org/2000/01/rdf-schema#label> "Chromogranin A (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromogranin> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_A_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_A_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Chromogranin A measurement (procedure)"@en .
+_:genid64641 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Protein_measurement> .
+_:genid64644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64643 .
+_:genid64642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64644 .
+_:genid64643 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64643 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64645 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid64645 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chromogranin_A> .
+_:genid64643 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64645 .
+_:genid64647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64646 .
+_:genid64644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64647 .
+_:genid64646 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64646 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64648 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid64648 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid64646 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64648 .
+_:genid64647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64641 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64642 .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_A_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64641 .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_B> <http://www.w3.org/2000/01/rdf-schema#label> "Chromogranin B (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromogranin_B> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromogranin> .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_adenoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_adenoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chromophobe adenoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_adenoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benign_adenomatous_neoplasm_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_carcinoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_carcinoma> <http://www.w3.org/2000/01/rdf-schema#label> "Chromophobe carcinoma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_carcinoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_adenomatous_neoplasm_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Chromophobe_carcinoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_anomalies_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_anomalies_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosomal anomalies NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_anomalies_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Congenital_disorder_due_to_abnormality_of_chromosome_number_OR_structure> .
+_:genid64649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64649 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64650 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64650 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital_anomaly> .
+_:genid64649 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64650 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_anomalies_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64649 .
+_:genid64651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64651 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64652 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Occurrence> .
+_:genid64652 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital> .
+_:genid64651 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64652 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_anomalies_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64651 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_disorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_disorder> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosomal disorder (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_disorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disease> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_morphology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_morphology> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosomal morphology (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_morphology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cellular_AND/OR_subcellular_abnormality> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_translocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_translocation> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosomal translocation (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosomal_translocation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosomal_morphology> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_abnormality_screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_abnormality_screening> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome abnormality screening (procedure)"@en .
+_:genid64653 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Screening_for_disorder> .
+_:genid64656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64655 .
+_:genid64654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64656 .
+_:genid64655 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64655 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64658 .
+_:genid64658 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64658 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_focus> .
+_:genid64658 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chromosomal_disorder> .
+_:genid64661 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64660 .
+_:genid64659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64661 .
+_:genid64660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64660 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid64660 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Screening_-_procedure_intent> .
+_:genid64661 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64657 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64659 .
+_:genid64655 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64657 .
+_:genid64656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64653 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64654 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_abnormality_screening> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64653 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome analysis, cytogenetic procedure AND/OR molecular biology method (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anatomic_pathology_procedure> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid64662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64662 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64663 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid64663 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Substance> .
+_:genid64662 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64663 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64662 .
+_:genid64664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64664 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64665 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid64665 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid64664 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64665 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64664 .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_inversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_inversion> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome inversion (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_inversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Alteration_of_chromosome_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_1> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 1 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_10> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 10 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_10> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_11> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 11 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_11> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_12> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 12 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_12> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_13> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 13 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_13> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_14> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 14 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_14> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_15> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 15 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_15> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_16> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 16 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_16> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_17> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 17 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_17> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_18> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 18 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_19> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 19 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_19> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_2> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 2 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_20> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 20 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_20> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_21> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 21 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_21> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_22> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 22 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_22> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_3> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 3 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_4> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 4 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_5> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 5 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_6> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 6 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_7> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 7 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_8> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 8 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_9> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome pair 9 (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_pair_9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_status_descriptors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_status_descriptors> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome status descriptors (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_status_descriptors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Morphological_descriptors> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Chromosome structure (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chromosome_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Subcellular_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic> <http://www.w3.org/2000/01/rdf-schema#label> "Chronic (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chronic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Courses> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Chagas'_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Chagas'_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Chronic Chagas' disease (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Chagas'_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Infection_by_Trypanosoma_cruzi> .
+_:genid64666 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64666 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64667 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid64667 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Trypanosoma_cruzi> .
+_:genid64666 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64667 .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Chagas'_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64666 .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Q_fever> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Q_fever> <http://www.w3.org/2000/01/rdf-schema#label> "Chronic Q fever (disorder)"@en .
+_:genid64668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Chronic_infectious_disease> .
+_:genid64670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Q_fever> .
+_:genid64669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64670 .
+_:genid64672 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64671 .
+_:genid64670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64672 .
+_:genid64671 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64671 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64673 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64673 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid64673 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Coxiella_burnetii> .
+_:genid64671 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64673 .
+_:genid64675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64674 .
+_:genid64672 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64675 .
+_:genid64674 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64674 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64676 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Clinical_course> .
+_:genid64676 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chronic> .
+_:genid64674 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64676 .
+_:genid64675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64668 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64669 .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_Q_fever> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid64668 .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_acquired_lymphedema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_acquired_lymphedema> <http://www.w3.org/2000/01/rdf-schema#label> "Chronic acquired lymphedema (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_acquired_lymphedema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lymphedema> .
+_:genid64677 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64677 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid64678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64678 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid64678 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Lymphatic_edema> .
+_:genid64677 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid64678 .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_acquired_lymphedema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64677 .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_adenoiditis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Chronic_adenoiditis> <http://www.w3.org/2000/01/rdf-schema#label> "Chronic adenoiditis (disorder)"@en .
+_:genid64679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adenoiditis> .
+_:genid64681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Chronic_nasopharyngitis> .
+_:genid64680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64681 .
+_:genid64683 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64682 .
+_:genid64681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64683 .
+_:genid64682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .

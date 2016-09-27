@@ -1,0 +1,1000 @@
+<http://www.ihtsdo.org/snomedct.owl#Human_albumin_solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_albumin_solution> <http://www.w3.org/2000/01/rdf-schema#label> "Human albumin solution (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_albumin_solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Albumin_solution> .
+_:genid174195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174195 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174195 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_serum_albumin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_albumin_solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174195 .
+<http://www.ihtsdo.org/snomedct.owl#Human_anti-mouse_antibody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_anti-mouse_antibody> <http://www.w3.org/2000/01/rdf-schema#label> "Human anti-mouse antibody (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_anti-mouse_antibody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anti-immunoglobulin_antibody> .
+<http://www.ihtsdo.org/snomedct.owl#Human_blood_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_blood_product> <http://www.w3.org/2000/01/rdf-schema#label> "Human blood product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_blood_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Blood_product> .
+<http://www.ihtsdo.org/snomedct.owl#Human_body_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_body_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Human body structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_body_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anatomical_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Human_calcitonin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_calcitonin> <http://www.w3.org/2000/01/rdf-schema#label> "Human calcitonin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_calcitonin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Calcitonin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#label> "Human chorionic gonadotropin (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#label> "Human chorionic gonadotropin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Biochemical_Down's_screening_marker> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Biochemical_tumor_marker> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chorionic_gonadotropin_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Placental_hormone> .
+_:genid174196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174196 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174196 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174196 .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin,_beta_subunit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin,_beta_subunit> <http://www.w3.org/2000/01/rdf-schema#label> "Human chorionic gonadotropin, beta subunit (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin,_beta_subunit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadotropin_peptide> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin,_beta_subunit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Human chorionic gonadotropin measurement (procedure)"@en .
+_:genid174197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Choriogonadotropin_measurement> .
+_:genid174200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174199 .
+_:genid174198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174200 .
+_:genid174199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174199 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174201 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174201 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin> .
+_:genid174199 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174201 .
+_:genid174203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174202 .
+_:genid174200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174203 .
+_:genid174202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174202 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174204 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174204 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid174202 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174204 .
+_:genid174203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174197 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174198 .
+<http://www.ihtsdo.org/snomedct.owl#Human_chorionic_gonadotropin_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174197 .
+<http://www.ihtsdo.org/snomedct.owl#Human_cytomegalovirus_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_cytomegalovirus_5> <http://www.w3.org/2000/01/rdf-schema#label> "Human cytomegalovirus 5 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_cytomegalovirus_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Cytomegalovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus> <http://www.w3.org/2000/01/rdf-schema#label> "Human enterovirus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Enterovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus_72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus_72> <http://www.w3.org/2000/01/rdf-schema#label> "Human enterovirus 72 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus_72> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Hepatovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_enterovirus_72> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_enterovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_genome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_genome> <http://www.w3.org/2000/01/rdf-schema#label> "Human genome (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_genome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gene> .
+<http://www.ihtsdo.org/snomedct.owl#Human_growth_hormone_recombinant_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_growth_hormone_recombinant_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Human growth hormone recombinant preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_growth_hormone_recombinant_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Somatotropin_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_simplex_virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_simplex_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpes simplex virus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_simplex_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Simplexvirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_virus_6_infection_of_skin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_virus_6_infection_of_skin> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpes virus 6 infection of skin (disorder)"@en .
+_:genid174205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Betaherpesvirinae> .
+_:genid174207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_infection_of_skin> .
+_:genid174206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174207 .
+_:genid174209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174208 .
+_:genid174207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174209 .
+_:genid174208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174208 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174210 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174210 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_6> .
+_:genid174208 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174210 .
+_:genid174212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174211 .
+_:genid174209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174212 .
+_:genid174211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174211 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174213 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174213 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid174211 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174213 .
+_:genid174212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174205 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174206 .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_virus_6_infection_of_skin> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174205 .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_virus_8_infection_of_skin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_virus_8_infection_of_skin> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpes virus 8 infection of skin (disorder)"@en .
+_:genid174214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Gammaherpesvirinae> .
+_:genid174216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_infection_of_skin> .
+_:genid174215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174216 .
+_:genid174218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174217 .
+_:genid174216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174218 .
+_:genid174217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174217 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174219 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174219 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_8> .
+_:genid174217 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174219 .
+_:genid174221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174220 .
+_:genid174218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174221 .
+_:genid174220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174220 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174222 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174222 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid174220 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174222 .
+_:genid174221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174214 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174215 .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpes_virus_8_infection_of_skin> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174214 .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_3> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpesvirus 3 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Varicellovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_4> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpesvirus 4 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Lymphocryptovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_6> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpesvirus 6 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Roseolovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_8> <http://www.w3.org/2000/01/rdf-schema#label> "Human herpesvirus 8 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_herpesvirus_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Rhadinovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 antibody band pattern determination (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 antigen assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 deoxyribonucleic acid assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p15 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p17 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p18 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p23 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p24 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p24 antigen assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p26 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p28 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p31 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p32 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p41 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p51 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p53 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p55 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p58 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p64 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p65 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p66 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 p68 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1 ribonucleic acid assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 1/2 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp105 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp120 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp125 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp15 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp34 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp36 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 gp80 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p26 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p31 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p41 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p53 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p55 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p56 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p58 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) 2 p68 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category A1 (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category A2 (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category A3 (AIDS) (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category B1 (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category B2 (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category B3 (AIDS) (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category C1 (AIDS) (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category C2 (AIDS) (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category C3 (AIDS) (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) Centers for Disease Control and Prevention (CDC) category finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) World Health Organization (WHO) class (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) World Health Organization (WHO) class I (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) World Health Organization (WHO) class II (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) World Health Organization (WHO) class III (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) World Health Organization (WHO) class IV (acquired immunodeficiency syndrome) (AIDS) (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) World Health Organization (WHO) class finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) antibody/antigen, Duo (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) antigen test (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) contact (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) culture (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) deoxyribonucleic acid assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in Burkitt's lymphoma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in candidiasis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in cytomegaloviral disease (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in lymphoid interstitial pneumonitis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in multiple infections (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in multiple malignant neoplasms (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in mycobacterial infection (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) disease resulting in other types of non-Hodgkin's lymphoma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) infection with acute lymphadenitis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) infection with aseptic meningitis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) infection with infection by another virus (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) infection with infectious mononucleosis-like syndrome (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) negative (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) p24 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) p24 antigen test (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) positive (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) receptor (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) risk lifestyle (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) screening (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) seroconversion exanthem (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) seropositivity (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) status (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) test offered (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (HIV) viral load (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus (organism)"@en .
+_:genid174223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_screening> .
+_:genid174226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174225 .
+_:genid174224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174226 .
+_:genid174225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174225 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174228 .
+_:genid174228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174228 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_focus> .
+_:genid174228 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+_:genid174231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174230 .
+_:genid174229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174231 .
+_:genid174230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174230 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid174230 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Screening_-_procedure_intent> .
+_:genid174231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174227 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174229 .
+_:genid174225 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174227 .
+_:genid174226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174223 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174224 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174223 .
+_:genid174232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Acute_lymphadenitis> .
+_:genid174234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+_:genid174233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174234 .
+_:genid174235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Infectious_disorder_of_immune_system> .
+_:genid174234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174235 .
+_:genid174236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_infection_by_site> .
+_:genid174235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174236 .
+_:genid174238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174237 .
+_:genid174236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174238 .
+_:genid174237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174237 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174240 .
+_:genid174240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174240 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174240 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Acute_inflammation> .
+_:genid174243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174242 .
+_:genid174241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174243 .
+_:genid174242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174242 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174242 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node> .
+_:genid174243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174239 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174241 .
+_:genid174237 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174239 .
+_:genid174245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174244 .
+_:genid174238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174245 .
+_:genid174244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174244 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174246 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174246 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174244 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174246 .
+_:genid174245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174232 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174233 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174232 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antibody_identification> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antigen_assay> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Aseptic_meningitis> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Burkitt's_lymphoma> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Candidiasis> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_history/examination_observable> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_history_and_observation_findings> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Communicable_disease_contact> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cytomegalovirus_infection> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Finding_of_HIV_status> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immune_status> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Infectious_disease_of_lung> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Interstitial_lung_disease> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lifestyle> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplastic_disease> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mononucleosis_syndrome> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mycobacteriosis> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pneumonitis> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Presence_of_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primate_lentivirus_group> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Risk_activity_involvement> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_culture> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_meningitis> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_nucleic_acid_assay> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_respiratory_infection> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_screening_status> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Virus_receptor> .
+_:genid174247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174247 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174248 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174248 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm_of_primary,_secondary,_or_uncertain_origin> .
+_:genid174247 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174248 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174247 .
+_:genid174249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174249 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174250 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174250 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Microorganism> .
+_:genid174249 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174250 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174249 .
+_:genid174251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174251 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174252 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid174252 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Behavior_observable> .
+_:genid174251 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174252 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174251 .
+_:genid174253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174253 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174254 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174254 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174253 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174254 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174253 .
+_:genid174255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174255 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174256 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174256 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Genus_Cytomegalovirus> .
+_:genid174255 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174256 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174255 .
+_:genid174257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174257 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174259 .
+_:genid174259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174259 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174259 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Interstitial_inflammation> .
+_:genid174262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174261 .
+_:genid174260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174262 .
+_:genid174261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174261 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174261 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_interstitial_tissue_of_lung> .
+_:genid174262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174258 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174260 .
+_:genid174257 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174258 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174257 .
+_:genid174263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174263 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174264 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174264 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174264 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anti_viral_antibody> .
+_:genid174263 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174264 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174263 .
+_:genid174265 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174265 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174266 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174266 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid174266 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174265 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174266 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174265 .
+_:genid174267 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174267 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174268 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174268 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174268 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Burkitt_lymphoma> .
+_:genid174267 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174268 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174267 .
+_:genid174269 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174269 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174270 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174270 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174270 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Diffuse_high_grade_B-cell_lymphoma_morphology> .
+_:genid174269 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174270 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174269 .
+_:genid174271 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174271 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174272 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174272 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid174272 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#White_blood_cell_finding> .
+_:genid174271 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174272 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174271 .
+_:genid174273 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174273 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174274 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174274 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174274 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Antigen> .
+_:genid174273 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174274 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174273 .
+_:genid174275 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174275 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174276 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174278 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174277 .
+_:genid174277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174277 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174277 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid174280 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174279 .
+_:genid174278 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174280 .
+_:genid174279 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174279 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174279 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Meninges_structure> .
+_:genid174280 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174276 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174278 .
+_:genid174275 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174276 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174275 .
+_:genid174281 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174281 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174282 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174282 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174282 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Non-Hodgkin_lymphoma,_no_ICD-O_subtype> .
+_:genid174281 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174282 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174281 .
+_:genid174283 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174283 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174284 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174284 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_1_antibody> .
+_:genid174283 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174284 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174283 .
+_:genid174285 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174285 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174286 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174286 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174286 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174285 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174286 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174285 .
+_:genid174287 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174287 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174288 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174288 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174288 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Antibody> .
+_:genid174287 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174288 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174287 .
+_:genid174289 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174289 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174290 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174290 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174290 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid174289 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174290 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174289 .
+_:genid174291 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174291 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174292 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174292 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174292 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Candida> .
+_:genid174291 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174292 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174291 .
+_:genid174293 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174293 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174294 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174294 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174294 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Genus_Mycobacterium> .
+_:genid174293 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174294 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174293 .
+_:genid174295 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174295 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174296 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174296 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid174296 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#General_clinical_state> .
+_:genid174295 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174296 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174295 .
+_:genid174297 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174297 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174298 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174298 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174298 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Substance> .
+_:genid174297 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174298 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174297 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus HIV-1 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> .
+_:genid174299 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174299 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174300 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174300 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174300 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_1_antibody> .
+_:genid174299 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174300 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174299 .
+_:genid174301 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174301 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174302 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174302 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid174301 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174302 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-1_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174301 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus HIV-2 antibody assay (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoassay_for_detection_of_antibody_to_infectious_agent> .
+_:genid174303 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174303 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174304 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174304 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174304 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anti_viral_antibody> .
+_:genid174303 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174304 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174303 .
+_:genid174305 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174305 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174306 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174306 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174306 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid174305 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174306 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-2_antibody_assay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174305 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-related_sclerosing_cholangitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-related_sclerosing_cholangitis> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus HIV-related sclerosing cholangitis (disorder)"@en .
+_:genid174307 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174308 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+_:genid174309 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Infective_cholangitis> .
+_:genid174308 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174309 .
+_:genid174310 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sclerosing_cholangitis> .
+_:genid174309 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174310 .
+_:genid174311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_infection_by_site> .
+_:genid174310 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174311 .
+_:genid174313 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174312 .
+_:genid174311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174313 .
+_:genid174312 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174312 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174314 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174316 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174315 .
+_:genid174315 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174315 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174315 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid174318 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174317 .
+_:genid174316 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174318 .
+_:genid174317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174317 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174317 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Biliary_tract_structure> .
+_:genid174318 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174314 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174316 .
+_:genid174312 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174314 .
+_:genid174320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174319 .
+_:genid174313 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174320 .
+_:genid174319 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174319 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174321 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174321 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174321 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174319 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174321 .
+_:genid174320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174307 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174308 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_HIV-related_sclerosing_cholangitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174307 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_II_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_II_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus II infection (disorder)"@en .
+_:genid174322 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+_:genid174325 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174324 .
+_:genid174323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174325 .
+_:genid174324 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174324 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174326 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174326 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174326 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_2> .
+_:genid174324 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174326 .
+_:genid174325 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174322 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174323 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_II_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174322 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_I_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_I_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus I infection (disorder)"@en .
+_:genid174327 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174328 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+_:genid174330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174329 .
+_:genid174328 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174330 .
+_:genid174329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174329 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174331 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174331 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174331 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_I> .
+_:genid174329 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174331 .
+_:genid174330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174327 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174328 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_I_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174327 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus antibody (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anti_viral_antibody> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus antibody titer measurement (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_test> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_antibody_assay> .
+_:genid174332 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174332 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174333 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174333 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174333 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid174332 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174333 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174332 .
+_:genid174334 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174334 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174335 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174335 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174335 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anti_viral_antibody> .
+_:genid174334 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174335 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody_titer_measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174334 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus infection (disorder)"@en .
+_:genid174336 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174337 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Lentivirus> .
+_:genid174339 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174338 .
+_:genid174337 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174339 .
+_:genid174338 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174338 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174340 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174340 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174340 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174338 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174340 .
+_:genid174339 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174336 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174337 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174336 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_myelitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_myelitis> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus myelitis (disorder)"@en .
+_:genid174341 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+_:genid174343 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Myelitis> .
+_:genid174342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174343 .
+_:genid174344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_infections_of_the_central_nervous_system> .
+_:genid174343 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174344 .
+_:genid174346 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174345 .
+_:genid174344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174346 .
+_:genid174345 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174345 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174347 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174349 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174348 .
+_:genid174348 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174348 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174348 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid174351 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174350 .
+_:genid174349 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174351 .
+_:genid174350 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174350 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174350 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Spinal_cord_structure> .
+_:genid174351 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174347 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174349 .
+_:genid174345 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174347 .
+_:genid174353 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174352 .
+_:genid174346 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174353 .
+_:genid174352 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174352 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174354 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174354 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174354 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174352 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174354 .
+_:genid174353 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174341 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174342 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_myelitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174341 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_test> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus test (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_test> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antibody_identification> .
+_:genid174355 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174355 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174356 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174356 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174356 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Antibody> .
+_:genid174355 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174356 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_test> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174355 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_1_antibody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_1_antibody> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus type 1 antibody (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_1_antibody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_antibody> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_2> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus type 2 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_I> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodeficiency virus type I (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_type_I> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalitis> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodefiency virus encephalitis (disorder)"@en .
+_:genid174357 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174358 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> .
+_:genid174359 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_encephalitis> .
+_:genid174358 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174359 .
+_:genid174361 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174360 .
+_:genid174359 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174361 .
+_:genid174360 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174360 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174362 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174364 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174363 .
+_:genid174363 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174363 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174363 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid174366 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174365 .
+_:genid174364 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174366 .
+_:genid174365 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174365 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174365 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brain_tissue_structure> .
+_:genid174366 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174362 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174364 .
+_:genid174360 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174362 .
+_:genid174368 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174367 .
+_:genid174361 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174368 .
+_:genid174367 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174367 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174369 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174369 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174369 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174367 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174369 .
+_:genid174368 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174357 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174358 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174357 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodefiency virus encephalopathy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus_infection> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Infectious_disease_of_brain> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_infections_of_the_central_nervous_system> .
+_:genid174370 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174370 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174371 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174371 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174371 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174370 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174371 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174370 .
+_:genid174372 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174372 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174373 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174373 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174373 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brain_structure> .
+_:genid174372 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174373 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174372 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_leukoencephalopathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_leukoencephalopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Human immunodefiency virus leukoencephalopathy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_leukoencephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_encephalopathy> .
+_:genid174374 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174374 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174375 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174375 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174375 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brain_structure> .
+_:genid174374 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174375 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_leukoencephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174374 .
+_:genid174376 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174376 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174377 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174377 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174377 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_immunodeficiency_virus> .
+_:genid174376 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174377 .
+<http://www.ihtsdo.org/snomedct.owl#Human_immunodefiency_virus_leukoencephalopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174376 .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin> <http://www.w3.org/2000/01/rdf-schema#label> "Human insulin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Insulin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_analog_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_analog_product> <http://www.w3.org/2000/01/rdf-schema#label> "Human insulin analog product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_analog_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_insulin_product> .
+_:genid174378 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174378 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174378 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_insulin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_analog_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174378 .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_product> <http://www.w3.org/2000/01/rdf-schema#label> "Human insulin product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Insulin_product> .
+_:genid174379 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174379 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174379 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_insulin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_insulin_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174379 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) A AND B antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) A antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) A, B, AND Bw antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) A, B, AND C antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) B antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) B27 antigen screening test (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) C antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) DP antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) DQ alpha antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) DQ antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) DR AND DQ antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) DR antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) DR beta antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) antigen abnormal (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) antigen absent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) antigen present (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) antigen typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) class I antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) class I serotyping (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) class II antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) class II serotyping (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) class III antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) class defect (attribute)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) detected on red blood cells (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) serotyping (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) tissue typing (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) typing, mixed lymphocyte culture (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) typing, multiple antigens, A, B, or C (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) typing, primed lymphocyte culture (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA) typing, single antigens, A, B, or C (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA), multiple antigens, DR or DQ (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen (HLA), single antigen, DR or DQ (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antigen_assay> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_serotyping> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunology_findings_present> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunology_screening_test> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Transplantation_analyte> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Transplantation_assay> .
+_:genid174380 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174380 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174381 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174381 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174381 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Immunologic_substance> .
+_:genid174380 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174381 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174380 .
+_:genid174382 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174382 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174383 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174383 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid174383 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Screening_-_procedure_intent> .
+_:genid174382 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174383 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174382 .
+_:genid174384 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174384 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174385 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174385 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174385 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Antigen> .
+_:genid174384 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174385 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174384 .
+_:genid174386 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174386 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174387 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174387 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174387 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_antigen> .
+_:genid174386 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174387 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174386 .
+_:genid174388 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174388 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174389 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174389 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174389 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+_:genid174388 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174389 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174388 .
+_:genid174390 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174390 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174391 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174391 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid174391 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid174390 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174391 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174390 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_DR51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_DR51> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen DR51 (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_DR51> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A2_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A2_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-A2 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A2_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A2_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_A1_-_B57> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-A antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_serotyping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_serotyping> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-A serotyping (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_serotyping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_serotyping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Transplantation_assay> .
+_:genid174392 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174392 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174393 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174393 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174393 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_antigen> .
+_:genid174392 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174393 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-A_serotyping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174392 .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw4_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw4_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-Bw4 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw4_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw6_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw6_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-Bw6 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw6_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-Bw antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-Bw_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_B59_-_Cw10> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DP_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DP_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-DP antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DP_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DQ_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DQ_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-DQ antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DQ_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR52_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR52_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-DR52 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR52_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR53_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR53_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-DR53 antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR53_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR_antigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR_antigen> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen HLA-DR antigen (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_HLA-DR_antigen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_A1_-_B57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_A1_-_B57> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen class I type antigen A1 - B57 (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_A1_-_B57> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_B59_-_Cw10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_B59_-_Cw10> <http://www.w3.org/2000/01/rdf-schema#label> "Human leukocyte antigen class I type antigen B59 - Cw10 (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen_class_I_type_antigen_B59_-_Cw10> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_leukocyte_antigen> .
+<http://www.ihtsdo.org/snomedct.owl#Human_luteinizing_hormone_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_luteinizing_hormone_product> <http://www.w3.org/2000/01/rdf-schema#label> "Human luteinizing hormone product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_luteinizing_hormone_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadotrophic_hormone> .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotrophins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotrophins> <http://www.w3.org/2000/01/rdf-schema#label> "Human menopausal gonadotrophins (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotrophins> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadotrophic_hormone> .
+_:genid174394 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174394 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174394 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotrophins> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174394 .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotropin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#label> "Human menopausal gonadotropin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_menopausal_gonadotropin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pituitary_gonadotropin> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus-associated_intraepithelial_neoplasia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus-associated_intraepithelial_neoplasia> <http://www.w3.org/2000/01/rdf-schema#label> "Human papilloma virus-associated intraepithelial neoplasia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus-associated_intraepithelial_neoplasia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplastic_disease> .
+_:genid174395 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174395 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174396 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174396 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid174396 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection> .
+_:genid174395 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174396 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus-associated_intraepithelial_neoplasia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174395 .
+_:genid174397 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174397 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174398 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174398 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174398 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm> .
+_:genid174397 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174398 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus-associated_intraepithelial_neoplasia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174397 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Human papilloma virus infection (disorder)"@en .
+_:genid174399 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174400 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Papilloma_virus> .
+_:genid174402 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174401 .
+_:genid174400 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174402 .
+_:genid174401 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174401 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174403 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174403 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174403 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> .
+_:genid174401 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174403 .
+_:genid174402 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174399 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174400 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174399 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection_of_vocal_cord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection_of_vocal_cord> <http://www.w3.org/2000/01/rdf-schema#label> "Human papilloma virus infection of vocal cord (disorder)"@en .
+_:genid174404 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174405 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_vocal_cord> .
+_:genid174406 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection> .
+_:genid174405 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174406 .
+_:genid174407 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_upper_respiratory_tract_infection> .
+_:genid174406 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174407 .
+_:genid174409 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174408 .
+_:genid174407 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174409 .
+_:genid174408 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174408 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174410 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174410 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174410 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> .
+_:genid174408 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174410 .
+_:genid174412 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174411 .
+_:genid174409 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174412 .
+_:genid174411 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174411 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174413 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174413 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174413 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Vocal_cord_structure> .
+_:genid174411 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174413 .
+_:genid174412 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174404 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174405 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papilloma_virus_infection_of_vocal_cord> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174404 .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> <http://www.w3.org/2000/01/rdf-schema#label> "Human papillomavirus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Papillomavirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_16> <http://www.w3.org/2000/01/rdf-schema#label> "Human papillomavirus, type 16 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_16> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_18> <http://www.w3.org/2000/01/rdf-schema#label> "Human papillomavirus, type 18 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Alphapapillomavirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus,_type_18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus_type_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus_type_6> <http://www.w3.org/2000/01/rdf-schema#label> "Human papillomavirus type 6 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus_type_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Alphapapillomavirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus_type_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus_vaccination_declined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_papillomavirus_vaccination_declined> <http://www.w3.org/2000/01/rdf-schema#label> "Human papillomavirus vaccination declined (situation)"@en .
+_:genid174414 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174415 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_declined_by_patient> .
+_:genid174417 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174416 .

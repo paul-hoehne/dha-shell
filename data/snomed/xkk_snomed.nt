@@ -1,0 +1,1000 @@
+_:genid38957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38956 .
+_:genid38955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38957 .
+_:genid38956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38956 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38958 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid38958 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzimidazole_anthelmintic> .
+_:genid38956 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38958 .
+_:genid38957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38954 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38955 .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazole_anthelmintic_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38954 .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazole_anthelmintic_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazole_anthelmintic_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzimidazole anthelmintic allergy (disorder)"@en .
+_:genid38959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anthelmintics_allergy> .
+_:genid38962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38961 .
+_:genid38960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38962 .
+_:genid38961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38961 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38963 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid38963 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzimidazole_anthelmintic> .
+_:genid38961 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38963 .
+_:genid38965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38964 .
+_:genid38962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38965 .
+_:genid38964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38964 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38966 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid38966 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid38964 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38966 .
+_:genid38965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38959 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38960 .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazole_anthelmintic_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38959 .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazolinone_derivative_antipsychotic_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazolinone_derivative_antipsychotic_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Benzimidazolinone derivative antipsychotic agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazolinone_derivative_antipsychotic_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anti-psychotic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazolinone_derivative_antipsychotic_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazolinone_derivative_antipsychotic_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Benzimidazolinone derivative antipsychotic preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzimidazolinone_derivative_antipsychotic_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anti-psychotic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzisoxazole_derivative_antipsychotic_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzisoxazole_derivative_antipsychotic_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Benzisoxazole derivative antipsychotic agent (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzisoxazole_derivative_antipsychotic_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Benzisoxazole derivative antipsychotic agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzisoxazole_derivative_antipsychotic_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anti-psychotic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate_derivative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate_derivative> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoate derivative (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate_derivative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoate_derivative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_pseudoallergen> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzocaine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzocaine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Aminobenzoic_acid_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ester_type_local_anesthetic> .
+_:genid38967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38967 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid38967 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzocaine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38967 .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzocaine adverse reaction (disorder)"@en .
+_:genid38968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Local_anesthetic_drug_adverse_reaction> .
+_:genid38971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38970 .
+_:genid38969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38971 .
+_:genid38970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38970 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38972 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid38972 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzocaine> .
+_:genid38970 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38972 .
+_:genid38971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38968 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38969 .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38968 .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzocaine allergy (disorder)"@en .
+_:genid38973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Local_anesthetic_drug_allergy> .
+_:genid38976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38975 .
+_:genid38974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38976 .
+_:genid38975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38975 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38977 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid38977 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzocaine> .
+_:genid38975 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38977 .
+_:genid38979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38978 .
+_:genid38976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38979 .
+_:genid38978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38978 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38980 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid38980 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid38978 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38980 .
+_:genid38979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38973 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38974 .
+<http://www.ihtsdo.org/snomedct.owl#Benzocaine_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38973 .
+<http://www.ihtsdo.org/snomedct.owl#Benzocycloheptene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzocycloheptene> <http://www.w3.org/2000/01/rdf-schema#label> "Benzocycloheptene (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzocycloheptene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Aromatic_hydrocarbon> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anticonvulsant> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anxiolytic> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anxiolytic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzazepine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hypnotic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hypnotics> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sedative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine antagonist (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine antagonist (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antidote> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine antagonist adverse reaction (disorder)"@en .
+_:genid38981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antidote_adverse_reaction> .
+_:genid38984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38983 .
+_:genid38982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38984 .
+_:genid38983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38983 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38985 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid38985 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist> .
+_:genid38983 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38985 .
+_:genid38984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38981 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38982 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38981 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine antagonist allergy (disorder)"@en .
+_:genid38986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antidote_allergy> .
+_:genid38989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38988 .
+_:genid38987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38989 .
+_:genid38988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38988 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38990 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid38990 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist> .
+_:genid38988 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38990 .
+_:genid38992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38991 .
+_:genid38989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38992 .
+_:genid38991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38991 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38993 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid38993 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid38991 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38993 .
+_:genid38992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38986 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38987 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antagonist_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38986 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antiepileptic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antiepileptic> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine antiepileptic (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antiepileptic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anticonvulsant> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_antiepileptic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine measurement (procedure)"@en .
+_:genid38994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid38997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38996 .
+_:genid38995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38997 .
+_:genid38996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38996 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid38998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38998 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid38998 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> .
+_:genid38996 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38998 .
+_:genid39000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38999 .
+_:genid38997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39000 .
+_:genid38999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38999 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39001 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid39001 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid38999 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39001 .
+_:genid39000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38994 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38995 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38994 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_overdose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_overdose> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine overdose (disorder)"@en .
+_:genid39002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Overdose_of_anticonvulsant_drug> .
+_:genid39005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39004 .
+_:genid39003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39005 .
+_:genid39004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39004 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39006 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39006 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> .
+_:genid39004 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39006 .
+_:genid39005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39002 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39003 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_overdose> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39002 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine sedative (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine sedative (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sedative> .
+_:genid39007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39007 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39007 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Sedative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39007 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine sedative adverse reaction (disorder)"@en .
+_:genid39008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antiepileptic_adverse_reaction> .
+_:genid39010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sedative_adverse_reaction> .
+_:genid39009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39010 .
+_:genid39012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39011 .
+_:genid39010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39012 .
+_:genid39011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39011 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39013 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39013 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> .
+_:genid39011 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39013 .
+_:genid39015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39014 .
+_:genid39012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39015 .
+_:genid39014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39014 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39016 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39016 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Sedative/neuroleptic> .
+_:genid39014 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39016 .
+_:genid39015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39008 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39009 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39008 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodiazepine sedative allergy (disorder)"@en .
+_:genid39017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antiepileptic_allergy> .
+_:genid39019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sedative_allergy> .
+_:genid39018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39019 .
+_:genid39021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39020 .
+_:genid39019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39021 .
+_:genid39020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39020 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39022 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39022 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative> .
+_:genid39020 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39022 .
+_:genid39024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39023 .
+_:genid39021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39024 .
+_:genid39023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39023 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39025 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39025 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Sedative/neuroleptic> .
+_:genid39023 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39025 .
+_:genid39027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39026 .
+_:genid39024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39027 .
+_:genid39026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39026 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39028 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39028 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39026 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39028 .
+_:genid39027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39017 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39018 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodiazepine_sedative_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39017 .
+<http://www.ihtsdo.org/snomedct.owl#Benzodioxole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzodioxole> <http://www.w3.org/2000/01/rdf-schema#label> "Benzodioxole (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzodioxole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Heterocyclic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Benzofuran> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzofuran> <http://www.w3.org/2000/01/rdf-schema#label> "Benzofuran (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzofuran> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Heterocyclic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoic acid (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoic acid (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Contact_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Topical_dermatological_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Topical_skin_agent> .
+_:genid39029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39029 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39029 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39029 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoic acid adverse reaction (disorder)"@en .
+_:genid39030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Topical_dermatological_preparation_adverse_reaction> .
+_:genid39033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39032 .
+_:genid39031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39033 .
+_:genid39032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39032 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39034 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39034 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> .
+_:genid39032 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39034 .
+_:genid39033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39030 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39031 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39030 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoic acid allergy (disorder)"@en .
+_:genid39035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Topical_dermatological_preparation_allergy> .
+_:genid39038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39037 .
+_:genid39036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39038 .
+_:genid39037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39037 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39039 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39039 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid> .
+_:genid39037 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39039 .
+_:genid39041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39040 .
+_:genid39038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39041 .
+_:genid39040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39040 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39042 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39042 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39040 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39042 .
+_:genid39041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39035 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39036 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39035 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_ester_and_derivatives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_ester_and_derivatives> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoic acid ester and derivatives (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_ester_and_derivatives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzoate_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_ester_and_derivatives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ester> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoic acid or benzoic acid derivative (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Carboxylic_acid> .
+<http://www.ihtsdo.org/snomedct.owl#Benzomorphan_opioid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzomorphan_opioid> <http://www.w3.org/2000/01/rdf-schema#label> "Benzomorphan opioid (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzomorphan_opioid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Opiate> .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate> <http://www.w3.org/2000/01/rdf-schema#label> "Benzonatate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate> <http://www.w3.org/2000/01/rdf-schema#label> "Benzonatate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antitussive_agent> .
+_:genid39043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39043 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39043 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzonatate> .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39043 .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Benzonatate measurement (procedure)"@en .
+_:genid39044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid39047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39046 .
+_:genid39045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39047 .
+_:genid39046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39046 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39048 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid39048 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzonatate> .
+_:genid39046 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39048 .
+_:genid39050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39049 .
+_:genid39047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39050 .
+_:genid39049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39049 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39051 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid39051 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid39049 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39051 .
+_:genid39050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39044 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39045 .
+<http://www.ihtsdo.org/snomedct.owl#Benzonatate_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39044 .
+<http://www.ihtsdo.org/snomedct.owl#Benzopyran> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzopyran> <http://www.w3.org/2000/01/rdf-schema#label> "Benzopyran (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzopyran> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Heterocyclic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiadiazine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiadiazine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzothiadiazine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiadiazine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Heterocyclic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiazepine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiazepine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzothiazepine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Calcium_channel_blocker> .
+<http://www.ihtsdo.org/snomedct.owl#Benzothiazepine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoyl peroxide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_or_benzoic_acid_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Contact_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skin_anti-infective> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoyl peroxide adverse reaction (disorder)"@en .
+_:genid39052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anti-infectives_adverse_reaction> .
+_:genid39054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Topical_dermatological_preparation_adverse_reaction> .
+_:genid39053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39054 .
+_:genid39056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39055 .
+_:genid39054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39056 .
+_:genid39055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39055 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39057 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39057 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> .
+_:genid39055 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39057 .
+_:genid39056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39052 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39053 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39052 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoyl peroxide allergy (disorder)"@en .
+_:genid39058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Allergy_to_anti-infective_agent> .
+_:genid39060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Topical_dermatological_preparation_allergy> .
+_:genid39059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39060 .
+_:genid39062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39061 .
+_:genid39060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39062 .
+_:genid39061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39061 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39063 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39063 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> .
+_:genid39061 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39063 .
+_:genid39065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39064 .
+_:genid39062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39065 .
+_:genid39064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39064 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39066 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39066 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39064 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39066 .
+_:genid39065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39058 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39059 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39058 .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_product> <http://www.w3.org/2000/01/rdf-schema#label> "Benzoyl peroxide product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skin_anti-infective> .
+_:genid39067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39067 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39067 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide> .
+<http://www.ihtsdo.org/snomedct.owl#Benzoyl_peroxide_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39067 .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzphetamine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzphetamine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Amphetamine_and_derivatives> .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anorexiant> .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anorexiant_product> .
+_:genid39068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39068 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39068 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzphetamine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39068 .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine_hydrochloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#label> "Benzphetamine hydrochloride (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzphetamine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzphetamine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzquinamide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzquinamide> <http://www.w3.org/2000/01/rdf-schema#label> "Benzquinamide (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzquinamide> <http://www.w3.org/2000/01/rdf-schema#label> "Benzquinamide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzquinamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antiemetic> .
+<http://www.ihtsdo.org/snomedct.owl#Benzquinamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+_:genid39069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39069 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39069 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzquinamide> .
+<http://www.ihtsdo.org/snomedct.owl#Benzquinamide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39069 .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/2000/01/rdf-schema#label> "Benzthiazide (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/2000/01/rdf-schema#label> "Benzthiazide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzothiadiazine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Saluretic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Thiazide_diuretic> .
+_:genid39070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39070 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39070 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzthiazide> .
+<http://www.ihtsdo.org/snomedct.owl#Benzthiazide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39070 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#label> "Benztropine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#label> "Benztropine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic_agent_used_in_parkinsonism> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic_drug_used_in_parkinsonism> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antiparkinsonian_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antispasmodic> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Tropane_alkaloid> .
+_:genid39071 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39071 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39071 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benztropine> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39071 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benztropine adverse reaction (disorder)"@en .
+_:genid39072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adverse_reaction_to_antiparkinsonism_drug> .
+_:genid39074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic_adverse_reaction> .
+_:genid39073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39074 .
+_:genid39075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antispasmodic_adverse_reaction> .
+_:genid39074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39075 .
+_:genid39077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39076 .
+_:genid39075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39077 .
+_:genid39076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39076 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39078 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39078 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benztropine> .
+_:genid39076 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39078 .
+_:genid39077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39072 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39073 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39072 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benztropine allergy (disorder)"@en .
+_:genid39079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic_allergy> .
+_:genid39081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antispasmodic_allergy> .
+_:genid39080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39081 .
+_:genid39082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_groups_primarily_affecting_the_central_nervous_system_allergy> .
+_:genid39081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39082 .
+_:genid39084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39083 .
+_:genid39082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39084 .
+_:genid39083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39083 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39085 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39085 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benztropine> .
+_:genid39083 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39085 .
+_:genid39087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39086 .
+_:genid39084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39087 .
+_:genid39086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39086 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39088 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39088 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39086 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39088 .
+_:genid39087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39079 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39080 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39079 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Benztropine measurement (procedure)"@en .
+_:genid39089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid39092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39091 .
+_:genid39090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39092 .
+_:genid39091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39091 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39093 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid39093 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benztropine> .
+_:genid39091 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39093 .
+_:genid39095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39094 .
+_:genid39092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39095 .
+_:genid39094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39094 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39096 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid39096 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid39094 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39096 .
+_:genid39095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39089 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39090 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39089 .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_mesylate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_mesylate> <http://www.w3.org/2000/01/rdf-schema#label> "Benztropine mesylate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benztropine_mesylate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benztropine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzydamine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine> <http://www.w3.org/2000/01/rdf-schema#label> "Benzydamine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-steroidal_anti-inflammatory_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pyrazole_derivative_anti-inflammatory_agent> .
+_:genid39097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39097 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39097 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzydamine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39097 .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine_hydrochloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#label> "Benzydamine hydrochloride (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzydamine_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzydamine> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#label> "Benzyl benzoate (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#label> "Benzyl benzoate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antiparasite_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Benzoic_acid_ester_and_derivatives> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parasiticidal_preparations> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pesticide> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skin_agent> .
+_:genid39098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39098 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39098 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39098 .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzyl benzoate adverse reaction (disorder)"@en .
+_:genid39099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Anti-infectives_adverse_reaction> .
+_:genid39101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_groups_and_agents_primarily_acting_on_skin_adverse_reaction> .
+_:genid39100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39101 .
+_:genid39102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Pesticide_adverse_reaction> .
+_:genid39101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39102 .
+_:genid39104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39103 .
+_:genid39102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39104 .
+_:genid39103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39103 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39105 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39105 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> .
+_:genid39103 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39105 .
+_:genid39104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39099 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39100 .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39099 .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzyl benzoate allergy (disorder)"@en .
+_:genid39106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Pesticide_allergy> .
+_:genid39108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Propensity_to_adverse_reactions_to_drug> .
+_:genid39107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39108 .
+_:genid39110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39109 .
+_:genid39108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39110 .
+_:genid39109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39109 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39111 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39111 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate> .
+_:genid39109 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39111 .
+_:genid39110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39106 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39107 .
+<http://www.ihtsdo.org/snomedct.owl#Benzyl_benzoate_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39106 .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin> <http://www.w3.org/2000/01/rdf-schema#label> "Benzylpenicillin (penicillin G) (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Natural_penicillin> .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Penicillinase_sensitive_penicillins> .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Benzylpenicillin adverse reaction (disorder)"@en .
+_:genid39112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Penicillinase-sensitive_penicillins_adverse_reaction> .
+_:genid39115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39114 .
+_:genid39113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39115 .
+_:genid39114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39114 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39116 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39116 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin> .
+_:genid39114 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39116 .
+_:genid39115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39112 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39113 .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39112 .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Benzylpenicillin allergy (disorder)"@en .
+_:genid39117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Penicillinase-sensitive_penicillins_allergy> .
+_:genid39120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39119 .
+_:genid39118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39120 .
+_:genid39119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39119 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39121 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39121 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin> .
+_:genid39119 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39121 .
+_:genid39123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39122 .
+_:genid39120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39123 .
+_:genid39122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39122 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39124 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39124 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39122 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39124 .
+_:genid39123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39117 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39118 .
+<http://www.ihtsdo.org/snomedct.owl#Benzylpenicillin_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39117 .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil> <http://www.w3.org/2000/01/rdf-schema#label> "Bepridil (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil> <http://www.w3.org/2000/01/rdf-schema#label> "Bepridil (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Calcium_channel_blocking_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Diarylaminopropylamine> .
+_:genid39125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39125 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39125 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bepridil> .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39125 .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil_hydrochloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#label> "Bepridil hydrochloride (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Bepridil_hydrochloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Bepridil> .
+<http://www.ihtsdo.org/snomedct.owl#Berger's_IgA_or_IgG_nephropathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Berger's_IgA_or_IgG_nephropathy> <http://www.w3.org/2000/01/rdf-schema#label> "Berger's IgA or IgG nephropathy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Berger's_IgA_or_IgG_nephropathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_IgA_nephropathy> .
+_:genid39126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39126 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39128 .
+_:genid39128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39128 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid39128 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chronic_proliferative_inflammation> .
+_:genid39131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39130 .
+_:genid39129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39131 .
+_:genid39130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid39130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_glomerular_mesangium> .
+_:genid39131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39127 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39129 .
+_:genid39126 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39127 .
+<http://www.ihtsdo.org/snomedct.owl#Berger's_IgA_or_IgG_nephropathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39126 .
+_:genid39132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39132 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39133 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Clinical_course> .
+_:genid39133 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Chronic> .
+_:genid39132 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39133 .
+<http://www.ihtsdo.org/snomedct.owl#Berger's_IgA_or_IgG_nephropathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39132 .
+_:genid39134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39134 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39136 .
+_:genid39136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39136 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid39136 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Mesangium_alteration> .
+_:genid39139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39138 .
+_:genid39137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39139 .
+_:genid39138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39138 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid39138 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Kidney_structure> .
+_:genid39139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39135 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39137 .
+_:genid39134 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39135 .
+<http://www.ihtsdo.org/snomedct.owl#Berger's_IgA_or_IgG_nephropathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39134 .
+<http://www.ihtsdo.org/snomedct.owl#Beriberi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beriberi> <http://www.w3.org/2000/01/rdf-schema#label> "Beriberi (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beriberi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Thiamin_deficiency> .
+<http://www.ihtsdo.org/snomedct.owl#Beriberi_neuropathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beriberi_neuropathy> <http://www.w3.org/2000/01/rdf-schema#label> "Beriberi neuropathy (disorder)"@en .
+_:genid39140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vitamin_deficiency_related_neuropathy> .
+_:genid39143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39142 .
+_:genid39141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39143 .
+_:genid39142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39142 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39144 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid39144 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Beriberi> .
+_:genid39142 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39144 .
+_:genid39146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39145 .
+_:genid39143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39146 .
+_:genid39145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39145 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39147 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid39147 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Nerve_structure> .
+_:genid39145 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39147 .
+_:genid39149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39148 .
+_:genid39146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39149 .
+_:genid39148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39148 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39150 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid39150 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nervous_system_structure> .
+_:genid39148 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39150 .
+_:genid39149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39140 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39141 .
+<http://www.ihtsdo.org/snomedct.owl#Beriberi_neuropathy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39140 .
+<http://www.ihtsdo.org/snomedct.owl#Bermuda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Bermuda> <http://www.w3.org/2000/01/rdf-schema#label> "Bermuda (geographic location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Bermuda> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#British_Overseas_Territories> .
+<http://www.ihtsdo.org/snomedct.owl#Bermuda> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Island_in_region_of_North_America> .
+<http://www.ihtsdo.org/snomedct.owl#Bermuda> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Islands_of_United_Kingdom_of_Great_Britain_and_Northern_Ireland> .
+<http://www.ihtsdo.org/snomedct.owl#Bernese_mountain_dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Bernese_mountain_dog> <http://www.w3.org/2000/01/rdf-schema#label> "Bernese mountain dog (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Bernese_mountain_dog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Canis_familiaris> .
+<http://www.ihtsdo.org/snomedct.owl#Berry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Berry> <http://www.w3.org/2000/01/rdf-schema#label> "Berry (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Berry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Fruit> .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/2000/01/rdf-schema#label> "Berry aneurysm (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/2000/01/rdf-schema#label> "Berry aneurysm (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Aneurysm> .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intracranial_aneurysm> .
+_:genid39151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39151 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39153 .
+_:genid39153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39153 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid39153 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> .
+_:genid39156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39155 .
+_:genid39154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39156 .
+_:genid39155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39155 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid39155 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_intracranial_artery> .
+_:genid39156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39152 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39154 .
+_:genid39151 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39152 .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39151 .
+_:genid39157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39157 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39158 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid39158 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brain_structure> .
+_:genid39157 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39158 .
+<http://www.ihtsdo.org/snomedct.owl#Berry_aneurysm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39157 .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium> <http://www.w3.org/2000/01/rdf-schema#label> "Beryllium (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beryllium_AND/OR_beryllium_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Light_metal> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_AND/OR_beryllium_compound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_AND/OR_beryllium_compound> <http://www.w3.org/2000/01/rdf-schema#label> "Beryllium AND/OR beryllium compound (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_AND/OR_beryllium_compound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Metal_AND/OR_metallic_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_compound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_compound> <http://www.w3.org/2000/01/rdf-schema#label> "Beryllium compound (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_compound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beryllium_AND/OR_beryllium_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_oxide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_oxide> <http://www.w3.org/2000/01/rdf-schema#label> "Beryllium oxide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beryllium_oxide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beryllium_compound> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2-microglobulin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2-microglobulin> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-2-microglobulin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2-microglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Acute_phase_reactant> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2-microglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beta-2_globulin> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2_globulin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2_globulin> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-2 globulin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-2_globulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#beta_Globulin> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-adrenoceptor agonist (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-adrenoceptor agonist (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sympathomimetic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-adrenoceptor agonist adverse reaction (disorder)"@en .
+_:genid39159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sympathomimetic_adverse_reaction> .
+_:genid39162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39161 .
+_:genid39160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39162 .
+_:genid39161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39161 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39163 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39163 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist> .
+_:genid39161 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39163 .
+_:genid39162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39159 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39160 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39159 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-adrenoceptor agonist allergy (disorder)"@en .
+_:genid39164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Sympathomimetic_allergy> .
+_:genid39167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39166 .
+_:genid39165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39167 .
+_:genid39166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39166 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39168 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39168 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist> .
+_:genid39166 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39168 .
+_:genid39170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39169 .
+_:genid39167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39170 .
+_:genid39169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39169 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39171 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39171 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39169 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39171 .
+_:genid39170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39164 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39165 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_agonist_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39164 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_blocking_drug_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_blocking_drug_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-adrenoceptor blocking drug adverse reaction (disorder)"@en .
+_:genid39172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antihypertensive_adverse_reaction> .
+_:genid39174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_groups_primarily_affecting_autonomic_nervous_system_adverse_reaction> .
+_:genid39173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39174 .
+_:genid39176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39175 .
+_:genid39174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39176 .
+_:genid39175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39175 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39177 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39177 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#beta-Blocking_agent> .
+_:genid39175 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39177 .
+_:genid39176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39172 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39173 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_blocking_drug_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39172 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_blocking_drug_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_blocking_drug_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-adrenoceptor blocking drug allergy (disorder)"@en .
+_:genid39178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antihypertensive_allergy> .
+_:genid39180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_groups_primarily_affecting_the_autonomic_nervous_system_allergy> .
+_:genid39179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39180 .
+_:genid39182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39181 .
+_:genid39180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39182 .
+_:genid39181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39181 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39183 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39183 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#beta-Blocking_agent> .
+_:genid39181 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39183 .
+_:genid39185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39184 .
+_:genid39182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39185 .
+_:genid39184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39184 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39186 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid39186 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid39184 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39186 .
+_:genid39185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39178 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39179 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-adrenoceptor_blocking_drug_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39178 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-carotene_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-carotene_product> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-carotene product (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-carotene_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Vitamin_A_preparation> .
+_:genid39187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39187 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid39187 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#beta-Carotene> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-carotene_product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39187 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-galactosidase_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-galactosidase_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-galactosidase measurement (procedure)"@en .
+_:genid39188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Enzyme_measurement> .
+_:genid39191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39190 .
+_:genid39189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39191 .
+_:genid39190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39190 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39192 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid39192 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#beta-Galactosidase> .
+_:genid39190 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39192 .
+_:genid39194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39193 .
+_:genid39191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39194 .
+_:genid39193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39193 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39195 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid39195 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid39193 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39195 .
+_:genid39194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39188 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39189 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-galactosidase_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39188 .
+<http://www.ihtsdo.org/snomedct.owl#Beta-glucocerebrosidase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-glucocerebrosidase> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-glucocerebrosidase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-glucocerebrosidase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cerebrosidase> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-glucocerebrosidase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_Streptococcus,_group_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_Streptococcus,_group_A> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-hemolytic Streptococcus, group A (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_Streptococcus,_group_A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_streptococcus> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_Streptococcus,_group_A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lancefield_group_streptococcus> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_streptococcus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_streptococcus> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-hemolytic streptococcus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-hemolytic_streptococcus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hemolytically_variant_streptococcus> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-lactam (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Amide> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Azetidine_derivative> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen_by_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam_antibiotic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam_antibiotic> <http://www.w3.org/2000/01/rdf-schema#label> "Beta-lactam antibiotic (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam_antibiotic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antibacterial_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Beta-lactam_antibiotic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Beta-lactam> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_1_blocking_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_1_blocking_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Beta 1 blocking agent (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta_1_blocking_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Beta 1 blocking agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta_1_blocking_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#beta-Blocking_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_adrenergic_receptor_blocking_agent_therapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_adrenergic_receptor_blocking_agent_therapy> <http://www.w3.org/2000/01/rdf-schema#label> "Beta adrenergic receptor blocking agent therapy (procedure)"@en .
+_:genid39196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_therapy> .
+_:genid39199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39198 .
+_:genid39197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39199 .
+_:genid39198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39198 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39200 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Direct_substance> .
+_:genid39200 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#beta-Blocking_agent> .
+_:genid39198 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39200 .
+_:genid39202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39201 .
+_:genid39199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39202 .
+_:genid39201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39201 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39203 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid39203 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Therapeutic_intent> .
+_:genid39201 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39203 .
+_:genid39202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39196 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39197 .
+<http://www.ihtsdo.org/snomedct.owl#Beta_adrenergic_receptor_blocking_agent_therapy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39196 .
+<http://www.ihtsdo.org/snomedct.owl#Beta_blocker_glaucoma_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_blocker_glaucoma_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Beta blocker glaucoma preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta_blocker_glaucoma_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anti_glaucoma_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_blocker_prophylaxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_blocker_prophylaxis> <http://www.w3.org/2000/01/rdf-schema#label> "Beta blocker prophylaxis (procedure)"@en .
+_:genid39204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_prophylaxis> .
+_:genid39207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39206 .
+_:genid39205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39207 .
+_:genid39206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39206 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39208 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Direct_substance> .
+_:genid39208 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#beta-Blocking_agent> .
+_:genid39206 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39208 .
+_:genid39210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39209 .
+_:genid39207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39210 .
+_:genid39209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39209 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39211 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid39211 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Prophylaxis_-_procedure_intent> .
+_:genid39209 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39211 .
+_:genid39210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39204 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39205 .
+<http://www.ihtsdo.org/snomedct.owl#Beta_blocker_prophylaxis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39204 .
+<http://www.ihtsdo.org/snomedct.owl#Beta_interferon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_interferon> <http://www.w3.org/2000/01/rdf-schema#label> "Beta interferon (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta_interferon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_allergen> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_interferon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mediator_of_immune_response> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_lactam_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_lactam_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Beta lactam adverse reaction (disorder)"@en .
+_:genid39212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid39213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antibacterial_drug_adverse_reaction> .
+_:genid39215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39214 .
+_:genid39213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39215 .
+_:genid39214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39214 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid39216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39216 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid39216 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Beta-lactam_antibiotic> .
+_:genid39214 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid39216 .
+_:genid39215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39212 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39213 .
+<http://www.ihtsdo.org/snomedct.owl#Beta_lactam_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39212 .
+<http://www.ihtsdo.org/snomedct.owl#Beta_radiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_radiation> <http://www.w3.org/2000/01/rdf-schema#label> "Beta radiation (physical force)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Beta_radiation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ionizing_radiation> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_tocopherol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Beta_tocopherol> <http://www.w3.org/2000/01/rdf-schema#label> "Beta tocopherol (substance)"@en .

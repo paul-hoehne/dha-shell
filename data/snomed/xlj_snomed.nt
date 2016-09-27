@@ -1,0 +1,1000 @@
+_:genid47768 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47769 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_contusion_with_open_intracranial_wound> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47768 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_hemorrhage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_hemorrhage> <http://www.w3.org/2000/01/rdf-schema#label> "Brain stem hemorrhage (disorder)"@en .
+_:genid47785 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_brain_stem> .
+_:genid47787 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Intracranial_hemorrhage> .
+_:genid47786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47787 .
+_:genid47789 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47788 .
+_:genid47787 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47789 .
+_:genid47788 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47788 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47790 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47792 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47791 .
+_:genid47791 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47791 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47791 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hemorrhage> .
+_:genid47794 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47793 .
+_:genid47792 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47794 .
+_:genid47793 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47793 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47793 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+_:genid47794 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47790 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47792 .
+_:genid47788 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47790 .
+_:genid47789 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47785 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47786 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_hemorrhage> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47785 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_herniation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_herniation> <http://www.w3.org/2000/01/rdf-schema#label> "Brain stem herniation (disorder)"@en .
+_:genid47795 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_brain_stem> .
+_:genid47798 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47797 .
+_:genid47796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47798 .
+_:genid47797 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47797 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47799 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47801 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47800 .
+_:genid47800 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47800 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47800 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Herniated_structure> .
+_:genid47803 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47802 .
+_:genid47801 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47803 .
+_:genid47802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47802 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47802 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+_:genid47803 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47799 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47801 .
+_:genid47797 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47799 .
+_:genid47798 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47795 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47796 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_herniation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47795 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_ischemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_ischemia> <http://www.w3.org/2000/01/rdf-schema#label> "Brain stem ischemia (disorder)"@en .
+_:genid47804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47805 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Cerebrovascular_disease> .
+_:genid47806 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_brain_stem> .
+_:genid47805 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47806 .
+_:genid47807 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Ischemia> .
+_:genid47806 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47807 .
+_:genid47809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47808 .
+_:genid47807 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47809 .
+_:genid47808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47808 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47810 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47810 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+_:genid47808 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47810 .
+_:genid47812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47811 .
+_:genid47809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47812 .
+_:genid47811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47811 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47813 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47813 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Cerebrovascular_system_structure> .
+_:genid47811 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47813 .
+_:genid47812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47804 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47805 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_ischemia> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47804 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration> <http://www.w3.org/2000/01/rdf-schema#label> "Brain stem laceration (disorder)"@en .
+_:genid47814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_brain_stem> .
+_:genid47816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Laceration_of_brain> .
+_:genid47815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47816 .
+_:genid47818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47817 .
+_:genid47816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47818 .
+_:genid47817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47817 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47820 .
+_:genid47820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47820 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47820 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laceration> .
+_:genid47823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47822 .
+_:genid47821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47823 .
+_:genid47822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47822 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47822 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+_:genid47823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47819 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47821 .
+_:genid47817 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47819 .
+_:genid47818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47814 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47815 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47814 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration_with_open_intracranial_wound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration_with_open_intracranial_wound> <http://www.w3.org/2000/01/rdf-schema#label> "Brain stem laceration with open intracranial wound (disorder)"@en .
+_:genid47824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration> .
+_:genid47826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Laceration_of_brain_with_open_intracranial_wound> .
+_:genid47825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47826 .
+_:genid47828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47827 .
+_:genid47826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47828 .
+_:genid47827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47827 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47830 .
+_:genid47830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47830 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47830 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laceration> .
+_:genid47833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47832 .
+_:genid47831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47833 .
+_:genid47832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47832 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47832 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+_:genid47833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47829 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47831 .
+_:genid47827 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47829 .
+_:genid47835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47834 .
+_:genid47828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47835 .
+_:genid47834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47834 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47836 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47837 .
+_:genid47837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47837 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47837 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Open_wound> .
+_:genid47840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47839 .
+_:genid47838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47840 .
+_:genid47839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47839 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47839 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Intracranial_structure> .
+_:genid47840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47836 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47838 .
+_:genid47834 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47836 .
+_:genid47835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47824 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47825 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_laceration_with_open_intracranial_wound> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47824 .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_part> <http://www.w3.org/2000/01/rdf-schema#label> "Brain stem part (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brain_stem_part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Brain structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brain_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_and_spinal_cord_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intracranial_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_tissue_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_tissue_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Brain tissue structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brain_tissue_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_part> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_part> <http://www.w3.org/2000/01/rdf-schema#label> "Brain ventricle part (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_part> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Brain ventricle structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brain_ventricle_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_cerebrospinal_fluid_pathway> .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_encephalitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_encephalitis> <http://www.w3.org/2000/01/rdf-schema#label> "Brainstem encephalitis (disorder)"@en .
+_:genid47841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_brain_stem> .
+_:genid47843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Encephalitis> .
+_:genid47842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47843 .
+_:genid47845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47844 .
+_:genid47843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47845 .
+_:genid47844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47844 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47847 .
+_:genid47847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47847 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47847 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid47850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47849 .
+_:genid47848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47850 .
+_:genid47849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47849 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47849 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> .
+_:genid47850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47846 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47848 .
+_:genid47844 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47846 .
+_:genid47845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47841 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47842 .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_encephalitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47841 .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Brainstem structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_tissue_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Brainstem_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Infratentorial_brain_part> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of (attribute)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Unapproved_attribute> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_abdominal_aorta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_abdominal_aorta> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of abdominal aorta (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_abdominal_aorta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Systemic_arterial_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_cerebral_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_cerebral_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of anterior cerebral artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_cerebral_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_anterior_cerebral_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_division_of_internal_iliac_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_division_of_internal_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of anterior division of internal iliac artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_division_of_internal_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anterior_division_of_internal_iliac_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_ethmoidal_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_ethmoidal_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of anterior ethmoidal artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_ethmoidal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_anterior_ethmoidal_artery> .
+_:genid47851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47851 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid47851 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_ethmoidal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47851 .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_tibial_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_tibial_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of anterior tibial artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_anterior_tibial_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_anterior_tibial_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_axillary_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_axillary_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of axillary artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_axillary_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_axillary_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_basilar_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_basilar_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of basilar artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_basilar_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_basilar_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of brachial artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_brachial_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_plexus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_plexus> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of brachial plexus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brachial_plexus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachiocephalic_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachiocephalic_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of brachiocephalic artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_brachiocephalic_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_brachiocephalic_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_cervical_plexus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_cervical_plexus> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of cervical plexus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_cervical_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cervical_plexus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_cervical_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_of_head_and_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_common_iliac_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_common_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of common iliac artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_common_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Common_iliac_artery_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_dorsalis_pedis_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_dorsalis_pedis_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of dorsalis pedis artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_dorsalis_pedis_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_dorsalis_pedis_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_external_carotid_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_external_carotid_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of external carotid artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_external_carotid_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#External_carotid_artery_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_external_iliac_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_external_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of external iliac artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_external_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_external_iliac_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_facial_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_facial_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of facial artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_facial_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_facial_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_femoral_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_femoral_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of femoral artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_femoral_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_femoral_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_first_part_of_maxillary_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_first_part_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of first part of maxillary artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_first_part_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branch_of_maxillary_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_inferior_alveolar_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_inferior_alveolar_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of inferior alveolar artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_inferior_alveolar_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_inferior_alveolar_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_carotid_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_carotid_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of internal carotid artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_carotid_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Internal_carotid_artery_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_iliac_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of internal iliac artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_internal_iliac_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_pudendal_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_pudendal_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of internal pudendal artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_pudendal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_internal_pudendal_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_thoracic_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_thoracic_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of internal thoracic artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_internal_thoracic_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_internal_thoracic_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_left_coronary_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_left_coronary_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of left coronary artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_left_coronary_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Left_coronary_artery_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lingual_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lingual_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of lingual artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lingual_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lingual_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lumbar_plexus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lumbar_plexus> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of lumbar plexus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lumbar_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lumbar_plexus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_lumbar_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_of_lower_limb> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_maxillary_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of maxillary artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_maxillary_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_medial_cord_of_brachial_plexus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_medial_cord_of_brachial_plexus> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of medial cord of brachial plexus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_medial_cord_of_brachial_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_plexus> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_middle_cerebral_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_middle_cerebral_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of middle cerebral artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_middle_cerebral_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_middle_cerebral_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of ophthalmic artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_ophthalmic_artery> .
+_:genid47852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47852 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid47852 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47852 .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_nerve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_nerve> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of ophthalmic nerve (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ophthalmic_nerve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_ophthalmic_nerve> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_popliteal_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_popliteal_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of popliteal artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_popliteal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_popliteal_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_cerebral_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_cerebral_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of posterior cerebral artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_cerebral_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_posterior_cerebral_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_cord_of_brachial_plexus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_cord_of_brachial_plexus> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of posterior cord of brachial plexus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_cord_of_brachial_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branch_of_brachial_plexus> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_division_of_internal_iliac_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_division_of_internal_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of posterior division of internal iliac artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_division_of_internal_iliac_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Posterior_division_of_internal_iliac_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_tibial_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_tibial_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of posterior tibial artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_posterior_tibial_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_posterior_tibial_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_profunda_femoris_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_profunda_femoris_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of profunda femoris artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_profunda_femoris_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_profunda_femoris_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_renal_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_renal_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of renal artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_renal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_renal_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_retinal_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_retinal_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of retinal artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_retinal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_central_retinal_artery> .
+_:genid47853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47853 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid47853 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_retinal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47853 .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_sacral_plexus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_sacral_plexus> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of sacral plexus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_sacral_plexus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sacral_plexus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_sacral_plexus_to_lower_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_sacral_plexus_to_lower_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of sacral plexus to lower limb (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_sacral_plexus_to_lower_limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_of_lower_limb> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_second_part_of_maxillary_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_second_part_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of second part of maxillary artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_second_part_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branch_of_maxillary_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_subclavian_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_subclavian_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of subclavian artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_subclavian_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_subclavian_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_superficial_temporal_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_superficial_temporal_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of superficial temporal artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_superficial_temporal_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_superficial_temporal_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_third_part_of_maxillary_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_third_part_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of third part of maxillary artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_third_part_of_maxillary_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branch_of_maxillary_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_thoracic_aorta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_thoracic_aorta> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of thoracic aorta (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_thoracic_aorta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Systemic_arterial_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_thyrocervical_trunk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_thyrocervical_trunk> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of thyrocervical trunk (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_thyrocervical_trunk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_thyrocervical_trunk> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ulnar_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ulnar_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of ulnar artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_ulnar_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_ulnar_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_vertebral_artery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_vertebral_artery> <http://www.w3.org/2000/01/rdf-schema#label> "Branch of vertebral artery (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branch_of_vertebral_artery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_vertebral_artery> .
+<http://www.ihtsdo.org/snomedct.owl#Branched-chain_amino_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branched-chain_amino_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Branched-chain amino acid (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branched-chain_amino_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Amino_acid> .
+<http://www.ihtsdo.org/snomedct.owl#Branched_chain_alkene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branched_chain_alkene> <http://www.w3.org/2000/01/rdf-schema#label> "Branched chain alkene (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branched_chain_alkene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Alkene> .
+<http://www.ihtsdo.org/snomedct.owl#Branches_of_abdominal_aorta_operations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branches_of_abdominal_aorta_operations> <http://www.w3.org/2000/01/rdf-schema#label> "Branches of abdominal aorta operations (procedure)"@en .
+_:genid47854 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_artery> .
+_:genid47856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Vascular_surgery_procedure> .
+_:genid47855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47856 .
+_:genid47858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47857 .
+_:genid47856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47858 .
+_:genid47857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47857 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47860 .
+_:genid47860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47860 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid47860 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid47863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47862 .
+_:genid47861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47863 .
+_:genid47862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47862 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid47862 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Branch_of_abdominal_aorta> .
+_:genid47863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47859 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47861 .
+_:genid47857 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47859 .
+_:genid47858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47854 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47855 .
+<http://www.ihtsdo.org/snomedct.owl#Branches_of_abdominal_aorta_operations> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47854 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_apparatus_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_apparatus_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Branchial apparatus structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_apparatus_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Embryonic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_arch_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_arch_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Branchial arch structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_arch_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branchial_apparatus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#label> "Branchial cleft (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#label> "Branchial cleft (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Branchial_apparatus_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ear,_face_and_neck_congenital_anomalies> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Persistent_embryonic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lateral_portion_of_neck> .
+_:genid47864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47864 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47866 .
+_:genid47866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47866 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47866 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital_anomaly> .
+_:genid47869 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47868 .
+_:genid47867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47869 .
+_:genid47868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47868 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47868 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Head_and_neck_structure> .
+_:genid47869 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47865 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47867 .
+_:genid47864 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47865 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47864 .
+_:genid47870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47870 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid47870 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47870 .
+_:genid47871 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47871 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47872 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Occurrence> .
+_:genid47872 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital> .
+_:genid47871 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47872 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47871 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#label> "Branchial cleft cyst (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Congenital_anomaly_of_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cyst> .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mass_of_body_structure> .
+_:genid47873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47873 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47875 .
+_:genid47875 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47875 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47875 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital_anomaly> .
+_:genid47878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47877 .
+_:genid47876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47878 .
+_:genid47877 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47877 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47877 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neck_structure> .
+_:genid47878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47874 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47876 .
+_:genid47873 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47874 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47873 .
+_:genid47879 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47879 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47880 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Occurrence> .
+_:genid47880 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Congenital> .
+_:genid47879 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47880 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47879 .
+_:genid47881 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47881 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47883 .
+_:genid47883 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47883 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47883 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Embryonic_cyst> .
+_:genid47886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47885 .
+_:genid47884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47886 .
+_:genid47885 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47885 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47885 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Branchial_arch_structure> .
+_:genid47886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47882 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47884 .
+_:genid47881 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47882 .
+<http://www.ihtsdo.org/snomedct.owl#Branchial_cleft_cyst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47881 .
+<http://www.ihtsdo.org/snomedct.owl#Branchioma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Branchioma> <http://www.w3.org/2000/01/rdf-schema#label> "Branchioma (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Branchioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neoplasm,_benign> .
+<http://www.ihtsdo.org/snomedct.owl#Branchioma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Veterinary_tumor> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica> <http://www.w3.org/2000/01/rdf-schema#label> "Brassica (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brassica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Family_brassicaceae_-_cruciferae_-_mustard> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_napus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_napus> <http://www.w3.org/2000/01/rdf-schema#label> "Brassica napus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_napus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brassica> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_nigra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_nigra> <http://www.w3.org/2000/01/rdf-schema#label> "Brassica nigra (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_nigra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brassica> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_vegetable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_vegetable> <http://www.w3.org/2000/01/rdf-schema#label> "Brassica vegetable (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brassica_vegetable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Vegetable> .
+<http://www.ihtsdo.org/snomedct.owl#Brazil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brazil> <http://www.w3.org/2000/01/rdf-schema#label> "Brazil (geographic location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brazil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#South_American_country> .
+<http://www.ihtsdo.org/snomedct.owl#Brazil_nut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Brazil_nut> <http://www.w3.org/2000/01/rdf-schema#label> "Brazil nut (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Brazil_nut> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nut> .
+<http://www.ihtsdo.org/snomedct.owl#Break-through_bleeding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Break-through_bleeding> <http://www.w3.org/2000/01/rdf-schema#label> "Break-through bleeding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Break-through_bleeding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intermenstrual_bleeding_-_irregular> .
+_:genid47887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47887 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47889 .
+_:genid47889 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47889 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47889 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hemorrhage> .
+_:genid47892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47891 .
+_:genid47890 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47892 .
+_:genid47891 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47891 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47891 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Vaginal_structure> .
+_:genid47892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47888 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47890 .
+_:genid47887 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47888 .
+<http://www.ihtsdo.org/snomedct.owl#Break-through_bleeding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47887 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cancer_type_1_susceptibility_protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cancer_type_1_susceptibility_protein> <http://www.w3.org/2000/01/rdf-schema#label> "Breast cancer type 1 susceptibility protein (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cancer_type_1_susceptibility_protein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nuclear_phosphoprotein> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cancer_type_2_susceptibility_protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cancer_type_2_susceptibility_protein> <http://www.w3.org/2000/01/rdf-schema#label> "Breast cancer type 2 susceptibility protein (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cancer_type_2_susceptibility_protein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nuclear_phosphoprotein> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_contrast_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_contrast_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Breast contrast procedure (procedure)"@en .
+_:genid47893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Breast_procedure> .
+_:genid47895 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Thoracic_contrast_procedure> .
+_:genid47894 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47895 .
+_:genid47897 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47896 .
+_:genid47895 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47897 .
+_:genid47896 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47896 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47898 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47899 .
+_:genid47899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47899 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid47899 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Imaging_-_action> .
+_:genid47902 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47901 .
+_:genid47900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47902 .
+_:genid47901 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47901 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid47901 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47904 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47903 .
+_:genid47902 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47904 .
+_:genid47903 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47903 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Using_substance> .
+_:genid47903 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Contrast_media> .
+_:genid47904 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47898 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47900 .
+_:genid47896 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47898 .
+_:genid47897 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47893 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47894 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_contrast_procedure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47893 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cyst_fluid_sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cyst_fluid_sample> <http://www.w3.org/2000/01/rdf-schema#label> "Breast cyst fluid sample (specimen)"@en .
+_:genid47905 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Breast_fluid_sample> .
+_:genid47907 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Cyst_fluid_sample> .
+_:genid47906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47907 .
+_:genid47909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47908 .
+_:genid47907 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47909 .
+_:genid47908 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47908 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47911 .
+_:genid47911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47911 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_morphology> .
+_:genid47911 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Cyst> .
+_:genid47914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47913 .
+_:genid47912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47914 .
+_:genid47913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47913 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid47913 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47915 .
+_:genid47914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47916 .
+_:genid47915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47915 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_substance> .
+_:genid47915 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Mammary_fluid> .
+_:genid47916 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47910 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47912 .
+_:genid47908 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47910 .
+_:genid47909 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47905 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47906 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_cyst_fluid_sample> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47905 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_disorders_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_disorders_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Breast disorders NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_disorders_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_breast> .
+_:genid47917 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47917 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47918 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47918 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47918 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47917 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47918 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_disorders_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47917 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_duct_sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_duct_sample> <http://www.w3.org/2000/01/rdf-schema#label> "Breast duct sample (specimen)"@en .
+_:genid47919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Specimen_from_breast> .
+_:genid47922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47921 .
+_:genid47920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47922 .
+_:genid47921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47921 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47923 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid47923 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Lactiferous_duct_structure> .
+_:genid47921 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47923 .
+_:genid47922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47919 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47920 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_duct_sample> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47919 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fed> <http://www.w3.org/2000/01/rdf-schema#label> "Breast fed (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Finding_of_infant_feeding_method> .
+_:genid47924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47924 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47925 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid47925 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Infant_feeding_method> .
+_:genid47924 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47925 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47924 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Breast finding (finding)"@en .
+_:genid47926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Finding_of_region_of_thorax> .
+_:genid47929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47928 .
+_:genid47927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47929 .
+_:genid47928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47928 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47930 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47930 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47928 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47930 .
+_:genid47929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47926 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47927 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_finding> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47926 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fluid_sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fluid_sample> <http://www.w3.org/2000/01/rdf-schema#label> "Breast fluid sample (specimen)"@en .
+_:genid47931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Body_fluid_sample> .
+_:genid47933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Specimen_from_breast> .
+_:genid47932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47933 .
+_:genid47935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47934 .
+_:genid47933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47935 .
+_:genid47934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47934 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47937 .
+_:genid47937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47937 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid47937 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47939 .
+_:genid47938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47940 .
+_:genid47939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47939 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_substance> .
+_:genid47939 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Mammary_fluid> .
+_:genid47940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47936 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47938 .
+_:genid47934 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47936 .
+_:genid47935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47931 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47932 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_fluid_sample> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47931 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_hematoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_hematoma> <http://www.w3.org/2000/01/rdf-schema#label> "Breast hematoma (disorder)"@en .
+_:genid47941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Bleeding_from_breast> .
+_:genid47943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hematoma> .
+_:genid47942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47943 .
+_:genid47944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Mass_of_thoracic_structure> .
+_:genid47943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47944 .
+_:genid47946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47945 .
+_:genid47944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47946 .
+_:genid47945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47945 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47948 .
+_:genid47948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47948 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47948 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hematoma> .
+_:genid47951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47950 .
+_:genid47949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47951 .
+_:genid47950 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47950 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47950 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47947 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47949 .
+_:genid47945 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47947 .
+_:genid47946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47941 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47942 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_hematoma> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47941 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_implantation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_implantation> <http://www.w3.org/2000/01/rdf-schema#label> "Breast implantation (procedure)"@en .
+_:genid47952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Breast_procedure> .
+_:genid47954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Thorax_implantation> .
+_:genid47953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47954 .
+_:genid47956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47955 .
+_:genid47954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47956 .
+_:genid47955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47955 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47958 .
+_:genid47958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47958 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid47958 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Insertion_-_action> .
+_:genid47961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47960 .
+_:genid47959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47961 .
+_:genid47960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47960 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Indirect> .
+_:genid47960 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47957 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47959 .
+_:genid47955 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47957 .
+_:genid47956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47952 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47953 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_implantation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47952 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_incision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_incision> <http://www.w3.org/2000/01/rdf-schema#label> "Breast incision (procedure)"@en .
+_:genid47962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Incision_of_thorax> .
+_:genid47964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_breast> .
+_:genid47963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47964 .
+_:genid47966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47965 .
+_:genid47964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47966 .
+_:genid47965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47965 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47968 .
+_:genid47968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47968 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid47968 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Incision_-_action> .
+_:genid47971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47970 .
+_:genid47969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47971 .
+_:genid47970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47970 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid47970 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47967 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47969 .
+_:genid47965 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47967 .
+_:genid47966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47962 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47963 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_incision> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47962 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Breast infection (disorder)"@en .
+_:genid47972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_breast> .
+_:genid47974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Infection_by_site> .
+_:genid47973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47974 .
+_:genid47976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47975 .
+_:genid47974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47976 .
+_:genid47975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47975 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47977 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid47977 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Infectious_agent> .
+_:genid47975 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47977 .
+_:genid47979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47978 .
+_:genid47976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47979 .
+_:genid47978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47978 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47980 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47980 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47978 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47980 .
+_:genid47979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47972 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47973 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47972 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_inflammation_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_inflammation_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Breast inflammation NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_inflammation_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Inflammatory_disorder_of_breast> .
+_:genid47981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47981 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47983 .
+_:genid47983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47983 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47983 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammatory_morphology> .
+_:genid47986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47985 .
+_:genid47984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47986 .
+_:genid47985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47985 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47985 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47982 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47984 .
+_:genid47981 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47982 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_inflammation_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47981 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_lump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_lump> <http://www.w3.org/2000/01/rdf-schema#label> "Breast lump (finding)"@en .
+_:genid47987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Lesion_of_breast> .
+_:genid47989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Mass_of_thoracic_structure> .
+_:genid47988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47989 .
+_:genid47991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47990 .
+_:genid47989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47991 .
+_:genid47990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47990 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid47992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47993 .
+_:genid47993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47993 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid47993 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Mass> .
+_:genid47996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47995 .
+_:genid47994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47996 .
+_:genid47995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47995 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid47995 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid47996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47992 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47994 .
+_:genid47990 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid47992 .
+_:genid47991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47987 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47988 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_lump> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47987 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_lump_present> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_lump_present> <http://www.w3.org/2000/01/rdf-schema#label> "Breast lump present (situation)"@en .
+_:genid47997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Clinical_finding_present> .
+_:genid48000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47999 .
+_:genid47998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48000 .
+_:genid47999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47999 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48002 .
+_:genid48002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48002 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid48002 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_lump> .
+_:genid48005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48004 .
+_:genid48003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48005 .
+_:genid48004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48004 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid48004 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid48007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48006 .
+_:genid48005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48007 .
+_:genid48006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48006 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid48006 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Subject_of_record> .
+_:genid48009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48008 .
+_:genid48007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48009 .
+_:genid48008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48008 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid48008 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid48009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48001 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48003 .
+_:genid47999 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid48001 .
+_:genid48000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47997 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid47998 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_lump_present> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47997 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_manipulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_manipulation> <http://www.w3.org/2000/01/rdf-schema#label> "Breast manipulation (procedure)"@en .
+_:genid48010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Breast_procedure> .
+_:genid48012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Thorax_manipulation> .
+_:genid48011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48012 .
+_:genid48014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48013 .
+_:genid48012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48014 .
+_:genid48013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48013 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48016 .
+_:genid48016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48016 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid48016 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Manipulation_-_action> .
+_:genid48019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48018 .
+_:genid48017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48019 .
+_:genid48018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48018 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid48018 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid48019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48015 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48017 .
+_:genid48013 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid48015 .
+_:genid48014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48010 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48011 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_manipulation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48010 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_milk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_milk> <http://www.w3.org/2000/01/rdf-schema#label> "Breast milk (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_milk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mammary_fluid> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_milk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Milk> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_neoplasm_screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_neoplasm_screening> <http://www.w3.org/2000/01/rdf-schema#label> "Breast neoplasm screening (procedure)"@en .
+_:genid48020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Screening_for_disorder> .
+_:genid48023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48022 .
+_:genid48021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48023 .
+_:genid48022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48022 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48025 .
+_:genid48025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48025 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_focus> .
+_:genid48025 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm_of_breast> .
+_:genid48028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48027 .
+_:genid48026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48028 .
+_:genid48027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48027 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid48027 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Screening_-_procedure_intent> .
+_:genid48028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48024 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48026 .
+_:genid48022 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid48024 .
+_:genid48023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48020 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48021 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_neoplasm_screening> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48020 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_nipple_discharge_sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_nipple_discharge_sample> <http://www.w3.org/2000/01/rdf-schema#label> "Breast nipple discharge sample (specimen)"@en .
+_:genid48029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Breast_fluid_sample> .
+_:genid48032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48031 .
+_:genid48030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48032 .
+_:genid48031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48031 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48034 .
+_:genid48034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48034 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid48034 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Nipple_structure> .
+_:genid48037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48036 .
+_:genid48035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48037 .
+_:genid48036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48036 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_substance> .
+_:genid48036 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Mammary_fluid> .
+_:genid48037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48033 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48035 .
+_:genid48031 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid48033 .
+_:genid48032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48029 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48030 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_nipple_discharge_sample> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48029 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_observable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_observable> <http://www.w3.org/2000/01/rdf-schema#label> "Breast observable (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_observable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinical_history/examination_observable> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_part> <http://www.w3.org/2000/01/rdf-schema#label> "Breast part (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Organ_part> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Breast procedure (procedure)"@en .
+_:genid48038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_body_system> .
+_:genid48040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_organ> .
+_:genid48039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48040 .
+_:genid48041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_thorax> .
+_:genid48040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48041 .
+_:genid48043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48042 .
+_:genid48041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48043 .
+_:genid48042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48042 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48044 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid48044 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid48042 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid48044 .
+_:genid48043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48038 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48039 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_procedure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48038 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis,_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis,_device> <http://www.w3.org/2000/01/rdf-schema#label> "Breast prosthesis, device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cosmetic_prosthesis,_device> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Prosthetic_implant,_device> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis_operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis_operation> <http://www.w3.org/2000/01/rdf-schema#label> "Breast prosthesis operation (procedure)"@en .
+_:genid48045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_breast> .
+_:genid48047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_categorized_by_device_involved> .
+_:genid48046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48047 .
+_:genid48049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48048 .
+_:genid48047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48049 .
+_:genid48048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48048 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48051 .
+_:genid48051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48051 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid48051 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid48054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48053 .
+_:genid48052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48054 .
+_:genid48053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48053 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_device> .
+_:genid48053 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis,_device> .
+_:genid48056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48055 .
+_:genid48054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48056 .
+_:genid48055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48055 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Indirect> .
+_:genid48055 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid48056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48050 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48052 .
+_:genid48048 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid48050 .
+_:genid48049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48045 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48046 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_prosthesis_operation> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48045 .
+<http://www.ihtsdo.org/snomedct.owl#Breast_quadrant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_quadrant> <http://www.w3.org/2000/01/rdf-schema#label> "Breast quadrant (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Breast_quadrant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Region_of_breast> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Breast_repair> <http://www.w3.org/2000/01/rdf-schema#label> "Breast repair (procedure)"@en .
+_:genid48057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_breast> .
+_:genid48059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Thorax_repair> .
+_:genid48058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48059 .
+_:genid48061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48060 .
+_:genid48059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48061 .
+_:genid48060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48060 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid48062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48063 .
+_:genid48063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48063 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .

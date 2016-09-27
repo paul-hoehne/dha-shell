@@ -1,0 +1,1000 @@
+<http://www.ihtsdo.org/snomedct.owl#Dendrite> <http://www.w3.org/2000/01/rdf-schema#label> "Dendrite (cell structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dendrite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Specialized_cell_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Dendrite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Subcellular_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_neoplasm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_neoplasm> <http://www.w3.org/2000/01/rdf-schema#label> "Dendritic cell neoplasm (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_neoplasm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Histiocytic_neoplasm> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_sarcoma,_not_otherwise_specified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_sarcoma,_not_otherwise_specified> <http://www.w3.org/2000/01/rdf-schema#label> "Dendritic cell sarcoma, not otherwise specified (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_sarcoma,_not_otherwise_specified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Interdigitating_dendritic_cell_sarcoma> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_system_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_system_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Dendritic cell system structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_system_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hematopoietic_system_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_cell_system_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_immune_system> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#label> "Dendritic ulcer (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#label> "Dendritic ulcer (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ulcer> .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Viral_corneal_ulcer> .
+_:genid101605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101605 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101606 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101606 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101606 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Virus> .
+_:genid101605 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101606 .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101605 .
+_:genid101607 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101607 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101608 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101609 .
+_:genid101609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101609 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101609 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ulcer> .
+_:genid101612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101611 .
+_:genid101610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101612 .
+_:genid101611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101611 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101611 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Corneal_structure> .
+_:genid101612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101608 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101610 .
+_:genid101607 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101608 .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101607 .
+_:genid101613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101613 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101615 .
+_:genid101615 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101615 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101615 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid101618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101617 .
+_:genid101616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101618 .
+_:genid101617 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101617 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101617 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Corneal_structure> .
+_:genid101618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101614 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101616 .
+_:genid101613 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101614 .
+<http://www.ihtsdo.org/snomedct.owl#Dendritic_ulcer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101613 .
+<http://www.ihtsdo.org/snomedct.owl#Dengue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dengue> <http://www.w3.org/2000/01/rdf-schema#label> "Dengue (disorder)"@en .
+_:genid101619 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Mosquito-borne_flavivirus_fever> .
+_:genid101622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101621 .
+_:genid101620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101622 .
+_:genid101621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101621 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101623 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101623 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101623 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Dengue_virus> .
+_:genid101621 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101623 .
+_:genid101622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101619 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101620 .
+<http://www.ihtsdo.org/snomedct.owl#Dengue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101619 .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_hemorrhagic_fever> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_hemorrhagic_fever> <http://www.w3.org/2000/01/rdf-schema#label> "Dengue hemorrhagic fever (disorder)"@en .
+_:genid101624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101625 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Dengue> .
+_:genid101626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Mosquito-borne_hemorrhagic_fever> .
+_:genid101625 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101626 .
+_:genid101628 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101627 .
+_:genid101626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101628 .
+_:genid101627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101627 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101629 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101629 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Dengue_virus> .
+_:genid101627 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101629 .
+_:genid101628 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101624 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101625 .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_hemorrhagic_fever> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101624 .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Dengue virus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dengue_virus_subgroup> .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_virus_subgroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_virus_subgroup> <http://www.w3.org/2000/01/rdf-schema#label> "Dengue virus subgroup (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dengue_virus_subgroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Flavivirus> .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/2000/01/rdf-schema#label> "Denileukin Diftitox (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/2000/01/rdf-schema#label> "Denileukin Diftitox (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Biological_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cytotoxic_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Recombinant_interleukin_2_moiety> .
+_:genid101630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101630 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid101630 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> .
+<http://www.ihtsdo.org/snomedct.owl#Denileukin_Diftitox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101630 .
+<http://www.ihtsdo.org/snomedct.owl#Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Denmark> <http://www.w3.org/2000/01/rdf-schema#label> "Denmark (geographic location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Denmark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#West_European_country> .
+<http://www.ihtsdo.org/snomedct.owl#Denominators_of_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Denominators_of_time> <http://www.w3.org/2000/01/rdf-schema#label> "Denominators of time (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Denominators_of_time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Unit_denominators> .
+<http://www.ihtsdo.org/snomedct.owl#Dense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dense> <http://www.w3.org/2000/01/rdf-schema#label> "Dense (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dense> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#General_grades> .
+<http://www.ihtsdo.org/snomedct.owl#Dense_body_defect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dense_body_defect> <http://www.w3.org/2000/01/rdf-schema#label> "Dense body defect (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dense_body_defect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Platelet_storage_pool_defect> .
+<http://www.ihtsdo.org/snomedct.owl#Dense_fibrous_connective_tissue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dense_fibrous_connective_tissue> <http://www.w3.org/2000/01/rdf-schema#label> "Dense fibrous connective tissue (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dense_fibrous_connective_tissue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Connective_tissue_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Dense_fibrous_connective_tissue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Fibrous_tissue> .
+<http://www.ihtsdo.org/snomedct.owl#Density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Density> <http://www.w3.org/2000/01/rdf-schema#label> "Density (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Density> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Property_of_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#Density_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Density_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Density finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Density_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test_finding> .
+_:genid101631 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101631 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101632 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101632 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101632 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid101631 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101632 .
+<http://www.ihtsdo.org/snomedct.owl#Density_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101631 .
+<http://www.ihtsdo.org/snomedct.owl#Dental-oral_procedure_AND/OR_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental-oral_procedure_AND/OR_service> <http://www.w3.org/2000/01/rdf-schema#label> "Dental-oral procedure AND/OR service (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental-oral_procedure_AND/OR_service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_oral_cavity> .
+_:genid101633 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101633 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101634 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid101634 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_structure> .
+_:genid101633 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101634 .
+<http://www.ihtsdo.org/snomedct.owl#Dental-oral_procedure_AND/OR_service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101633 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_abscess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_abscess> <http://www.w3.org/2000/01/rdf-schema#label> "Dental abscess (disorder)"@en .
+_:genid101635 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Abscess_of_jaw> .
+_:genid101637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Abscess_of_oral_tissue> .
+_:genid101636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101637 .
+_:genid101638 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Tooth_disorder> .
+_:genid101637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101638 .
+_:genid101640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101639 .
+_:genid101638 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101640 .
+_:genid101639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101639 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101641 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101643 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101642 .
+_:genid101642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101642 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101642 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abscess> .
+_:genid101645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101644 .
+_:genid101643 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101645 .
+_:genid101644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101644 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101644 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+_:genid101645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101641 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101643 .
+_:genid101639 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101641 .
+_:genid101640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101635 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101636 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_abscess> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101635 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_adhesive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_adhesive> <http://www.w3.org/2000/01/rdf-schema#label> "Dental adhesive (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_adhesive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_material> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_arch_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_arch_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Dental arch structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_arch_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_hard_tissue_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_assistant> <http://www.w3.org/2000/01/rdf-schema#label> "Dental assistant (occupation)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_assistant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Medical,_dental,_veterinary/related_worker> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_assistant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Supporting_services_personnel> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_calculus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_calculus> <http://www.w3.org/2000/01/rdf-schema#label> "Dental calculus (disorder)"@en .
+_:genid101646 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Accretion_on_teeth> .
+_:genid101649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101648 .
+_:genid101647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101649 .
+_:genid101648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101648 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101651 .
+_:genid101651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101651 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101651 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Accretion> .
+_:genid101654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101653 .
+_:genid101652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101654 .
+_:genid101653 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101653 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101653 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+_:genid101654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101650 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101652 .
+_:genid101648 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101650 .
+_:genid101656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101655 .
+_:genid101649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101656 .
+_:genid101655 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101655 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101658 .
+_:genid101658 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101658 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101658 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Calculus> .
+_:genid101661 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101660 .
+_:genid101659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101661 .
+_:genid101660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101660 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101660 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+_:genid101661 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101657 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101659 .
+_:genid101655 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101657 .
+_:genid101656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101646 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101647 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_calculus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101646 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_care> <http://www.w3.org/2000/01/rdf-schema#label> "Dental care (regime/therapy)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Care_of_body_sites> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries> <http://www.w3.org/2000/01/rdf-schema#label> "Dental caries (disorder)"@en .
+_:genid101662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Bacterial_oral_infection> .
+_:genid101664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_hard_tissues_of_teeth> .
+_:genid101663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101664 .
+_:genid101665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Infection_of_tooth> .
+_:genid101664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101665 .
+_:genid101666 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Injury_of_anatomical_site> .
+_:genid101665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101666 .
+_:genid101668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101667 .
+_:genid101666 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101668 .
+_:genid101667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101667 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101671 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101670 .
+_:genid101670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101670 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101670 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Caries> .
+_:genid101673 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101672 .
+_:genid101671 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101673 .
+_:genid101672 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101672 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101672 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_hard_tissue_of_tooth> .
+_:genid101673 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101669 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101671 .
+_:genid101667 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101669 .
+_:genid101675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101674 .
+_:genid101668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101675 .
+_:genid101674 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101674 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101676 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101676 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Superkingdom_Bacteria> .
+_:genid101674 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101676 .
+_:genid101675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101662 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101663 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101662 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Dental caries NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_caries> .
+_:genid101677 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101677 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101678 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101678 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Superkingdom_Bacteria> .
+_:genid101677 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101678 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101677 .
+_:genid101679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101679 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101681 .
+_:genid101681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101681 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101681 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Caries> .
+_:genid101684 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101683 .
+_:genid101682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101684 .
+_:genid101683 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101683 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101683 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_hard_tissue_of_tooth> .
+_:genid101684 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101680 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101682 .
+_:genid101679 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101680 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101679 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_activity> <http://www.w3.org/2000/01/rdf-schema#label> "Dental caries activity (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Measure_of_dentition> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_associated_with_enamel_hypoplasia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_associated_with_enamel_hypoplasia> <http://www.w3.org/2000/01/rdf-schema#label> "Dental caries associated with enamel hypoplasia (disorder)"@en .
+_:genid101685 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101686 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Dental_caries> .
+_:genid101688 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101687 .
+_:genid101686 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101688 .
+_:genid101687 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101687 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101689 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101691 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101690 .
+_:genid101690 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101690 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101690 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Caries> .
+_:genid101693 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101692 .
+_:genid101691 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101693 .
+_:genid101692 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101692 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101692 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_hard_tissue_of_tooth> .
+_:genid101693 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101689 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101691 .
+_:genid101687 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101689 .
+_:genid101695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101694 .
+_:genid101688 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101695 .
+_:genid101694 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101694 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101696 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101696 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_with> .
+_:genid101696 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enamel_hypoplasia> .
+_:genid101694 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101696 .
+_:genid101698 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101697 .
+_:genid101695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101698 .
+_:genid101697 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101697 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101699 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101699 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Superkingdom_Bacteria> .
+_:genid101697 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101699 .
+_:genid101698 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101685 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101686 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_caries_associated_with_enamel_hypoplasia> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101685 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_cement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_cement> <http://www.w3.org/2000/01/rdf-schema#label> "Dental cement (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_cement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_material> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_consumables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_consumables> <http://www.w3.org/2000/01/rdf-schema#label> "Dental consumables (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_consumables> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_material> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_disclosing_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_disclosing_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Dental disclosing agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_disclosing_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Topical_dental_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_disclosing_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_disclosing_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Dental disclosing preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_disclosing_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pharmaceutical_/_biologic_product> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_dosage_form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_dosage_form> <http://www.w3.org/2000/01/rdf-schema#label> "Dental dosage form (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_dosage_form> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dose_form_by_site_prepared_for> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_equipment> <http://www.w3.org/2000/01/rdf-schema#label> "Dental equipment (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Instrument,_device> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_filling_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_filling_material> <http://www.w3.org/2000/01/rdf-schema#label> "Dental filling material (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_filling_material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_material> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_filling_material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Filling_material> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_hygienist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_hygienist> <http://www.w3.org/2000/01/rdf-schema#label> "Dental hygienist (occupation)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_hygienist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_assistant> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_hygienist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Technical_healthcare_occupation> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_material> <http://www.w3.org/2000/01/rdf-schema#label> "Dental material (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Materials> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_nurse> <http://www.w3.org/2000/01/rdf-schema#label> "Dental nurse (occupation)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Professional_nurse> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_occlusion,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_occlusion,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Dental occlusion, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_occlusion,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_function> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_pack_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_pack_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Dental pack procedure (procedure)"@en .
+_:genid101700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_categorized_by_device_involved> .
+_:genid101702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_oral_cavity> .
+_:genid101701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101702 .
+_:genid101704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101703 .
+_:genid101702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101704 .
+_:genid101703 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101703 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101705 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101705 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_device> .
+_:genid101705 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Pack> .
+_:genid101703 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101705 .
+_:genid101707 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101706 .
+_:genid101704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101707 .
+_:genid101706 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101706 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101708 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site> .
+_:genid101708 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_structure> .
+_:genid101706 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101708 .
+_:genid101707 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101700 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101701 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_pack_procedure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101700 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_phobia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_phobia> <http://www.w3.org/2000/01/rdf-schema#label> "Dental phobia (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_phobia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phobia> .
+_:genid101709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101709 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101710 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101710 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101710 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Emotion> .
+_:genid101709 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101710 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_phobia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101709 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque> <http://www.w3.org/2000/01/rdf-schema#label> "Dental plaque (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Accretion_on_teeth> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Degenerative_disorder> .
+_:genid101711 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101711 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101712 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101714 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101713 .
+_:genid101713 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101713 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101713 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Accretion> .
+_:genid101716 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101715 .
+_:genid101714 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101716 .
+_:genid101715 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101715 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101715 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+_:genid101716 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101712 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101714 .
+_:genid101711 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101712 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101711 .
+_:genid101717 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101717 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101718 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101719 .
+_:genid101719 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101719 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101719 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Plaque> .
+_:genid101722 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101721 .
+_:genid101720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101722 .
+_:genid101721 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101721 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101721 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+_:genid101722 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101718 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101720 .
+_:genid101717 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101718 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101717 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque_present> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque_present> <http://www.w3.org/2000/01/rdf-schema#label> "Dental plaque present (situation)"@en .
+_:genid101723 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101724 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Clinical_finding_present> .
+_:genid101726 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101725 .
+_:genid101724 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101726 .
+_:genid101725 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101725 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101727 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101729 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101728 .
+_:genid101728 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101728 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid101728 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Dental_plaque> .
+_:genid101731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101730 .
+_:genid101729 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101731 .
+_:genid101730 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101730 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid101730 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid101733 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101732 .
+_:genid101731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101733 .
+_:genid101732 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101732 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid101732 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Subject_of_record> .
+_:genid101735 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101734 .
+_:genid101733 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101735 .
+_:genid101734 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101734 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid101734 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid101735 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101727 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101729 .
+_:genid101725 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101727 .
+_:genid101726 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101723 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101724 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_plaque_present> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101723 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_practitioner_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_practitioner_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Dental practitioner NOS (occupation)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_practitioner_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dentist> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_prosthesis,_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_prosthesis,_device> <http://www.w3.org/2000/01/rdf-schema#label> "Dental prosthesis, device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_prosthesis,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Prosthesis,_device> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_restorative_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_restorative_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Dental restorative procedure (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_restorative_procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Procedure_by_method> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_restorative_procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_oral_cavity> .
+_:genid101736 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101736 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101737 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101739 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101738 .
+_:genid101738 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101738 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101738 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Restore_-_action> .
+_:genid101741 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101740 .
+_:genid101739 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101741 .
+_:genid101740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101740 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid101740 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_structure> .
+_:genid101741 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101737 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101739 .
+_:genid101736 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101737 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_restorative_procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101736 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_rubber_dam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_rubber_dam> <http://www.w3.org/2000/01/rdf-schema#label> "Dental rubber dam (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_rubber_dam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_equipment> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_surgical_procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_surgical_procedure> <http://www.w3.org/2000/01/rdf-schema#label> "Dental surgical procedure (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dental_surgical_procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Operation_on_oral_cavity> .
+_:genid101742 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101742 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101743 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101745 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101744 .
+_:genid101744 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101744 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101744 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Surgical_action> .
+_:genid101747 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101746 .
+_:genid101745 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101747 .
+_:genid101746 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101746 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid101746 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_structure> .
+_:genid101747 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101743 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101745 .
+_:genid101742 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101743 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_surgical_procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101742 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_tissue_sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dental_tissue_sample> <http://www.w3.org/2000/01/rdf-schema#label> "Dental tissue sample (specimen)"@en .
+_:genid101748 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101749 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Oral_tissue_sample> .
+_:genid101751 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101750 .
+_:genid101749 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101751 .
+_:genid101750 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101750 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101752 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101754 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101753 .
+_:genid101753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101753 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid101753 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+_:genid101756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101755 .
+_:genid101754 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101756 .
+_:genid101755 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101755 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_substance> .
+_:genid101755 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Body_tissue_material> .
+_:genid101756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101752 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101754 .
+_:genid101750 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101752 .
+_:genid101751 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101748 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101749 .
+<http://www.ihtsdo.org/snomedct.owl#Dental_tissue_sample> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101748 .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_formation,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_formation,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Dentin formation, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_formation,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_function> .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_specimen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_specimen> <http://www.w3.org/2000/01/rdf-schema#label> "Dentin specimen (specimen)"@en .
+_:genid101757 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101758 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Oral_cavity_sample> .
+_:genid101760 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101759 .
+_:genid101758 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101760 .
+_:genid101759 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101759 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101761 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101761 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Specimen_source_topography> .
+_:genid101761 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Dentin_structure> .
+_:genid101759 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101761 .
+_:genid101760 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101757 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101758 .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_specimen> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101757 .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Dentin structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dentin_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_hard_tissue_of_tooth> .
+<http://www.ihtsdo.org/snomedct.owl#Dentinal_tubules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dentinal_tubules> <http://www.w3.org/2000/01/rdf-schema#label> "Dentinal tubules (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dentinal_tubules> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dentin_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Dentist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dentist> <http://www.w3.org/2000/01/rdf-schema#label> "Dentist (occupation)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dentist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Healthcare_professional> .
+<http://www.ihtsdo.org/snomedct.owl#Dentist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Medical,_dental,_veterinary/related_worker> .
+<http://www.ihtsdo.org/snomedct.owl#Dentition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dentition> <http://www.w3.org/2000/01/rdf-schema#label> "Dentition (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dentition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Tooth_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Denture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Denture> <http://www.w3.org/2000/01/rdf-schema#label> "Denture (attribute)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Denture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Object> .
+<http://www.ihtsdo.org/snomedct.owl#Denture,_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Denture,_device> <http://www.w3.org/2000/01/rdf-schema#label> "Denture, device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Denture,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Dental_prosthesis,_device> .
+<http://www.ihtsdo.org/snomedct.owl#Denture,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intraoral_maxillofacial_prosthesis> .
+<http://www.ihtsdo.org/snomedct.owl#Denture_stomatitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Denture_stomatitis> <http://www.w3.org/2000/01/rdf-schema#label> "Denture stomatitis (disorder)"@en .
+_:genid101762 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101763 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Stomatitis> .
+_:genid101765 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101764 .
+_:genid101763 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101765 .
+_:genid101764 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101764 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101766 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101768 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101767 .
+_:genid101767 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101767 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101767 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid101770 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101769 .
+_:genid101768 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101770 .
+_:genid101769 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101769 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101769 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Oral_mucous_membrane_structure> .
+_:genid101770 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101766 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101768 .
+_:genid101764 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101766 .
+_:genid101772 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101771 .
+_:genid101765 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101772 .
+_:genid101771 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101771 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101773 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101773 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101773 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Denture,_device> .
+_:genid101771 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101773 .
+_:genid101772 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101762 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101763 .
+<http://www.ihtsdo.org/snomedct.owl#Denture_stomatitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101762 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyadenosine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyadenosine> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyadenosine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyadenosine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Purine_nucleoside> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxybarbiturate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxybarbiturate> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxybarbiturate (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxybarbiturate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Barbiturate_antiepileptic> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxycytidine_kinase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxycytidine_kinase> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxycytidine kinase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxycytidine_kinase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Kinase> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonuclease (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonuclease (pyrimidine dimer) (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonuclease (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enzyme_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enzyme_preparation> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hydrolase> .
+_:genid101774 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101774 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid101774 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101774 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonuclease adverse reaction (disorder)"@en .
+_:genid101775 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101776 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adverse_reaction_to_enzymes> .
+_:genid101777 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Medicinal_enzyme_adverse_reaction> .
+_:genid101776 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101777 .
+_:genid101779 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101778 .
+_:genid101777 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101779 .
+_:genid101778 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101778 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101780 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101780 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> .
+_:genid101778 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101780 .
+_:genid101779 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101775 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101776 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101775 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonuclease allergy (disorder)"@en .
+_:genid101781 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101782 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Medicinal_enzyme_allergy> .
+_:genid101784 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101783 .
+_:genid101782 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101784 .
+_:genid101783 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101783 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101785 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101785 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101785 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease> .
+_:genid101783 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101785 .
+_:genid101787 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101786 .
+_:genid101784 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101787 .
+_:genid101786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101786 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101788 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101788 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid101788 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid101786 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101788 .
+_:genid101787 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101781 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101782 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonuclease_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101781 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid (cytosine-5)-methyltransferase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Methyltransferase> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nucleic_acid> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid-directed_deoxyribonucleic_acid_polymerase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid-directed_deoxyribonucleic_acid_polymerase> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid-directed deoxyribonucleic acid polymerase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid-directed_deoxyribonucleic_acid_polymerase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nucleotidyltransferase> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid-directed_ribonucleic_acid_polymerase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid-directed_ribonucleic_acid_polymerase> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid-directed ribonucleic acid polymerase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid-directed_ribonucleic_acid_polymerase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nucleotidyltransferase> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid analysis (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> .
+_:genid101789 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101789 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101790 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101790 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101790 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid101789 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101790 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101789 .
+_:genid101791 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101791 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101792 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101792 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid101792 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Substance> .
+_:genid101791 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101792 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_analysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101791 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_damage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_damage> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid damage (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_damage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Molecular_conformation> .
+_:genid101793 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101793 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101794 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101794 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101794 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid101793 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101794 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_damage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101793 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_nucleotidylexotransferase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_nucleotidylexotransferase> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid nucleotidylexotransferase (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_nucleotidylexotransferase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Nucleotidyltransferase> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_nucleotidylexotransferase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#White_cell_enzyme> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_repair> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid repair (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_repair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Molecular_conformation> .
+_:genid101795 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101795 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101796 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101796 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid101795 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101796 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_repair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101795 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_replication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_replication> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid replication (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_replication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Molecular_conformation> .
+_:genid101797 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101797 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101798 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101798 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101798 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid101797 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101798 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_replication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101797 .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Deoxyribonucleic acid virus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Virus> .
+<http://www.ihtsdo.org/snomedct.owl#Dependence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dependence> <http://www.w3.org/2000/01/rdf-schema#label> "Dependence (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dependence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Relationships> .
+<http://www.ihtsdo.org/snomedct.owl#Dependent_drug_abuse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dependent_drug_abuse> <http://www.w3.org/2000/01/rdf-schema#label> "Dependent drug abuse (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dependent_drug_abuse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_abuse> .
+_:genid101799 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101799 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101800 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101800 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101800 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Details_of_drug_misuse_behavior> .
+_:genid101799 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101800 .
+<http://www.ihtsdo.org/snomedct.owl#Dependent_drug_abuse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101799 .
+<http://www.ihtsdo.org/snomedct.owl#Depigmenting_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depigmenting_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Depigmenting agent (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depigmenting_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Depigmenting agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depigmenting_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skin_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Depletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depletion> <http://www.w3.org/2000/01/rdf-schema#label> "Depletion (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Degenerative_abnormality> .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Depolarizing agent (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Depolarizing agent (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Neuromuscular_blocking_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_muscle_relaxant_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_muscle_relaxant_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Depolarizing muscle relaxant adverse reaction (disorder)"@en .
+_:genid101801 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Neuromuscular_transmission_drug_adverse_reaction> .
+_:genid101804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101803 .
+_:genid101802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101804 .
+_:genid101803 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101803 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101805 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101805 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid101805 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Depolarizing_agent> .
+_:genid101803 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101805 .
+_:genid101804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101801 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101802 .
+<http://www.ihtsdo.org/snomedct.owl#Depolarizing_muscle_relaxant_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101801 .
+<http://www.ihtsdo.org/snomedct.owl#Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition> <http://www.w3.org/2000/01/rdf-schema#label> "Deposition (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Degenerative_abnormality> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_asbestos_fibers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_asbestos_fibers> <http://www.w3.org/2000/01/rdf-schema#label> "Deposition of asbestos fibers (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_asbestos_fibers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deposition_of_foreign_material> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_calcium_hydroxyapatite_crystals,_calcified_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_calcium_hydroxyapatite_crystals,_calcified_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Deposition of calcium hydroxyapatite crystals, calcified structure (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_calcium_hydroxyapatite_crystals,_calcified_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deposition_of_crystalline_material> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_calcium_hydroxyapatite_crystals,_calcified_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pathologic_calcification,_calcified_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_crystalline_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_crystalline_material> <http://www.w3.org/2000/01/rdf-schema#label> "Deposition of crystalline material (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_crystalline_material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deposition> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_foreign_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_foreign_material> <http://www.w3.org/2000/01/rdf-schema#label> "Deposition of foreign material (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deposition_of_foreign_material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deposition> .
+<http://www.ihtsdo.org/snomedct.owl#Depression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depression> <http://www.w3.org/2000/01/rdf-schema#label> "Depression (external anatomical feature) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depression> <http://www.w3.org/2000/01/rdf-schema#label> "Depression (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#External_anatomical_feature> .
+<http://www.ihtsdo.org/snomedct.owl#Depression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mood_finding> .
+_:genid101806 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101806 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101807 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101807 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid101807 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Emotion> .
+_:genid101806 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101807 .
+<http://www.ihtsdo.org/snomedct.owl#Depression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101806 .
+<http://www.ihtsdo.org/snomedct.owl#Depression_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depression_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Depression NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depression_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Depressive_disorder> .
+<http://www.ihtsdo.org/snomedct.owl#Depression_screening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depression_screening> <http://www.w3.org/2000/01/rdf-schema#label> "Depression screening (procedure)"@en .
+_:genid101808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Screening_for_mental_disorders> .
+_:genid101811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101810 .
+_:genid101809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101811 .
+_:genid101810 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101810 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101813 .
+_:genid101813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101813 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_focus> .
+_:genid101813 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Depressive_disorder> .
+_:genid101816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101815 .
+_:genid101814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101816 .
+_:genid101815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101815 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid101815 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Screening_-_procedure_intent> .
+_:genid101816 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101812 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101814 .
+_:genid101810 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101812 .
+_:genid101811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101808 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101809 .
+<http://www.ihtsdo.org/snomedct.owl#Depression_screening> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101808 .
+<http://www.ihtsdo.org/snomedct.owl#Depressive_disorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depressive_disorder> <http://www.w3.org/2000/01/rdf-schema#label> "Depressive disorder (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depressive_disorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mood_disorder> .
+<http://www.ihtsdo.org/snomedct.owl#Depth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Depth> <http://www.w3.org/2000/01/rdf-schema#label> "Depth (attribute)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depth> <http://www.w3.org/2000/01/rdf-schema#label> "Depth (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Depth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Property_of_measurement> .
+<http://www.ihtsdo.org/snomedct.owl#Depth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Unapproved_attribute> .
+<http://www.ihtsdo.org/snomedct.owl#Deracoxib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Deracoxib> <http://www.w3.org/2000/01/rdf-schema#label> "Deracoxib (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deracoxib> <http://www.w3.org/2000/01/rdf-schema#label> "Deracoxib (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Deracoxib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cox-2_inhibitor> .
+_:genid101817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101817 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid101817 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Deracoxib> .
+<http://www.ihtsdo.org/snomedct.owl#Deracoxib> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101817 .
+<http://www.ihtsdo.org/snomedct.owl#Derealization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Derealization> <http://www.w3.org/2000/01/rdf-schema#label> "Derealization (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Derealization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disturbance_of_perception_associated_with_conversion_and_dissociative_phenomenon> .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion> <http://www.w3.org/2000/01/rdf-schema#label> "Dermabrasion (procedure)"@en .
+_:genid101818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Abrasion> .
+_:genid101820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Surgical_removal_of_skin> .
+_:genid101819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101820 .
+_:genid101822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101821 .
+_:genid101820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101822 .
+_:genid101821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101821 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101824 .
+_:genid101824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101824 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101824 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abrasion_-_action> .
+_:genid101827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101826 .
+_:genid101825 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101827 .
+_:genid101826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101826 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid101826 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid101827 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101823 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101825 .
+_:genid101821 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101823 .
+_:genid101822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101818 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101819 .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101818 .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion_of_facial_scars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion_of_facial_scars> <http://www.w3.org/2000/01/rdf-schema#label> "Dermabrasion of facial scars (procedure)"@en .
+_:genid101828 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Dermabrasion> .
+_:genid101830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_face> .
+_:genid101829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101830 .
+_:genid101832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101831 .
+_:genid101830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101832 .
+_:genid101831 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101831 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101833 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101834 .
+_:genid101834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101834 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Direct_morphology> .
+_:genid101834 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Scar> .
+_:genid101837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101836 .
+_:genid101835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101837 .
+_:genid101836 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101836 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101836 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abrasion_-_action> .
+_:genid101839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101838 .
+_:genid101837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101839 .
+_:genid101838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101838 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid101838 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Face_structure> .
+_:genid101839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101833 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101835 .
+_:genid101831 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101833 .
+_:genid101841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101840 .
+_:genid101832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101841 .
+_:genid101840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101840 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101842 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101843 .
+_:genid101843 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101843 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101843 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abrasion_-_action> .
+_:genid101846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101845 .
+_:genid101844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101846 .
+_:genid101845 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101845 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid101845 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid101846 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101842 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101844 .
+_:genid101840 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101842 .
+_:genid101841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101828 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101829 .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion_of_facial_scars> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101828 .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion_of_skin_of_head_or_neck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion_of_skin_of_head_or_neck> <http://www.w3.org/2000/01/rdf-schema#label> "Dermabrasion of skin of head or neck (procedure)"@en .
+_:genid101847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Dermabrasion> .
+_:genid101849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Procedure_on_head_AND/OR_neck> .
+_:genid101848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101849 .
+_:genid101850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Removal_of_soft_tissue> .
+_:genid101849 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101850 .
+_:genid101851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Surgical_procedure_on_soft_tissue> .
+_:genid101850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101851 .
+_:genid101853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101852 .
+_:genid101851 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101853 .
+_:genid101852 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101852 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101854 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101855 .
+_:genid101855 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101855 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid101855 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abrasion_-_action> .
+_:genid101858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101857 .
+_:genid101856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101858 .
+_:genid101857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101857 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid101857 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_of_part_of_head_and_neck> .
+_:genid101858 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101854 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101856 .
+_:genid101852 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101854 .
+_:genid101853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101847 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101848 .
+<http://www.ihtsdo.org/snomedct.owl#Dermabrasion_of_skin_of_head_or_neck> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101847 .
+<http://www.ihtsdo.org/snomedct.owl#Dermal_cellular_nevus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dermal_cellular_nevus> <http://www.w3.org/2000/01/rdf-schema#label> "Dermal cellular nevus (disorder)"@en .
+_:genid101859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Acquired_melanocytic_nevus> .
+_:genid101861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Benign_neoplasm_of_skin> .
+_:genid101860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101861 .
+_:genid101862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Melanocytic_nevus_of_skin> .
+_:genid101861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101862 .
+_:genid101863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Melanocytic_tumor_of_skin> .
+_:genid101862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101863 .
+_:genid101865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101864 .
+_:genid101863 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101865 .
+_:genid101864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101864 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101866 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101867 .
+_:genid101867 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101867 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101867 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Intradermal_nevus> .
+_:genid101870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101869 .
+_:genid101868 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101870 .
+_:genid101869 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101869 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid101869 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid101870 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101866 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101868 .
+_:genid101864 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid101866 .
+_:genid101865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101859 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid101860 .
+<http://www.ihtsdo.org/snomedct.owl#Dermal_cellular_nevus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101859 .
+<http://www.ihtsdo.org/snomedct.owl#Dermal_connective_tissue_hamartoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Dermal_connective_tissue_hamartoma> <http://www.w3.org/2000/01/rdf-schema#label> "Dermal connective tissue hamartoma (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Dermal_connective_tissue_hamartoma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hamartoma_of_skin> .
+_:genid101871 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101871 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid101872 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101873 .
+_:genid101873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101873 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid101873 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hamartoma> .
+_:genid101876 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101875 .
+_:genid101874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101876 .

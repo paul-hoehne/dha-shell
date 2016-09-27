@@ -1,0 +1,1000 @@
+_:genid126524 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126524 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126526 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126528 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126527 .
+_:genid126527 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126527 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126527 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Cutaneous_eruption> .
+_:genid126530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126529 .
+_:genid126528 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126530 .
+_:genid126529 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126529 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126529 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid126530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126526 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126528 .
+_:genid126524 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126526 .
+_:genid126532 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126531 .
+_:genid126525 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126532 .
+_:genid126531 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126531 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126533 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid126533 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_enterovirus> .
+_:genid126531 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126533 .
+_:genid126535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126534 .
+_:genid126532 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126535 .
+_:genid126534 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126534 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126536 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126536 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid126536 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Exanthematous_disorder> .
+_:genid126534 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126536 .
+_:genid126535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126519 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126520 .
+<http://www.ihtsdo.org/snomedct.owl#Enteroviral_exanthem> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126519 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_enteritis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_enteritis> <http://www.w3.org/2000/01/rdf-schema#label> "Enterovirus enteritis (disorder)"@en .
+_:genid126537 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126538 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Enterovirus> .
+_:genid126539 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_enteritis> .
+_:genid126538 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126539 .
+_:genid126541 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126540 .
+_:genid126539 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126541 .
+_:genid126540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126540 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126542 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126544 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126543 .
+_:genid126543 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126543 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126543 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid126546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126545 .
+_:genid126544 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126546 .
+_:genid126545 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126545 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126545 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Intestinal_structure> .
+_:genid126546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126542 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126544 .
+_:genid126540 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126542 .
+_:genid126548 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126547 .
+_:genid126541 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126548 .
+_:genid126547 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126547 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126549 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126549 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid126549 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Genus_Enterovirus> .
+_:genid126547 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126549 .
+_:genid126548 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126537 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126538 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_enteritis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126537 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_heart_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_heart_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Enterovirus heart infection (disorder)"@en .
+_:genid126550 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126551 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Enterovirus> .
+_:genid126552 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Infectious_disease_of_heart> .
+_:genid126551 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126552 .
+_:genid126553 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_cardiovascular_infection> .
+_:genid126552 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126553 .
+_:genid126555 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126554 .
+_:genid126553 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126555 .
+_:genid126554 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126554 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126556 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126556 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid126556 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Genus_Enterovirus> .
+_:genid126554 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126556 .
+_:genid126558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126557 .
+_:genid126555 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126558 .
+_:genid126557 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126557 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126559 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126559 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126559 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Heart_structure> .
+_:genid126557 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126559 .
+_:genid126558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126550 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126551 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_heart_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126550 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_infection_of_the_central_nervous_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_infection_of_the_central_nervous_system> <http://www.w3.org/2000/01/rdf-schema#label> "Enterovirus infection of the central nervous system (disorder)"@en .
+_:genid126560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126561 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Enterovirus> .
+_:genid126562 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_infections_of_the_central_nervous_system> .
+_:genid126561 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126562 .
+_:genid126564 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126563 .
+_:genid126562 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126564 .
+_:genid126563 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126563 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126565 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid126565 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Genus_Enterovirus> .
+_:genid126563 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126565 .
+_:genid126567 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126566 .
+_:genid126564 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126567 .
+_:genid126566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126566 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126568 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126568 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126568 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_central_nervous_system> .
+_:genid126566 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126568 .
+_:genid126567 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126560 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126561 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_infection_of_the_central_nervous_system> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126560 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_meningitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_meningitis> <http://www.w3.org/2000/01/rdf-schema#label> "Enterovirus meningitis (disorder)"@en .
+_:genid126569 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126570 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Enterovirus_infection_of_the_central_nervous_system> .
+_:genid126571 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Viral_meningitis> .
+_:genid126570 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126571 .
+_:genid126573 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126572 .
+_:genid126571 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126573 .
+_:genid126572 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126572 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126574 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126576 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126575 .
+_:genid126575 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126575 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126575 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Inflammation> .
+_:genid126578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126577 .
+_:genid126576 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126578 .
+_:genid126577 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126577 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126577 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Meninges_structure> .
+_:genid126578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126574 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126576 .
+_:genid126572 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126574 .
+_:genid126580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126579 .
+_:genid126573 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126580 .
+_:genid126579 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126579 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126581 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126581 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid126581 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Genus_Enterovirus> .
+_:genid126579 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126581 .
+_:genid126580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126569 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126570 .
+<http://www.ihtsdo.org/snomedct.owl#Enterovirus_meningitis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126569 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesis> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesis (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enthesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_musculoskeletal_system> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesopathy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_musculoskeletal_system> .
+_:genid126582 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126582 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126583 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126585 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126584 .
+_:genid126584 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126584 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126584 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Morphologically_abnormal_structure> .
+_:genid126587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126586 .
+_:genid126585 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126587 .
+_:genid126586 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126586 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126586 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enthesis> .
+_:genid126587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126583 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126585 .
+_:genid126582 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126583 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126582 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_elbow_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_elbow_region> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesopathy of elbow region (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_elbow_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enthesopathy> .
+_:genid126588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126588 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126589 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126591 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126590 .
+_:genid126590 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126590 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126590 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Morphologically_abnormal_structure> .
+_:genid126593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126592 .
+_:genid126591 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126593 .
+_:genid126592 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126592 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126592 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enthesis> .
+_:genid126593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126589 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126591 .
+_:genid126588 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126589 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_elbow_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126588 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_lower_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_lower_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesopathy of lower limb (disorder)"@en .
+_:genid126594 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126595 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_lower_extremity> .
+_:genid126596 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Enthesopathy> .
+_:genid126595 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126596 .
+_:genid126598 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126597 .
+_:genid126596 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126598 .
+_:genid126597 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126597 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126599 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126601 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126600 .
+_:genid126600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126600 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126600 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Morphologically_abnormal_structure> .
+_:genid126603 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126602 .
+_:genid126601 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126603 .
+_:genid126602 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126602 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126602 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enthesis> .
+_:genid126603 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126599 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126601 .
+_:genid126597 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126599 .
+_:genid126605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126604 .
+_:genid126598 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126605 .
+_:genid126604 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126604 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126606 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126606 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126606 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Musculoskeletal_structure_of_lower_limb> .
+_:genid126604 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126606 .
+_:genid126605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126594 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126595 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_lower_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126594 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_shoulder_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_shoulder_region> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesopathy of shoulder region (disorder)"@en .
+_:genid126607 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126608 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_shoulder_region> .
+_:genid126609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Enthesopathy> .
+_:genid126608 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126609 .
+_:genid126611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126610 .
+_:genid126609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126611 .
+_:genid126610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126610 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126613 .
+_:genid126613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126613 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126613 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Morphologically_abnormal_structure> .
+_:genid126616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126615 .
+_:genid126614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126616 .
+_:genid126615 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126615 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126615 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enthesis> .
+_:genid126616 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126612 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126614 .
+_:genid126610 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126612 .
+_:genid126618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126617 .
+_:genid126611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126618 .
+_:genid126617 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126617 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126619 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126619 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126619 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Shoulder_region_structure> .
+_:genid126617 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126619 .
+_:genid126618 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126607 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126608 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_shoulder_region> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126607 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_AND/OR_carpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_AND/OR_carpus> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesopathy of wrist AND/OR carpus (disorder)"@en .
+_:genid126620 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_wrist_region> .
+_:genid126622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_and/or_hand> .
+_:genid126621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126622 .
+_:genid126624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126623 .
+_:genid126622 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126624 .
+_:genid126623 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126623 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126625 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126626 .
+_:genid126626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126626 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126626 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Morphologically_abnormal_structure> .
+_:genid126629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126628 .
+_:genid126627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126629 .
+_:genid126628 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126628 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126628 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enthesis> .
+_:genid126629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126625 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126627 .
+_:genid126623 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126625 .
+_:genid126631 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126630 .
+_:genid126624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126631 .
+_:genid126630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126630 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126632 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126632 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126632 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bone_structure_of_wrist_and/or_hand> .
+_:genid126630 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126632 .
+_:genid126634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126633 .
+_:genid126631 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126634 .
+_:genid126633 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126633 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126635 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126635 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126635 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Wrist_region_structure> .
+_:genid126633 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126635 .
+_:genid126634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126620 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126621 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_AND/OR_carpus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126620 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_and/or_hand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_and/or_hand> <http://www.w3.org/2000/01/rdf-schema#label> "Enthesopathy of wrist and/or hand (disorder)"@en .
+_:genid126636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_bone> .
+_:genid126638 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_upper_extremity> .
+_:genid126637 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126638 .
+_:genid126639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Enthesopathy> .
+_:genid126638 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126639 .
+_:genid126640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Finding_of_bone_of_upper_limb> .
+_:genid126639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126640 .
+_:genid126642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126641 .
+_:genid126640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126642 .
+_:genid126641 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126641 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126643 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126644 .
+_:genid126644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126644 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126644 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Morphologically_abnormal_structure> .
+_:genid126647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126646 .
+_:genid126645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126647 .
+_:genid126646 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126646 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126646 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Enthesis> .
+_:genid126647 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126643 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126645 .
+_:genid126641 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126643 .
+_:genid126649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126648 .
+_:genid126642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126649 .
+_:genid126648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126648 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126650 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126650 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Bone_structure_of_wrist_and/or_hand> .
+_:genid126648 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126650 .
+_:genid126649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126636 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126637 .
+<http://www.ihtsdo.org/snomedct.owl#Enthesopathy_of_wrist_and/or_hand> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126636 .
+<http://www.ihtsdo.org/snomedct.owl#Entire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire> <http://www.w3.org/2000/01/rdf-schema#label> "Entire (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Extensiveness> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> <http://www.w3.org/2000/01/rdf-schema#label> "Entire abdominal viscus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Abdominal_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_abdominal_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anatomical_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anatomical_structure> <http://www.w3.org/2000/01/rdf-schema#label> "Entire anatomical structure (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anatomical_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anatomical_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_portion_of_diaphragmatic_aspect_of_liver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_portion_of_diaphragmatic_aspect_of_liver> <http://www.w3.org/2000/01/rdf-schema#label> "Entire anterior portion of diaphragmatic aspect of liver (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_portion_of_diaphragmatic_aspect_of_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_anterior_portion_of_diaphragmatic_aspect_of_liver> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_segment_of_eyeball> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#label> "Entire anterior segment of eyeball (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anterior_eyeball_segment_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_segment_of_eyeball> .
+_:genid126651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126651 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126651 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126651 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_wall_of_urinary_bladder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_wall_of_urinary_bladder> <http://www.w3.org/2000/01/rdf-schema#label> "Entire anterior wall of urinary bladder (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_anterior_wall_of_urinary_bladder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_anterior_wall_of_urinary_bladder> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bladder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bladder> <http://www.w3.org/2000/01/rdf-schema#label> "Entire bladder (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bladder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bladder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hollow_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bladder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Urinary_bladder_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bladder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Urinary_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_blood_vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_blood_vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Entire blood vessel (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_blood_vessel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Blood_vessel_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_blood_vessel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_as_a_whole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_as_a_whole> <http://www.w3.org/2000/01/rdf-schema#label> "Entire body as a whole (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_as_a_whole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_anatomical_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire body organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Body_organ_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_anatomical_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_region> <http://www.w3.org/2000/01/rdf-schema#label> "Entire body region (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Body_region_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_surface_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_surface_region> <http://www.w3.org/2000/01/rdf-schema#label> "Entire body surface region (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_surface_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_body_surface_region> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_system> <http://www.w3.org/2000/01/rdf-schema#label> "Entire body system (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Body_system_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_body_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_anatomical_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone> <http://www.w3.org/2000/01/rdf-schema#label> "Entire bone (organ) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_extremity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_extremity> <http://www.w3.org/2000/01/rdf-schema#label> "Entire bone of extremity (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_extremity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_lower_extremity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_lower_extremity> <http://www.w3.org/2000/01/rdf-schema#label> "Entire bone of lower extremity (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_lower_extremity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Bone_structure_of_lower_limb> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_lower_extremity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_extremity> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_breast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_breast> <http://www.w3.org/2000/01/rdf-schema#label> "Entire breast (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_breast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_breast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cardiovascular_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cardiovascular_system> <http://www.w3.org/2000/01/rdf-schema#label> "Entire cardiovascular system (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cardiovascular_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_system> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cardiovascular_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_cardiovascular_system> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cell> <http://www.w3.org/2000/01/rdf-schema#label> "Entire cell (cell)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cell_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cerebral_fornix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cerebral_fornix> <http://www.w3.org/2000/01/rdf-schema#label> "Entire cerebral fornix (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cerebral_fornix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cerebral_fornix_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cerebral_fornix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_diencephalon> .
+_:genid126652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126652 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126652 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cerebral_fornix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126652 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cervix_uteri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cervix_uteri> <http://www.w3.org/2000/01/rdf-schema#label> "Entire cervix uteri (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cervix_uteri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cervix_uteri_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_cervix_uteri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_colon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_colon> <http://www.w3.org/2000/01/rdf-schema#label> "Entire colon (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_colon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Colon_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_colon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Region_of_large_intestine> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire digestive organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Digestive_organ_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire endocrine gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Endocrine_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gonad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gonad> <http://www.w3.org/2000/01/rdf-schema#label> "Entire endocrine gonad (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gonad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadal_endocrine_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire exocrine gland (organ component) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire exocrine gland (organ) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Exocrine_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_genital_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_genital_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire female genital organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Female_genital_organ_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire female internal genital organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_female_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Female_internal_genitalia_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intra-abdominal_genital_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_fibula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_fibula> <http://www.w3.org/2000/01/rdf-schema#label> "Entire fibula (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_fibula> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_lower_extremity> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_fibula> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_long_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_genital_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_genital_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire genital organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genital_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Urogenital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire gland (organ component) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire gland (organ) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Organ_part> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gonad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gonad> <http://www.w3.org/2000/01/rdf-schema#label> "Entire gonad (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gonad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_gonad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gonadal_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_pubis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_pubis> <http://www.w3.org/2000/01/rdf-schema#label> "Entire hair of pubis (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_pubis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_trunk> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_pubis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_hair_of_pubis> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_trunk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_trunk> <http://www.w3.org/2000/01/rdf-schema#label> "Entire hair of trunk (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_hair_of_trunk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_hair_of_trunk> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_immunoglobulin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#label> "Entire immunoglobulin (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_immunoglobulin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunoglobulin_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intestinal_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intestinal_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire intestinal gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intestinal_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intestinal_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_intestinal_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intrinsic_laryngeal_muscle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intrinsic_laryngeal_muscle> <http://www.w3.org/2000/01/rdf-schema#label> "Entire intrinsic laryngeal muscle (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intrinsic_laryngeal_muscle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_laryngeal_muscle> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_intrinsic_laryngeal_muscle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_intrinsic_laryngeal_muscle> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/2000/01/rdf-schema#label> "Entire kidney (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Kidney_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Retroperitoneal_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_kidney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Urinary_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_laryngeal_muscle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_laryngeal_muscle> <http://www.w3.org/2000/01/rdf-schema#label> "Entire laryngeal muscle (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_laryngeal_muscle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_laryngeal_muscle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Laryngeal_muscle_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_larynx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_larynx> <http://www.w3.org/2000/01/rdf-schema#label> "Entire larynx (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_larynx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Laryngeal_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_larynx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Respiratory_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_breast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_breast> <http://www.w3.org/2000/01/rdf-schema#label> "Entire left breast (body structure)"@en .
+_:genid126653 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_breast> .
+_:genid126655 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Left_breast_structure> .
+_:genid126654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126655 .
+_:genid126657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126656 .
+_:genid126655 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126657 .
+_:genid126656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126656 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126656 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Left> .
+_:genid126657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126653 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126654 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_breast> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126653 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_kidney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_kidney> <http://www.w3.org/2000/01/rdf-schema#label> "Entire left kidney (body structure)"@en .
+_:genid126658 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_kidney> .
+_:genid126660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Left_kidney_structure> .
+_:genid126659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126660 .
+_:genid126662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126661 .
+_:genid126660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126662 .
+_:genid126661 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126661 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126661 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Left> .
+_:genid126662 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126658 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126659 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_kidney> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126658 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_lobe_of_liver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_lobe_of_liver> <http://www.w3.org/2000/01/rdf-schema#label> "Entire left lobe of liver (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_lobe_of_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_left_lobe_of_liver> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_lung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_lung> <http://www.w3.org/2000/01/rdf-schema#label> "Entire left lung (body structure)"@en .
+_:genid126663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_lung> .
+_:genid126665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Left_lung_structure> .
+_:genid126664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126665 .
+_:genid126667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126666 .
+_:genid126665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126667 .
+_:genid126666 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126666 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126666 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Left> .
+_:genid126667 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126663 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126664 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_lung> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126663 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_parotid_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_parotid_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire left parotid gland (body structure)"@en .
+_:genid126668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_parotid_gland> .
+_:genid126670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Structure_of_left_parotid_gland> .
+_:genid126669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126670 .
+_:genid126672 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126671 .
+_:genid126670 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126672 .
+_:genid126671 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126671 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126671 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Left> .
+_:genid126672 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126668 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126669 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_parotid_gland> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126668 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_testis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_testis> <http://www.w3.org/2000/01/rdf-schema#label> "Entire left testis (body structure)"@en .
+_:genid126673 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126674 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_testis> .
+_:genid126675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Structure_of_left_testis> .
+_:genid126674 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126675 .
+_:genid126677 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126676 .
+_:genid126675 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126677 .
+_:genid126676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126676 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126676 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Left> .
+_:genid126677 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126673 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126674 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_left_testis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126673 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/2000/01/rdf-schema#label> "Entire liver (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Liver_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_long_bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_long_bone> <http://www.w3.org/2000/01/rdf-schema#label> "Entire long bone (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_long_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_long_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_long_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lumbar_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lumbar_region> <http://www.w3.org/2000/01/rdf-schema#label> "Entire lumbar region (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lumbar_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Back_region> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lumbar_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lateral_anterior_abdominal_surface_region> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lumbar_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lumbar_region_back_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lung> <http://www.w3.org/2000/01/rdf-schema#label> "Entire lung (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_thoracic_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lung_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Respiratory_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymph_node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymph_node> <http://www.w3.org/2000/01/rdf-schema#label> "Entire lymph node (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymph_node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_lymphoid_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymph_node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymphoid_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymphoid_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire lymphoid organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymphoid_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_lymphoid_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Lymphoid_organ_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_major_salivary_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_major_salivary_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire major salivary gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_major_salivary_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_salivary_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_major_salivary_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Major_salivary_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_genital_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_genital_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire male genital organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Male_genital_organ_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_internal_genital_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire male internal genital organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_male_internal_genital_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intra-abdominal_genital_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_nucleus_of_brain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_nucleus_of_brain> <http://www.w3.org/2000/01/rdf-schema#label> "Entire nucleus of brain (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_nucleus_of_brain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Brain_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pancreas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pancreas> <http://www.w3.org/2000/01/rdf-schema#label> "Entire pancreas (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pancreas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pancreas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pancreatic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pancreas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_parotid_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_parotid_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire parotid gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_parotid_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_major_salivary_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_parotid_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parotid_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_patella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_patella> <http://www.w3.org/2000/01/rdf-schema#label> "Entire patella (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_patella> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_bone_of_lower_extremity> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_patella> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_sesamoid_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_patella> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_patella> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> <http://www.w3.org/2000/01/rdf-schema#label> "Entire pelvic organ (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Abdominal_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pelvic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> <http://www.w3.org/2000/01/rdf-schema#label> "Entire pelvic viscus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_pelvic_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_prostate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_prostate> <http://www.w3.org/2000/01/rdf-schema#label> "Entire prostate (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_prostate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_male_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_prostate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_male_internal_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_prostate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Prostatic_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_breast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_breast> <http://www.w3.org/2000/01/rdf-schema#label> "Entire right breast (body structure)"@en .
+_:genid126678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_breast> .
+_:genid126680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Right_breast_structure> .
+_:genid126679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126680 .
+_:genid126682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126681 .
+_:genid126680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126682 .
+_:genid126681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126681 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126681 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Right> .
+_:genid126682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126678 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126679 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_breast> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126678 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_kidney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_kidney> <http://www.w3.org/2000/01/rdf-schema#label> "Entire right kidney (body structure)"@en .
+_:genid126683 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126684 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_kidney> .
+_:genid126685 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Right_kidney_structure> .
+_:genid126684 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126685 .
+_:genid126687 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126686 .
+_:genid126685 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126687 .
+_:genid126686 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126686 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126686 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Right> .
+_:genid126687 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126683 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126684 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_kidney> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126683 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_lobe_of_liver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_lobe_of_liver> <http://www.w3.org/2000/01/rdf-schema#label> "Entire right lobe of liver (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_lobe_of_liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_right_lobe_of_liver> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_lung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_lung> <http://www.w3.org/2000/01/rdf-schema#label> "Entire right lung (body structure)"@en .
+_:genid126688 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126689 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_lung> .
+_:genid126690 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Right_lung_structure> .
+_:genid126689 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126690 .
+_:genid126692 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126691 .
+_:genid126690 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126692 .
+_:genid126691 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126691 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126691 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Right> .
+_:genid126692 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126688 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126689 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_lung> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126688 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_parotid_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_parotid_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire right parotid gland (body structure)"@en .
+_:genid126693 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126694 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_parotid_gland> .
+_:genid126695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Structure_of_right_parotid_gland> .
+_:genid126694 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126695 .
+_:genid126697 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126696 .
+_:genid126695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126697 .
+_:genid126696 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126696 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126696 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Right> .
+_:genid126697 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126693 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126694 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_parotid_gland> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126693 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_testis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_testis> <http://www.w3.org/2000/01/rdf-schema#label> "Entire right testis (body structure)"@en .
+_:genid126698 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Entire_testis> .
+_:genid126700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Structure_of_right_testis> .
+_:genid126699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126700 .
+_:genid126702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126701 .
+_:genid126700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126702 .
+_:genid126701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126701 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126701 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Right> .
+_:genid126702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126698 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126699 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_right_testis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126698 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_salivary_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_salivary_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire salivary gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_salivary_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_salivary_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Salivary_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sebaceous_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sebaceous_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire sebaceous gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sebaceous_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_exocrine_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sebaceous_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sebaceous_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_segment_of_eyeball> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#label> "Entire segment of eyeball (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Eyeball_segment_structure> .
+_:genid126703 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126703 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Laterality> .
+_:genid126703 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Side> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_segment_of_eyeball> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126703 .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sesamoid_bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sesamoid_bone> <http://www.w3.org/2000/01/rdf-schema#label> "Entire sesamoid bone (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sesamoid_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_short_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_sesamoid_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Sesamoid_bone_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_short_bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_short_bone> <http://www.w3.org/2000/01/rdf-schema#label> "Entire short bone (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_short_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_short_bone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_short_bone> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle (organ) (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_muscle_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_foot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_foot> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of foot (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_foot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_lower_limb> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_foot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Muscle_structure_of_foot> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of head (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head_and_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_muscle_structure_of_head> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head_and_neck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head_and_neck> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of head and neck (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head_and_neck> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head_and_neck> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_muscle_structure_of_head_and_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_lower_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_lower_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of lower limb (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_lower_limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_lower_limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_muscle_structure_of_lower_limb> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_neck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_neck> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of neck (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_neck> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head_and_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_neck> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_muscle_structure_of_neck> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvic_diaphragm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvic_diaphragm> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of pelvic diaphragm (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvic_diaphragm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvis> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvic_diaphragm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pelvic_floor_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvis> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of pelvis (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_pelvis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_muscle_structure_of_pelvis> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_tongue,_palate,_pharynx_AND/OR_nose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_tongue,_palate,_pharynx_AND/OR_nose> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeletal muscle of tongue, palate, pharynx AND/OR nose (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_tongue,_palate,_pharynx_AND/OR_nose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_head> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeletal_muscle_of_tongue,_palate,_pharynx_AND/OR_nose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_skeletal_muscle_of_tongue,_palate,_pharynx_AND/OR_nose> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeleton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeleton> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skeleton (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skeleton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skeletal_system_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skin (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Integumentary_system_subdivision> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin_region> <http://www.w3.org/2000/01/rdf-schema#label> "Entire skin region (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_skin_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_skin_region> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/2000/01/rdf-schema#label> "Entire small intestine (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Digestive_system_subdivision> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_abdominal_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hollow_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_small_intestine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Small_intestinal_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_subdivision_of_organ_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_subdivision_of_organ_system> <http://www.w3.org/2000/01/rdf-schema#label> "Entire subdivision of organ system (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_subdivision_of_organ_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Body_system_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_testis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_testis> <http://www.w3.org/2000/01/rdf-schema#label> "Entire testis (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_testis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_gonad> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_testis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_male_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_testis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_testis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Testis_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thoracic_viscus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thoracic_viscus> <http://www.w3.org/2000/01/rdf-schema#label> "Entire thoracic viscus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thoracic_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thoracic_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_thoracic_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/2000/01/rdf-schema#label> "Entire thymus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_lymphoid_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_thoracic_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thymus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Thymus_gland_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thyroid_gland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thyroid_gland> <http://www.w3.org/2000/01/rdf-schema#label> "Entire thyroid gland (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thyroid_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_endocrine_gland> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thyroid_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Parenchymatous_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_thyroid_gland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Thyroid_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_tongue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_tongue> <http://www.w3.org/2000/01/rdf-schema#label> "Entire tongue (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_tongue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_digestive_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_tongue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Tongue_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_uterus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_uterus> <http://www.w3.org/2000/01/rdf-schema#label> "Entire uterus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_uterus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_female_internal_genital_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_uterus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_pelvic_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_uterus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hollow_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_uterus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Uterine_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vallecula_of_epiglottis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vallecula_of_epiglottis> <http://www.w3.org/2000/01/rdf-schema#label> "Entire vallecula of epiglottis (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vallecula_of_epiglottis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_vallecula_of_epiglottis> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein> <http://www.w3.org/2000/01/rdf-schema#label> "Entire vein (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_blood_vessel> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Venous_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_lung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_lung> <http://www.w3.org/2000/01/rdf-schema#label> "Entire vein of lung (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_lung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_thorax> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_lung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pulmonary_venous_structure> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_thorax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_thorax> <http://www.w3.org/2000/01/rdf-schema#label> "Entire vein of thorax (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_thorax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_trunk> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_thorax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_vein_of_thorax> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_trunk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_trunk> <http://www.w3.org/2000/01/rdf-schema#label> "Entire vein of trunk (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_trunk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_vein> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_vein_of_trunk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_vein_of_trunk> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_viscus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_viscus> <http://www.w3.org/2000/01/rdf-schema#label> "Entire viscus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entire_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_body_organ> .
+<http://www.ihtsdo.org/snomedct.owl#Entire_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Structure_of_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment> <http://www.w3.org/2000/01/rdf-schema#label> "Entrapment (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Mechanical_abnormality> .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment_neuropathy_of_upper_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment_neuropathy_of_upper_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Entrapment neuropathy of upper limb (disorder)"@en .
+_:genid126704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126705 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_upper_extremity> .
+_:genid126706 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_entrapment_syndrome> .
+_:genid126705 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126706 .
+_:genid126708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126707 .
+_:genid126706 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126708 .
+_:genid126707 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126707 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126711 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126710 .
+_:genid126710 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126710 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126710 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Entrapment> .
+_:genid126713 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126712 .
+_:genid126711 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126713 .
+_:genid126712 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126712 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126712 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_structure_of_upper_limb> .
+_:genid126713 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126709 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126711 .
+_:genid126707 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126709 .
+_:genid126715 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126714 .
+_:genid126708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126715 .
+_:genid126714 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126714 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126716 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126718 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126717 .
+_:genid126717 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126717 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126717 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Traumatic_abnormality> .
+_:genid126720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126719 .
+_:genid126718 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126720 .
+_:genid126719 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126719 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126719 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_structure> .
+_:genid126720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126716 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126718 .
+_:genid126714 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126716 .
+_:genid126722 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126721 .
+_:genid126715 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126722 .
+_:genid126721 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126721 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126723 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126723 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126723 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Upper_limb_structure> .
+_:genid126721 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126723 .
+_:genid126722 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126704 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126705 .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment_neuropathy_of_upper_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126704 .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment_syndrome_due_to_amyloid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment_syndrome_due_to_amyloid> <http://www.w3.org/2000/01/rdf-schema#label> "Entrapment syndrome due to amyloid (disorder)"@en .
+_:genid126724 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126725 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_entrapment_syndrome> .
+_:genid126727 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126726 .
+_:genid126725 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126727 .
+_:genid126726 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126726 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126728 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126730 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126729 .
+_:genid126729 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126729 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126729 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Entrapment> .
+_:genid126732 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126731 .
+_:genid126730 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126732 .
+_:genid126731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126731 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126731 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_structure> .
+_:genid126732 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126728 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126730 .
+_:genid126726 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126728 .
+_:genid126734 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126733 .
+_:genid126727 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126734 .
+_:genid126733 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126733 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126735 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid126737 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126736 .
+_:genid126736 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126736 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid126736 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Traumatic_abnormality> .
+_:genid126739 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126738 .
+_:genid126737 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126739 .
+_:genid126738 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126738 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126738 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Peripheral_nerve_structure> .
+_:genid126739 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126735 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126737 .
+_:genid126733 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126735 .
+_:genid126741 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126740 .
+_:genid126734 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126741 .
+_:genid126740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126740 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126742 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126742 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Due_to> .
+_:genid126742 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Amyloidosis> .
+_:genid126740 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126742 .
+_:genid126741 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid126724 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid126725 .
+<http://www.ihtsdo.org/snomedct.owl#Entrapment_syndrome_due_to_amyloid> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126724 .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_dsDNA_virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_dsDNA_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Enveloped dsDNA virus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_dsDNA_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_with_a_DNA_step_in_life-cycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_with_a_DNA_step_in_life-cycle> <http://www.w3.org/2000/01/rdf-schema#label> "Enveloped ssRNA virus with a DNA step in life-cycle (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_with_a_DNA_step_in_life-cycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ribonucleic_acid_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_in_life-cycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_in_life-cycle> <http://www.w3.org/2000/01/rdf-schema#label> "Enveloped ssRNA virus without a DNA step in life-cycle (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_in_life-cycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Ribonucleic_acid_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_with_multiple-stranded_negative-sense_genome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_with_multiple-stranded_negative-sense_genome> <http://www.w3.org/2000/01/rdf-schema#label> "Enveloped ssRNA virus without a DNA step with multiple-stranded negative-sense genome (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_with_multiple-stranded_negative-sense_genome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_in_life-cycle> .
+<http://www.ihtsdo.org/snomedct.owl#Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Environment> <http://www.w3.org/2000/01/rdf-schema#label> "Environment (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Environment_or_geographical_location> .
+<http://www.ihtsdo.org/snomedct.owl#Environment_or_geographical_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Environment_or_geographical_location> <http://www.w3.org/2000/01/rdf-schema#label> "Environment or geographical location (environment / location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Environment_or_geographical_location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#SNOMED_CT_Concept> .
+<http://www.ihtsdo.org/snomedct.owl#Environment_related_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Environment_related_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Environment related disease (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Environment_related_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disease> .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_lung_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_lung_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental lung disease (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_lung_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_lung> .
+_:genid126743 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126743 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid126744 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid126744 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid126744 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Lung_structure> .
+_:genid126743 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid126744 .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_lung_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid126743 .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_risk_factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_risk_factor> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental risk factor (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Environmental_risk_factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Risk_factor> .

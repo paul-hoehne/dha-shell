@@ -1,0 +1,1000 @@
+<http://www.ihtsdo.org/snomedct.owl#Famciclovir_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Famciclovir allergy (disorder)"@en .
+_:genid140919 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antiviral_drug_allergy> .
+_:genid140922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140921 .
+_:genid140920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140922 .
+_:genid140921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140921 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140923 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid140923 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Famciclovir> .
+_:genid140921 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140923 .
+_:genid140925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140924 .
+_:genid140922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140925 .
+_:genid140924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140924 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140926 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid140926 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid140924 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140926 .
+_:genid140925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140919 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140920 .
+<http://www.ihtsdo.org/snomedct.owl#Famciclovir_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140919 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cancer_of_breast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cancer_of_breast> <http://www.w3.org/2000/01/rdf-schema#label> "Familial cancer of breast (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cancer_of_breast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Familial_neoplastic_disease> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cancer_of_breast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_tumor_of_breast> .
+_:genid140927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140927 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140929 .
+_:genid140929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140929 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid140929 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm_of_primary,_secondary,_or_uncertain_origin> .
+_:genid140932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140931 .
+_:genid140930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140932 .
+_:genid140931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140931 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid140931 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Breast_structure> .
+_:genid140932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140928 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140930 .
+_:genid140927 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140928 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cancer_of_breast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid140927 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cardiomyopathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cardiomyopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Familial cardiomyopathy (disorder)"@en .
+_:genid140933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Familial_disease> .
+_:genid140935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Primary_cardiomyopathy> .
+_:genid140934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140935 .
+_:genid140937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140936 .
+_:genid140935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140937 .
+_:genid140936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140936 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140938 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid140938 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Myocardium_structure> .
+_:genid140936 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140938 .
+_:genid140937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140933 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140934 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_cardiomyopathy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140933 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_combined_hyperlipidemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_combined_hyperlipidemia> <http://www.w3.org/2000/01/rdf-schema#label> "Familial combined hyperlipidemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_combined_hyperlipidemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_combined_hyperlipidemia> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Familial disease (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disease> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_erythrocytosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_erythrocytosis> <http://www.w3.org/2000/01/rdf-schema#label> "Familial erythrocytosis (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_erythrocytosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Erythrocytosis> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_erythrocytosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hereditary_disease> .
+_:genid140939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140939 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140940 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid140940 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Red_blood_cell_count_raised> .
+_:genid140939 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140940 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_erythrocytosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid140939 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hypercholesterolemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hypercholesterolemia> <http://www.w3.org/2000/01/rdf-schema#label> "Familial hypercholesterolemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hypercholesterolemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_hypercholesterolemia> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hyperlipoproteinemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hyperlipoproteinemia> <http://www.w3.org/2000/01/rdf-schema#label> "Familial hyperlipoproteinemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hyperlipoproteinemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_lipoprotein_storage_and_metabolism> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hypertriglyceridemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hypertriglyceridemia> <http://www.w3.org/2000/01/rdf-schema#label> "Familial hypertriglyceridemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_hypertriglyceridemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primary_hypertriglyceridemia> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_lipoprotein-type_hyperlipidemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_lipoprotein-type_hyperlipidemia> <http://www.w3.org/2000/01/rdf-schema#label> "Familial multiple lipoprotein-type hyperlipidemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_lipoprotein-type_hyperlipidemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hyperlipidemia> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_polyposis_syndrome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_polyposis_syndrome> <http://www.w3.org/2000/01/rdf-schema#label> "Familial multiple polyposis syndrome (disorder)"@en .
+_:genid140941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Autosomal_dominant_hereditary_disorder> .
+_:genid140943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Digestive_system_hereditary_disorder> .
+_:genid140942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140943 .
+_:genid140944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Familial_multiple_tumor_syndrome> .
+_:genid140943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140944 .
+_:genid140945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Intestinal_polyposis_syndrome> .
+_:genid140944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140945 .
+_:genid140946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Polyp_of_large_intestine> .
+_:genid140945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140946 .
+_:genid140948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140947 .
+_:genid140946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140948 .
+_:genid140947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140947 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140950 .
+_:genid140950 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140950 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid140950 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Multiple_polyps> .
+_:genid140953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140952 .
+_:genid140951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140953 .
+_:genid140952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140952 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid140952 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Large_intestinal_structure> .
+_:genid140953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140949 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140951 .
+_:genid140947 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140949 .
+_:genid140955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140954 .
+_:genid140948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140955 .
+_:genid140954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140954 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140956 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid140956 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm> .
+_:genid140954 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140956 .
+_:genid140955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140941 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140942 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_polyposis_syndrome> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140941 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_tumor_syndrome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_tumor_syndrome> <http://www.w3.org/2000/01/rdf-schema#label> "Familial multiple tumor syndrome (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_tumor_syndrome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Familial_neoplastic_disease> .
+_:genid140957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140957 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140958 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid140958 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm> .
+_:genid140957 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140958 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_multiple_tumor_syndrome> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid140957 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_neoplastic_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_neoplastic_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Familial neoplastic disease (disorder)"@en .
+_:genid140959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Familial_disease> .
+_:genid140961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Neoplastic_disease> .
+_:genid140960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140961 .
+_:genid140963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140962 .
+_:genid140961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140963 .
+_:genid140962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140962 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140964 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid140964 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Neoplasm> .
+_:genid140962 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140964 .
+_:genid140963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140959 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140960 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_neoplastic_disease> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140959 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_type_3_hyperlipoproteinemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_type_3_hyperlipoproteinemia> <http://www.w3.org/2000/01/rdf-schema#label> "Familial type 3 hyperlipoproteinemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Familial_type_3_hyperlipoproteinemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_skin> .
+<http://www.ihtsdo.org/snomedct.owl#Familial_type_3_hyperlipoproteinemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hyperlipoproteinemia> .
+_:genid140965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140965 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140966 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid140966 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Skin_structure> .
+_:genid140965 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140966 .
+<http://www.ihtsdo.org/snomedct.owl#Familial_type_3_hyperlipoproteinemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid140965 .
+<http://www.ihtsdo.org/snomedct.owl#Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family> <http://www.w3.org/2000/01/rdf-schema#label> "Family (social concept)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Social_context> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Acanthamoebidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Acanthamoebidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Acanthamoebidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Acanthamoebidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Amoebida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Aceraceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Aceraceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Aceraceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Aceraceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Sapindales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Actinomycetaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Actinomycetaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Actinomycetaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Actinomycetaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Actinomycineae> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Adenoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Adenoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Adenoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Adenoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-enveloped_dsDNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Anaplasmataceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Anaplasmataceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Anaplasmataceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Anaplasmataceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Rickettsiales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Araceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Araceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Araceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Araceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Arales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Arenaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Arenaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Arenaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Arenaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_with_multiple-stranded_negative-sense_genome> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Arthrodermataceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Arthrodermataceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Arthrodermataceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Arthrodermataceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Onygenales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Baculoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Baculoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Baculoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Baculoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_dsDNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bartonellaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bartonellaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Bartonellaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bartonellaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Rhizobiales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Betulaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Betulaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Betulaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Betulaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Fagales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bovidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bovidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Bovidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bovidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Artiodactyla> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bunyaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bunyaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Bunyaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bunyaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Arbovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Bunyaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_with_multiple-stranded_negative-sense_genome> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Burkholderiaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Burkholderiaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Burkholderiaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Burkholderiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Burkholderiales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Campylobacteraceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Campylobacteraceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Campylobacteraceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Campylobacteraceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Campylobacterales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Caviidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Caviidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Caviidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Caviidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Infraorder_Hystricognathi> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Celastraceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Celastraceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Celastraceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Celastraceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Celastrales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Chlamydiaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Chlamydiaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Chlamydiaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Chlamydiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gram-negative_bacterium> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Chlamydiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Obligate_intracellular_bacteria> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Chlamydiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Chlamydiales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Clostridiaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Clostridiaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Clostridiaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Clostridiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Clostridiales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coronaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coronaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Coronaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coronaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_in_life-cycle> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coronaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Nidovirales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Corynebacteriaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Corynebacteriaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Corynebacteriaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Corynebacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Aerobic_Actinomycetes> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Corynebacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Corynebacterineae> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coxiellaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coxiellaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Coxiellaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Coxiellaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Legionellales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Cryptosporiidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Cryptosporiidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Cryptosporiidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Cryptosporiidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Class_Sporozoea_-_subclass_coccidia> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Cupressaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Cupressaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Cupressaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Cupressaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Pinales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Eimeriidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Eimeriidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Eimeriidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Eimeriidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Class_Sporozoea_-_subclass_coccidia> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Entamoebidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Entamoebidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Entamoebidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Entamoebidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Amoebida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Enterobacteriaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Enterobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Enterobacteriaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Enterobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Coliform_bacteria> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Enterobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Enterobacteriales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Enterobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Subclass_Facultatively_Anaerobic_Gram_Negative_Rods> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Equidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Equidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Equidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Equidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Perissodactyla> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fabaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fabaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Fabaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fabaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Fabales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fagaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fagaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Fagaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fagaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Fagales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Felidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Felidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Felidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Felidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Feliformia> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Filoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Filoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Filoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Filoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Mononegavirales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Flaviviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Flaviviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Flaviviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Flaviviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_in_life-cycle> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fusobacteriaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fusobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Fusobacteriaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Fusobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Fusobacterales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Ginkgoaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Ginkgoaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Ginkgoaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Ginkgoaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Ginkgoales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Helicobacteraceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Helicobacteraceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Helicobacteraceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Helicobacteraceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Campylobacterales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hepadnaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hepadnaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Hepadnaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hepadnaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hepeviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hepeviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Hepeviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hepeviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-enveloped_ssRNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Herpesviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Herpesviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Herpesviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Herpesviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_dsDNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hominidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hominidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Hominidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Hominidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Primates> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycobacteriaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Mycobacteriaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Acid-fast_bacillus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycobacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Corynebacterineae> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycoplasmataceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycoplasmataceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Mycoplasmataceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycoplasmataceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Anaerobic_bacteria> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Mycoplasmataceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Mycoplasmatales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Neisseriaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Neisseriaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Neisseriaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Neisseriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Neisseriales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Opisthorchiidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Opisthorchiidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Opisthorchiidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Opisthorchiidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Opisthorchiida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Orthomyxoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Orthomyxoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Orthomyxoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Orthomyxoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_without_a_DNA_step_with_multiple-stranded_negative-sense_genome> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Papillomaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Papillomaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Papillomaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Papillomaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-enveloped_dsDNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Paramyxoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Paramyxoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Paramyxoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Paramyxoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Mononegavirales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Parvoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Parvoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Parvoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Parvoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-enveloped_ssDNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pasteurellaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pasteurellaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Pasteurellaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pasteurellaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Pasteurellales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pasteurellaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Subclass_Facultatively_Anaerobic_Gram_Negative_Rods> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pediculidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pediculidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Pediculidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pediculidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Anoplura> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Phasianidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Phasianidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Phasianidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Phasianidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Galliformes> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Picornaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Picornaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Picornaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Picornaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-enveloped_ssRNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pinaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pinaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Pinaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pinaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Kingdom_Plantae> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Plasmodiidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Plasmodiidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Plasmodiidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Plasmodiidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Class_Sporozoea_-_subclass_coccidia> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Plasmodiidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Haemosporida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pneumocystidaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pneumocystidaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Pneumocystidaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pneumocystidaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Pneumocystidales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Poaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Poaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Poaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Poaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Cyperales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Polyomaviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Polyomaviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Polyomaviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Polyomaviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Non-enveloped_dsDNA_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Poxviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Poxviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Poxviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Poxviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Deoxyribonucleic_acid_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Propionibacteriaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Propionibacteriaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Propionibacteriaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Propionibacteriaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Propionibacterineae> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pseudomonadaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pseudomonadaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Pseudomonadaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pseudomonadaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Subclass_Gram-Negative_Aerobic_Rods> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pthiridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pthiridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Pthiridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Pthiridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Anoplura> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Retroviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Retroviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Retroviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Retroviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Enveloped_ssRNA_virus_with_a_DNA_step_in_life-cycle> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rhabdoviridae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rhabdoviridae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Rhabdoviridae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rhabdoviridae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Mononegavirales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rhamnaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rhamnaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Rhamnaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rhamnaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Rhamnales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rickettsiaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rickettsiaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Rickettsiaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rickettsiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Gram-negative_bacillus> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Rickettsiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Rickettsiales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Saccharomycetaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Saccharomycetaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Saccharomycetaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Saccharomycetaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylum_Ascomycota> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Sarcocystidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Sarcocystidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Sarcocystidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Sarcocystidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Class_Sporozoea_-_subclass_coccidia> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Schistosomatidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Schistosomatidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Schistosomatidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Schistosomatidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Strigeatida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Spirochaetaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Spirochaetaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Spirochaetaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Spirochaetaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Spirochaetales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Staphylococcaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Staphylococcaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Staphylococcaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Staphylococcaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Bacillales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptococcaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptococcaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Streptococcaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptococcaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Lactobacillales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptococcaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Subclass_Gram_Positive_Cocci> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptomycetaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptomycetaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Streptomycetaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Streptomycetaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Streptomycineae> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Taeniidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Taeniidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Taeniidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Taeniidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Cyclophyllidea> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Taxaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Taxaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Taxaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Taxaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Pinales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Thermoactinomycetaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Thermoactinomycetaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Thermoactinomycetaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Thermoactinomycetaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Bacillales> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Trichomonadidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Trichomonadidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Trichomonadidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Trichomonadidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Trichomonadida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Trypanosomatidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_Trypanosomatidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family Trypanosomatidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_Trypanosomatidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Kinetoplastida> .
+<http://www.ihtsdo.org/snomedct.owl#Family_anacardiaceae_-_cashew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_anacardiaceae_-_cashew> <http://www.w3.org/2000/01/rdf-schema#label> "Family anacardiaceae - cashew (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_anacardiaceae_-_cashew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_9> .
+<http://www.ihtsdo.org/snomedct.owl#Family_anacardiaceae_-_cashew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Trees_and_shrubs> .
+<http://www.ihtsdo.org/snomedct.owl#Family_annonaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_annonaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family annonaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_annonaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_1> .
+<http://www.ihtsdo.org/snomedct.owl#Family_annonaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_apiaceae_-_umbelliferae_-_parsley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_apiaceae_-_umbelliferae_-_parsley> <http://www.w3.org/2000/01/rdf-schema#label> "Family apiaceae - umbelliferae - parsley (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_apiaceae_-_umbelliferae_-_parsley> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_10> .
+<http://www.ihtsdo.org/snomedct.owl#Family_apiaceae_-_umbelliferae_-_parsley> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_apocynaceae_-_dogbane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_apocynaceae_-_dogbane> <http://www.w3.org/2000/01/rdf-schema#label> "Family apocynaceae - dogbane (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_apocynaceae_-_dogbane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_11> .
+<http://www.ihtsdo.org/snomedct.owl#Family_apocynaceae_-_dogbane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Trees_and_shrubs> .
+<http://www.ihtsdo.org/snomedct.owl#Family_aquifoliaceae_-_holly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_aquifoliaceae_-_holly> <http://www.w3.org/2000/01/rdf-schema#label> "Family aquifoliaceae - holly (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_aquifoliaceae_-_holly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_4> .
+<http://www.ihtsdo.org/snomedct.owl#Family_aquifoliaceae_-_holly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Trees_and_shrubs> .
+<http://www.ihtsdo.org/snomedct.owl#Family_arecaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_arecaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family arecaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_arecaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_13> .
+<http://www.ihtsdo.org/snomedct.owl#Family_aristolochiaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_aristolochiaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family aristolochiaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_aristolochiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_1> .
+<http://www.ihtsdo.org/snomedct.owl#Family_aristolochiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_asclepiadaceae_-_milkweed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_asclepiadaceae_-_milkweed> <http://www.w3.org/2000/01/rdf-schema#label> "Family asclepiadaceae - milkweed (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_asclepiadaceae_-_milkweed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_11> .
+<http://www.ihtsdo.org/snomedct.owl#Family_asclepiadaceae_-_milkweed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_asteraceae_-_compositae_-_composite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_asteraceae_-_compositae_-_composite> <http://www.w3.org/2000/01/rdf-schema#label> "Family asteraceae - compositae - composite (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_asteraceae_-_compositae_-_composite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_11> .
+<http://www.ihtsdo.org/snomedct.owl#Family_berberidaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_berberidaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family berberidaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_berberidaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_1> .
+<http://www.ihtsdo.org/snomedct.owl#Family_boraginaceae_-_borage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_boraginaceae_-_borage> <http://www.w3.org/2000/01/rdf-schema#label> "Family boraginaceae - borage (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_boraginaceae_-_borage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_11> .
+<http://www.ihtsdo.org/snomedct.owl#Family_boraginaceae_-_borage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_brassicaceae_-_cruciferae_-_mustard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_brassicaceae_-_cruciferae_-_mustard> <http://www.w3.org/2000/01/rdf-schema#label> "Family brassicaceae - cruciferae - mustard (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_brassicaceae_-_cruciferae_-_mustard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_5> .
+<http://www.ihtsdo.org/snomedct.owl#Family_brassicaceae_-_cruciferae_-_mustard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_buxaceae_-_box> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_buxaceae_-_box> <http://www.w3.org/2000/01/rdf-schema#label> "Family buxaceae - box (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_buxaceae_-_box> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_6> .
+<http://www.ihtsdo.org/snomedct.owl#Family_canidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_canidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family canidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_canidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Suborder_Caniformia> .
+<http://www.ihtsdo.org/snomedct.owl#Family_cannabaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_cannabaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family cannabaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_cannabaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_6> .
+<http://www.ihtsdo.org/snomedct.owl#Family_cannabaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_caprifoliaceae_-_honeysuckle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_caprifoliaceae_-_honeysuckle> <http://www.w3.org/2000/01/rdf-schema#label> "Family caprifoliaceae - honeysuckle (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_caprifoliaceae_-_honeysuckle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_10> .
+<http://www.ihtsdo.org/snomedct.owl#Family_caprifoliaceae_-_honeysuckle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_caryophyllaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_caryophyllaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family caryophyllaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_caryophyllaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_3> .
+<http://www.ihtsdo.org/snomedct.owl#Family_caryophyllaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_cercopithecidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_cercopithecidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family cercopithecidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_cercopithecidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Primates> .
+<http://www.ihtsdo.org/snomedct.owl#Family_clusiaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_clusiaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family clusiaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_clusiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_4> .
+<http://www.ihtsdo.org/snomedct.owl#Family_clusiaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_convolvulaceae_-_morning_glory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_convolvulaceae_-_morning_glory> <http://www.w3.org/2000/01/rdf-schema#label> "Family convolvulaceae - morning glory (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_convolvulaceae_-_morning_glory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_11> .
+<http://www.ihtsdo.org/snomedct.owl#Family_convolvulaceae_-_morning_glory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_crassulaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_crassulaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family crassulaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_crassulaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_7> .
+<http://www.ihtsdo.org/snomedct.owl#Family_dasypodidae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_dasypodidae> <http://www.w3.org/2000/01/rdf-schema#label> "Family dasypodidae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_dasypodidae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_Xenarthra> .
+<http://www.ihtsdo.org/snomedct.owl#Family_details_/_household_composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_details_/_household_composition> <http://www.w3.org/2000/01/rdf-schema#label> "Family details / household composition (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_details_/_household_composition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_detail> .
+<http://www.ihtsdo.org/snomedct.owl#Family_equisetaceae_-_horsetail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_equisetaceae_-_horsetail> <http://www.w3.org/2000/01/rdf-schema#label> "Family equisetaceae - horsetail (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_equisetaceae_-_horsetail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Order_filicales_-_fern> .
+<http://www.ihtsdo.org/snomedct.owl#Family_ericaceae_-_heather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_ericaceae_-_heather> <http://www.w3.org/2000/01/rdf-schema#label> "Family ericaceae - heather (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_ericaceae_-_heather> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_4> .
+<http://www.ihtsdo.org/snomedct.owl#Family_ericaceae_-_heather> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_euphorbiaceae_-_spurge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_euphorbiaceae_-_spurge> <http://www.w3.org/2000/01/rdf-schema#label> "Family euphorbiaceae - spurge (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_euphorbiaceae_-_spurge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_6> .
+<http://www.ihtsdo.org/snomedct.owl#Family_euphorbiaceae_-_spurge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_geraniaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_geraniaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Family geraniaceae (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Family_geraniaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Phylogenetic_group_9> .
+<http://www.ihtsdo.org/snomedct.owl#Family_geraniaceae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wild_flowers> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Allergy (situation)"@en .
+_:genid140967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_disorder> .
+_:genid140970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140969 .
+_:genid140968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140970 .
+_:genid140969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140969 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140972 .
+_:genid140972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140972 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid140972 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_state> .
+_:genid140975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140974 .
+_:genid140973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140975 .
+_:genid140974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140974 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid140974 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid140977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140976 .
+_:genid140975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140977 .
+_:genid140976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140976 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid140976 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid140979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140978 .
+_:genid140977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140979 .
+_:genid140978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140978 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid140978 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid140979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140971 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140973 .
+_:genid140969 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140971 .
+_:genid140970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140967 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140968 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140967 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Alopecia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Alopecia> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Alopecia (situation)"@en .
+_:genid140980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_disorder> .
+_:genid140983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140982 .
+_:genid140981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140983 .
+_:genid140982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140982 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140985 .
+_:genid140985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140985 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid140985 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Alopecia> .
+_:genid140988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140987 .
+_:genid140986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140988 .
+_:genid140987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140987 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid140987 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid140990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140989 .
+_:genid140988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140990 .
+_:genid140989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140989 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid140989 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid140992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140991 .
+_:genid140990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140992 .
+_:genid140991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140991 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid140991 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid140992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140984 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140986 .
+_:genid140982 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140984 .
+_:genid140983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140980 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140981 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Alopecia> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140980 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Alzheimer's_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Alzheimer's_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Alzheimer's disease (situation)"@en .
+_:genid140993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_dementia> .
+_:genid140996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140995 .
+_:genid140994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140996 .
+_:genid140995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140995 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid140997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid140999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140998 .
+_:genid140998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid140998 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid140998 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Alzheimer's_disease> .
+_:genid141001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141000 .
+_:genid140999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141001 .
+_:genid141000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141000 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141000 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141002 .
+_:genid141001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141003 .
+_:genid141002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141002 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141002 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141004 .
+_:genid141003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141005 .
+_:genid141004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141004 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141004 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140997 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140999 .
+_:genid140995 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid140997 .
+_:genid140996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140993 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140994 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Alzheimer's_disease> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140993 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Anemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Anemia> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Anemia (situation)"@en .
+_:genid141006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history:_Blood_disorder> .
+_:genid141009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141008 .
+_:genid141007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141009 .
+_:genid141008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141008 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141011 .
+_:genid141011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141011 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141011 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anemia> .
+_:genid141014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141013 .
+_:genid141012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141014 .
+_:genid141013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141013 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141013 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141015 .
+_:genid141014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141016 .
+_:genid141015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141015 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141015 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141017 .
+_:genid141016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141018 .
+_:genid141017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141017 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141017 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141010 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141012 .
+_:genid141008 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141010 .
+_:genid141009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141006 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141007 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Anemia> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141006 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Angina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Angina> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Angina (situation)"@en .
+_:genid141019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_ischemic_heart_disease> .
+_:genid141022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141021 .
+_:genid141020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141022 .
+_:genid141021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141021 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141024 .
+_:genid141024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141024 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141024 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Angina> .
+_:genid141027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141026 .
+_:genid141025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141027 .
+_:genid141026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141026 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141026 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141028 .
+_:genid141027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141029 .
+_:genid141028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141028 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141028 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141030 .
+_:genid141029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141031 .
+_:genid141030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141030 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141030 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141023 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141025 .
+_:genid141021 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141023 .
+_:genid141022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141019 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141020 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Angina> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141019 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Anxiety_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Anxiety_state> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Anxiety state (situation)"@en .
+_:genid141032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_clinical_finding> .
+_:genid141035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141034 .
+_:genid141033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141035 .
+_:genid141034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141034 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141037 .
+_:genid141037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141037 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141037 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Anxiety_state> .
+_:genid141040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141039 .
+_:genid141038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141040 .
+_:genid141039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141039 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141039 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141041 .
+_:genid141040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141042 .
+_:genid141041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141041 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141041 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141043 .
+_:genid141042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141044 .
+_:genid141043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141043 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141043 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141036 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141038 .
+_:genid141034 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141036 .
+_:genid141035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141032 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141033 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Anxiety_state> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141032 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Aortic_aneurysm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Aortic_aneurysm> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Aortic aneurysm (situation)"@en .
+_:genid141045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_aneurysm_of_artery> .
+_:genid141048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141047 .
+_:genid141046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141048 .
+_:genid141047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141047 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141050 .
+_:genid141050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141050 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141050 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Aortic_aneurysm> .
+_:genid141053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141052 .
+_:genid141051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141053 .
+_:genid141052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141052 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141052 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141054 .
+_:genid141053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141055 .
+_:genid141054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141054 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141054 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141056 .
+_:genid141055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141057 .
+_:genid141056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141056 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141056 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141049 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141051 .
+_:genid141047 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141049 .
+_:genid141048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141045 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141046 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Aortic_aneurysm> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141045 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Arthritis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Arthritis> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Arthritis (situation)"@en .
+_:genid141058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history:_Musculoskeletal_disease> .
+_:genid141061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141060 .
+_:genid141059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141061 .
+_:genid141060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141060 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141063 .
+_:genid141063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141063 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141063 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Arthritis> .
+_:genid141066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141065 .
+_:genid141064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141066 .
+_:genid141065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141065 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141065 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141067 .
+_:genid141066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141068 .
+_:genid141067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141067 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141067 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141069 .
+_:genid141068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141070 .
+_:genid141069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141069 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141069 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141062 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141064 .
+_:genid141060 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141062 .
+_:genid141061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141058 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141059 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Arthritis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141058 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Asthma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Asthma> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Asthma (situation)"@en .
+_:genid141071 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history:_Respiratory_disease> .
+_:genid141074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141073 .
+_:genid141072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141074 .
+_:genid141073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141073 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141076 .
+_:genid141076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141076 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141076 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Asthma> .
+_:genid141079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141078 .
+_:genid141077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141079 .
+_:genid141078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141078 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141078 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141080 .
+_:genid141079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141081 .
+_:genid141080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141080 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141080 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141082 .
+_:genid141081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141083 .
+_:genid141082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141082 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141082 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141075 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141077 .
+_:genid141073 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141075 .
+_:genid141074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141071 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141072 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Asthma> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141071 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Atherosclerosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Atherosclerosis> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Atherosclerosis (situation)"@en .
+_:genid141084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history:_Cardiovascular_disease> .
+_:genid141087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141086 .
+_:genid141085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141087 .
+_:genid141086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141086 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141089 .
+_:genid141089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141089 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141089 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Arteriosclerotic_vascular_disease> .
+_:genid141092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141091 .
+_:genid141090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141092 .
+_:genid141091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141091 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141091 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141093 .
+_:genid141092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141094 .
+_:genid141093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141093 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141093 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141095 .
+_:genid141094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141096 .
+_:genid141095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141095 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141095 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141088 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141090 .
+_:genid141086 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141088 .
+_:genid141087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141084 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141085 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Atherosclerosis> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141084 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Atopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Atopy> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Atopy (situation)"@en .
+_:genid141097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history:_Allergy> .
+_:genid141100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141099 .
+_:genid141098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141100 .
+_:genid141099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141099 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141102 .
+_:genid141102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141102 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141102 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Atopy> .
+_:genid141105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141104 .
+_:genid141103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141105 .
+_:genid141104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141104 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141104 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141106 .
+_:genid141105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141107 .
+_:genid141106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141106 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141106 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141108 .
+_:genid141107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141109 .
+_:genid141108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141108 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141108 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141101 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141103 .
+_:genid141099 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141101 .
+_:genid141100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141097 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141098 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Atopy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141097 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Autoimmune_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Autoimmune_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Autoimmune disease (situation)"@en .
+_:genid141110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_disorder> .
+_:genid141113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141112 .
+_:genid141111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141113 .
+_:genid141112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141112 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141115 .
+_:genid141115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141115 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141115 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Autoimmune_disease> .
+_:genid141118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141117 .
+_:genid141116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141118 .
+_:genid141117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141117 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141117 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141119 .
+_:genid141118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141120 .
+_:genid141119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141119 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141119 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141121 .
+_:genid141120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141122 .
+_:genid141121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141121 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141121 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141114 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141116 .
+_:genid141112 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141114 .
+_:genid141113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141110 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141111 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Autoimmune_disease> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141110 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Biliary_disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Biliary_disease> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Biliary disease (situation)"@en .
+_:genid141123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_disorder> .
+_:genid141126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141125 .
+_:genid141124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141126 .
+_:genid141125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141125 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141128 .
+_:genid141128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141128 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141128 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_biliary_tract> .
+_:genid141131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141130 .
+_:genid141129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141131 .
+_:genid141130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141132 .
+_:genid141131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141133 .
+_:genid141132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141132 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141132 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141134 .
+_:genid141133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141135 .
+_:genid141134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141134 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141134 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141127 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141129 .
+_:genid141125 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141127 .
+_:genid141126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141123 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141124 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Biliary_disease> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141123 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Blindness/low_vision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Blindness/low_vision> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Blindness/low vision (situation)"@en .
+_:genid141136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_visual_disturbance> .
+_:genid141139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141138 .
+_:genid141137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141139 .
+_:genid141138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141138 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141141 .
+_:genid141141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141141 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141141 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Blindness_AND/OR_vision_impairment_level> .
+_:genid141144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141143 .
+_:genid141142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141144 .
+_:genid141143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141143 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_context> .
+_:genid141143 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Known_present> .
+_:genid141146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141145 .
+_:genid141144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141146 .
+_:genid141145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141145 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Subject_relationship_context> .
+_:genid141145 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Person_in_the_family> .
+_:genid141148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141147 .
+_:genid141146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141148 .
+_:genid141147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141147 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Temporal_context> .
+_:genid141147 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Current_or_specified_time> .
+_:genid141148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141140 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141142 .
+_:genid141138 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid141140 .
+_:genid141139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141136 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid141137 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Blindness/low_vision> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141136 .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Blood_disorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Family_history:_Blood_disorder> <http://www.w3.org/2000/01/rdf-schema#label> "Family history: Blood disorder (situation)"@en .
+_:genid141149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Family_history_of_disorder> .
+_:genid141152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141151 .
+_:genid141150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141152 .
+_:genid141151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141151 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid141153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid141155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141154 .
+_:genid141154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141154 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_finding> .
+_:genid141154 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Disorder_of_cellular_component_of_blood> .

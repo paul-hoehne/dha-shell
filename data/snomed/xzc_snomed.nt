@@ -1,0 +1,1000 @@
+_:genid173920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173920 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173923 .
+_:genid173923 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173923 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173923 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> .
+_:genid173926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173925 .
+_:genid173924 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173926 .
+_:genid173925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173925 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173925 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node_of_thorax> .
+_:genid173926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173922 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173924 .
+_:genid173920 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173922 .
+_:genid173921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173917 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173918 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_intrathoracic_lymph_nodes> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173917 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's granuloma of lymph nodes of axilla AND/OR upper limb (disorder)"@en .
+_:genid173927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_lymph_nodes_of_axilla_AND/OR_upper_limb> .
+_:genid173929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma> .
+_:genid173928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173929 .
+_:genid173931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173930 .
+_:genid173929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173931 .
+_:genid173930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173930 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173933 .
+_:genid173933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173933 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173933 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> .
+_:genid173936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173935 .
+_:genid173934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173936 .
+_:genid173935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173935 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173935 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node> .
+_:genid173936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173932 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173934 .
+_:genid173930 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173932 .
+_:genid173938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173937 .
+_:genid173931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173938 .
+_:genid173937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173937 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173940 .
+_:genid173940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173940 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173940 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+_:genid173943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173942 .
+_:genid173941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173943 .
+_:genid173942 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173942 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173942 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Upper_limb_lymph_node_structure> .
+_:genid173943 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173939 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173941 .
+_:genid173937 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173939 .
+_:genid173938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173927 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173928 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173927 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_spleen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_spleen> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's granuloma of spleen (disorder)"@en .
+_:genid173944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_spleen> .
+_:genid173946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma> .
+_:genid173945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173946 .
+_:genid173948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173947 .
+_:genid173946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173948 .
+_:genid173947 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173947 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173950 .
+_:genid173950 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173950 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173950 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> .
+_:genid173953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173952 .
+_:genid173951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173953 .
+_:genid173952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173952 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173952 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Splenic_structure> .
+_:genid173953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173949 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173951 .
+_:genid173947 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173949 .
+_:genid173948 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173944 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173945 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_spleen> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173944 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_unspecified_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's granuloma of unspecified site (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma> .
+_:genid173954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173954 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173955 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173955 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173955 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> .
+_:genid173954 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173955 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_granuloma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid173954 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_lymphocytic_depletion_of_unspecified_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_lymphocytic_depletion_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's lymphocytic depletion of unspecified site (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_lymphocytic_depletion_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease,_lymphocytic_depletion> .
+_:genid173956 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173956 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173957 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173957 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte_depletion> .
+_:genid173956 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173957 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_lymphocytic_depletion_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid173956 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173958 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173959 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173959 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173959 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173958 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173959 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid173958 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_intra-abdominal_lymph_nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_intra-abdominal_lymph_nodes> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of intra-abdominal lymph nodes (disorder)"@en .
+_:genid173960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_intra-abdominal_lymph_nodes> .
+_:genid173962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173962 .
+_:genid173964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173963 .
+_:genid173962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173964 .
+_:genid173963 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173963 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173966 .
+_:genid173966 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173966 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173966 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173968 .
+_:genid173967 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173969 .
+_:genid173968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173968 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173968 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abdominal_lymph_node_structure> .
+_:genid173969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173965 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173967 .
+_:genid173963 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173965 .
+_:genid173964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173960 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173961 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_intra-abdominal_lymph_nodes> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173960 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_intrathoracic_lymph_nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_intrathoracic_lymph_nodes> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of intrathoracic lymph nodes (disorder)"@en .
+_:genid173970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease,_lymphocytic_depletion> .
+_:genid173972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_intrathoracic_lymph_nodes> .
+_:genid173971 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173972 .
+_:genid173973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173972 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173973 .
+_:genid173975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173974 .
+_:genid173973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173975 .
+_:genid173974 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173974 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173977 .
+_:genid173977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173977 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173977 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte_depletion> .
+_:genid173980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173979 .
+_:genid173978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173980 .
+_:genid173979 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173979 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173979 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node_of_thorax> .
+_:genid173980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173976 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173978 .
+_:genid173974 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173976 .
+_:genid173982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173981 .
+_:genid173975 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173982 .
+_:genid173981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173981 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173983 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173983 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173981 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173983 .
+_:genid173982 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173970 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173971 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_intrathoracic_lymph_nodes> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173970 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of lymph nodes of axilla AND/OR upper limb (disorder)"@en .
+_:genid173984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_lymph_nodes_of_axilla_AND/OR_upper_limb> .
+_:genid173986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173986 .
+_:genid173988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173987 .
+_:genid173986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173988 .
+_:genid173987 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173987 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173990 .
+_:genid173990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173990 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid173990 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173992 .
+_:genid173991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173993 .
+_:genid173992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173992 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid173992 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Upper_limb_lymph_node_structure> .
+_:genid173993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173989 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173991 .
+_:genid173987 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173989 .
+_:genid173988 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173984 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173985 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173984 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_head,_face_AND/OR_neck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_head,_face_AND/OR_neck> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of lymph nodes of head, face AND/OR neck (disorder)"@en .
+_:genid173994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid173995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_lymph_nodes_of_head,_face_AND/OR_neck> .
+_:genid173996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid173995 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173996 .
+_:genid173998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173997 .
+_:genid173996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173998 .
+_:genid173997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid173997 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid173999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174000 .
+_:genid174000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174000 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174000 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174002 .
+_:genid174001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174003 .
+_:genid174002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174002 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174002 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node_of_head_and_neck> .
+_:genid174003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173999 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174001 .
+_:genid173997 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid173999 .
+_:genid173998 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173994 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid173995 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_head,_face_AND/OR_neck> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173994 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_inguinal_region_AND/OR_lower_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_inguinal_region_AND/OR_lower_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of lymph nodes of inguinal region AND/OR lower limb (disorder)"@en .
+_:genid174004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Malignant_lymphoma_of_lymph_nodes_of_inguinal_region_AND/OR_lower_limb> .
+_:genid174005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174006 .
+_:genid174008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174007 .
+_:genid174006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174008 .
+_:genid174007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174007 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174010 .
+_:genid174010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174010 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174010 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174012 .
+_:genid174011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174013 .
+_:genid174012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174012 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174012 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Lower_limb_lymph_node_structure> .
+_:genid174013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174009 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174011 .
+_:genid174007 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174009 .
+_:genid174008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174004 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174005 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_lymph_nodes_of_inguinal_region_AND/OR_lower_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174004 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_spleen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_spleen> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of spleen (disorder)"@en .
+_:genid174014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_spleen> .
+_:genid174016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174016 .
+_:genid174018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174017 .
+_:genid174016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174018 .
+_:genid174017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174017 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174020 .
+_:genid174020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174020 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174020 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174022 .
+_:genid174021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174023 .
+_:genid174022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174022 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174022 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Splenic_structure> .
+_:genid174023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174019 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174021 .
+_:genid174017 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174019 .
+_:genid174018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174014 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174015 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_spleen> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174014 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_unspecified_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's paragranuloma of unspecified site (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174024 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174025 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174025 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174024 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174025 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_paragranuloma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174024 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma (disorder)"@en .
+_:genid174026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease> .
+_:genid174029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174028 .
+_:genid174027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174029 .
+_:genid174028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174028 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174030 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174030 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174028 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174030 .
+_:genid174029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174026 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174027 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174026 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_NOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_NOS> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma NOS (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174031 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174032 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174032 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174031 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174032 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_NOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174031 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intra-abdominal_lymph_nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intra-abdominal_lymph_nodes> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma of intra-abdominal lymph nodes (disorder)"@en .
+_:genid174033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_intra-abdominal_lymph_nodes> .
+_:genid174035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174035 .
+_:genid174037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174036 .
+_:genid174035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174037 .
+_:genid174036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174036 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174039 .
+_:genid174039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174039 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174039 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174041 .
+_:genid174040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174042 .
+_:genid174041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174041 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174041 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Abdominal_lymph_node_structure> .
+_:genid174042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174038 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174040 .
+_:genid174036 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174038 .
+_:genid174037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174033 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174034 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intra-abdominal_lymph_nodes> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174033 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intrapelvic_lymph_nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intrapelvic_lymph_nodes> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma of intrapelvic lymph nodes (disorder)"@en .
+_:genid174043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_intrapelvic_lymph_nodes> .
+_:genid174045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174045 .
+_:genid174047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174046 .
+_:genid174045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174047 .
+_:genid174046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174046 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174049 .
+_:genid174049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174049 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174049 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174051 .
+_:genid174050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174052 .
+_:genid174051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174051 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174051 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Pelvic_lymph_node_structure> .
+_:genid174052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174048 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174050 .
+_:genid174046 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174048 .
+_:genid174047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174043 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174044 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intrapelvic_lymph_nodes> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174043 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intrathoracic_lymph_nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intrathoracic_lymph_nodes> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma of intrathoracic lymph nodes (disorder)"@en .
+_:genid174053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_intrathoracic_lymph_nodes> .
+_:genid174055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174055 .
+_:genid174057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174056 .
+_:genid174055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174057 .
+_:genid174056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174056 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174059 .
+_:genid174059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174059 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174059 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174061 .
+_:genid174060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174062 .
+_:genid174061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174061 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174061 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node_of_thorax> .
+_:genid174062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174058 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174060 .
+_:genid174056 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174058 .
+_:genid174057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174053 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174054 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_intrathoracic_lymph_nodes> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174053 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma of lymph nodes of axilla AND/OR upper limb (disorder)"@en .
+_:genid174063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_lymph_nodes_of_axilla_AND/OR_upper_limb> .
+_:genid174065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174065 .
+_:genid174067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174066 .
+_:genid174065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174067 .
+_:genid174066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174066 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174069 .
+_:genid174069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174069 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174069 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+_:genid174072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174071 .
+_:genid174070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174072 .
+_:genid174071 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174071 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174071 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Upper_limb_lymph_node_structure> .
+_:genid174072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174068 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174070 .
+_:genid174066 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174068 .
+_:genid174074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174073 .
+_:genid174067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174074 .
+_:genid174073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174073 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174076 .
+_:genid174076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174076 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174076 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174078 .
+_:genid174077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174079 .
+_:genid174078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174078 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174078 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Structure_of_lymph_node> .
+_:genid174079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174075 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174077 .
+_:genid174073 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174075 .
+_:genid174074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174063 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174064 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_lymph_nodes_of_axilla_AND/OR_upper_limb> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174063 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_spleen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_spleen> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma of spleen (disorder)"@en .
+_:genid174080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease_of_spleen> .
+_:genid174082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174082 .
+_:genid174084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174083 .
+_:genid174082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174084 .
+_:genid174083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174083 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174086 .
+_:genid174086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174086 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174086 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174088 .
+_:genid174087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174089 .
+_:genid174088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174088 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174088 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Splenic_structure> .
+_:genid174089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174085 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174087 .
+_:genid174083 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174085 .
+_:genid174084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174080 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174081 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_spleen> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174080 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_unspecified_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin's sarcoma of unspecified site (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma> .
+_:genid174090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174090 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174091 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174091 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> .
+_:genid174090 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174091 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin's_sarcoma_of_unspecified_site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174090 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin granuloma [obs] (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_granuloma_obs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte-rich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte-rich> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, lymphocyte-rich (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte-rich> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, lymphocyte-rich (morphologic abnormality)"@en .
+_:genid174092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease> .
+_:genid174095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174094 .
+_:genid174093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174095 .
+_:genid174094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174094 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174096 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174096 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte-rich> .
+_:genid174094 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174096 .
+_:genid174095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174092 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174093 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte-rich> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174092 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte-rich> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte_depletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte_depletion> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, lymphocyte depletion (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_lymphocyte_depletion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_mixed_cellularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_mixed_cellularity> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, mixed cellularity (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_mixed_cellularity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_no_ICD-O_subtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, no ICD-O subtype (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_no_ICD-O_subtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_neoplasm,_primary> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, nodular lymphocyte predominance (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, nodular lymphocyte predominance (morphologic abnormality)"@en .
+_:genid174097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Hodgkin's_disease> .
+_:genid174100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174099 .
+_:genid174098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174100 .
+_:genid174099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174099 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174101 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Associated_morphology> .
+_:genid174101 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> .
+_:genid174099 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174101 .
+_:genid174100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174097 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174098 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174097 .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_lymphocyte_predominance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, nodular sclerosis (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_cellular_phase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_cellular_phase> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, nodular sclerosis, cellular phase (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_cellular_phase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_grade_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_grade_1> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, nodular sclerosis, grade 1 (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_grade_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_grade_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_grade_2> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma, nodular sclerosis, grade 2 (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma,_nodular_sclerosis,_grade_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin lymphoma - category (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Malignant_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> <http://www.w3.org/2000/01/rdf-schema#label> "Hodgkin sarcoma [obs] (morphologic abnormality)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hodgkin_sarcoma_obs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hodgkin_lymphoma_-_category> .
+<http://www.ihtsdo.org/snomedct.owl#Hollow_viscus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hollow_viscus> <http://www.w3.org/2000/01/rdf-schema#label> "Hollow viscus (body structure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hollow_viscus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Entire_viscus> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/2000/01/rdf-schema#label> "Homatropine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/2000/01/rdf-schema#label> "Homatropine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antispasmodic> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Cycloplegic_agent> .
+_:genid174102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174102 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174102 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Homatropine> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174102 .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Homatropine adverse reaction (disorder)"@en .
+_:genid174103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adverse_reaction_to_eye_drugs> .
+_:genid174105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic_adverse_reaction> .
+_:genid174104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174105 .
+_:genid174106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antispasmodic_adverse_reaction> .
+_:genid174105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174106 .
+_:genid174108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174107 .
+_:genid174106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174108 .
+_:genid174107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174107 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174109 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174109 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Homatropine> .
+_:genid174107 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174109 .
+_:genid174108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174103 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174104 .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174103 .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Homatropine allergy (disorder)"@en .
+_:genid174110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antimuscarinic_allergy> .
+_:genid174112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Antispasmodic_allergy> .
+_:genid174111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174112 .
+_:genid174114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174113 .
+_:genid174112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174114 .
+_:genid174113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174113 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174115 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174115 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Homatropine> .
+_:genid174113 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174115 .
+_:genid174117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174116 .
+_:genid174114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174117 .
+_:genid174116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174116 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174118 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid174118 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid174116 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174118 .
+_:genid174117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174110 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174111 .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174110 .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_hydrobromide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_hydrobromide> <http://www.w3.org/2000/01/rdf-schema#label> "Homatropine hydrobromide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_hydrobromide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Homatropine> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_methylbromide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_methylbromide> <http://www.w3.org/2000/01/rdf-schema#label> "Homatropine methylbromide (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homatropine_methylbromide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Homatropine> .
+<http://www.ihtsdo.org/snomedct.owl#Home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Home> <http://www.w3.org/2000/01/rdf-schema#label> "Home (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Home> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Residential_environment> .
+<http://www.ihtsdo.org/snomedct.owl#Homeopathic_dose_form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homeopathic_dose_form> <http://www.w3.org/2000/01/rdf-schema#label> "Homeopathic dose form (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homeopathic_dose_form> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Complementary_medicine_dose_form> .
+<http://www.ihtsdo.org/snomedct.owl#Homeostasis,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homeostasis,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Homeostasis, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homeostasis,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Function> .
+<http://www.ihtsdo.org/snomedct.owl#Homo_sapiens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homo_sapiens> <http://www.w3.org/2000/01/rdf-schema#label> "Homo sapiens (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homo_sapiens> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Homo> .
+<http://www.ihtsdo.org/snomedct.owl#Homograft_replacement_of_tympanic_membrane_and_ossicles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homograft_replacement_of_tympanic_membrane_and_ossicles> <http://www.w3.org/2000/01/rdf-schema#label> "Homograft replacement of tympanic membrane and ossicles (procedure)"@en .
+_:genid174119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Operation_on_ossicular_chain_of_middle_ear> .
+_:genid174121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Tympanic_membrane_operation> .
+_:genid174120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174121 .
+_:genid174122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Tympanoplasty_using_biological_graft> .
+_:genid174121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174122 .
+_:genid174124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174123 .
+_:genid174122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174124 .
+_:genid174123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174123 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174126 .
+_:genid174126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174126 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174126 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Grafting_-_action> .
+_:genid174129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174128 .
+_:genid174127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174129 .
+_:genid174128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174128 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid174128 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Ear_ossicle_structure> .
+_:genid174129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174125 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174127 .
+_:genid174123 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174125 .
+_:genid174131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174130 .
+_:genid174124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174131 .
+_:genid174130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174133 .
+_:genid174133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174133 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174133 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Grafting_-_action> .
+_:genid174136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174135 .
+_:genid174134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174136 .
+_:genid174135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174135 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid174135 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Tympanic_membrane_structure> .
+_:genid174136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174132 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174134 .
+_:genid174130 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174132 .
+_:genid174138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174137 .
+_:genid174131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174138 .
+_:genid174137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174137 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174140 .
+_:genid174140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174140 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174140 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Repair_-_action> .
+_:genid174143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174142 .
+_:genid174141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174143 .
+_:genid174142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174142 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Procedure_site_-_Direct> .
+_:genid174142 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Middle_ear_structure> .
+_:genid174143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174139 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174141 .
+_:genid174137 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174139 .
+_:genid174138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174119 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174120 .
+<http://www.ihtsdo.org/snomedct.owl#Homograft_replacement_of_tympanic_membrane_and_ossicles> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174119 .
+<http://www.ihtsdo.org/snomedct.owl#Homoharringtonine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homoharringtonine> <http://www.w3.org/2000/01/rdf-schema#label> "Homoharringtonine (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homoharringtonine> <http://www.w3.org/2000/01/rdf-schema#label> "Homoharringtonine (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homoharringtonine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Antineoplastic_alkaloid> .
+_:genid174144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174144 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174144 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Homoharringtonine> .
+<http://www.ihtsdo.org/snomedct.owl#Homoharringtonine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174144 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homozygote> <http://www.w3.org/2000/01/rdf-schema#label> "Homozygote (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homozygote> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genetic_finding> .
+_:genid174145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174145 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174146 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid174146 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Laboratory_test> .
+_:genid174145 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174146 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygote> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174145 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_beta_thalassemia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_beta_thalassemia> <http://www.w3.org/2000/01/rdf-schema#label> "Homozygous beta thalassemia (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_beta_thalassemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#beta_Thalassemia> .
+_:genid174147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174147 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174148 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid174148 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Erythropenia> .
+_:genid174147 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174148 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_beta_thalassemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174147 .
+_:genid174149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174149 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174150 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174150 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Body_system_structure> .
+_:genid174149 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174150 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_beta_thalassemia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174149 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_hemoglobinopathy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_hemoglobinopathy> <http://www.w3.org/2000/01/rdf-schema#label> "Homozygous hemoglobinopathy (disorder)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_hemoglobinopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hereditary_hemoglobinopathy> .
+_:genid174151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174151 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174152 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid174152 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Red_blood_cell_finding> .
+_:genid174151 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174152 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_hemoglobinopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174151 .
+_:genid174153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174153 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174154 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_site> .
+_:genid174154 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Body_system_structure> .
+_:genid174153 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174154 .
+<http://www.ihtsdo.org/snomedct.owl#Homozygous_hemoglobinopathy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174153 .
+<http://www.ihtsdo.org/snomedct.owl#Honduras> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Honduras> <http://www.w3.org/2000/01/rdf-schema#label> "Honduras (geographic location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Honduras> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Central_American_country> .
+<http://www.ihtsdo.org/snomedct.owl#Honey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Honey> <http://www.w3.org/2000/01/rdf-schema#label> "Honey (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Honey> <http://www.w3.org/2000/01/rdf-schema#label> "Honey (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Honey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Jam_and_preserves> .
+<http://www.ihtsdo.org/snomedct.owl#Honey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Wound_healing_preparation> .
+_:genid174155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174155 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_active_ingredient> .
+_:genid174155 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Honey> .
+<http://www.ihtsdo.org/snomedct.owl#Honey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174155 .
+<http://www.ihtsdo.org/snomedct.owl#Hong_Kong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hong_Kong> <http://www.w3.org/2000/01/rdf-schema#label> "Hong Kong (geographic location)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hong_Kong> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Far_east_country> .
+<http://www.ihtsdo.org/snomedct.owl#Hookworm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hookworm> <http://www.w3.org/2000/01/rdf-schema#label> "Hookworm (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hookworm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intestinal_nematode> .
+<http://www.ihtsdo.org/snomedct.owl#Hookworm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Superfamily_ancylostomatoidea> .
+<http://www.ihtsdo.org/snomedct.owl#Hordeum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hordeum> <http://www.w3.org/2000/01/rdf-schema#label> "Hordeum (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hordeum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Family_Poaceae> .
+<http://www.ihtsdo.org/snomedct.owl#Horizontal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Horizontal> <http://www.w3.org/2000/01/rdf-schema#label> "Horizontal (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Horizontal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Directions> .
+<http://www.ihtsdo.org/snomedct.owl#Horizontal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Topographical_modifier> .
+<http://www.ihtsdo.org/snomedct.owl#Hormonal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormonal> <http://www.w3.org/2000/01/rdf-schema#label> "Hormonal (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormonal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pathogeneses> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hormones_and_their_metabolites_and_precursors> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_hormone_metabolite,_hormone_precursor,_synthetic_hormone_substitute,_AND/OR_hormone_antagonist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_hormone_metabolite,_hormone_precursor,_synthetic_hormone_substitute,_AND/OR_hormone_antagonist> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone, hormone metabolite, hormone precursor, synthetic hormone substitute, AND/OR hormone antagonist (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_hormone_metabolite,_hormone_precursor,_synthetic_hormone_substitute,_AND/OR_hormone_antagonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Drug_or_medicament> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone, synthetic hormone substitute or hormone antagonist (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hormone,_hormone_metabolite,_hormone_precursor,_synthetic_hormone_substitute,_AND/OR_hormone_antagonist> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist_adverse_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist_adverse_reaction> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone, synthetic hormone substitute or hormone antagonist adverse reaction (disorder)"@en .
+_:genid174156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Adverse_reaction_to_drug> .
+_:genid174159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174158 .
+_:genid174157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174159 .
+_:genid174158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174158 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174160 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174160 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> .
+_:genid174158 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174160 .
+_:genid174159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174156 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174157 .
+<http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist_adverse_reaction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174156 .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_abnormality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_abnormality> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone abnormality (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_abnormality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Endocrine_finding> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_antagonists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_antagonists> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone antagonists (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_antagonists> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone measurement (procedure)"@en .
+_:genid174161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Measurement_of_substance> .
+_:genid174164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174163 .
+_:genid174162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174164 .
+_:genid174163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174163 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174165 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Component> .
+_:genid174165 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hormone> .
+_:genid174163 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174165 .
+_:genid174167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174166 .
+_:genid174164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174167 .
+_:genid174166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174166 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174168 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Method> .
+_:genid174168 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Measurement_-_action> .
+_:genid174166 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174168 .
+_:genid174167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174161 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174162 .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_measurement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174161 .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_preparation> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone preparation (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_production,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_production,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone production, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_production,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Endocrine_function> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_secretion,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_secretion,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone secretion, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_secretion,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Endocrine_function> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_therapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_therapy> <http://www.w3.org/2000/01/rdf-schema#label> "Hormone therapy (procedure)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_therapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Endocrine_therapy> .
+_:genid174169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174169 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174170 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_intent> .
+_:genid174170 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Therapeutic_intent> .
+_:genid174169 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174170 .
+<http://www.ihtsdo.org/snomedct.owl#Hormone_therapy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174169 .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonist_overdose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonist_overdose> <http://www.w3.org/2000/01/rdf-schema#label> "Hormones, synthetic substitutes and antagonist overdose (disorder)"@en .
+_:genid174171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_overdose> .
+_:genid174174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174173 .
+_:genid174172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174174 .
+_:genid174173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174173 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174175 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174175 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> .
+_:genid174173 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174175 .
+_:genid174174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174171 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174172 .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonist_overdose> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174171 .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists> <http://www.w3.org/2000/01/rdf-schema#label> "Hormones, synthetic substitutes and antagonists (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Pharmaceutical_/_biologic_product> .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists_allergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists_allergy> <http://www.w3.org/2000/01/rdf-schema#label> "Hormones, synthetic substitutes and antagonists allergy (disorder)"@en .
+_:genid174176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Drug_allergy> .
+_:genid174179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174178 .
+_:genid174177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174179 .
+_:genid174178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174178 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174180 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174180 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Hormone,_synthetic_hormone_substitute_or_hormone_antagonist> .
+_:genid174178 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174180 .
+_:genid174182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174181 .
+_:genid174179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174182 .
+_:genid174181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174181 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174183 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Has_definitional_manifestation> .
+_:genid174183 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Allergic_reaction_to_drug> .
+_:genid174181 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174183 .
+_:genid174182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174176 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174177 .
+<http://www.ihtsdo.org/snomedct.owl#Hormones,_synthetic_substitutes_and_antagonists_allergy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174176 .
+<http://www.ihtsdo.org/snomedct.owl#Hormones_and_their_metabolites_and_precursors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hormones_and_their_metabolites_and_precursors> <http://www.w3.org/2000/01/rdf-schema#label> "Hormones and their metabolites and precursors (substance)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hormones_and_their_metabolites_and_precursors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hormone,_hormone_metabolite,_hormone_precursor,_synthetic_hormone_substitute,_AND/OR_hormone_antagonist> .
+<http://www.ihtsdo.org/snomedct.owl#Hospice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospice> <http://www.w3.org/2000/01/rdf-schema#label> "Hospice (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Residential_institution> .
+<http://www.ihtsdo.org/snomedct.owl#Hospice_care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospice_care> <http://www.w3.org/2000/01/rdf-schema#label> "Hospice care (regime/therapy)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospice_care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Provision_of_community_special_services> .
+<http://www.ihtsdo.org/snomedct.owl#Hospice_care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Terminal_care> .
+_:genid174184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174184 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174185 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Recipient_category> .
+_:genid174185 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Community> .
+_:genid174184 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174185 .
+<http://www.ihtsdo.org/snomedct.owl#Hospice_care> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174184 .
+<http://www.ihtsdo.org/snomedct.owl#Hospital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Hospital_AND/OR_institution> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_AND/OR_institution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_AND/OR_institution> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital AND/OR institution (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_AND/OR_institution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Site_of_care> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_clinic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_clinic> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital clinic (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_clinic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Clinic> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_clinic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Location_within_hospital_premises> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_department> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital department (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_department> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Location_within_hospital_premises> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_environment> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital environment (environment)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Environment> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_nurse> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital nurse (occupation)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hospital_nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Professional_nurse> .
+<http://www.ihtsdo.org/snomedct.owl#Host_defense,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Host_defense,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Host defense, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Host_defense,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunologic_function> .
+<http://www.ihtsdo.org/snomedct.owl#Host_response,_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Host_response,_function> <http://www.w3.org/2000/01/rdf-schema#label> "Host response, function (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Host_response,_function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Immunologic_function> .
+<http://www.ihtsdo.org/snomedct.owl#Hound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hound> <http://www.w3.org/2000/01/rdf-schema#label> "Hound (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Canis_familiaris> .
+<http://www.ihtsdo.org/snomedct.owl#Hourly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Hourly> <http://www.w3.org/2000/01/rdf-schema#label> "Hourly (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Hourly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Intervals_of_hours> .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_detail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_detail> <http://www.w3.org/2000/01/rdf-schema#label> "Household, family and support network detail (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_detail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Social_/_personal_history_observable> .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_finding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_finding> <http://www.w3.org/2000/01/rdf-schema#label> "Household, family and support network finding (finding)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Social_and_personal_history_finding> .
+_:genid174186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174186 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174187 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Interprets> .
+_:genid174187 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_detail> .
+_:genid174186 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174187 .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174186 .
+_:genid174188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174188 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174189 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Finding_method> .
+_:genid174189 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#History_taking> .
+_:genid174188 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174189 .
+<http://www.ihtsdo.org/snomedct.owl#Household,_family_and_support_network_finding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid174188 .
+<http://www.ihtsdo.org/snomedct.owl#Household_accessory,_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household_accessory,_device> <http://www.w3.org/2000/01/rdf-schema#label> "Household accessory, device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household_accessory,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Household_device> .
+<http://www.ihtsdo.org/snomedct.owl#Household_appliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household_appliance> <http://www.w3.org/2000/01/rdf-schema#label> "Household appliance (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household_appliance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Household_accessory,_device> .
+<http://www.ihtsdo.org/snomedct.owl#Household_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household_device> <http://www.w3.org/2000/01/rdf-schema#label> "Household device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Domestic_artefact> .
+<http://www.ihtsdo.org/snomedct.owl#Household_humidifier,_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household_humidifier,_device> <http://www.w3.org/2000/01/rdf-schema#label> "Household humidifier, device (physical object)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household_humidifier,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Household_appliance> .
+<http://www.ihtsdo.org/snomedct.owl#Household_humidifier,_device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Respiratory_equipment> .
+<http://www.ihtsdo.org/snomedct.owl#Household_income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Household_income> <http://www.w3.org/2000/01/rdf-schema#label> "Household income (observable entity)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Household_income> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Income_details> .
+<http://www.ihtsdo.org/snomedct.owl#Houseplants,_garden_ornamentals_and_exotics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Houseplants,_garden_ornamentals_and_exotics> <http://www.w3.org/2000/01/rdf-schema#label> "Houseplants, garden ornamentals and exotics (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Houseplants,_garden_ornamentals_and_exotics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Kingdom_Plantae> .
+<http://www.ihtsdo.org/snomedct.owl#Human_-_origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_-_origin> <http://www.w3.org/2000/01/rdf-schema#label> "Human - origin (qualifier value)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_-_origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Origins> .
+<http://www.ihtsdo.org/snomedct.owl#Human_B-type_natriuretic_peptide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_B-type_natriuretic_peptide> <http://www.w3.org/2000/01/rdf-schema#label> "Human B-type natriuretic peptide (product)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_B-type_natriuretic_peptide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Vasodilating_agent> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-cell_lymphotropic_virus_1_infection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-cell_lymphotropic_virus_1_infection> <http://www.w3.org/2000/01/rdf-schema#label> "Human T-cell lymphotropic virus 1 infection (disorder)"@en .
+_:genid174190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ihtsdo.org/snomedct.owl#Disease_due_to_Deltaretrovirus> .
+_:genid174193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid174192 .
+_:genid174191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174193 .
+_:genid174192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174192 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#RoleGroup> .
+_:genid174194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid174194 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ihtsdo.org/snomedct.owl#Causative_agent> .
+_:genid174194 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_1> .
+_:genid174192 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid174194 .
+_:genid174193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174190 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid174191 .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-cell_lymphotropic_virus_1_infection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid174190 .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus> <http://www.w3.org/2000/01/rdf-schema#label> "Human T-lymphotropic virus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Deltaretrovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_1> <http://www.w3.org/2000/01/rdf-schema#label> "Human T-lymphotropic virus 1 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primate_T-lymphotropic_virus_1> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_2> <http://www.w3.org/2000/01/rdf-schema#label> "Human T-lymphotropic virus 2 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_T-lymphotropic_virus_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Primate_T-lymphotropic_virus_2> .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus> <http://www.w3.org/2000/01/rdf-schema#label> "Human adenovirus (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Genus_Mastadenovirus> .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_8> <http://www.w3.org/2000/01/rdf-schema#label> "Human adenovirus 8 (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_species_D> .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_species_D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_species_D> <http://www.w3.org/2000/01/rdf-schema#label> "Human adenovirus species D (organism)"@en .
+<http://www.ihtsdo.org/snomedct.owl#Human_adenovirus_species_D> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ihtsdo.org/snomedct.owl#Human_adenovirus> .
