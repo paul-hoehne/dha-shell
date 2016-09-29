@@ -1,0 +1,5188 @@
+﻿<ENCOUNTERS>
+  <HISTORY>
+    <encounter_id>29775</encounter_id>
+    <DIAGNOSIS_DATE>2010-08-10T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>HistoryComments2</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29777</encounter_id>
+    <DIAGNOSIS_DATE>2009-09-05T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>HistoryComments3</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29781</encounter_id>
+    <DIAGNOSIS_DATE>2010-06-15T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>HistoryComments5</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29782</encounter_id>
+    <DIAGNOSIS_DATE>2010-08-10T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>HistoryComments6</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29896</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <DIAGNOSIS_DATE>2004-02-03T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>No Allergies Found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <DIAGNOSIS_DATE>2004-02-03T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>No Allergies Found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <DIAGNOSIS_DATE>2004-02-03T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>No Allergies Found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <DIAGNOSIS_DATE>2004-02-03T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>No Allergies Found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <DIAGNOSIS_DATE>2004-02-03T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>No Allergies Found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <DIAGNOSIS_DATE>2004-02-03T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <COMMENTS>No Allergies Found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29967</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29896</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29967</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30101</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29967</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <DIAGNOSIS_DATE>9285-11-26T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Orbit - Hypertrophic Scar</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30045</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Cornea - Surgical Repair - Flap</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <DIAGNOSIS_DATE>4117-02-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Cornea - Surgical Repair - Kerato Prosthesis</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30048</encounter_id>
+    <DIAGNOSIS_DATE>1950-01-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Dementia</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30048</encounter_id>
+    <DIAGNOSIS_DATE>1950-01-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <DIAGNOSIS_DATE>4117-02-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30045</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30044</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30049</encounter_id>
+    <DIAGNOSIS_DATE>7727-04-27T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30056</encounter_id>
+    <DIAGNOSIS_DATE>1909-04-13T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30057</encounter_id>
+    <DIAGNOSIS_DATE>1956-04-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <DIAGNOSIS_DATE>1999-08-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <DIAGNOSIS_DATE>1924-05-17T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30043</encounter_id>
+    <DIAGNOSIS_DATE>2015-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30051</encounter_id>
+    <DIAGNOSIS_DATE>9665-07-15T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Macula - Macular Epiretinal Membrane (ERM)</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30043</encounter_id>
+    <DIAGNOSIS_DATE>2015-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Optic Disc - Vessels - Other</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30056</encounter_id>
+    <DIAGNOSIS_DATE>1909-04-13T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Retina - Macular Laceration - NFS</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30044</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Lens - Pseudophakia - PCIOL - Other</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <DIAGNOSIS_DATE>1999-08-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Conjunctiva - Laceration - Stellate - Other</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30049</encounter_id>
+    <DIAGNOSIS_DATE>7727-04-27T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Cornea - Laceration Full Thickness (Perforating) - Linear, Visual Axis/Corneal Scleral - without Tissue Loss</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <DIAGNOSIS_DATE>1924-05-17T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Orbit - Orbital Fracture - Orbital Rim - Open Comminuted</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30057</encounter_id>
+    <DIAGNOSIS_DATE>1956-04-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Conjunctiva - Discharge - Mucous</HISTORY_CATEGORY>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30101</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30111</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>TEST</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30022</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30019</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>peanuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29879</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30104</encounter_id>
+    <DIAGNOSIS_DATE>2011-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>nuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29972</encounter_id>
+    <DIAGNOSIS_DATE>2001-04-22T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29882</encounter_id>
+    <DIAGNOSIS_DATE>2015-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>tmds</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>No Allergies found</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>yy</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>01/01/2001</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29882</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>coffee</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29904</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies</HISTORY_DETAIL>
+    <COMMENTS>food</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30045</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30048</encounter_id>
+    <DIAGNOSIS_DATE>1950-01-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <DIAGNOSIS_DATE>1924-05-17T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30057</encounter_id>
+    <DIAGNOSIS_DATE>1956-04-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>01/01/2002</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>due date</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29988</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29989</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>04/01/2015</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>02/15/1999</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>Test</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>12/12/1999</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+    <COMMENTS>march</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Pregnant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>HIV/AIDS</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29987</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>HIV/AIDS</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retained Foreign Body</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <DIAGNOSIS_DATE>4117-02-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retained Foreign Body</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Organic Brain Syndrome</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Organic Brain Syndrome</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Organic Brain Syndrome</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29790</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Organic Brain Syndrome</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29776</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Peripheral Nerve Palsy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29889</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Peripheral Nerve Palsy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Peripheral Nerve Palsy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30043</encounter_id>
+    <DIAGNOSIS_DATE>2015-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Peripheral Nerve Palsy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <DIAGNOSIS_DATE>1999-08-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Peripheral Nerve Palsy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30051</encounter_id>
+    <DIAGNOSIS_DATE>9665-07-15T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <DIAGNOSIS_DATE>2012-09-09T00:00:00</DIAGNOSIS_DATE>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29990</encounter_id>
+    <DIAGNOSIS_DATE>2011-11-19T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30021</encounter_id>
+    <DIAGNOSIS_DATE>2013-10-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30021</encounter_id>
+    <DIAGNOSIS_DATE>2015-04-29T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29950</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>117324</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>600</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <DIAGNOSIS_DATE>2001-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>comments</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>head tramma dveivrVCE1234$$dveivrVCE1234$$dveivrVCE1234$$dveivrVCE1234$$dveivrVCE1234$$dveivrVCE1234$$dveivrVCE1234$$</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>Multiple IEDs</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29918</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>Test</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS>Test</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29904</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+    <COMMENTS></COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30024</encounter_id>
+    <DIAGNOSIS_DATE>2010-03-16T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30049</encounter_id>
+    <DIAGNOSIS_DATE>7727-04-27T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>History of head trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30051</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29775</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30024</encounter_id>
+    <DIAGNOSIS_DATE>2010-03-16T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29990</encounter_id>
+    <DIAGNOSIS_DATE>2011-11-19T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29987</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29986</encounter_id>
+    <DIAGNOSIS_DATE>2013-12-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <DIAGNOSIS_DATE>2013-11-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <DIAGNOSIS_DATE>2012-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29851</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Psychiatric Disorders</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29800</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29804</encounter_id>
+    <DIAGNOSIS_DATE>2012-08-08T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <DIAGNOSIS_DATE>2012-08-08T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29927</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29811</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29987</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29873</encounter_id>
+    <DIAGNOSIS_DATE>2012-01-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29781</encounter_id>
+    <DIAGNOSIS_DATE>2014-01-03T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30117</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29814</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30021</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>PTSD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Suicide Attempt</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29861</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Suicide Attempt</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29790</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Suicide Attempt</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Suicide Attempt</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30023</encounter_id>
+    <DIAGNOSIS_DATE>2012-02-21T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30125</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30111</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29972</encounter_id>
+    <DIAGNOSIS_DATE>2001-04-22T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30124</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29988</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29950</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29802</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Depression</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <DIAGNOSIS_DATE>2013-01-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29832</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29812</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29988</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30101</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30022</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29941</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-04T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>ADD/ADHD</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29880</encounter_id>
+    <DIAGNOSIS_DATE>1963-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29986</encounter_id>
+    <DIAGNOSIS_DATE>2013-12-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vitreous - Avulsion of Vitreous Base</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30020</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Choroidal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Choroidal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29972</encounter_id>
+    <DIAGNOSIS_DATE>2001-04-22T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Choroidal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Choroidal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30019</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Choroidal Hemorrhage</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Choroidal Rupture</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30049</encounter_id>
+    <DIAGNOSIS_DATE>7727-04-27T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30043</encounter_id>
+    <DIAGNOSIS_DATE>2015-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29814</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30024</encounter_id>
+    <DIAGNOSIS_DATE>2010-03-16T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid Trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <DIAGNOSIS_DATE>4117-02-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid Trauma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Macular Choroidal Neovascular Membrane (CNV)</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Retinal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29792</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Retinal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29792</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Retinal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29869</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Retinal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29869</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Retinal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29869</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Retinal Detachment</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30057</encounter_id>
+    <DIAGNOSIS_DATE>1956-04-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Socket</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29858</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vitreous - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29988</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vitreous Substitute</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30022</encounter_id>
+    <DIAGNOSIS_DATE>2014-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vitreous Substitute</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vitreous Substitute</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vitreous Substitute</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Volume Loss</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29901</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Abscess</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29904</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29795</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Cellulitis</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Cellulitis</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Cellulitis</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Contusion</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29941</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Hypertrophic Scar</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <DIAGNOSIS_DATE>2008-01-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Sutures Exposed/Extruding</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Conjunctiva - Subconjunctival Hemorrhage</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Laceration Partial Thickness (Penetrating)</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29790</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Laceration Partial Thickness (Penetrating) Cornea Scleral</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <DIAGNOSIS_DATE>2001-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Nasal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30125</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Nasal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <DIAGNOSIS_DATE>2013-12-08T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Temporal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Temporal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Temporal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Temporal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Inferior Temporal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30104</encounter_id>
+    <DIAGNOSIS_DATE>2001-01-20T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angle Recession - Superior Nasal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29871</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Foreign Body</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Foreign Body</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Hyphema</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29804</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Hyphema</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Hypopyon</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29800</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Sclera - Laceration</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29823</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Optic Disc - Atrophy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29823</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Optic Disc - Atrophy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29823</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Optic Disc - Atrophy</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Optic Disc - Neovascularization</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit - Proptosis</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <DIAGNOSIS_DATE>2010-10-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Socket Contraction - Conjunctival Fornices - Not Adequate</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29896</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Symblepharon Upper Lid - Conjunctival Fornices - Not Adequate</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29947</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Volume Loss - Conjunctival Fornices - Not Adequate</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29812</encounter_id>
+    <DIAGNOSIS_DATE>2010-10-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Socket - Discharge</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe - Open, Perforating</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30101</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <DIAGNOSIS_DATE>2012-01-11T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cataract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30023</encounter_id>
+    <DIAGNOSIS_DATE>2012-02-21T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29775</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29987</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30043</encounter_id>
+    <DIAGNOSIS_DATE>2015-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <DIAGNOSIS_DATE>1999-08-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30048</encounter_id>
+    <DIAGNOSIS_DATE>1950-01-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30049</encounter_id>
+    <DIAGNOSIS_DATE>7727-04-27T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30050</encounter_id>
+    <DIAGNOSIS_DATE>4750-02-18T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30024</encounter_id>
+    <DIAGNOSIS_DATE>2010-03-16T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29851</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29986</encounter_id>
+    <DIAGNOSIS_DATE>2013-12-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29990</encounter_id>
+    <DIAGNOSIS_DATE>2011-11-19T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30045</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30057</encounter_id>
+    <DIAGNOSIS_DATE>1956-04-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30124</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29812</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29988</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30022</encounter_id>
+    <DIAGNOSIS_DATE>2014-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30021</encounter_id>
+    <DIAGNOSIS_DATE>2013-10-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <DIAGNOSIS_DATE>4117-02-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30056</encounter_id>
+    <DIAGNOSIS_DATE>1909-04-13T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30051</encounter_id>
+    <DIAGNOSIS_DATE>9665-07-15T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29972</encounter_id>
+    <DIAGNOSIS_DATE>2001-04-22T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30044</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <DIAGNOSIS_DATE>1924-05-17T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29800</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retinal Repair - Scleral Buckle/Band</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe - Enucleation</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe - Enucleation</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <DIAGNOSIS_DATE>2011-09-09T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe - Evisceration</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29804</encounter_id>
+    <DIAGNOSIS_DATE>2014-05-15T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe - Evisceration</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29802</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Globe - Evisceration</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29827</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29823</encounter_id>
+    <DIAGNOSIS_DATE>2010-06-30T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29823</encounter_id>
+    <DIAGNOSIS_DATE>2010-06-30T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29823</encounter_id>
+    <DIAGNOSIS_DATE>2010-06-30T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29882</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Lasik</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29790</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - RK</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29880</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30019</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29814</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30104</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30125</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Bandage Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29874</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Boston Scleral Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29901</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Boston Scleral Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29827</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Boston Scleral Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Boston Scleral Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Boston Scleral Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Boston Scleral Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Kerato Prosthesis</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29811</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Kerato Prosthesis</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Patch Graft, Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Patch Graft, Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30104</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Patch Graft, Cornea</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30117</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Patch Graft, Pericardium</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Surgical Repair - Patch Graft, Sclera</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - ORIF</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - ORIF</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29869</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - ORIF</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29869</encounter_id>
+    <DIAGNOSIS_DATE>2009-05-14T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - ORIF</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29941</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - Plate Implant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - Plate Implant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair - Plate Implant</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Socket - Comfort - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30018</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30111</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cornea - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <DIAGNOSIS_DATE>2013-10-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Refractive Surgery - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Medications</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29888</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Medications</HISTORY_DETAIL>
+    <COMMENTS>Penicilian</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <DIAGNOSIS_DATE>2012-03-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Medications</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29832</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Medications</HISTORY_DETAIL>
+    <COMMENTS>amox</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29812</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Medications</HISTORY_DETAIL>
+    <COMMENTS>Amox</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29811</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Medications</HISTORY_DETAIL>
+    <COMMENTS>aspirin</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Peanuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29837</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Nuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29841</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>nuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29867</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>mushrooms</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29907</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Dairy</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29812</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Nuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <DIAGNOSIS_DATE>1990-10-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Peanuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29861</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Peanuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29800</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29809</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Peanuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Test</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <DIAGNOSIS_DATE>2000-10-20T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Quality Manager</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29896</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>peanuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30124</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>TEST TEST </COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30117</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>FOOD</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29901</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>Nuts</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Food</HISTORY_DETAIL>
+    <COMMENTS>45646556</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>edit</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30125</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>Test</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>Test</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <DIAGNOSIS_DATE>2018-11-18T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>dveivrVCE1234$$</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29792</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>Pollen</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29870</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>Pollen</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29933</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>Dust</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>Pollen</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>117324</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29941</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>117324</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>abc</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+    <COMMENTS>01/01/2001</COMMENTS>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Allergies - Environmental</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retained Foreign Body - Facial</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retained Foreign Body - Facial</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retained Foreign Body - Facial</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29918</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retained Foreign Body - Limb</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <DIAGNOSIS_DATE>2013-06-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Type 1</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Type 1</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Type 2</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Type 2</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Type 2</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Gestational</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29941</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Diabetes - Gestational</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29851</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29804</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29795</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29802</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29947</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29986</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30056</encounter_id>
+    <DIAGNOSIS_DATE>1909-04-13T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29911</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29911</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dementia</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30021</encounter_id>
+    <DIAGNOSIS_DATE>2013-10-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29775</encounter_id>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30111</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30117</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29908</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29795</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29941</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29804</encounter_id>
+    <DIAGNOSIS_DATE>2014-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <DIAGNOSIS_DATE>2014-01-20T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29802</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Drug Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29940</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30117</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30101</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29972</encounter_id>
+    <DIAGNOSIS_DATE>2001-04-22T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30046</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Abuse</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29790</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29800</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29851</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29832</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29870</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29929</encounter_id>
+    <DIAGNOSIS_DATE>2020-12-12T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <DIAGNOSIS_DATE>2003-01-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29967</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29878</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Mental Health</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29851</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29865</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29871</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29871</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29784</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29882</encounter_id>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR SURGICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29876</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29882</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29860</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29967</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL></HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30023</encounter_id>
+    <DIAGNOSIS_DATE>2012-02-21T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29814</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29909</encounter_id>
+    <DIAGNOSIS_DATE>2010-08-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29795</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <DIAGNOSIS_DATE>1956-01-28T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29903</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29836</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29888</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Blast Exposure</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <DIAGNOSIS_DATE>2012-03-01T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Balance Problems or Dizziness</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29971</encounter_id>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Balance Problems or Dizziness</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Covering, Closing One Eye</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29989</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Decreased Vision</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29905</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Losing Vision</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29780</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Losing Vision</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29870</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Past History of Reading Problems</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29901</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Traumatic Brain Injury - With Symptoms of Dry Eye</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29892</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Recreational Drug Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29830</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Recreational Drug Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29830</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30024</encounter_id>
+    <DIAGNOSIS_DATE>2010-03-16T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29812</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29814</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29987</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29988</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-06T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29986</encounter_id>
+    <DIAGNOSIS_DATE>2013-12-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29827</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29990</encounter_id>
+    <DIAGNOSIS_DATE>2011-11-19T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Tobacco Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30022</encounter_id>
+    <DIAGNOSIS_DATE>2014-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30124</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Alcohol Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30023</encounter_id>
+    <DIAGNOSIS_DATE>2012-02-21T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>No Recreational Drug Use</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30044</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Hypertension (HTN)</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30050</encounter_id>
+    <DIAGNOSIS_DATE>4750-02-18T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>MEDICAL HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Hypertension (HTN)</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30050</encounter_id>
+    <DIAGNOSIS_DATE>4750-02-18T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Glaucoma</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Abrasion</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29987</encounter_id>
+    <DIAGNOSIS_DATE>2005-05-05T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Abrasion</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30055</encounter_id>
+    <DIAGNOSIS_DATE>1924-05-17T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cranial Nerve 6</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30044</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Cranial Nerves</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30021</encounter_id>
+    <DIAGNOSIS_DATE>2013-10-10T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>External Eye</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30051</encounter_id>
+    <DIAGNOSIS_DATE>9665-07-15T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lashes</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30054</encounter_id>
+    <DIAGNOSIS_DATE>1999-08-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lens</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Macula</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30011</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Macula</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29990</encounter_id>
+    <DIAGNOSIS_DATE>2011-11-19T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit Repair</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30045</encounter_id>
+    <DIAGNOSIS_DATE>2005-02-02T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Uveal Tract</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30056</encounter_id>
+    <DIAGNOSIS_DATE>1909-04-13T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Late Adulthood (66 forward)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Wound Dehiscence</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dressing - Black Patch</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29946</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dressing - Fox Shield</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29873</encounter_id>
+    <DIAGNOSIS_DATE>2012-06-03T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dressing - Pressure Patch</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30117</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Dressing - Shield</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30111</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>BOTH</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Motility – Forced Duction Test</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession - Inferior</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession - Inferior</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession - Inferior</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession - Inferior</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession - Inferior Nasal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29880</encounter_id>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Anterior Chamber - Angle Recession - Inferior Nasal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29775</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Avulsion/Tissue Loss - 25-50%</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Acid</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Contusion - Abrasion</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Contusion - Abrasion</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29901</encounter_id>
+    <TimePeriod>Adolescence (13-19)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Sclera - Perforation Anterior  - Superior Nasal</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30012</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Acid - 1st degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30020</encounter_id>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Alkaline - 3rd degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29985</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Acid - 4th degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30050</encounter_id>
+    <DIAGNOSIS_DATE>4750-02-18T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Middle Adulthood (40-65)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Orbit - Orbital Fracture - LeFort2</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Orbit - Orbital Fracture - LeFort2 - Closed</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30051</encounter_id>
+    <DIAGNOSIS_DATE>9665-07-15T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid - Foreign Body - Earth/Mud - Upper</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29904</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lid - Burn - Acid - Lower</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29901</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - NFS - 3rd degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Alkaline - 1st degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30047</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Alkaline - 1st degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Alkaline - 1st degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29881</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Alkaline - 1st degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29827</encounter_id>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Alkaline - 2nd degree</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>29874</encounter_id>
+    <LATERALITY></LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Brow - Burn - Acid - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30050</encounter_id>
+    <DIAGNOSIS_DATE>4750-02-18T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Infancy and Toddlerhood (0-2)</TimePeriod>
+    <TimePeriodType>Date</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>Substance Abuse History</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Retina - Vessels - A/V Ratio - Other</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30022</encounter_id>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Lashes - Discharge - Moderate - with Mattering and Crusting</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30023</encounter_id>
+    <DIAGNOSIS_DATE>2012-02-21T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Early Adulthood (20-39)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Fundus</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30048</encounter_id>
+    <DIAGNOSIS_DATE>1950-01-23T00:00:00</DIAGNOSIS_DATE>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>RIGHT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Vision</HISTORY_DETAIL>
+  </HISTORY>
+  <HISTORY>
+    <encounter_id>30124</encounter_id>
+    <TimePeriod>Childhood (2-12)</TimePeriod>
+    <TimePeriodType>Period</TimePeriodType>
+    <LATERALITY>LEFT</LATERALITY>
+    <HISTORY_CATEGORY>OCULAR HISTORY</HISTORY_CATEGORY>
+    <HISTORY_DETAIL>Angles</HISTORY_DETAIL>
+  </HISTORY>
+</ENCOUNTERS>
