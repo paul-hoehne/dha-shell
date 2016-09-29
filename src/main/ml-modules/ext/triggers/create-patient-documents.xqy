@@ -9,9 +9,9 @@ declare namespace env = "http://dveivr.dha.health.mil/xml/envelope";
 declare namespace pat = "http://dveivr.dha.health.mil/xml/patient";
 declare namespace enc = "http://dveivr.dha.health.mil/xml/encounter";
 
-
 declare variable $trgr:uri as xs:string external;
-
+declare variable $default-permissions := (xdmp:permission("rest-reader", "read"),
+    xdmp:permission("rest-writer", "update"));
 
 
 declare function local:conditional-element($name as xs:string, $value) {
@@ -33,56 +33,68 @@ declare function local:patient-category-text($category as xs:string) {
 
 };
 
+declare function local:enriched-data($original) {
+    (
+        local:conditional-element("pat:patientId", $original/patient_id),
+        local:conditional-element("pat:edipn", $original/edipn),
+        local:conditional-element("pat:firstName", $original/first_name),
+        local:conditional-element("pat:middleName", $original/middle_name),
+        local:conditional-element("pat:lastName", $original/last_name),
+        local:conditional-element("pat:suffix", $original/suffix),
+        local:conditional-element("pat:birthDate", $original/birth_date),
+        local:conditional-element("pat:deathDate", $original/death_date),
+        local:conditional-element("pat:created", $original/created),
+        local:conditional-element("pat:updated", $original/updated),
+        local:conditional-element("pat:gender", xlat:xlat-gender($original/GENDER/text())),
+        local:conditional-element("pat:ethnicity", $original/ETHNICITY),
+        local:conditional-element("pat:race", $original/RACE),
+        local:conditional-element("pat:birthDate", $original/oef_oif_ind),
+        local:conditional-element("pat:deathDate", $original/lastserviceseparationdate)
+
+    )
+};
+
+declare function local:create-new-record($uri, $enriched, $original) {
+    let $patient-document := <env:envelope>
+        <env:metadata>
+            <env:import-date>{fn:current-dateTime()}</env:import-date>
+            {(
+                local:conditional-element("env:last-updated", $original/patient/updated),
+                local:conditional-element("env:created", $original/patient/created)
+            )}
+        </env:metadata>
+        <env:original>{$original}</env:original>
+        <pat:patient>{$enriched}</pat:patient>
+        <enc:encounters>
+        </enc:encounters>
+    </env:envelope>
+    return
+    (xdmp:document-insert($uri, $patient-document, $default-permissions,
+            ("final", "type/patient", "patient", fn:string($patient-document//pat:patientId/text()))))
+};
+
+declare function local:update-existing-record($uri, $enriched, $original) {
+    let $patient-document := fn:doc($uri)
+    let $enriched-data := <pat:patient>{$enriched}</pat:patient>
+    return
+        (
+            xdmp:node-replace($patient-document/env:envelope/pat:patient, $enriched-data),
+            xdmp:node-replace($patient-document/env:envelope/env:original/element(), $original)
+        )
+};
+
 (:
 private Date updated;
 private Date created;
 :)
 
-let $original := fn:doc($trgr:uri)
-let $patient-document := <env:envelope>
-    <env:metadata>
-        <env:import-date>{fn:current-dateTime()}</env:import-date>
-        {(
-            local:conditional-element("env:last-updated", $original/patient/updated),
-            local:conditional-element("env:created", $original/patient/created)
-        )}
-    </env:metadata>
-    <env:original>{fn:doc($trgr:uri)}</env:original>
-    <pat:patient> {(
-        local:conditional-element("pat:patientId", $original/patient/patientId),
-        local:conditional-element("pat:edipn", $original/patient/edipn),
-        local:conditional-element("pat:firstName", $original/patient/firstName),
-        local:conditional-element("pat:middleName", $original/patient/middleName),
-        local:conditional-element("pat:lastName", $original/patient/lastName),
-        local:conditional-element("pat:suffix", $original/patient/suffix),
-
-        local:conditional-element("pat:gender", xlat:xlat-gender($original/patient/gender/text())),
-        local:conditional-element("pat:ethnicity", $original/patient/ethnicity),
-        local:conditional-element("pat:race", $original/patient/race),
-        local:conditional-element("pat:birthDate", $original/patient/birthDate),
-        local:conditional-element("pat:deathDate", $original/patient/deathDate),
-
-        local:conditional-element("pat:serviceBranch", xlat:xlat-service-branch($original/patient/serviceBranch/text())),
-        local:conditional-element("pat:unit", $original/patient/unit),
-        local:conditional-element("pat:serviceStatus", xlat:xlat-service-status($original/patient/serviceStatus)),
-        local:conditional-element("pat:militaryStatus", xlat:xlat-service-status($original/patient/militaryStatus)),
-        local:conditional-element("pat:lastServiceSeparationDate", $original/patient/lastServiceSeparationDate),
-        local:conditional-element("pat:category", $original/patient/category),
-        local:patient-category-text(fn:string($original/patient/category)),
-
-        local:conditional-element("pat:oefOifInd", $original/patient/oefOifInd),
-        local:conditional-element("pat:maritalStatus", $original/patient/maritalStatus),
-        local:conditional-element("pat:livingArrangements", $original/patient/livingArrangements),
-        local:conditional-element("pat:zipPlusFour", $original/patient/zipPlusFour),
-        local:conditional-element("pat:enrollmentDate", $original/patient/enrollmentDate),
-        local:conditional-element("pat:occupation", $original/patient/occupation),
-        local:conditional-element("pat:jobDescription", $original/patient/jobDescription)
-    )}
-    </pat:patient>
-    <enc:encounters>
-    </enc:encounters>
-</env:envelope>
-let $filename := "/patients/" || $original/patient/patientId/text() || ".xml"
+let $original := fn:doc($trgr:uri)/element()
+let $filename := "/patients/" || $original/patient_id/text() || ".xml"
+let $enriched := local:enriched-data($original)
 return
-    (xdmp:document-insert($filename, $patient-document, (xdmp:permission("rest-reader", "read"), xdmp:permission("rest-writer", "update")),
-            ("final", "type/patient", "patient", $original/patient/patientId/text())))
+    if (fn:exists(fn:doc($filename)))
+    then
+        local:update-existing-record($filename, $enriched, $original)
+    else
+        local:create-new-record($filename, $enriched, $original)
+

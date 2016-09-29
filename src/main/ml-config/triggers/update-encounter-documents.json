@@ -12,7 +12,7 @@
       "when": "pre-commit"
     }
   },
-  "module": "ext/triggers/update-encounter-documents.xqy",
+  "module": "ext/triggers/create-encounter-documents.xqy",
   "module-db": "%%MODULES_DATABASE%%",
   "module-root": "/",
   "enabled": true,

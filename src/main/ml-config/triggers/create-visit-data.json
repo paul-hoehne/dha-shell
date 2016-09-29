@@ -1,0 +1,21 @@
+{
+  "name": "create-visit-data",
+  "description": "Add visit data to encounter documents",
+  "event": {
+    "data-event": {
+      "collection-scope": {
+        "uri": "visit-data-raw"
+      },
+      "document-content": {
+        "update-kind": "create"
+      },
+      "when": "post-commit"
+    }
+  },
+  "module": "ext/triggers/create-visit-data.xqy",
+  "module-db": "%%MODULES_DATABASE%%",
+  "module-root": "/",
+  "enabled": true,
+  "recursive": true,
+  "task-priority": "normal"
+}

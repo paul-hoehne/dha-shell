@@ -1,0 +1,21 @@
+{
+  "name": "create-diagnosis",
+  "description": "Add diagnosis to encounter documents",
+  "event": {
+    "data-event": {
+      "collection-scope": {
+        "uri": "diagnosis-raw"
+      },
+      "document-content": {
+        "update-kind": "create"
+      },
+      "when": "post-commit"
+    }
+  },
+  "module": "ext/triggers/create-diagnosis.xqy",
+  "module-db": "%%MODULES_DATABASE%%",
+  "module-root": "/",
+  "enabled": true,
+  "recursive": true,
+  "task-priority": "normal"
+}

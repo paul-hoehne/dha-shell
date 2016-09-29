@@ -47,20 +47,7 @@ let $patient-base := <pat:patient> {(
     local:conditional-element("pat:deathDate", $original/patient/deathDate),
 
     local:conditional-element("pat:serviceBranch", xlat:xlat-service-branch($original/patient/serviceBranch/text())),
-    local:conditional-element("pat:unit", $original/patient/unit),
-    local:conditional-element("pat:serviceStatus", xlat:xlat-service-status($original/patient/serviceStatus)),
-    local:conditional-element("pat:militaryStatus", xlat:xlat-service-status($original/patient/militaryStatus)),
-    local:conditional-element("pat:lastServiceSeparationDate", $original/patient/lastServiceSeparationDate),
-    local:conditional-element("pat:category", $original/patient/category),
-    local:patient-category-text(fn:string($original/patient/category)),
-
-    local:conditional-element("pat:oefOifInd", $original/patient/oefOifInd),
-    local:conditional-element("pat:maritalStatus", $original/patient/maritalStatus),
-    local:conditional-element("pat:livingArrangements", $original/patient/livingArrangements),
-    local:conditional-element("pat:zipPlusFour", $original/patient/zipPlusFour),
-    local:conditional-element("pat:enrollmentDate", $original/patient/enrollmentDate),
-    local:conditional-element("pat:occupation", $original/patient/occupation),
-    local:conditional-element("pat:jobDescription", $original/patient/jobDescription)
+    local:conditional-element("pat:oefOifInd", $original/patient/oefOifInd)
 )}
 </pat:patient>
 return

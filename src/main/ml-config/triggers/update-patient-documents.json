@@ -12,7 +12,7 @@
       "when": "pre-commit"
     }
   },
-  "module": "ext/triggers/update-patient-documents.xqy",
+  "module": "ext/triggers/create-patient-documents.xqy",
   "module-db": "%%MODULES_DATABASE%%",
   "module-root": "/",
   "enabled": true,

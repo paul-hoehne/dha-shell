@@ -1,0 +1,21 @@
+{
+    "name": "create-procedures",
+    "description": "Add procedures to encounter documents",
+    "event": {
+        "data-event": {
+            "collection-scope": {
+                "uri": "procedure-raw"
+            },
+            "document-content": {
+                "update-kind": "create"
+            },
+            "when": "post-commit"
+        }
+    },
+    "module": "ext/triggers/create-procedure.xqy",
+    "module-db": "%%MODULES_DATABASE%%",
+    "module-root": "/",
+    "enabled": true,
+    "recursive": true,
+    "task-priority": "normal"
+}
