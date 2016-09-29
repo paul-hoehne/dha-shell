@@ -21,6 +21,78 @@ declare function local:conditional-element($name as xs:string, $value) {
     else ()
 };
 
+declare function local:get-histories($encounter_id) {
+    for $history in cts:search(fn:collection("history-raw"), cts:element-value-query(xs:QName("encounter_id"), $encounter_id))
+    let $original := $history/element()
+    return
+        <enc:history>{
+            (
+                local:conditional-element("enc:diagnosisDate", $original/DIAGNOSIS_DATE),
+                local:conditional-element("enc:timePeriod", $original/TimePeriod),
+                local:conditional-element("enc:timePeriodType", $original/TimePeriodType),
+                local:conditional-element("enc:laterality", $original/LATERALITY),
+                local:conditional-element("enc:historyCategory", $original/HISTORY_CATEGORY),
+                local:conditional-element("enc:historyDetail", $original/HISTORY_DETAIL),
+                local:conditional-element("enc:comments", $original/COMMENTS)
+            )
+        }</enc:history>
+};
+
+declare function local:get-visit-data($encounter-id) {
+    for $visit-datum in cts:search(fn:collection("visit-data-raw"), cts:element-value-query(xs:QName("encounter_id"), $encounter-id))
+    let $original := $visit-datum/element()
+    return
+        <enc:visitDatum>{
+            (
+                local:conditional-element("enc:laterality", $original/LATERALITY),
+                local:conditional-element("enc:visitDataCategory", $original/VISIT_DATA_CATEGORY),
+                local:conditional-element("enc:visitDataDetail", $original/VISIT_DATA_DETAIL),
+                local:conditional-element("enc:commentText", $original/COMMENT_TEXT),
+                local:conditional-element("enc:visitDataStatus", $original/VISIT_DATA_STATUS)
+            )
+        }</enc:visitDatum>
+};
+
+declare function local:get-diagnoses($encounter-id) {
+    for $diagnosis in cts:search(fn:collection("diagnosis-raw"), cts:element-value-query(xs:QName("encounter_id"), $encounter-id))
+    let $original := $diagnosis/element()
+    return
+        <enc:diagnosis>{
+            (
+                local:conditional-element("enc:laterality", $original/LATERALITY),
+                local:conditional-element("enc:code", $original/CODE),
+                local:conditional-element("enc:name", $original/NAME),
+                local:conditional-element("enc:commentText", $original/COMMENT_TEXT)
+            )
+        }</enc:diagnosis>
+};
+
+declare function local:get-procedures($encounter-id) {
+    for $procedure in cts:search(fn:collection("procedure-raw"), cts:element-value-query(xs:QName("encounter_id"), $encounter-id))
+    let $original := $procedure/element()
+    return
+        <enc:procedure>{
+            (
+                local:conditional-element("enc:laterality", $original/LATERALITY),
+                local:conditional-element("enc:code", $original/CODE),
+                local:conditional-element("enc:name", $original/NAME),
+                local:conditional-element("enc:commentText", $original/COMMENT_TEXT)
+            )
+        }</enc:procedure>
+};
+
+declare function local:get-other-diagnoses($encounter-id) {
+    for $other-diagnosis in cts:search(fn:collection("other-diagnosis-raw"), cts:element-value-query(xs:QName("encounter_id"), $encounter-id))
+    let $original := $other-diagnosis/element()
+    return
+        <enc:otherDiagnosis>{
+            (
+                local:conditional-element("enc:laterality", $original/LATERALITY),
+                local:conditional-element("enc:code", $original/CODE),
+                local:conditional-element("enc:name", $original/NAME)
+            )
+        }</enc:otherDiagnosis>
+};
 
 declare function local:enriched-data($original) {
     (
@@ -51,7 +123,12 @@ declare function local:enriched-data($original) {
         local:conditional-element("enc:historyOfPresentIllnessText", $original/HISTORY_OF_PRESENT_ILLNESS_TEXT),
         local:conditional-element("enc:primaryClinicStopDescription", $original/primaryclinicstopdesc),
         local:conditional-element("enc:primaryClinicStop",        $original/primaryclinicstop),
-        local:conditional-element("enc:livingArrangementText",    $original/LIVING_ARRANGEMENT_TEXT)
+        local:conditional-element("enc:livingArrangementText",    $original/LIVING_ARRANGEMENT_TEXT),
+        <enc:histories>{local:get-histories($original/encounter_id/text())}</enc:histories>,
+        <enc:visitData>{local:get-visit-data($original/encounter_id/text())}</enc:visitData>,
+        <enc:diagnoses>{local:get-diagnoses($original/encounter_id/text())}</enc:diagnoses>,
+        <enc:procedures>{local:get-procedures($original/encounter_id/text())}</enc:procedures>,
+        <enc:otherDiagnoses>{local:get-other-diagnoses($original/encounter_id/text())}</enc:otherDiagnoses>
     )
 };
 
@@ -59,8 +136,8 @@ declare function local:create-new-record($uri, $enriched, $original) {
     let $encounter-base := <enc:encounter>{$enriched}</enc:encounter>
     let $patient-document := cts:search(fn:collection("type/patient"),
             cts:element-value-query(xs:QName("pat:patientId"), $encounter-base/enc:patientId))[1]
-    let $patient-uri := fn:document-uri($patient-document)
     let $_ := xdmp:log("found patient document: " || fn:base-uri($patient-document))
+    let $encounter-id := $encounter-base//enc:encounterId/text()
     let $encounter-document :=
         <env:envelope>
             <env:metadata>
@@ -77,18 +154,17 @@ declare function local:create-new-record($uri, $enriched, $original) {
                         ()
                 }
             </pat:patient>
-            <enc:histories></enc:histories>
-            <enc:visitData></enc:visitData>
-            <enc:diagnoses></enc:diagnoses>
-            <enc:procedures></enc:procedures>
-            <enc:otherDiagnoses></enc:otherDiagnoses>
         </env:envelope>
     return
         (
             xdmp:document-insert($uri, $encounter-document, $default-permissions,
                     ("final", "type/encounter", "encounter", $enriched/enc:patientId/text())),
             xdmp:spawn-function(function() {
-                xdmp:node-insert-child(fn:doc($patient-uri)//enc:encounters, fn:doc($uri)//enc:encounter)
+                for $uri in cts:uris((), (), cts:and-query((
+                    cts:collection-query(("history-raw", "visit-data-raw", "diagnosis-raw", "other-diagnosis-raw", "procedure-raw")),
+                    cts:element-value-query(xs:QName("encounter_id"), $encounter-id)
+                )))
+                return xdmp:document-delete($uri)
             }, <options xmlns="xdmp:eval">
                 <transaction-mode>update-auto-commit</transaction-mode>
             </options>)

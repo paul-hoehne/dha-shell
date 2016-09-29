@@ -17,15 +17,6 @@ mlcp import -host $ML_HOST -port $ML_PORT -username $ML_USERNAME -password $ML_P
   -uri_id patient_id
 
 mlcp import -host $ML_HOST -port $ML_PORT -username $ML_USERNAME -password $ML_PASSWORD \
-  -aggregate_record_element ENCOUNTER \
-  -input_file_path "$BASE_DIRECTORY/Encounter.xml" \
-  -input_file_type aggregates \
-  -output_uri_prefix "/encounter/raw/" \
-  -output_uri_suffix ".xml" \
-  -output_collections "encounter-raw" \
-  -uri_id encounter_id
-
-mlcp import -host $ML_HOST -port $ML_PORT -username $ML_USERNAME -password $ML_PASSWORD \
   -aggregate_record_element VISIT_DATA \
   -input_file_path "$BASE_DIRECTORY/Visit_Data.xml" \
   -input_file_type aggregates \
@@ -64,3 +55,12 @@ mlcp import -host $ML_HOST -port $ML_PORT -username $ML_USERNAME -password $ML_P
   -output_uri_prefix '/procedures/raw/' \
   -output_uri_suffix '.xml' \
   -output_collections 'procedure-raw'
+
+mlcp import -host $ML_HOST -port $ML_PORT -username $ML_USERNAME -password $ML_PASSWORD \
+  -aggregate_record_element ENCOUNTER \
+  -input_file_path "$BASE_DIRECTORY/Encounter.xml" \
+  -input_file_type aggregates \
+  -output_uri_prefix "/encounter/raw/" \
+  -output_uri_suffix ".xml" \
+  -output_collections "encounter-raw" \
+  -uri_id encounter_id
