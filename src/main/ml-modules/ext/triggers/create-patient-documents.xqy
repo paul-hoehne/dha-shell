@@ -8,6 +8,8 @@ import module namespace hous = 'http://dveivr.dha.health.mil/ext/lib/housekeepin
 declare namespace env = "http://dveivr.dha.health.mil/xml/envelope";
 declare namespace pat = "http://dveivr.dha.health.mil/xml/patient";
 declare namespace enc = "http://dveivr.dha.health.mil/xml/encounter";
+declare namespace trp="http://dveivr.dha.health.mil/ext/transforms/patient-triples.xqy";
+
 
 declare variable $trgr:uri as xs:string external;
 declare variable $default-permissions := (xdmp:permission("rest-reader", "read"),
@@ -96,5 +98,9 @@ return
     then
         local:update-existing-record($filename, $enriched, $original)
     else
-        local:create-new-record($filename, $enriched, $original)
+        (local:create-new-record($filename, $enriched, $original),
+            xdmp:spawn-function(function() {
+                xdmp:invoke("/ext/transforms/patient-triples.xqy", (xs:QName("trp:document-uri"), $filename))
+            }, <options xmlns="xdmp:eval"><transaction-mode>update-auto-commit</transaction-mode></options>))
+
 
